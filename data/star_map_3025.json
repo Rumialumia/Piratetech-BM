@@ -95,7 +95,8 @@
         "SRM-2",
         "SRM-4",
         "SRM-6",
-        "Flamer"
+        "Flamer",
+        "Lord's Light PPC"
     ],
 
     "contract_templates":
@@ -545,8 +546,7 @@
                 "Blackjack",
                 "Jagermech",
                 "Rifleman",
-                "Victor",
-                "Locust II"
+                "Victor"
             ],
 
             "start_rep": 50,

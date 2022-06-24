@@ -1334,6 +1334,12 @@
             "frame": {"x": 160, "y": 384, "w": 32, "h": 32},
             "n_frames": 1,
             "alpha": [0,0,0]
+        },
+        "PPC Projectile Blue":
+        {
+            "frame": {"x": 160, "y": 448, "w": 32, "h": 32},
+            "n_frames": 1,
+            "alpha": [255,0,255]
         }
     },
 
