@@ -1,0 +1,5777 @@
+{
+
+    "Toads":
+    {
+        "clan_name": "Elementals",
+        
+        "unit_sprite": "infantry1_1",
+        "unit_model": "no_model",
+        "tons": -1,
+        "internal": 40,
+
+        "max_dmg_per_hit": 5,
+        "flamer_hurts": true,
+        
+        "Prime":
+        {
+            "cost": 25000000,
+            "armor": 10,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 7,
+
+            "weapons":
+            [
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["cSRM-2", "ct"],
+                ["cSRM-2", "ct"],
+                ["cSRM-2", "ct"],
+                ["cSRM-2", "ct"],
+                ["cSRM-2", "ct"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        }
+    },
+
+    "Infantry":
+    {
+        "unit_sprite": "infantry1_2",
+        "unit_model": "no_model",
+        "tons": -1,
+        "internal": 5,
+
+        "max_dmg_per_hit": 2,
+        "flamer_hurts": true,
+                
+        "Prime":
+        {
+            "cost": 5000000,
+            "armor": 5,
+            "heat_sinks": 10,
+
+            "speed": 2,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Machinegun", "la"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        }
+    },
+    
+    "Dasher":
+    {
+        "clan_name": "Fire Moth",
+        
+        "unit_sprite": "light4_8",
+        "unit_model": "fire_moth",
+        "tons": 20,
+        "internal": 33,
+        
+        "Prime":
+        {
+            "cost": 4208800,
+            "armor": 38,
+            "heat_sinks": 20,
+
+            "speed": 10,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER Medium Laser", "la"],
+                ["cER Medium Laser", "la"],
+                ["cSRM-6", "ra"],
+                ["cSRM-4", "rt"]
+            ],
+            "ammo":
+            [
+                ["cSRM-6", "ra"],
+                ["cSRM-4", "rt"]
+            ],
+            "equip":
+            [
+                ["MASC", "ct"],
+                ["CASE", "ra"],
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Koshi":
+    {
+        "clan_name": "Mist Lynx",
+
+        "unit_sprite": "light5_6",
+        "unit_model": "mist_lynx",
+        "tons": 25,
+        "internal": 43,
+        
+        "Prime":
+        {
+            "cost": 4812760,
+            "armor": 67,
+            "heat_sinks": 20,
+
+            "speed": 7,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["cLRM-10", "la"],
+                ["cStreak SRM-4", "ra"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "ra"]
+            ],
+            "ammo":
+            [
+                ["cLRM-10", "la"],
+                ["cStreak SRM-4", "ra"],
+                ["Machinegun", "ra"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "h"],
+                ["CASE", "la"],
+                ["CASE", "ra"]
+            ]
+        }
+    },
+
+    "Locust IIC":
+    {
+        "unit_sprite": "walker2_3",
+        "unit_model": "locust",
+        "tons": 25,
+        "internal": 43,
+        
+        " ":
+        {
+            "cost": 2044792,
+            "armor": 77,
+            "heat_sinks": 20,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER Small Laser", "la"],
+                ["cER Small Laser", "la"],
+                ["cER Small Laser", "la"],
+                ["cER Small Laser", "la"],
+                ["cER Small Laser", "ra"],
+                ["cER Small Laser", "ra"],
+                ["cER Small Laser", "ra"],
+                ["cER Small Laser", "ra"],
+                ["cMedium Pulse Laser", "ct"]
+            ]
+        }
+    },
+
+    "Uller":
+    {
+        "clan_name": "Kit Fox",
+        
+        "unit_sprite": "light4_8",
+        "unit_model": "kitfox",
+        "tons": 30,
+        "internal": 51,
+        
+        "Prime":
+        {
+            "cost": 5368837,
+            "armor": 77,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cLB 5-X", "ra"],
+                ["cER Large Laser", "la"],
+                ["cSmall Pulse Laser", "la"],
+                ["cStreak SRM-4", "ra"]
+            ],
+            "ammo":
+            [
+                ["cStreak SRM-4", "ra"],
+                ["cLB 5-X", "ra"]
+            ],
+            "equip":
+            [
+                ["CASE", "ra"]
+            ]
+        }
+    },
+    
+    "Jenner IIC":
+    {
+        "unit_sprite": "walker2_7",
+        "unit_model": "jenner_iic",
+        "tons": 35,
+        "internal": 58,
+        
+        " ":
+        {
+            "cost": 7490475,
+            "armor": 77,
+            "heat_sinks": 10,
+
+            "speed": 9,
+            "jump": 8,
+
+            "weapons":
+            [
+                ["cStreak SRM-4", "ct"],
+                ["cSRM-6", "ra"],
+                ["cSRM-6", "la"]
+            ],
+            "ammo":
+            [
+                ["cStreak SRM-4", "rt"],
+                ["cSRM-6", "rt"],
+                ["cSRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }       
+    },
+                
+    "Puma":
+    {
+        "clan_name": "Adder",
+        
+        "unit_sprite": "walker3_2",
+        "unit_model": "adder",
+        "tons": 35,
+        "internal": 58,
+        
+        "Prime":
+        {
+            "cost": 7021688,
+            "armor": 115,
+            "heat_sinks": 22,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER PPC", "la"],
+                ["cER PPC", "ra"],
+                ["Flamer", "ct"]                
+            ],
+            "equip":
+            [
+                ["Targeting Computer", "rt"]
+            ]
+        }
+    },
+
+    "Griffin IIC":
+    {
+        "unit_sprite": "med7_5",
+        "unit_model": "griffin",
+        "tons": 40,
+        "internal": 67,
+        
+        " ":
+        {
+            "cost": 4255510,
+            "armor": 134,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["cER Large Laser", "ct"],
+                ["cER Small Laser", "h"],
+                ["cLRM-5", "lt"],
+                ["cLRM-5", "lt"],
+                ["cLRM-5", "rt"],
+                ["cLRM-5", "rt"]
+            ],
+            "ammo":
+            [
+                ["cLRM-5", "lt"],
+                ["cLRM-5", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Dragonfly":
+    {
+        "clan_name": "Viper",
+
+        "unit_sprite": "med2_8",
+        "unit_model": "viper",
+        "tons": 40,
+        "internal": 67,
+        
+        "Prime":
+        {
+            "cost": 11051658,
+            "armor": 134,
+            "heat_sinks": 20,
+
+            "speed": 8,
+            "jump": 8,
+
+            "weapons":
+            [
+                ["cSRM-4", "la"],
+                ["cMedium Pulse Laser", "ra"],
+                ["cMedium Pulse Laser", "ra"],
+                ["Machinegun", "rt"],
+                ["Machinegun", "rt"],
+                ["cAnti-Missile", "lt"]
+            ],
+            "ammo":
+            [
+                ["cSRM-4", "la"],
+                ["Machinegun", "rt"],
+                ["cAnti-Missile", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "la"],
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Shadow Hawk IIC":
+    {
+        "unit_sprite": "med4_8",
+        "unit_model": "shadowhawk",
+        "tons": 45,
+        "internal": 75,
+        
+        " ":
+        {
+            "cost": 4752303,
+            "armor": 144,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["cER Medium Laser", "h"],
+                ["cER Small Laser", "ct"],
+                ["cMedium Pulse Laser", "la"],
+                ["cMedium Pulse Laser", "ra"],
+                ["cStreak SRM-2", "lt"],
+                ["cStreak SRM-2", "lt"],
+                ["cStreak SRM-2", "rt"],
+                ["cStreak SRM-2", "rt"]
+            ],
+            "ammo":
+            [
+                ["cStreak SRM-2", "lt"],
+                ["cStreak SRM-2", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Fenris":
+    {
+        "clan_name": "Ice Ferret",
+
+        "unit_sprite": "med4_4",
+        "unit_model": "ice_ferret",
+        "tons": 45,
+        "internal": 75,
+        
+        "Prime":
+        {
+            "cost": 12543588,
+            "armor": 144,
+            "heat_sinks": 24,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER PPC", "la"],
+                ["cER Small Laser", "la"],
+                ["cStreak SRM-2", "ra"]
+            ],
+            "ammo":
+            [
+                ["cStreak SRM-2", "ra"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "ct"],
+                ["CASE", "ra"]
+            ]
+        }
+    },
+
+    "Hunchback IIC":
+    {
+        "unit_sprite": "med5_8",
+        "unit_model": "hunchback_iic",
+        "tons": 50,
+        "internal": 83,
+        
+        " ":
+        {
+            "cost": 8110000,
+            "armor": 96,
+            "heat_sinks": 24,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["cUltra AC/20", "lt"],
+                ["cUltra AC/20", "rt"],
+                ["cER Medium Laser", "ct"],
+                ["cER Medium Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["cUltra AC/20", "lt"],
+                ["cUltra AC/20", "rt"]
+            ]
+        }  
+    },
+
+    "Black Hawk":
+    {
+        "clan_name": "Nova",
+        
+        "unit_sprite": "med7_1",
+        "unit_model": "nova",
+        "tons": 50,
+        "internal": 83,
+        
+        "Prime":
+        {
+            "cost": 11586250,
+            "armor": 160,
+            "heat_sinks": 28,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["cER Medium Laser", "la"],
+                ["cER Medium Laser", "la"],
+                ["cER Medium Laser", "la"],
+                ["cER Medium Laser", "la"],
+                ["cER Medium Laser", "la"],
+                ["cER Medium Laser", "la"],
+                
+                ["cER Medium Laser", "ra"],
+                ["cER Medium Laser", "ra"],
+                ["cER Medium Laser", "ra"],
+                ["cER Medium Laser", "ra"],
+                ["cER Medium Laser", "ra"],
+                ["cER Medium Laser", "ra"]
+            ]
+        }
+    },
+    
+    "Ryoken":
+    {
+        "clan_name": "Stormcrow",
+        
+        "unit_sprite": "med2_7",
+        "unit_model": "stormcrow",
+        "tons": 55,
+        "internal": 91,
+        
+        "Prime":
+        {
+            "cost": 14771112,
+            "armor": 192,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER Medium Laser", "h"],
+                ["cER Large Laser", "la"],
+                ["cER Medium Laser", "la"],
+                ["cER Large Laser", "ra"],
+                ["cER Medium Laser", "ra"]
+            ]
+        }
+    },
+
+    "Vulture":
+    {
+        "clan_name": "Mad Dog",
+        
+        "unit_sprite": "heavy1_3",
+        "unit_model": "mad_dog",
+        "tons": 60,
+        "internal": 99,
+        
+        "Prime":
+        {
+            "cost": 15292000,
+            "armor": 163,
+            "heat_sinks": 24,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cLarge Pulse Laser", "la"],
+                ["cLarge Pulse Laser", "ra"],
+                ["cMedium Pulse Laser", "la"],
+                ["cMedium Pulse Laser", "ra"],
+                ["cLRM-20", "lt"],
+                ["cLRM-20", "rt"]
+            ],
+            "ammo":
+            [
+                ["cLRM-20", "lt"],
+                ["cLRM-20", "rt"]                
+            ]
+        }
+    },
+
+    "Loki":
+    {
+        "clan_name": "Hellbringer",
+        
+        "unit_sprite": "heavy2_2",
+        "unit_model": "hellbringer",
+        "tons": 65,
+        "internal": 104,
+        
+        "Prime":
+        {
+            "cost": 19074687,
+            "armor": 128,
+            "heat_sinks": 30,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER PPC", "ra"],
+                ["cER PPC", "la"],
+                ["cER Medium Laser", "lt"],
+                ["cER Medium Laser", "lt"],
+                ["cER Medium Laser", "lt"],
+                ["cStreak SRM-6", "rt"],
+                ["Machinegun", "rt"],
+                ["Machinegun", "rt"],
+                ["cAnti-Missile", "h"]
+            ],
+            "ammo":
+            [
+                ["cAnti-Missile", "ct"],
+                ["cStreak SRM-6", "rt"],
+                ["Machinegun", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"],
+                ["Guardian ECM", "lt"],
+                ["Beagle Probe", "lt"],
+                ["Targeting Computer", "lt"]
+            ]
+        }
+    },
+
+    "Rifleman IIC":
+    {
+        "unit_sprite": "heavy2_8",
+        "unit_model": "rifleman_iic",
+        "tons": 65,
+        "internal": 104,
+        
+        " ":
+        {
+            "cost": 5741587,
+            "armor": 211,
+            "heat_sinks": 40,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["cLarge Pulse Laser", "ra"],
+                ["cLarge Pulse Laser", "ra"],
+                ["cLarge Pulse Laser", "la"],
+                ["cLarge Pulse Laser", "la"]
+            ]
+        }
+    },
+
+    "Thor":
+    {
+        "clan_name": "Summoner",
+        
+        "unit_sprite": "heavy2_6",
+        "unit_model": "summoner",
+        "tons": 70,
+        "internal": 107,
+        
+        "Prime":
+        {
+            "cost": 21320834,
+            "armor": 182,
+            "heat_sinks": 28,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["cER PPC", "ra"],
+                ["cLB 10-X", "la"],
+                ["cLRM-15", "lt"]
+            ],
+            "ammo":
+            [
+                ["cLB 10-X", "la"],
+                ["cLRM-15", "lt"],
+                ["cLRM-15", "lt"]
+            ]
+        }
+    },
+
+    "Mad Cat":
+    {
+        "clan_name": "Timber Wolf",
+
+        "unit_sprite": "walker1_1",
+        "unit_model": "timber_wolf",
+        "tons": 75,
+        "internal": 114,
+        
+        "Prime":
+        {
+            "cost": 24233124,
+            "armor": 230,
+            "heat_sinks": 30,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER Large Laser", "la"],
+                ["cER Large Laser", "ra"],
+                ["cER Medium Laser", "la"],
+                ["cER Medium Laser", "ra"],
+                ["Machinegun", "ct"],
+                ["Machinegun", "ct"],
+                ["cLRM-20", "lt"],
+                ["cLRM-20", "rt"],
+                ["cMedium Pulse Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["cLRM-20", "lt"],
+                ["cLRM-20", "rt"],
+                ["Machinegun", "rt"]
+            ]
+        }
+    },
+
+    "Orion IIC":
+    {
+        "unit_sprite": "heavy3_8",
+        "unit_model": "orion_iic",
+        "tons": 75,
+        "internal": 114,
+            
+        " ":
+        {
+            "cost": 8267000,
+            "armor": 230,
+            "heat_sinks": 24,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cGauss Rifle", "rt"],
+                ["cLRM-20", "la"], 
+                ["cSRM-4", "lt"],
+                ["cER Large Laser", "la"],
+                ["cER Large Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["cGauss Rifle", "rt"],
+                ["cGauss Rifle", "rt"],
+                ["cLRM-20", "lt"], 
+                ["cLRM-20", "lt"], 
+                ["cLRM-20", "lt"], 
+                ["cSRM-4", "lt"]
+            ]
+        }
+    },
+
+    "Phoenix Hawk IIC":
+    {
+        "unit_sprite": "heavy3_6",
+        "unit_model": "phoenixhawk",
+        "tons": 80,
+        "internal": 122,
+            
+        " ":
+        {
+            "cost": 20593139,
+            "armor": 211,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["cUltra AC/10", "lt"],
+                ["cUltra AC/10", "rt"],
+                ["Machinegun", "h"],
+                ["Machinegun", "ct"]
+            ],
+            "ammo":
+            [
+                ["cUltra AC/10", "lt"],
+                ["cUltra AC/10", "lt"],
+                ["cUltra AC/10", "lt"],
+                ["cUltra AC/10", "rt"],
+                ["cUltra AC/10", "rt"],
+                ["cUltra AC/10", "rt"],
+                ["Machinegun", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }       
+    },
+
+    "Warhammer IIC":
+    {
+        "unit_sprite": "heavy1_1",
+        "unit_model": "warhammer_iic",
+        "tons": 80,
+        "internal": 122,
+            
+        " ":
+        {
+            "cost": 9183000,
+            "armor": 230,
+            "heat_sinks": 40,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER PPC", "ra"],
+                ["cER PPC", "la"],
+                ["cSRM-6", "rt"],
+                ["cMedium Pulse Laser", "h"],
+                ["cMedium Pulse Laser", "lt"],
+                ["cMedium Pulse Laser", "lt"],
+                ["cMedium Pulse Laser", "rt"],
+                ["cMedium Pulse Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["cSRM-6", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }       
+    },
+
+    "Man O' War":
+    {
+        "clan_name": "Gargoyle",
+
+        "unit_sprite": "assault3_2",
+        "unit_model": "gargoyle",
+        "tons": 80,
+        "internal": 122,
+            
+        "Prime":
+        {
+            "cost": 26038312,
+            "armor": 211,
+            "heat_sinks": 32,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER Small Laser", "h"],
+                ["cLB 5-X", "la"],
+                ["cSRM-6", "la"],
+                ["cLB 5-X", "ra"],
+                ["cSRM-6", "ra"]
+            ],
+            "ammo":
+            [
+                ["cLB 5-X", "lt"],
+                ["cSRM-6", "lt"],
+                ["cLB 5-X", "rt"],
+                ["cSRM-6", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "rt"]
+            ]
+        }       
+    },
+
+    "Marauder IIC":
+    {
+        "unit_sprite": "walker1_5",
+        "unit_model": "marauder_iic",
+        "tons": 85,
+        "internal": 130,
+            
+        " ":
+        {
+            "cost": 9913533,
+            "armor": 221,
+            "heat_sinks": 42,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER PPC", "ra"],
+                ["cER PPC", "la"],
+                ["cER PPC", "lt"],
+                ["cMedium Pulse Laser", "ra"], 
+                ["cMedium Pulse Laser", "la"], 
+                ["cER Small Laser", "lt"], 
+                ["cER Small Laser", "rt"], 
+                ["cER Small Laser", "ct"], 
+                ["cER Small Laser", "ct"]
+            ]
+        }       
+    },
+
+    "Masakari":
+    {
+        "clan_name": "Warhawk",
+
+        "unit_sprite": "heavy1_3",
+        "unit_model": "warhawk",
+        "tons": 85,
+        "internal": 130,
+            
+        "Prime":
+        {
+            "cost": 26425323,
+            "armor": 259,
+            "heat_sinks": 40,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER PPC", "la"],
+                ["cER PPC", "la"],
+                ["cER PPC", "ra"],
+                ["cER PPC", "ra"],
+                ["cLRM-10", "la"]
+            ],
+            "ammo":
+            [
+                ["cLRM-10", "la"]
+            ],
+            "equip":
+            [
+                ["CASE", "la"],
+                ["Targeting Computer", "rt"]
+            ]
+        }       
+    },
+
+    "Highlander IIC":
+    {
+        "unit_sprite": "assault2_3",
+        "unit_model": "highlander_iic",
+        "tons": 90,
+        "internal": 138,
+        
+        " ":
+        {
+            "cost": 10091280,
+            "armor": 278,
+            "heat_sinks": 24,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["cGauss Rifle", "ra"],
+                ["cLRM-20", "rt"],
+                ["cStreak SRM-6", "la"],
+                ["cStreak SRM-6", "la"],
+                ["cMedium Pulse Laser", "lt"],
+                ["cMedium Pulse Laser", "lt"],
+                ["cMedium Pulse Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["cGauss Rifle", "rt"],
+                ["cGauss Rifle", "rt"],
+                ["cGauss Rifle", "rt"],
+                ["cStreak SRM-6", "lt"],
+                ["cLRM-20", "lt"],
+                ["cLRM-20", "lt"],
+                ["cLRM-20", "lt"],
+                ["cLRM-20", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"]
+            ]
+        }  
+    },
+
+    "Gladiator":
+    {
+        "clan_name": "Executioner",
+
+        "unit_sprite": "assault2_5",
+        "unit_model": "executioner",
+        "tons": 95,
+        "internal": 145,
+            
+        "Prime":
+        {
+            "cost": 35713073,
+            "armor": 259,
+            "heat_sinks": 32,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["cGauss Rifle", "la"],
+                ["cER Large Laser", "ra"],
+                ["cER Large Laser", "ra"],
+                ["Machinegun", "rt"],
+                ["Machinegun", "rt"]
+            ],
+            "ammo":
+            [
+                ["cGauss Rifle", "lt"],
+                ["cGauss Rifle", "lt"],
+                ["Machinegun", "rt"]
+            ]
+        }
+    },
+
+    "Daishi":
+    {
+        "clan_name": "Dire Wolf",
+
+        "unit_sprite": "heavy1_3",
+        "unit_model": "direwolf",
+        "tons": 100,
+        "internal": 152,
+            
+        "Prime":
+        {
+            "cost": 29350000,
+            "armor": 304,
+            "heat_sinks": 30,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["cER Large Laser", "la"],
+                ["cER Large Laser", "la"],
+                ["cMedium Pulse Laser", "la"],
+                ["cMedium Pulse Laser", "la"],
+                ["cUltra AC/5", "la"],
+                ["cER Large Laser", "ra"],
+                ["cER Large Laser", "ra"],
+                ["cMedium Pulse Laser", "ra"],
+                ["cMedium Pulse Laser", "ra"],
+                ["cUltra AC/5", "ra"],
+                ["cLRM-10", "lt"]
+            ],
+            "ammo":
+            [
+                ["cUltra AC/5", "la"],
+                ["cUltra AC/5", "ra"],
+                ["cLRM-10", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "la"],
+                ["CASE", "ra"],
+                ["CASE", "lt"]
+            ]
+        }       
+    },
+
+    "Mercury":
+    {
+        "unit_sprite": "light1_5",
+        "unit_model": "commando",
+        "tons": 20,
+        "internal": 33,
+        
+        "MCY-97":
+        {
+            "cost": 1808440,
+            "armor": 54,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ra"],
+                ["Small Laser", "ct"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "lt"],
+                ["MASC", "ct"]
+            ]
+        }
+    },
+
+    "Thorn":
+    {
+        "unit_sprite": "light1_3",
+        "unit_model": "wasp",
+        "tons": 20,
+        "internal": 33,
+        
+        "THE-N":
+        {
+            "cost": 1653120,
+            "armor": 72,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "h"],
+                ["Medium Laser", "la"],
+                ["LRM-5", "ra"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Mongoose":
+    {
+        "unit_sprite": "light1_3",
+        "unit_model": "mongoose",
+        "tons": 25,
+        "internal": 43,
+        
+        "MON-66":
+        {
+            "cost": 2229479,
+            "armor": 90,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "h"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "lt"]
+            ]
+        }
+    },
+    
+    "Hussar":
+    {
+        "unit_sprite": "walker2_2",
+        "unit_model": "raven",
+        "tons": 30,
+        "internal": 51,
+        
+        "HSR 200-D":
+        {
+            "cost": 2790840,
+            "armor": 27,
+            "heat_sinks": 20,
+
+            "speed": 9,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER Large Laser", "ct"]
+            ]
+        }
+    },
+
+    "Hermes":
+    {
+        "unit_sprite": "med1_3",
+        "unit_model": "wolfhound",
+        "tons": 30,
+        "internal": 51,
+        
+        "HER-1S":
+        {
+            "cost": 2701270,
+            "armor": 90,
+            "heat_sinks": 10,
+
+            "speed": 9,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Flamer", "la"]
+            ]
+        },
+
+        "HER-3S":
+        {
+            "cost": 2701270,
+            "armor": 45,
+            "heat_sinks": 10,
+
+            "speed": 9,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "rt"],
+                ["MASC", "lt"]
+            ]
+        }
+    },
+
+    "Sentinel":
+    {
+        "unit_sprite": "light3_1",
+        "unit_model": "cicada",
+        "tons": 40,
+        "internal": 67,
+        
+        "STN-3L":
+        {
+            "cost": 3292030,
+            "armor": 88,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Ultra AC/5", "la"],
+                ["Streak SRM-2", "rt"],
+                ["Small Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "lt"],
+                ["Streak SRM-2", "rt"]
+            ]
+        },
+
+        "STN-3M":
+        {
+            "cost": 3292030,
+            "armor": 88,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Ultra AC/5", "la"],
+                ["SRM-2", "rt"],
+                ["Medium Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "lt"],
+                ["Streak SRM-2", "rt"]
+            ]
+        }
+    },
+
+    "Wyvern":
+    {
+        "unit_sprite": "med1_3",
+        "unit_model": "wolfhound",
+        "tons": 45,
+        "internal": 75,
+        
+        "WVE-5N":
+        {
+            "cost": 3470865,
+            "armor": 152,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["LRM-10", "ct"],
+                ["Large Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["SRM-6", "rt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "lt"],
+                ["SRM-6", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    },  
+
+    "Crab":
+    {
+        "unit_sprite": "walker4_1",
+        "unit_model": "crab",
+        "tons": 50,
+        "internal": 83,
+        
+        "CRB-20":
+        {
+            "cost": 4050875,
+            "armor": 144,
+            "heat_sinks": 16,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Laser", "la"],
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "h"]
+            ]
+        },
+
+        "CRB-27":
+        {
+            "cost": 4050875,
+            "armor": 161,
+            "heat_sinks": 16,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Laser", "la"],
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "h"]
+            ]
+        }
+    },
+
+    "Kintaro":
+    {
+        "unit_sprite": "heavy3_4",
+        "unit_model": "kintaro",
+        "tons": 55,
+        "internal": 91,
+        
+        "KTO-20":
+        {
+            "cost": 4981907,
+            "armor": 179,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Laser", "ct"],
+                ["LRM-5", "rt"],
+                ["SRM-6", "la"],
+                ["SRM-6", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "lt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "rt"]
+            ]
+        }  
+    },
+
+    "Champion":
+    {
+        "unit_sprite": "walker1_7",
+        "unit_model": "dragon",
+        "tons": 60,
+        "internal": 99,
+        
+        "CHP-1N":
+        {
+            "cost": 5754400,
+            "armor": 143,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LB 10-X", "rt"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "ct"]
+            ]
+        }  
+    },
+
+    "Lancelot":
+    {
+        "unit_sprite": "heavy2_8",
+        "unit_model": "rifleman",
+        "tons": 60,
+        "internal": 99,
+        
+        "LNC 25-01":
+        {
+            "cost": 13025600,
+            "armor": 152,
+            "heat_sinks": 26,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["PPC", "rt"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Medium Laser", "ct"]
+            ]
+        }  
+    },
+
+    "Exterminator":
+    {
+        "unit_sprite": "heavy3_2",
+        "unit_model": "thug",
+        "tons": 60,
+        "internal": 99,
+        
+        "EXT-4D":
+        {
+            "cost": 15852622,
+            "armor": 168,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["LRM-10", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "h"],
+                ["Anti-Missile", "rt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "ct"],
+                ["Anti-Missile", "rt"]
+            ]
+        }  
+    },
+    
+    "Bombardier":
+    {
+        "unit_sprite": "heavy2_7",
+        "unit_model": "archer",
+        "tons": 65,
+        "internal": 104,
+        
+        "BMB-12D":
+        {
+            "cost": 13907410,
+            "armor": 200,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["SRM-4", "ra"],
+                ["Anti-Missile", "ct"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "rt"],
+                ["LRM-20", "rt"],
+                ["SRM-4", "ra"],
+                ["Anti-Missile", "ct"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }  
+    },
+    
+    "Guillotine":
+    {
+        "unit_sprite": "heavy4_3",
+        "unit_model": "warhammer",
+        "tons": 70,
+        "internal": 107,
+        
+        "GLT-3N":
+        {
+            "cost": 6300484,
+            "armor": 192,
+            "heat_sinks": 25,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Large Laser", "la"],
+                ["SRM-6", "ct"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        },
+
+        "GLT-5M":
+        {
+            "cost": 6300484,
+            "armor": 192,
+            "heat_sinks": 25,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["ER Large Laser", "la"],
+                ["SRM-6", "ct"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Flashman":
+    {
+        "unit_sprite": "heavy1_3",
+        "unit_model": "warhammer",
+        "tons": 75,
+        "internal": 114,
+        
+        "FLS-8K":
+        {
+            "cost": 17831624,
+            "armor": 216,
+            "heat_sinks": 30,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Large Laser", "ct"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ctr"],
+                ["Flamer", "h"],
+                ["Anti-Missile", "rt"]                
+            ],
+            "ammo":
+            [
+                ["Anti-Missile", "rt"]
+            ]
+        }  
+    },
+
+    "Black Knight":
+    {
+        "unit_sprite": "heavy3_8",
+        "unit_model": "grasshopper",
+        "tons": 75,
+        "internal": 114,
+        
+        "BL6-KNT":
+        {
+            "cost": 7136938,
+            "armor": 208,
+            "heat_sinks": 20,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["PPC", "ra"],
+                ["Large Laser", "rt"],
+                ["Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "h"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "ct"]
+            ]
+        }  
+    },
+
+    "Thug":
+    {
+        "unit_sprite": "heavy3_7",
+        "unit_model": "thug",
+        "tons": 80,
+        "internal": 122,
+        
+        "THG-11E":
+        {
+            "cost": 8414040,
+            "armor": 248,
+            "heat_sinks": 36,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }  
+    },
+    
+    "Crockett":
+    {
+        "unit_sprite": "heavy1_2",
+        "unit_model": "victor",
+        "tons": 85,
+        "internal": 130,
+        
+        "CRK 5003-1":
+        {
+            "cost": 8418425,
+            "armor": 264,
+            "heat_sinks": 30,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "la"],
+                ["LB 10-X", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "lt"]
+            ]
+        }  
+    },
+
+    "Katana":
+    {
+        "unit_sprite": "heavy1_2",
+        "unit_model": "victor",
+        "tons": 85,
+        "internal": 130,
+        
+        "CRK 5003-2":
+        {
+            "cost": 7807925,
+            "armor": 200,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "la"],
+                ["LB 10-X", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
+            ]
+        }  
+    },
+
+    "Highlander":
+    {
+        "unit_sprite": "assault2_3",
+        "unit_model": "highlander",
+        "tons": 90,
+        "internal": 138,
+        
+        "HGN-732":
+        {
+            "cost": 8936080,
+            "armor": 278,
+            "heat_sinks": 12,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Gauss Rifle", "ra"],
+                ["LRM-20", "lt"],
+                ["SRM-6", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }  
+    },
+    
+    "Flea":
+    {
+        "unit_sprite": "walker2_1",
+        "unit_model": "flea",
+        "tons": 20,
+        "internal": 33,
+        
+        "FLE-17":
+        {
+            "cost": 1728000, 
+            "armor": 48,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "la"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "lt"],
+                ["Flamer", "ct"]
+            ],
+            "equip":
+            [
+                ["MASC", "ct"]
+            ]
+        }
+    },
+
+    "Hornet":
+    {
+        "unit_sprite": "walker2_1",
+        "unit_model": "flea",
+        "tons": 20,
+        "internal": 33,
+        
+        "HNT-171":
+        {
+            "cost": 1441600, 
+            "armor": 63,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["LRM-5", "rt"],
+                ["Medium Laser", "ra"],
+                ["Anti-Missile", "h"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "lt"],
+                ["LRM-5", "lt"],
+                ["Anti-Missile", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Locust":
+    {
+        "unit_sprite": "walker2_1",
+        "unit_model": "locust",
+        "tons": 20,
+        "internal": 33,
+        
+        "LCT-1V":
+        {
+            "cost": 1512400, 
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ct"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "LCT-3M":
+        {
+            "cost": 1788400,
+            "armor": 53,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ct"],
+                ["Small Laser", "la"],
+                ["Small Laser", "la"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Anti-Missile", "la"]
+            ],
+            "ammo":
+            [
+                ["Anti-Missile", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Wasp":
+    {
+        "unit_sprite": "light9_1",
+        "unit_model": "wasp",
+        "tons": 20,
+        "internal": 33,
+        
+        "WSP-1A":
+        {
+            "cost": 1646640,
+            "armor": 48,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Medium Laser", "ra"],
+                ["SRM-2", "ll"]
+            ],
+            "ammo":
+            [
+                ["SRM-2", "lt"]
+            ]
+        },
+
+        "WSP-3M":
+        {
+            "cost": 1783440,
+            "armor": 45,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Medium Pulse Laser", "ra"],
+                ["SRM-2", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-2", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Stinger":
+    {
+        "unit_sprite": "light4_7",
+        "unit_model": "stinger",
+        "tons": 20,
+        "internal": 33,
+        
+        "STG-3R":
+        {
+            "cost": 1615440,
+            "armor": 48,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Medium Laser", "ra"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "STG-5M":
+        {
+            "cost": 1768440,
+            "armor": 56,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Medium Laser", "ra"],
+                ["Flamer", "la"],
+                ["Anti-Missile", "ra"]
+            ],
+            "ammo":
+            [
+                ["Anti-Missile", "rt"]
+            ]
+        }
+    },
+
+    "Commando":
+    {
+        "unit_sprite": "light5_3",
+        "unit_model": "commando",
+        "tons": 25,
+        "internal": 43,
+        
+        "COM-2D":
+        {
+            "cost": 1823750,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["SRM-6", "ct"],
+                ["SRM-4", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "lt"],
+                ["SRM-4", "rt"]
+            ]
+        },
+
+        "COM-5S":
+        {
+            "cost": 2220000,
+            "armor": 54,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["SRM-6", "ct"],
+                ["Streak SRM-2", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["Streak SRM-2", "rt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "h"],
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Javelin":
+    {
+        "unit_sprite": "light2_5",
+        "unit_model": "javelin",
+        "tons": 30,
+        "internal": 51,
+        
+        "JVN-10N":
+        {
+            "cost": 2330640,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "ammo": 
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ]
+        },
+
+        "JVN-10P":
+        {
+            "cost": 2370940,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["SRM-6", "rt"],
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "lt"]
+            ],
+            "ammo": 
+            [
+                ["SRM-6", "rt"],
+                ["Streak SRM-2", "lt"]
+            ]
+        }
+    },
+
+    "Falcon":
+    {
+        "unit_sprite": "light2_7",
+        "unit_model": "flea",
+        "tons": 30,
+        "internal": 51,
+        
+        "FLC-4P":
+        {
+            "cost": 2307890,
+            "armor": 96,
+            "heat_sinks": 12,
+
+            "speed": 6,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Medium Pulse Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "la"],
+                ["Anti-Missile", "lt"]
+            ],
+            "ammo":
+            [
+                ["Anti-Missile", "rt"]
+            ]
+        }
+    },
+
+    "Firefly":
+    {
+        "unit_sprite": "walker2_8",
+        "unit_model": "flea",
+        "tons": 30,
+        "internal": 51,
+        
+        "FFL-4B":
+        {
+            "cost": 2342600,
+            "armor": 104,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["LRM-5", "rt"],
+                ["Anti-Missile", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "lt"],
+                ["Anti-Missile", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Spider":
+    {
+        "unit_sprite": "light2_7",
+        "unit_model": "spider",
+        "tons": 30,
+        "internal": 51,
+        
+        "SDR-5V":
+        {
+            "cost": 2984540,
+            "armor": 56,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 8,
+
+            "weapons":
+            [
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ct"]
+            ]
+        },
+
+        "SDR-7M":
+        {
+            "cost": 3115840,
+            "armor": 54,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 8,
+
+            "weapons":
+            [
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Pulse Laser", "ct"]
+            ]
+        }
+    },
+
+    "Urbanmech":
+    {
+        "unit_sprite": "light3_8",
+        "unit_model": "urbanmech",
+        "tons": 30,
+        "internal": 51,
+        
+        "UM-R60":
+        {
+            "cost": 1471925,
+            "armor": 96,
+            "heat_sinks": 11,
+
+            "speed": 2,
+            "jump": 2,
+
+            "weapons":
+            [
+                ["Autocannon/10", "ra"],
+                ["Small Laser", "la"]
+            ],
+            "ammo": 
+            [
+                ["Autocannon/10", "rt"]
+            ]
+        },
+
+        "UM-R63":
+        {
+            "cost": 1760525,
+            "armor": 96,
+            "heat_sinks": 11,
+
+            "speed": 2,
+            "jump": 2,
+
+            "weapons":
+            [
+                ["LB 10-X", "ra"],
+                ["Small Pulse Laser", "lt"],
+                ["Small Laser", "la"]
+            ],
+            "ammo": 
+            [
+                ["LB 10-X", "rt"]
+            ]
+        }
+    },
+
+    "Valkyrie":
+    {
+        "unit_sprite": "light1_5",
+        "unit_model": "valkyrie",
+        "tons": 30,
+        "internal": 51,
+        
+        "VLK-QA":
+        {
+            "cost": 2205320,
+            "armor": 96,
+            "heat_sinks": 11,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo": 
+            [
+                ["LRM-10", "rt"]
+            ]
+        },
+
+        "VLK-QD":
+        {
+            "cost": 2587520,
+            "armor": 96,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["LRM-10", "lt"],
+                ["Medium Pulse Laser", "ra"]
+            ],
+            "ammo": 
+            [
+                ["LRM-10", "rt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "ct"],
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Firestarter":
+    {
+        "unit_sprite": "light5_5",
+        "unit_model": "firestarter",
+        "tons": 35,
+        "internal": 58,
+        
+        "FS9-H":
+        {
+            "cost": 3046950,
+            "armor": 88,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Flamer", "ra"],
+                ["Flamer", "ct"],
+                ["Flamer", "la"],
+                ["Flamer", "ctr"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Machinegun", "rt"],
+                ["Machinegun", "lt"]
+            ],
+            "ammo": 
+            [
+                ["Machinegun", "rt"]
+            ]
+        },
+
+        "FS9-S":
+        {
+            "cost": 3511688,
+            "armor": 88,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Flamer", "ra"],
+                ["Flamer", "ct"],
+                ["Flamer", "la"],
+                ["Flamer", "ctr"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "rt"],
+                ["Anti-Missile", "lt"]
+            ],
+            "ammo": 
+            [
+                ["Anti-Missile", "rt"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "lt"]
+            ]
+        }
+    },
+
+    "Jenner":
+    {
+        "unit_sprite": "walker2_5",
+        "unit_model": "jenner",
+        "tons": 35,
+        "internal": 58,
+        
+        "JR7-D":
+        {
+            "cost": 3198375,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 7,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "rt"]
+            ]
+        },
+
+        "JR7-K":
+        {
+            "cost": 3306375,
+            "armor": 63,
+            "heat_sinks": 10,
+
+            "speed": 7,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Ostscout":
+    {
+        "unit_sprite": "light2_6",
+        "unit_model": "ostscout",
+        "tons": 35,
+        "internal": 58,
+        
+        "OTT-7J":
+        {
+            "cost": 3416760,
+            "armor": 72,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 8,
+
+            "weapons":
+            [
+                ["Medium Laser", "ct"]
+            ]
+        }
+    },
+
+    "Panther":
+    {
+        "unit_sprite": "light1_1",
+        "unit_model": "panther",
+        "tons": 35,
+        "internal": 58,
+        
+        "PNT-9R":
+        {
+            "cost": 2485710,
+            "armor": 104,
+            "heat_sinks": 13,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["SRM-4", "ct"],
+                ["PPC", "ra"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "lt"]
+            ]
+        },
+
+        "PNT-10K":
+        {
+            "cost": 2916360,
+            "armor": 104,
+            "heat_sinks": 13,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["SRM-4", "ct"],
+                ["ER PPC", "ra"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "ct"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Raven":
+    {
+        "unit_sprite": "walker2_6",
+        "unit_model": "raven",
+        "tons": 35,
+        "internal": 58,
+        
+        "RVN-3L":
+        {
+            "cost": 5701725,
+            "armor": 81,
+            "heat_sinks": 11,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "ct"],
+                ["Guardian ECM", "lt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Wolfhound":
+    {
+        "unit_sprite": "med1_3",
+        "unit_model": "wolfhound",
+        "tons": 35,
+        "internal": 58,
+        
+        "WLF-2":
+        {
+            "cost": 3141180,
+            "armor": 120,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER Large Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ctr"]
+            ]
+        }
+    },
+
+    "Assassin":
+    {
+        "unit_sprite": "med1_1",
+        "unit_model": "assassin",
+        "tons": 40,
+        "internal": 67,
+        
+        "ASN-21":
+        {
+            "cost": 3765813,
+            "armor": 72,
+            "heat_sinks": 10,
+
+            "speed": 7,
+            "jump": 7,
+
+            "weapons":
+            [
+                ["Medium Laser", "ra"],
+                ["LRM-5", "rt"],
+                ["SRM-2", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "rt"],
+                ["SRM-2", "lt"]
+            ]
+        },
+
+        "ASN-23":
+        {
+            "cost": 3924013,
+            "armor": 72,
+            "heat_sinks": 10,
+
+            "speed": 7,
+            "jump": 7,
+
+            "weapons":
+            [
+                ["Medium Pulse Laser", "ra"],
+                ["LRM-5", "rt"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "rt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"]
+            ]
+        }
+    },
+
+    "Cicada":
+    {
+        "unit_sprite": "walker2_8",
+        "unit_model": "cicada",
+        "tons": 40,
+        "internal": 67,
+        
+        "CDA-2A":
+        {
+            "cost": 3705217,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Small Laser", "ct"]
+            ]
+        },
+
+        "CDA-3M":
+        {
+            "cost": 7658467,
+            "armor": 64,
+            "heat_sinks": 20,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Ultra AC/5", "lt"],
+                ["Small Pulse Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Clint":
+    {
+        "unit_sprite": "med1_7",
+        "unit_model": "clint",
+        "tons": 40,
+        "internal": 67,
+        
+        "CLNT-2-3T":
+        {
+            "cost": 3572380,
+            "armor": 72,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Autocannon/5", "ra"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "rt"]
+            ]
+        },
+        
+        "CLNT-2-3U":
+        {
+            "cost": 3951080,
+            "armor": 72,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["ER PPC", "ra"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Pulse Laser", "lt"]
+            ]
+        }
+    },
+
+    "Hermes II":
+    {
+        "unit_sprite": "med1_5",
+        "unit_model": "hermes2",
+        "tons": 40,
+        "internal": 67,
+        
+        "HER-2S":
+        {
+            "cost": 3165680,
+            "armor": 120,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/5", "rt"],
+                ["Medium Laser", "ra"],
+                ["Flamer", "la"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "rt"]
+            ]
+        },
+
+        "HER-5S":
+        {
+            "cost": 3456180,
+            "armor": 120,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Ultra AC/5", "rt"],
+                ["Medium Pulse Laser", "ra"],
+                ["Flamer", "la"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "lt"]
+            ]
+        }
+    },
+
+    "Vulcan":
+    {
+        "unit_sprite": "med7_1",
+        "unit_model": "vulcan",
+        "tons": 40,
+        "internal": 67,
+        
+        "VL-2T":
+        {
+            "cost": 3462900,
+            "armor": 80,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Autocannon/2", "rt"],
+                ["Medium Laser", "lt"],
+                ["Flamer", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/2", "rt"],
+                ["Machinegun", "lt"]
+            ]
+        },
+
+        "VL-5M":
+        {
+            "cost": 3789100,
+            "armor": 80,
+            "heat_sinks": 22,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Large Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "lt"],
+                ["Flamer", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "lt"]
+            ]
+        }
+    },
+
+    "Whitworth":
+    {
+        "unit_sprite": "med4_8",
+        "unit_model": "whitworth",
+        "tons": 40,
+        "internal": 67,
+        
+        "WTH-1":
+        {
+            "cost": 2912933,
+            "armor": 128,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "h"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"]
+            ]
+        },
+
+        "WTH-2":
+        {
+            "cost": 3164933,
+            "armor": 128,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"],
+                ["Artemis IV FCS", "lt"]
+            ]
+        }
+    },
+
+    "Blackjack":
+    {
+        "unit_sprite": "med7_2",
+        "unit_model": "blackjack",
+        "tons": 45,
+        "internal": 75,
+        
+        "BJ-1":
+        {
+            "cost": 3147225,
+            "armor": 136,
+            "heat_sinks": 11,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Autocannon/2", "ra"],
+                ["Autocannon/2", "la"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/2", "ct"]
+            ]
+        },
+
+        "BJ-2":
+        {
+            "cost": 3534375,
+            "armor": 136,
+            "heat_sinks": 22,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "rt"],
+                ["Streak SRM-2", "rt"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "rt"]
+            ]
+        }
+    },
+
+    "Hatchetman":
+    {
+        "unit_sprite": "med4_8",
+        "unit_model": "hatchetman",
+        "tons": 45,
+        "internal": 75,
+        
+        "HCT-3F":
+        {
+            "cost": 3129390,
+            "armor": 104,
+            "heat_sinks": 14,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Autocannon/10", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "rt"],
+                ["Hatchet", "ra"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "ct"],
+                ["Autocannon/10", "ct"]
+            ]
+        },
+
+        "HCT-5S":
+        {
+            "cost": 6146840,
+            "armor": 152,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["LB 10-X", "rt"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "la"],
+                ["Medium Pulse Laser", "lt"],
+                ["Hatchet", "ra"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Phoenix Hawk":
+    {
+        "unit_sprite": "med6_5",
+        "unit_model": "phoenixhawk",
+        "tons": 45,
+        "internal": 75,
+        
+        "PXH-1":
+        {
+            "cost": 4067540,
+            "armor": 128,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "PXH-3M":
+        {
+            "cost": 8458140,
+            "armor": 128,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "la"],
+                ["Machinegun", "la"],
+                ["Anti-Missile", "ra"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "lt"],
+                ["Anti-Missile", "rt"],
+                ["Anti-Missile", "rt"]
+            ]
+        }
+    },
+
+    "Vindicator":
+    {
+        "unit_sprite": "med7_7",
+        "unit_model": "vindicator",
+        "tons": 45,
+        "internal": 75,
+        
+        "VND-1R":
+        {
+            "cost": 3181083,
+            "armor": 144,
+            "heat_sinks": 16,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["LRM-5", "lt"],
+                ["PPC", "ra"],
+                ["Medium Laser", "h"],
+                ["Small Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "ct"]
+            ]
+        },
+
+        "VND-3L":
+        {
+            "cost": 3524370,
+            "armor": 144,
+            "heat_sinks": 30,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["LRM-5", "lt"],
+                ["ER PPC", "ra"],
+                ["Medium Pulse Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Wolf Trap":
+    {
+        "unit_sprite": "med7_7",
+        "unit_model": "vindicator",
+        "tons": 45,
+        "internal": 75,
+        
+        "WFT-1":
+        {
+            "cost": 7910258,
+            "armor": 128,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LB 10-X", "ra"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["LRM-10", "ct"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LRM-10", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Centurion":
+    {
+        "unit_sprite": "med6_5",
+        "unit_model": "centurion",
+        "tons": 50,
+        "internal": 83,
+        
+        "CN9-A":
+        {
+            "cost": 3491500,
+            "armor": 136,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/10", "ra"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ctr"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "ra"],
+                ["Autocannon/10", "ra"],
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"]
+            ]
+        },
+
+        "CN9-D":
+        {
+            "cost": 9676500,
+            "armor": 136,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LB 10-X", "ra"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ctr"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "ra"],
+                ["LB 10-X", "ra"],
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "lt"]
+            ]
+        }
+    },
+
+    "Chameleon":
+    {
+        "unit_sprite": "med1_6",
+        "unit_model": "chameleon",
+        "tons": 50,
+        "internal": 83,
+        
+        "CHM-3":
+        {
+            "cost": 4623375,
+            "armor": 112,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "lt"],
+                ["Small Laser", "lt"],
+                ["Machinegun", "ct"],
+                ["Machinegun", "ct"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "rt"]
+            ]
+        }  
+    },
+
+    "Enforcer":
+    {
+        "unit_sprite": "med7_3",
+        "unit_model": "enforcer",
+        "tons": 50,
+        "internal": 83,
+        
+        "ENF-4R":
+        {
+            "cost": 3536875,
+            "armor": 144,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Autocannon/10", "ra"],
+                ["Large Laser", "la"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "rt"]
+            ]
+        },
+
+        "ENF-5D":
+        {
+            "cost": 8820875,
+            "armor": 161,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["LB 10-X", "ra"],
+                ["ER Large Laser", "la"],
+                ["Small Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        } 
+    },
+
+    "Hunchback":
+    {
+        "unit_sprite": "med7_4",
+        "unit_model": "hunchback",
+        "tons": 50,
+        "internal": 83,
+        
+        "HBK-4G":
+        {
+            "cost": 3467875,
+            "armor": 160,
+            "heat_sinks": 13,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/20", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "lt"],
+                ["Autocannon/20", "lt"]
+            ]
+        },
+
+        "HBK-5M":
+        {
+            "cost": 3643000,
+            "armor": 160,
+            "heat_sinks": 26,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/20", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Pulse Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Trebuchet":
+    {
+        "unit_sprite": "med4_3",
+        "unit_model": "trebuchet",
+        "tons": 50,
+        "internal": 83,
+        
+        "TBT-5N":
+        {
+            "cost": 4293500,
+            "armor": 120,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"]
+            ]
+        },
+
+        "TBT-7M":
+        {
+            "cost": 9006500,
+            "armor": 120,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "la"],
+                ["SRM-2", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["SRM-2", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"],
+                ["Artemis IV FCS", "lt"],
+                ["Artemis IV FCS", "lt"],
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Dervish":
+    {
+        "unit_sprite": "med4_7",
+        "unit_model": "dervish",
+        "tons": 55,
+        "internal": 91,
+        
+        "DV-6M":
+        {
+            "cost": 4989967,
+            "armor": 120,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["SRM-2", "la"],
+                ["SRM-2", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["SRM-2", "ra"],
+                ["SRM-2", "la"]
+            ]
+        },
+
+        "DV-7D":
+        {
+            "cost": 5571217,
+            "armor": 143,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Streak SRM-2", "la"],
+                ["Streak SRM-2", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Streak SRM-2", "ra"],
+                ["Streak SRM-2", "la"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Griffin":
+    {
+        "unit_sprite": "med7_5",
+        "unit_model": "griffin",
+        "tons": 55,
+        "internal": 91,
+        
+        "GRF-1N":
+        {
+            "cost": 4957107,
+            "armor": 152,
+            "heat_sinks": 12,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["PPC", "ra"],
+                ["LRM-10", "rt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "rt"]
+            ]
+        },
+
+        "GRF-3M":
+        {
+            "cost": 10250744,
+            "armor": 152,
+            "heat_sinks": 28,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["ER PPC", "ra"],
+                ["LRM-20", "rt"],
+                ["Small Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Hoplite":
+    {
+        "unit_sprite": "walker2_3",
+        "unit_model": "cicada",
+        "tons": 55,
+        "internal": 41,
+        
+        "HOP-4D":
+        {
+            "cost": 4444108,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LB 10-X", "ra"],
+                ["LRM-5", "la"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LRM-5", "ct"]
+            ]
+        }
+    },
+
+    "Shadow Hawk":
+    {
+        "unit_sprite": "med4_8",
+        "unit_model": "shadowhawk",
+        "tons": 55,
+        "internal": 91,
+        
+        "SHD-2H":
+        {
+            "cost": 4539382,
+            "armor": 152,
+            "heat_sinks": 12,
+
+            "speed": 5,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Autocannon/5", "lt"],
+                ["LRM-5", "rt"],
+                ["SRM-2", "h"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "lt"],
+                ["LRM-5", "rt"],
+                ["SRM-2", "ct"]
+            ]
+        },
+
+        "SHD-5M":
+        {
+            "cost": 10296857,
+            "armor": 168,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Ultra AC/5", "lt"],
+                ["LRM-20", "rt"],
+                ["Streak SRM-2", "h"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "lt"],
+                ["LRM-20", "rt"],
+                ["Streak SRM-2", "ct"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Scorpion":
+    {
+        "unit_sprite": "walker1_8",
+        "unit_model": "no_model",
+        "tons": 55,
+        "internal": 91,
+        
+        "SCP-1N":
+        {
+            "cost": 5201800,
+            "armor": 112,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["PPC", "rt"],
+                ["SRM-6", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "lt"]
+            ]
+        },
+
+        "SCP-10":
+        {
+            "cost": 5449800,
+            "armor": 112,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER PPC", "rt"],
+                ["SRM-6", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "lt"]
+            ]
+        }
+    },
+
+    "Wolverine":
+    {
+        "unit_sprite": "heavy2_6",
+        "unit_model": "wolverine",
+        "tons": 55,
+        "internal": 91,
+        
+        "WVR-6R":
+        {
+            "cost": 4827682,
+            "armor": 152,
+            "heat_sinks": 12,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Autocannon/5", "ra"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "ra"],
+                ["SRM-6", "lt"]
+            ]
+        },
+
+        "WVR-7D":
+        {
+            "cost": 11270257,
+            "armor": 179,
+            "heat_sinks": 13,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Ultra AC/5", "ra"],
+                ["SRM-6", "lt"],
+                ["Medium Pulse Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"],
+                ["MASC", "rt"]
+            ]
+        }
+    },
+
+    "Dragon":
+    {
+        "unit_sprite": "med2_7",
+        "unit_model": "dragon",
+        "tons": 60,
+        "internal": 99,
+        
+        "DRG-1N":
+        {
+            "cost": 5036800,
+            "armor": 160,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LRM-10", "ct"],
+                ["Autocannon/5", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ltr"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "lt"],
+                ["Autocannon/5", "rt"],
+                ["Autocannon/5", "rt"]
+            ]
+        }
+    },
+
+    "Grand Dragon":
+    {
+        "unit_sprite": "med2_7",
+        "unit_model": "dragon",
+        "tons": 60,
+        "internal": 99,
+        
+        "DRG-5K":
+        {
+            "cost": 13354880,
+            "armor": 160,
+            "heat_sinks": 26,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LRM-10", "ct"],
+                ["ER PPC", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ltr"],
+                ["Medium Laser", "rtr"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Ostroc":
+    {
+        "unit_sprite": "heavy3_8",
+        "unit_model": "ostroc",
+        "tons": 60,
+        "internal": 99,
+        
+        "OSR-2R":
+        {
+            "cost": 5025600,
+            "armor": 144,
+            "heat_sinks": 15,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["SRM-4", "rt"],
+                ["Large Laser", "rt"],
+                ["Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "ct"]
+            ]
+        },
+
+        "OSR-2D":
+        {
+            "cost": 5488960,
+            "armor": 144,
+            "heat_sinks": 30,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["SRM-4", "rt"],
+                ["ER Large Laser", "rt"],
+                ["ER Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "ct"]
+            ]
+        }
+    },
+
+    "Ostsol":
+    {
+        "unit_sprite": "heavy3_3",
+        "unit_model": "ostol",
+        "tons": 60,
+        "internal": 99,
+        
+        "OTL-4D":
+        {
+            "cost": 5017600,
+            "armor": 144,
+            "heat_sinks": 16,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Laser", "rt"],
+                ["Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ctr"],
+                ["Medium Laser", "ctr"]
+            ]
+        },
+
+        "OTL-5M":
+        {
+            "cost": 11458560,
+            "armor": 144,
+            "heat_sinks": 32,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Pulse Laser", "rt"],
+                ["Large Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "ctr"],
+                ["Medium Pulse Laser", "ctr"],
+                ["Anti-Missile", "rt"]
+            ],
+            "ammo":
+            [
+                ["Anti-Missile", "lt"]
+            ]
+        }
+    },
+
+    "Quickdraw":
+    {
+        "unit_sprite": "heavy3_4",
+        "unit_model": "quickdraw",
+        "tons": 60,
+        "internal": 99,
+        
+        "QKD-4G":
+        {
+            "cost": 5514560,
+            "armor": 128,
+            "heat_sinks": 13,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rtr"],
+                ["Medium Laser", "rtr"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "lt"],
+                ["SRM-4", "rt"]
+            ]
+        },
+
+        "QKD-5M":
+        {
+            "cost": 5789760,
+            "armor": 143,
+            "heat_sinks": 26,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rtr"],
+                ["Medium Laser", "rtr"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Rifleman":
+    {
+        "unit_sprite": "heavy1_7",
+        "unit_model": "rifleman",
+        "tons": 60,
+        "internal": 99,
+        
+        "RFL-3N":
+        {
+            "cost": 4860000,
+            "armor": 120,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Autocannon/5", "ra"],
+                ["Autocannon/5", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "ct"]
+            ]
+        },
+
+        "RFL-5M":
+        {
+            "cost": 9926400,
+            "armor": 120,
+            "heat_sinks": 24,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Ultra AC/5", "ra"],
+                ["Ultra AC/5", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Axman":
+    {
+        "unit_sprite": "heavy3_4",
+        "unit_model": "quickdraw",
+        "tons": 65,
+        "internal": 104,
+        
+        "AXM-1N":
+        {
+            "cost": 11840510,
+            "armor": 197,
+            "heat_sinks": 20,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Autocannon/20", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Large Pulse Laser", "la"],
+                ["Hatchet", "ra"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "lt"],
+                ["Autocannon/20", "lt"]
+
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Catapult":
+    {
+        "unit_sprite": "med7_8",
+        "unit_model": "catapult",
+        "tons": 65,
+        "internal": 104,
+        
+        "CPLT-C1":
+        {
+            "cost": 5790125,
+            "armor": 160,
+            "heat_sinks": 15,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"]
+            ]
+        },
+
+        "CPLT-C4C":
+        {
+            "cost": 12053525,
+            "armor": 160,
+            "heat_sinks": 26,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["LRM-20", "ra"],
+                ["LRM-20", "la"],
+                ["Large Laser", "rt"],
+                ["Small Pulse Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "h"]
+            ]
+        }
+    },
+
+    "Crusader":
+    {
+        "unit_sprite": "heavy2_1",
+        "unit_model": "crusader",
+        "tons": 65,
+        "internal": 104,
+        
+        "CRD-3R":
+        {
+            "cost": 5686010,
+            "armor": 192,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["SRM-6", "rl"],
+                ["SRM-6", "ll"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["SRM-6", "ct"],
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "CRD-5M":
+        {
+            "cost": 11901560,
+            "armor": 192,
+            "heat_sinks": 26,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["Streak SRM-2", "rl"],
+                ["Streak SRM-2", "ll"],
+                ["Flamer", "ra"],
+                ["Anti-Missile", "h"],
+                ["Machinegun", "ra"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "rt"],
+                ["Streak SRM-2", "lt"],
+                ["Anti-Missile", "rt"],
+                ["Machinegun", "ra"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Jagermech":
+    {
+        "unit_sprite": "heavy2_8",
+        "unit_model": "jagermech",
+        "tons": 65,
+        "internal": 104,
+        
+        "JM6-S":
+        {
+            "cost": 5232425,
+            "armor": 96,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/5", "ra"],
+                ["Autocannon/5", "la"],
+                ["Autocannon/2", "ra"],
+                ["Autocannon/2", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "rt"],
+                ["Autocannon/5", "lt"],
+                ["Autocannon/2", "ct"]                
+            ]
+        },
+
+        "JM6-DD":
+        {
+            "cost": 11419925,
+            "armor": 116,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Ultra AC/5", "ra"],
+                ["Ultra AC/5", "la"],
+                ["Autocannon/2", "ra"],
+                ["Autocannon/2", "la"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "rt"],
+                ["Ultra AC/5", "lt"],
+                ["Autocannon/2", "ct"]                
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Thunderbolt":
+    {
+        "unit_sprite": "heavy2_4",
+        "unit_model": "thunderbolt",
+        "tons": 65,
+        "internal": 104,
+        
+        "TDR-5S":
+        {
+            "cost": 5413760,
+            "armor": 208,
+            "heat_sinks": 15,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Laser", "ra"],
+                ["LRM-15", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["SRM-2", "rt"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "ct"],
+                ["LRM-15", "ct"],
+                ["SRM-2", "rt"],
+                ["Machinegun", "la"]
+            ]
+        },
+
+        "TDR-7M":
+        {
+            "cost": 6093560,
+            "armor": 206,
+            "heat_sinks": 30,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER Large Laser", "ra"],
+                ["LRM-15", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Streak SRM-2", "rt"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "lt"],
+                ["LRM-15", "lt"],
+                ["Streak SRM-2", "rt"],
+                ["Machinegun", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Archer":
+    {
+        "unit_sprite": "assault1_2",
+        "unit_model": "archer",
+        "tons": 70,
+        "internal": 107,
+        
+        "ARC-2R":
+        {
+            "cost": 6384974,
+            "armor": 208,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"],
+                ["Medium Laser", "ctr"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "rt"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
+            ]
+        },
+
+        "ARC-4M":
+        {
+            "cost": 7352273,
+            "armor": 216,
+            "heat_sinks": 20,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"],
+                ["Medium Laser", "ctr"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "rt"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"],
+                ["CASE", "rt"],
+                ["Artemis IV FCS", "lt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Caesar":
+    {
+        "unit_sprite": "heavy3_7",
+        "unit_model": "cataphract",
+        "tons": 70,
+        "internal": 107,
+        
+        "CES-3R":
+        {
+            "cost": 13424674,
+            "armor": 168,
+            "heat_sinks": 32,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Gauss Rifle", "rt"],
+                ["ER PPC", "ra"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "la"],
+                ["Medium Pulse Laser", "rtr"],
+                ["Medium Pulse Laser", "ltr"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "lt"],
+                ["Gauss Rifle", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }  
+    },
+
+    "Cataphract":
+    {
+        "unit_sprite": "heavy3_7",
+        "unit_model": "cataphract",
+        "tons": 70,
+        "internal": 107,
+        
+        "CTF-3D":
+        {
+            "cost": 13612354,
+            "armor": 176,
+            "heat_sinks": 16,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["LB 10-X", "rt"],
+                ["Ultra AC/5", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rtr"],
+                ["Medium Laser", "ltr"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "lt"],
+                ["Ultra AC/5", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }  
+    },
+
+    "Grasshopper":
+    {
+        "unit_sprite": "assault1_6",
+        "unit_model": "grasshopper",
+        "tons": 70,
+        "internal": 107,
+        
+        "GHR-5H":
+        {
+            "cost": 6024574,
+            "armor": 208,
+            "heat_sinks": 22,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Large Laser", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["LRM-5", "h"]                
+            ],
+            "ammo":
+            [
+                ["LRM-5", "rt"]
+            ]
+        },
+
+        "GHR-5J":
+        {
+            "cost": 6339073,
+            "armor": 208,
+            "heat_sinks": 22,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["ER Large Laser", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Streak SRM-2", "h"],
+                ["Anti-Missile", "rt"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-2", "rt"],
+                ["Streak SRM-2", "rt"],
+                ["Anti-Missile", "lt"]
+            ]
+        }
+    },
+
+    "Warhammer":
+    {
+        "unit_sprite": "heavy1_1",
+        "unit_model": "warhammer",
+        "tons": 70,
+        "internal": 107,
+            
+        "WHM-6R":
+        {
+            "cost": 6070984,
+            "armor": 160,
+            "heat_sinks": 18,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["SRM-6", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "lt"],
+                ["Machinegun", "rt"],
+                ["Machinegun", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "WHM-7M":
+        {
+            "cost": 6694033,
+            "armor": 160,
+            "heat_sinks": 36,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER PPC", "ra"],
+                ["ER PPC", "la"],
+                ["SRM-6", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Machinegun", "rt"],
+                ["Anti-Missile", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["Machinegun", "ct"],
+                ["Anti-Missile", "rt"]
+            ]
+        } 
+    },
+
+    "Marauder":
+    {
+        "unit_sprite": "walker1_5",
+        "unit_model": "marauder",
+        "tons": 75,
+        "internal": 114,
+            
+        "MAD-3R":
+        {
+            "cost": 6635125,
+            "armor": 184,
+            "heat_sinks": 16,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Autocannon/5", "rt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "lt"]
+            ]
+        },
+
+        "MAD-5D":
+        {
+            "cost": 15828750,
+            "armor": 184,
+            "heat_sinks": 32,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER PPC", "ra"],
+                ["ER PPC", "la"],
+                ["Medium Pulse Laser", "ra"], 
+                ["Medium Pulse Laser", "la"], 
+                ["Large Pulse Laser", "rt"],
+                ["Streak SRM-2", "lt"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-2", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Orion":
+    {
+        "unit_sprite": "heavy4_3",
+        "unit_model": "orion",
+        "tons": 75,
+        "internal": 114,
+            
+        "ON1-K":
+        {
+            "cost": 6674500,
+            "armor": 224,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/10", "rt"],
+                ["LRM-15", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["SRM-4", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "rt"],
+                ["Autocannon/10", "rt"],
+                ["LRM-15", "lt"], 
+                ["LRM-15", "lt"], 
+                ["SRM-4", "lt"],
+                ["SRM-4", "lt"]
+            ]
+        },
+
+        "ON1-M":
+        {
+            "cost": 15790250,
+            "armor": 224,
+            "heat_sinks": 22,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LB 10-X", "rt"],
+                ["LRM-20", "la"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["SRM-4", "lt"],
+                ["SRM-6", "ct"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LRM-20", "lt"], 
+                ["LRM-20", "lt"], 
+                ["SRM-4", "rt"],
+                ["SRM-6", "lt"]
+            ]
+        }
+    },
+
+    "Awesome":
+    {
+        "unit_sprite": "assault3_6",
+        "unit_model": "awesome",
+        "tons": 80,
+        "internal": 122,
+            
+        "AWS-8Q":
+        {
+            "cost": 6598170,
+            "armor": 224,
+            "heat_sinks": 28,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["PPC", "ra"],
+                ["PPC", "rt"], 
+                ["PPC", "lt"],
+                ["Small Laser", "h"]
+            ]
+        },
+
+        "AWS-9M":
+        {
+            "cost": 18090120,
+            "armor": 256,
+            "heat_sinks": 40,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER PPC", "ra"],
+                ["ER PPC", "rt"], 
+                ["ER PPC", "lt"],
+                ["Small Laser", "h"],
+                ["Medium Pulse Laser", "ct"],
+                ["Streak SRM-2", "ct"],
+                ["Streak SRM-2", "la"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-2", "ll"]
+            ]
+        }
+    },
+
+    "Charger":
+    {
+        "unit_sprite": "assault2_3",
+        "unit_model": "charger",
+        "tons": 80,
+        "internal": 122,
+            
+        "CGR-1A1":
+        {
+            "cost": 7520370,
+            "armor": 160,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Small Laser", "h"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "lt"],
+                ["Small Laser", "la"]
+            ]
+        },
+
+        "CGR-3K":
+        {
+            "cost": 21336720,
+            "armor": 179,
+            "heat_sinks": 24,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["LRM-20", "rt"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Goliath":
+    {
+        "unit_sprite": "walker1_8",
+        "unit_model": "no_model",
+        "tons": 80,
+        "internal": 122,
+            
+        "GOL-1H":
+        {
+            "cost": 7651200,
+            "armor": 232,
+            "heat_sinks": 17,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["PPC", "rt"], 
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Machinegun", "rt"], 
+                ["Machinegun", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "ct"],
+                ["LRM-10", "ct"],
+                ["Machinegun", "lt"]               
+            ]
+        },
+
+        "GOL-3M":
+        {
+            "cost": 17184000,
+            "armor": 240,
+            "heat_sinks": 17,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Gauss Rifle", "rt"], 
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Machinegun", "ct"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "ct"],
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"],
+                ["Machinegun", "lt"],
+                ["Machinegun", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+    
+    "Victor":
+    {
+        "unit_sprite": "assault2_5",
+        "unit_model": "victor",
+        "tons": 80,
+        "internal": 122,
+            
+        "VTR-9B":
+        {
+            "cost": 8044320,
+            "armor": 184,
+            "heat_sinks": 15,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Autocannon/20", "ra"], 
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["SRM-4", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["SRM-4", "lt"]
+            ]
+        },
+
+        "VTR-9K":
+        {
+            "cost": 8512320,
+            "armor": 184,
+            "heat_sinks": 15,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Gauss Rifle", "ra"], 
+                ["Medium Pulse Laser", "la"],
+                ["Medium Pulse Laser", "la"],
+                ["SRM-4", "lt"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "rt"],
+                ["Gauss Rifle", "rt"],
+                ["SRM-4", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "ra"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Hatamoto-Chi":
+    {
+        "unit_sprite": "assault2_4",
+        "unit_model": "hatamoto",
+        "tons": 80,
+        "internal": 122,
+
+        "HTM-27T":
+        {
+            "cost": 8236920,
+            "armor": 248,
+            "heat_sinks": 18,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Zeus":
+    {
+        "unit_sprite": "assault3_2",
+        "unit_model": "zeus",
+        "tons": 80,
+        "internal": 122,
+            
+        "ZEU-6S":
+        {
+            "cost": 7617900,
+            "armor": 184,
+            "heat_sinks": 17,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Laser", "lt"],
+                ["LRM-15", "ra"],
+                ["Medium Laser", "ltr"],
+                ["Medium Laser", "ct"],
+                ["Autocannon/5", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["Autocannon/5", "la"]
+            ]
+        },
+
+        "ZEU-9S":
+        {
+            "cost": 8614200,
+            "armor": 197,
+            "heat_sinks": 34,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER PPC", "la"],
+                ["ER Large Laser", "lt"],
+                ["LRM-15", "ra"],
+                ["Medium Pulse Laser", "ltr"],
+                ["Medium Pulse Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        } 
+    },
+
+    "Battlemaster":
+    {
+        "unit_sprite": "assault2_2",
+        "unit_model": "battlemaster",
+        "tons": 85,
+        "internal": 130,
+            
+        "BLR-1G":
+        {
+            "cost": 8501243,
+            "armor": 232,
+            "heat_sinks": 18,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["PPC", "ra"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rtr"], 
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "ltr"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "lt"],
+                ["SRM-6", "lt"]
+            ]
+        },
+
+        "BLR-3M":
+        {
+            "cost": 8939693,
+            "armor": 232,
+            "heat_sinks": 36,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER PPC", "ra"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rtr"], 
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "ltr"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "lt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Shogun":
+    {
+        "unit_sprite": "assault2_2",
+        "unit_model": "no_model",
+        "tons": 85,
+        "internal": 130,
+        
+        "SHG-2F":
+        {
+            "cost": 8140000,
+            "armor": 248,
+            "heat_sinks": 17,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["ER PPC", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Stalker":
+    {
+        "unit_sprite": "assault1_8",
+        "unit_model": "stalker",
+        "tons": 85,
+        "internal": 130,
+            
+        "STK-3F":
+        {
+            "cost": 7463825,
+            "armor": 216,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["Large Laser", "rt"], 
+                ["Large Laser", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Medium Laser", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]                
+            ]
+        },
+
+        "STK-5M":
+        {
+            "cost": 8274125,
+            "armor": 232,
+            "heat_sinks": 34,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["ER Large Laser", "rt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Medium Laser", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "ra"], 
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["LRM-10", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]                
+            ]
+        }
+    },
+
+    "Cyclops":
+    {
+        "unit_sprite": "assault2_8",
+        "unit_model": "cyclops",
+        "tons": 90,
+        "internal": 138,
+            
+        "CP-10-Z":
+        {
+            "cost": 9217660,
+            "armor": 160,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/20", "rt"], 
+                ["LRM-10", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["SRM-4", "ct"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"], 
+                ["Autocannon/20", "rt"], 
+                ["Autocannon/20", "lt"],
+                ["Autocannon/20", "lt"], 
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"]
+            ]
+        },
+
+        "CP-11A":
+        {
+            "cost": 9274660,
+            "armor": 160,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Gauss Rifle", "rt"], 
+                ["LRM-10", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "ra"], 
+                ["SRM-4", "ct"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "rt"], 
+                ["Gauss Rifle", "rt"], 
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"]
+            ]
+        }
+    },
+
+    "Mauler":
+    {
+        "unit_sprite": "assault3_4",
+        "unit_model": "mauler",
+        "tons": 90,
+        "internal": 138,
+            
+        "MAL-1R":
+        {
+            "cost": 18399600,
+            "armor": 206,
+            "heat_sinks": 22,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["Autocannon/2", "rt"],
+                ["Autocannon/2", "rt"],
+                ["Autocannon/2", "lt"],
+                ["Autocannon/2", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["LRM-15", "lt"],
+                ["Autocannon/2", "rt"],
+                ["Autocannon/2", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Banshee":
+    {
+        "unit_sprite": "assault2_6",
+        "unit_model": "banshee",
+        "tons": 95,
+        "internal": 145,
+            
+        "BNC-3E":
+        {
+            "cost": 9522078,
+            "armor": 240,
+            "heat_sinks": 16,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["PPC", "rt"],
+                ["Autocannon/5", "lt"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "lt"]
+            ]
+        },
+
+        "BNC-5S":
+        {
+            "cost": 25429495,
+            "armor": 240,
+            "heat_sinks": 28,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER PPC", "rt"],
+                ["ER PPC", "rt"],
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ltr"],
+                ["Medium Laser", "rtr"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "ra"]
+            ]
+        }
+    },
+
+    "Annihilator":
+    {
+        "unit_sprite": "assault3_1",
+        "unit_model": "no_model",
+        "tons": 100,
+        "internal": 152,
+            
+        "ANH-2A":
+        {
+            "cost": 9732667,
+            "armor": 200,
+            "heat_sinks": 17,
+
+            "speed": 2,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LB 10-X", "ra"],
+                ["LB 10-X", "la"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "lt"],
+                ["Medium Pulse Laser", "la"], 
+                ["Medium Pulse Laser", "ra"], 
+                ["Medium Pulse Laser", "ct"], 
+                ["Medium Pulse Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Atlas":
+    {
+        "unit_sprite": "assault3_1",
+        "unit_model": "atlas",
+        "tons": 100,
+        "internal": 152,
+            
+        "AS7-D":
+        {
+            "cost": 9626000,
+            "armor": 304,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/20", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"], 
+                ["Medium Laser", "ctr"], 
+                ["SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"],
+                ["LRM-20", "lt"],
+                ["SRM-6", "rt"]
+            ]
+        },
+
+        "AS7-K":
+        {
+            "cost": 22576000,
+            "armor": 304,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Gauss Rifle", "rt"],
+                ["LRM-20", "lt"],
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["Medium Pulse Laser", "ctr"], 
+                ["Medium Pulse Laser", "ctr"], 
+                ["Anti-Missile", "la"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "rt"],
+                ["Gauss Rifle", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"],
+                ["Anti-Missile", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "Marauder II":
+    {
+        "unit_sprite": "walker1_5",
+        "unit_model": "marauder",
+        "tons": 100,
+        "internal": 152,
+            
+        "MAD-5A":
+        {
+            "cost": 22544000,
+            "armor": 304,
+            "heat_sinks": 29,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["ER PPC", "ra"],
+                ["ER PPC", "la"],
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["LB 10-X", "rt"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    },
+
+    "Imp":
+    {
+        "unit_sprite": "light3_1",
+        "unit_model": "no_model",
+        "tons": 100,
+        "internal": 152,
+            
+        "IMP-3E":
+        {
+            "cost": 22330000,
+            "armor": 288,
+            "heat_sinks": 30,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["ER PPC", "rt"],
+                ["ER PPC", "lt"],
+                ["LRM-15", "ra"],
+                ["Large Pulse Laser", "la"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "lt"],
+                ["LRM-15", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    },
+
+    "King Crab":
+    {
+        "unit_sprite": "walker1_3",
+        "unit_model": "kingcrab",
+        "tons": 100,
+        "internal": 152,
+            
+        "KGC-000":
+        {
+            "cost": 10122000,
+            "armor": 272,
+            "heat_sinks": 15,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/20", "ra"],
+                ["Autocannon/20", "la"],
+                ["Large Laser", "rt"],
+                ["LRM-15", "lt"]                
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "lt"],
+                ["LRM-15", "lt"]
+            ]
+        }       
+    },
+
+    "Drone":
+    {
+        "unit_sprite": "light3_4",
+        "unit_model": "wasp",
+        "tons": -1,
+        "internal": 33,
+        
+        "DRN-1T":
+        {
+            "armor": 48,
+            "heat_sinks": 10,
+
+            "speed": 2,
+            "jump": 2,
+
+            "weapons":
+            [
+                ["Small Laser", "ra"]
+            ]
+        }
+    },
+
+    "Debug":
+    {
+        "unit_sprite": "assault3_1",
+        "unit_model": "atlas",
+        "tons": -1,
+        "internal": 152,
+            
+        "AS7-D":
+        {
+            "cost": 0,
+            
+            "armor": 304,
+            "heat_sinks": 100,
+
+            "speed": 12,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Gauss Rifle", "la"],
+                ["Gauss Rifle", "la"],
+                ["Gauss Rifle", "la"],
+                ["Gauss Rifle", "la"],
+                ["cGauss Rifle", "la"],
+                ["cGauss Rifle", "la"],
+                ["cGauss Rifle", "la"],
+                ["cGauss Rifle", "la"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "la"],
+                ["cGauss Rifle", "la"]
+            ],
+
+            "Xweapons":
+            [
+                ["PPC", "la"],
+                ["PPC", "la"],
+                ["PPC", "la"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"]
+            ],
+            "Xammo":
+            [
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"]
+            ],
+            "XXweapons":
+            [
+                ["Anti-Missile", "la"]
+            ],
+            "XXammo":
+            [
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"]
+            ]
+        }       
+    }
+}
