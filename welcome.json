@@ -1,0 +1,39 @@
+{
+    "first_trigger": "welcome_prompt",
+
+    "triggers":
+    {
+		"welcome_prompt":
+		{
+			"type": "prompt",
+			"size": 800,
+
+			"actn": "remove_trigger",
+			"args": "welcome_prompt",
+
+			"texts":
+			[
+				{
+					"title": "BattleMercs Alpha Build (May 2022)"
+				},
+
+				{
+					"text": "\nWelcome to BattleMercs! A new tactical-based mech game that is currently in development. This demo is dummied up to look like the Crescent Hawks Inception and Revenge, as an homage to two of my favorite games and two games that are inspiring this project.\n\nIf you like this demo you can contact me via retroactiongames@gmail.com if you think you can help\n\nFor now though, and enjoy the demo!"
+				}
+			],
+
+			"options":
+			[
+				{
+					"text": "OK",
+					"actns":
+					[
+						{
+							"actn": "close_prompt"
+						}
+					]
+				}
+			]
+		}
+    }
+}

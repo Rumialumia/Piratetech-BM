@@ -1,0 +1,743 @@
+{
+    "first_trigger": "welcome_prompt",
+
+    "triggers":
+    {
+		"welcome_prompt":
+		{
+			"type": "prompt",
+			"size": [1280,720],
+
+			"actns":
+			[
+				{
+					"actn": "remove_trigger",
+					"args": "welcome_prompt"
+				},
+				
+				{
+					"actn": "trigger",
+					"args": "choose_era"
+				}				
+			],
+
+			"frames":
+			[
+				{
+					"size": [1280, 720],
+
+					"image": "images/CHR/JUMPSHIP.bmp"
+				}
+			]
+		},
+
+		"choose_era":
+		{
+			"esc_enabled": false,
+
+			"type": "sub_prompt",
+			"size": 500,
+
+			"title": "Starting Era",
+
+			"options":
+			[
+				{
+					"text": "3025",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3025
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+
+				{
+					"text": "3030",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3030
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+
+				{
+					"text": "3039",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3039
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+
+				{
+					"text": "3049",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3049
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+
+				{
+					"text": "3050",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3050
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				}
+			]
+		},
+
+		"choose_mechs":
+		{
+			"esc_enabled": false,
+
+			"type": "sub_prompt",
+			"size": 500,
+
+			"title": "Starting Merc Unit",
+
+			"options":
+			[
+				{
+					"text": "Established (Easy)",
+					"actns":
+					[
+						{
+							"actn": "var",
+							"args": "money += 3000000"
+						},
+
+						{
+							"actn": "add_player_unit",
+							"args": 
+							{
+								"min_ton": 30,
+								"max_ton": 45,
+								"num_units": 1,
+								"faction": "{starting_faction}"
+							}
+						},
+
+						{
+							"actn": "add_player_unit",
+							"args": 
+							{
+								"min_ton": 50,
+								"max_ton": 70,
+								"num_units": 3,
+								"faction": "{starting_faction}"
+							}
+						},
+
+						{
+							"actn": "add_to_list",
+							"args": 
+							{
+								"list": "player_crew",
+								"type": "crew",
+								"skill_level": ["regular", "elite"]
+							}
+						},
+
+						{
+							"actn": "add_to_list",
+							"args": 
+							{
+								"list": "player_crew",
+								"type": "crew",
+								"skill_level": ["regular", "elite"]
+							}
+						},
+
+						{
+							"actn": "add_to_list",
+							"args": 
+							{
+								"list": "player_crew",
+								"type": "crew",
+								"skill_level": ["regular", "elite"]
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "launch_career"
+						}
+					]
+				},
+
+				{
+					"text": "Regular (Normal)",
+					"actns":
+					[
+						{
+							"actn": "var",
+							"args": "money += 2000000"
+						},
+
+						{
+							"actn": "add_player_unit",
+							"args": 
+							{
+								"min_ton": 20,
+								"max_ton": 35,
+								"num_units": 1,
+								"faction": "{starting_faction}"
+							}
+						},
+
+						{
+							"actn": "add_player_unit",
+							"args": 
+							{
+								"min_ton": 40,
+								"max_ton": 50,
+								"num_units": 2,
+								"faction": "{starting_faction}"
+							}
+						},
+
+						{
+							"actn": "add_player_unit",
+							"args": 
+							{
+								"min_ton": 55,
+								"max_ton": 65,
+								"num_units": 1,
+								"faction": "{starting_faction}"
+							}
+						},
+
+						{
+							"actn": "add_to_list",
+							"args": 
+							{
+								"list": "player_crew",
+								"type": "crew",
+								"skill_level": ["green", "regular"]
+							}
+						},
+
+						{
+							"actn": "add_to_list",
+							"args": 
+							{
+								"list": "player_crew",
+								"type": "crew",
+								"skill_level": ["green", "regular"]
+							}
+						},
+
+						{
+							"actn": "add_to_list",
+							"args": 
+							{
+								"list": "player_crew",
+								"type": "crew",
+								"skill_level": ["regular", "elite"]
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "launch_career"
+						}
+					]
+				},
+
+				{
+					"text": "Small (Hard)",
+					"actns":
+					[
+						{
+							"actn": "var",
+							"args": "money += 1000000"
+						},
+
+						{
+							"actn": "add_player_unit",
+							"args": 
+							{
+								"min_ton": 20,
+								"max_ton": 35,
+								"num_units": 2,
+								"faction": "{starting_faction}"
+							}
+						},
+
+						{
+							"actn": "add_player_unit",
+							"args": 
+							{
+								"min_ton": 40,
+								"max_ton": 45,
+								"num_units": 1,
+								"faction": "{starting_faction}"
+							}
+						},
+
+						{
+							"actn": "add_to_list",
+							"args": 
+							{
+								"list": "player_crew",
+								"type": "crew",
+								"skill_level": ["green", "regular"]
+							}
+						},
+
+						{
+							"actn": "add_to_list",
+							"args": 
+							{
+								"list": "player_crew",
+								"type": "crew",
+								"skill_level": ["green", "regular"]
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "launch_career"
+						}
+					]
+				}
+			]
+		},
+
+		"choose_house":
+		{
+			"esc_enabled": false,
+
+			"type": "sub_prompt",
+			"size": 500,
+
+			"title": "Choose Your Starting House",
+
+			"options":
+			[
+				{
+					"text": "Steiner",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Timbuktu"
+						},
+
+						{
+							"actn": "var",
+							"args": "reputation:steiner = 70"
+						},
+
+						{
+							"actn": "var",
+							"args": "starting_faction = 'steiner"
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_mechs"
+						}
+					]
+				},
+
+				{
+					"text": "Davion",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Baxley"
+						},
+
+						{
+							"actn": "var",
+							"args": "reputation:davion = 70"
+						},
+
+						{
+							"actn": "var",
+							"args": "starting_faction = 'davion"
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_mechs"
+						}
+					]
+				},
+
+				{
+					"text": "Kurita",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Land's End"
+						},
+
+						{
+							"actn": "var",
+							"args": "reputation:kurita = 70"
+						},
+
+						{
+							"actn": "var",
+							"args": "starting_faction = 'kurita"
+						},						
+
+						{
+							"actn": "trigger",
+							"args": "choose_mechs"
+						}
+					]
+				},
+
+				{
+					"text": "Liao",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Zanzibar"
+						},
+
+						{
+							"actn": "var",
+							"args": "reputation:liao = 70"
+						},
+
+						{
+							"actn": "var",
+							"args": "starting_faction = 'liao"
+						},						
+
+						{
+							"actn": "trigger",
+							"args": "choose_mechs"
+						}
+					]
+				},
+
+				{
+					"text": "Marik",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Lesnovo"
+						},
+
+						{
+							"actn": "var",
+							"args": "reputation:marik = 70"
+						},
+
+						{
+							"actn": "var",
+							"args": "starting_faction = 'marik"
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_mechs"
+						}
+					]
+				},
+
+				{
+					"text": "No Affiliation",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Outreach"
+						},
+
+						{
+							"actn": "var",
+							"args": "starting_faction = 'any"
+						},					
+
+						{
+							"actn": "trigger",
+							"args": "choose_mechs"
+						}
+					]
+				}
+			]
+		},
+
+		"launch_career":
+		{
+			"actns":
+			[
+				{
+					"if": "starting_faction == 'steiner",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Timbuktu"
+						},
+
+						{
+							"actn": "var",
+							"args": "reputation:steiner = 70"
+						},
+
+						{
+							"actn": "new_rpg",
+							"args":
+							{
+								"map": "maps/planets/small_desert_am.tmx",
+                				"script": "maps/planets/poor_planet_rpg.json",
+                                "mods":
+                                [
+                                    "welcome.json"
+                                ]
+							}
+						}
+					]
+				},
+
+				{
+					"if": "starting_faction == 'davion",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Baxley"
+						},
+
+						{
+							"actn": "var",
+							"args": "reputation:davion = 70"
+						},
+
+						{
+							"actn": "new_rpg",
+							"args":
+							{
+								"map": "maps/planets/small_desert.tmx",
+                				"script": "maps/planets/poor_planet_rpg.json",
+                                "mods":
+                                [
+                                    "welcome.json"
+                                ]
+							}
+						}
+					]
+				},
+
+				{
+					"if": "starting_faction == 'kurita",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Land's End"
+						},
+
+						{
+							"actn": "var",
+							"args": "reputation:kurita = 70"
+						},
+
+						{
+							"actn": "var",
+							"args": "starting_faction = 'kurita"
+						},						
+
+						{
+							"actn": "new_rpg",
+							"args":
+							{
+								"map": "maps/planets/small_arctic.tmx",
+                				"script": "maps/planets/poor_planet_rpg.json",
+                                "mods":
+                                [
+                                    "welcome.json"
+                                ]
+							}
+						}
+					]
+				},
+
+				{
+					"if": "starting_faction == 'liao",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Zanzibar"
+						},
+
+						{
+							"actn": "var",
+							"args": "reputation:liao = 70"
+						},
+
+						{
+							"actn": "var",
+							"args": "starting_faction = 'liao"
+						},						
+
+						{
+							"actn": "new_rpg",
+							"args":
+							{
+								"map": "maps/planets/small_desert_m.tmx",
+                				"script": "maps/planets/poor_planet_rpg.json",
+                                "mods":
+                                [
+                                    "welcome.json"
+                                ]
+							}
+						}
+					]
+				},
+
+				{
+					"if": "starting_faction == 'marik",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Lesnovo"
+						},
+
+						{
+							"actn": "var",
+							"args": "reputation:marik = 70"
+						},
+
+						{
+							"actn": "var",
+							"args": "starting_faction = 'marik"
+						},
+
+						{
+							"actn": "new_rpg",
+							"args":
+							{
+								"map": "maps/planets/small_desert.tmx",
+								"script": "maps/planets/poor_planet_rpg.json",
+                                "mods":
+                                [
+                                    "welcome.json"
+                                ]
+							}
+						}
+					]
+				},
+
+				{
+					"if": "starting_faction == 'merc",
+					"actns":
+					[
+						{
+							"actn": "set_planet",
+							"args": "Outreach"
+						},
+
+						{
+							"actn": "new_rpg",
+							"args":
+							{
+								"map": "maps/planets/outreach.tmx",
+								"script": "maps/planets/capital_planet_rpg.json",
+                                "mods":
+                                [
+                                    "welcome.json"
+                                ]
+							}
+						}
+					]
+				},
+
+				{
+					"actn": "close_prompt"
+				}
+			]
+		}
+    }
+}
