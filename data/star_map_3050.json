@@ -1,6 +1,6 @@
 {
     "name": "Inner Sphere",
-    "back_img": "images/IS3025.png",
+    "back_img": "images/IS3050.png",
 
     "misc":
     {
@@ -18,63 +18,86 @@
         ]
     },
 
-    "available_units": 
+    "available_units":
     [
-        "Locust",
-        "Wasp",
-        "Stinger",
-        "Commando",
-        "Javelin",
-        "Spider",
-        "Urbanmech",
-        "Valkyrie",
-        "Firestarter",
-        "Jenner",
-        "Ostscout",
-        "Panther",
-        "Assassin",
-        "Cicada",
-        "Clint",
-        "Hermes II",
-        "Vulcan",
-        "Whitworth",
-        "Blackjack",
-        "Hatchetman",
-        "Phoenix Hawk",
-        "Vindicator",
-        "Centurion",
-        "Enforcer",
-        "Hunchback",
-        "Trebuchet",
-        "Dervish",
-        "Griffin",
-        "Shadow Hawk",
-        "Scorpion",
-        "Wolverine",
-        "Dragon",
-        "Ostroc",
-        "Ostsol",
-        "Quickdraw",
-        "Rifleman",
-        "Catapult",
-        "Crusader",
-        "Jagermech",
-        "Thunderbolt",
-        "Archer",
-        "Grasshopper",
-        "Warhammer",
-        "Marauder",
-        "Orion",
-        "Awesome",
-        "Charger",
-        "Goliath",
-        "Victor",
-        "Zeus",
-        "Battlemaster",
-        "Stalker",
-        "Cyclops",
-        "Banshee",
-        "Atlas"
+        "Flea",
+        "Hornet",
+        "Locust/LCT-3M",
+        "Mercury",
+        "Stinger/STG-5M",
+        "Wasp/WSP-3M",
+        "Commando/COM-5S",
+        "Falcon",
+        "Firefly",
+        "Hermes/HER-3S",
+        "Javelin/JVN-10P",
+        "Spider/SDR-7M",
+        "Urbanmech/UM-R63",
+        "Valkyrie/VLK-QD",
+        "Firestarter/FS9-S",
+        "Jenner/JR7-K",
+        "Panther/PNT-10K",
+        "Raven",
+        "Wolfhound",
+        "Assassin/ASN-23",
+        "Cicada/CDA-3M",
+        "Clint/CLNT-2-3U",
+        "Hermes II/HER-5S",
+        "Sentinel/STN-3M",
+        "Vulcan/VL-5M",
+        "Whitworth/WTH-2",
+        "Blackjack/BJ-2",
+        "Hatchetman/HCT-5S",
+        "Phoenix Hawk/PXH-3M",
+        "Vindicator/VND-3L",
+        "Wolf Trap",
+        "Centurion/CN9-D",
+        "Crab/CRB-27",
+        "Enforcer/ENF-5D",
+        "Hunchback/HBK-5M",
+        "Trebuchet/TBT-7M",
+        "Dervish/DV-7D",
+        "Griffin/GRF-3M",
+        "Hoplite",
+        "Shadow Hawk/SHD-5M",
+        "Scorpion/SCP-10",
+        "Kintaro",
+        "Wolverine/WVR-7D",
+        "Grand Dragon",
+        "Ostroc/OSR-2D",
+        "Ostsol/OTL-5M",
+        "Quickdraw/QKD-5M",
+        "Rifleman/RFL-5M",
+        "Axman",
+        "Catapult/CPLT-C4C",
+        "Crusader/CRD-5M",
+        "Jagermech/JM6-DD",
+        "Thunderbolt/TDR-7M",
+        "Archer/ARC-4M",
+        "Caesar",
+        "Cataphract",
+        "Grasshopper/GHR-5J",
+        "Guillotine/GLT-5M",
+        "Warhammer/WHM-7M",
+        "Marauder/MAD-5D",
+        "Orion/ON1-M",
+        "Awesome/AWS-9M",
+        "Charger/CGR-3K",
+        "Goliath/GOL-3M",
+        "Hatamoto-Chi",
+        "Victor/VTR-9K",
+        "Zeus/ZEU-9S",
+        "Battlemaster/BLR-3M",
+        "Katana",
+        "Shogun",
+        "Stalker/STK-5M",
+        "Cyclops/CP-11A",
+        "Mauler",
+        "Banshee/BNC-5S",
+        "Annihilator",
+        "Atlas/AS7-K",
+        "Imp",
+        "Marauder II"
     ],
 
     "available_tech":
@@ -109,7 +132,23 @@
         "Parti-Kill PPC",
         "Rand PPC",
         "Stolz Harbringer PPC",
-        "Tiegart PPC"
+        "Tiegart PPC",
+        "ER PPC",
+        "ER Large Laser",
+        "ER Medium Laser",
+        "ER Small Laser",
+        "Large Pulse Laser",
+        "Medium Pulse Laser",
+        "Small Pulse Laser",
+        "Gauss Rifle",
+        "Ultra AC/2",
+        "Ultra AC/5",
+        "Ultra AC/10",
+        "Ultra AC/20",
+        "LB 10-X",
+        "Streak SRM-2",
+        "Streak SRM-4",
+        "Streak SRM-6"
     ],
 
     "contract_templates":
@@ -366,12 +405,48 @@
 
             "files":
             [
-                "scripts/contracts/defense_light_1wave.json",
-                "scripts/contracts/defense_light_2wave.json",
+                "scripts/contracts/deathmatch_heavy_1group.json",
+                "scripts/contracts/deathmatch_heavy_1group_wrecon.json",
+                "scripts/contracts/deathmatch_heavy_2groups.json",
+                
+                "scripts/contracts/deathmatch_medium_2groups.json",
+                "scripts/contracts/deathmatch_medium_2groups_wrecon.json",
+                "scripts/contracts/deathmatch_medium_3groups.json",
 
-                "scripts/contracts/deathmatch_light_1group.json",
-                "scripts/contracts/deathmatch_light_2groups.json",
-                "scripts/contracts/deathmatch_medium_1group.json"                
+                "scripts/contracts/defense_heavy_1wave.json",
+                "scripts/contracts/defense_heavy_2wave.json",
+                "scripts/contracts/defense_heavy_3wave.json",
+                "scripts/contracts/defense_assault_1wave.json",
+
+                "scripts/contracts/assault_medium_1group_2patrol.json",
+                "scripts/contracts/assault_heavy_1group_1patrol.json",
+                "scripts/contracts/assault_assault_1group.json",
+
+                "scripts/contracts/intercept_medium_2group.json",
+                "scripts/contracts/intercept_heavy_1group.json",
+                
+                "scripts/contracts/deathmatch_assault_1group.json",
+                "scripts/contracts/deathmatch_assault_1group_wrecon.json",
+                
+                "scripts/contracts/deathmatch_assault_2groups.json",
+                
+                "scripts/contracts/deathmatch_heavy_2groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups_wrecon.json",
+
+                "scripts/contracts/defense_heavy_2wave.json",
+                "scripts/contracts/defense_heavy_3wave.json",
+                "scripts/contracts/defense_assault_1wave.json",
+                "scripts/contracts/defense_assault_2wave.json",
+
+                "scripts/contracts/assault_heavy_1group_1patrol.json",
+                "scripts/contracts/assault_heavy_1group_2patrol.json",
+                "scripts/contracts/assault_assault_1group_1patrol.json",
+
+                "scripts/contracts/intercept_medium_3group.json",
+                "scripts/contracts/intercept_heavy_2group.json",
+                "scripts/contracts/intercept_heavy_3group.json",
+                "scripts/contracts/intercept_assault_1group.json"
             ]                
         }
     },
@@ -385,7 +460,7 @@
             "logo": "images/houses/logo_comstar.png",
 
             "friends": [],
-            "enemies": [],
+            "enemies": ["clan"],
 
             "available_units":
             [
@@ -435,6 +510,408 @@
                 "Masakari",
                 "Gladiator",
                 "Daishi"
+            ]
+        },
+
+        "clan_garrison":
+        {
+            "house": "Clan Garrison",
+            "nation": "Second Line Clan Units",
+            "logo": "images/houses/logo_comstar.png",
+
+            "friends": [],
+            "enemies": ["kurita", "frr", "steiner"],
+
+            "prevalent_units":
+            [
+                "Locust IIC",
+                "Jenner IIC",
+                "Griffin IIC",
+                "Phoenix Hawk IIC",
+                "Shadow Hawk IIC",
+                "Hunchback IIC",
+                "Orion IIC",
+                "Marauder IIC",
+                "Warhammer IIC",
+                "Highlander IIC"
+            ],
+
+            "swap_colors":
+            [
+                [16,16,16],
+                [80,80,80],
+                [100,160,160],
+                [0,0,0],
+
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
+        "clan":
+        {
+            "house": "Clan",
+            "nation": "Clan",
+            "logo": "images/houses/logo_comstar.png",
+
+            "friends": [],
+            "enemies": ["kurita", "frr", "steiner"],
+
+            "available_units":
+            [
+                "Dasher",
+                "Locust IIC",
+                "Koshi",
+                "Uller",
+                "Jenner IIC",
+                "Puma",
+                "Dragonfly",
+                "Griffin IIC",
+                "Fenris",
+                "Black Hawk",
+                "Phoenix Hawk IIC",
+                "Shadow Hawk IIC",
+                "Hunchback IIC",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Orion IIC",
+                "Mad Cat",
+                "Man O' War",
+                "Marauder IIC",
+                "Warhammer IIC",
+                "Masakari",
+                "Highlander IIC",
+                "Gladiator",
+                "Daishi"
+            ],
+
+            "prevalent_units":
+            [
+                "Dasher",
+                "Koshi",
+                "Uller",
+                "Puma",
+                "Dragonfly",
+                "Fenris",
+                "Black Hawk",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Mad Cat",
+                "Man O' War",
+                "Masakari",
+                "Gladiator",
+                "Daishi"
+            ],
+
+            "swap_colors":
+            [
+                [16,16,16],
+                [80,80,80],
+                [100,160,160],
+                [0,0,0],
+
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
+        "ghostbear":
+        {
+            "house": "Clan Ghost Bear",
+            "nation": "Clan Ghost Bear",
+            "logo": "images/houses/logo_comstar.png",
+
+            "friends": [],
+            "enemies": ["kurita", "frr"],
+
+            "available_units":
+            [
+                "Dasher",
+                "Locust IIC",
+                "Koshi",
+                "Uller",
+                "Jenner IIC",
+                "Puma",
+                "Dragonfly",
+                "Griffin IIC",
+                "Fenris",
+                "Black Hawk",
+                "Phoenix Hawk IIC",
+                "Shadow Hawk IIC",
+                "Hunchback IIC",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Orion IIC",
+                "Mad Cat",
+                "Man O' War",
+                "Marauder IIC",
+                "Warhammer IIC",
+                "Masakari",
+                "Highlander IIC",
+                "Gladiator",
+                "Daishi"
+            ],
+
+            "prevalent_units":
+            [
+                "Dasher",
+                "Koshi",
+                "Uller",
+                "Puma",
+                "Dragonfly",
+                "Fenris",
+                "Black Hawk",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Mad Cat",
+                "Man O' War",
+                "Masakari",
+                "Gladiator",
+                "Daishi"
+            ],
+
+            "swap_colors":
+            [
+                [16,16,16],
+                [80,80,80],
+                [100,160,160],
+                [0,0,0],
+
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
+        "smokejag":
+        {
+            "house": "Clan Smoke Jaguar",
+            "nation": "Clan Smoke Jaguar",
+            "logo": "images/houses/logo_comstar.png",
+
+            "friends": [],
+            "enemies": ["kurita", "frr"],
+
+            "available_units":
+            [
+                "Dasher",
+                "Locust IIC",
+                "Koshi",
+                "Uller",
+                "Jenner IIC",
+                "Puma",
+                "Dragonfly",
+                "Griffin IIC",
+                "Fenris",
+                "Black Hawk",
+                "Phoenix Hawk IIC",
+                "Shadow Hawk IIC",
+                "Hunchback IIC",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Orion IIC",
+                "Mad Cat",
+                "Man O' War",
+                "Marauder IIC",
+                "Warhammer IIC",
+                "Masakari",
+                "Highlander IIC",
+                "Gladiator",
+                "Daishi"
+            ],
+
+            "prevalent_units":
+            [
+                "Dasher",
+                "Koshi",
+                "Uller",
+                "Puma",
+                "Dragonfly",
+                "Fenris",
+                "Black Hawk",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Mad Cat",
+                "Man O' War",
+                "Masakari",
+                "Gladiator",
+                "Daishi"
+            ],
+
+            "swap_colors":
+            [
+                [16,16,16],
+                [80,80,80],
+                [100,160,160],
+                [0,0,0],
+
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
+        "jadefalcon":
+        {
+            "house": "Clan Jade Falcon",
+            "nation": "Clan Jade Faclon",
+            "logo": "images/houses/logo_comstar.png",
+
+            "friends": [],
+            "enemies": ["clanwolf", "steiner"],
+
+            "available_units":
+            [
+                "Dasher",
+                "Locust IIC",
+                "Koshi",
+                "Uller",
+                "Jenner IIC",
+                "Puma",
+                "Dragonfly",
+                "Griffin IIC",
+                "Fenris",
+                "Black Hawk",
+                "Phoenix Hawk IIC",
+                "Shadow Hawk IIC",
+                "Hunchback IIC",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Orion IIC",
+                "Mad Cat",
+                "Man O' War",
+                "Marauder IIC",
+                "Warhammer IIC",
+                "Masakari",
+                "Highlander IIC",
+                "Gladiator",
+                "Daishi"
+            ],
+
+            "prevalent_units":
+            [
+                "Dasher",
+                "Koshi",
+                "Uller",
+                "Puma",
+                "Dragonfly",
+                "Fenris",
+                "Black Hawk",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Mad Cat",
+                "Man O' War",
+                "Masakari",
+                "Gladiator",
+                "Daishi"
+            ],
+
+            "swap_colors":
+            [
+                [16,16,16],
+                [80,80,80],
+                [100,160,160],
+                [0,0,0],
+
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
+        "clanwolf":
+        {
+            "house": "Clan Wolf",
+            "nation": "Clan Wolf",
+            "logo": "images/houses/logo_comstar.png",
+
+            "friends": [],
+            "enemies": ["jadefalcon", "frr", "steiner"],
+
+            "available_units":
+            [
+                "Dasher",
+                "Locust IIC",
+                "Koshi",
+                "Uller",
+                "Jenner IIC",
+                "Puma",
+                "Dragonfly",
+                "Griffin IIC",
+                "Fenris",
+                "Black Hawk",
+                "Phoenix Hawk IIC",
+                "Shadow Hawk IIC",
+                "Hunchback IIC",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Orion IIC",
+                "Mad Cat",
+                "Man O' War",
+                "Marauder IIC",
+                "Warhammer IIC",
+                "Masakari",
+                "Highlander IIC",
+                "Gladiator",
+                "Daishi"
+            ],
+
+            "prevalent_units":
+            [
+                "Dasher",
+                "Koshi",
+                "Uller",
+                "Puma",
+                "Dragonfly",
+                "Fenris",
+                "Black Hawk",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Mad Cat",
+                "Man O' War",
+                "Masakari",
+                "Gladiator",
+                "Daishi"
+            ],
+
+            "swap_colors":
+            [
+                [16,16,16],
+                [80,80,80],
+                [100,160,160],
+                [0,0,0],
+
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
             ]
         },
 
@@ -495,25 +972,27 @@
             "nation": "Lyran Commonwealth",
             "logo": "images/houses/logo_steiner.png",
 
-            "friends": ["davion"],
-            "enemies": ["kurita", "liao", "marik"],
+            "friends": ["davion", "st_ives"],
+            "enemies": ["clanwolf", "jadefalcon", "clan_garrison", "bandits", "pirates", "rebels"],
 
             "prevalent_units": 
             [
-                "Locust",
-                "Stinger",
-                "Wasp",
-                "Commando", 
-                "Firestarter", 
-                "Phoenix Hawk",
-                "Griffin",
-                "Crusader", 
-                "Warhammer",
-                "Archer", 
-                "Zeus",
-                "Banshee", 
-                "Stalker",
-                "Atlas"
+                "Locust/LCT-3M",
+                "Stinger/STG-5M",
+                "Wasp/WSP-3M",
+                "Commando/COM-5S", 
+                "Firestarter/FS9-S",
+                "Wolfhound", 
+                "Phoenix Hawk/PXH-3M",
+                "Griffin/GRF-3M",
+                "Axman",
+                "Crusader/CRD-5M", 
+                "Warhammer/WHM-7M",
+                "Archer/ARC-4M", 
+                "Zeus/ZEU-9S",
+                "Banshee/BNC-5S", 
+                "Stalker/STK-5M",
+                "Atlas/AS7-K"
             ],
 
             "start_rep": 50,
@@ -547,19 +1026,21 @@
             "nation": "Federated Suns",
             "logo": "images/houses/logo_davion.png",
 
-            "friends": ["steiner"],
-            "enemies": ["kurita", "liao", "marik"],
+            "friends": ["steiner", "st_ives"],
+            "enemies": ["clanwolf", "jadefalcon", "clan_garrison", "bandits", "pirates", "rebels"],
 
             "prevalent_units":
             [
-                "Wasp",
-                "Valkyrie",
-                "Enforcer",
-                "Centurion",
-                "Blackjack",
-                "Jagermech",
-                "Rifleman",
-                "Victor"
+                "Wasp/WSP-3M",
+                "Valkyrie/VLK-QD",
+                "Enforcer/ENF-5D",
+                "Centurion/CN9-D",
+                "Blackjack/BJ-2",
+                "Jagermech/JM6-DD",
+                "Rifleman/RFL-5M",
+                "Axman",
+                "Cataphract",
+                "Victor/VTR-9K"
             ],
 
             "start_rep": 50,
@@ -587,26 +1068,103 @@
             ]
         },
 
+        "frr":
+        {
+            "house": "Rasalhague",
+            "nation": "Free Rasalhague Republic",
+            "logo": "images/houses/logo_kurita.png",
+
+            "friends": [],
+            "enemies": ["clanwolf", "ghostbear", "smokejag", "clan_garrison", "clan_garrison", "clan_garrison"],
+
+            "start_rep": 50,
+
+            "adv_pay": 0,
+            "tot_pay": 1.5,
+
+            "salv_picks": 1.0,
+            "salv_total": 1.0,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+
+            "swap_colors":
+            [
+                [64,0,0],
+                [160,16,16],
+                [208,80,80],
+                [240,100,100],
+
+                [0,0,170],
+                [85,85,255],
+                [85,255,255],
+                [0,160,128]
+            ]
+        },
+
+        "st_ives":
+        {
+            "house": "Allard-Liao",
+            "nation": "St. Ives Compact",
+            "logo": "images/houses/logo_liao.png",
+
+            "friends": ["davion", "steiner"],
+            "enemies": ["bandits", "pirates", "rebels"],
+
+            "start_rep": 50,
+
+            "adv_pay": 0.5,
+            "tot_pay": 0.75,
+
+            "salv_picks": 1.5,
+            "salv_total": 1.5,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+
+            "swap_colors":
+            [
+                [0,64,0],
+                [8,80,8],
+                [16,160,16],
+                [80,208,80],
+                
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
         "kurita":
         {
             "house": "Kurita",
             "nation": "Draconis Combine",
             "logo": "images/houses/logo_kurita.png",
 
-            "friends": [],
-            "enemies": ["steiner", "davion"],
+            "friends": ["liao", "marik"],
+            "enemies": ["smokejag", "ghostbear", "bandits", "pirates", "rebels", "clan_garrison"],
 
             "prevalent_units": 
             [
-                "Locust",
-                "Wasp",
-                "Jenner",
-                "Panther",
-                "Hunchback",
-                "Archer",
-                "Dragon",
-                "Grasshopper",
-                "Charger"
+                "Locust/LCT-3M",
+                "Wasp/WSP-3M",
+                "Jenner/JR7-K",
+                "Panther/PNT-10K",
+                "Wolf Trap",
+                "Crab/CRB-27",
+                "Kintaro",
+                "Hunchback/HBK-5M",
+                "Archer/ARC-4M",
+                "Grand Dragon",
+                "Katana",
+                "Shogun",
+                "Hatamoto-Chi",
+                "Grasshopper/GHR-5J",
+                "Charger/CGR-3K",
+                "Mauler"
             ],
 
             "start_rep": 40,
@@ -641,18 +1199,19 @@
             "nation": "Capellan Confederation",
             "logo": "images/houses/logo_liao.png",
 
-            "friends": [],
-            "enemies": ["steiner", "davion", "marik"],
+            "friends": ["marik", "kurita"],
+            "enemies": ["davion", "steiner", "bandits", "pirates", "rebels"],
 
             "prevalent_units":
             [
-                "Wasp",
-                "Phoenix Hawk",
-                "Vindicator",
-                "Jagermech",
-                "Crusader",
-                "Catapult",
-                "Cyclops"
+                "Wasp/WSP-3M",
+                "Raven",
+                "Phoenix Hawk/PXH-3M",
+                "Vindicator/VND-3L",
+                "Jagermech/JM6-DD",
+                "Crusader/CRD-5M",
+                "Catapult/CPLT-C4C",
+                "Cyclops/CP-11A"
             ],
 
             "start_rep": 33,
@@ -687,25 +1246,25 @@
             "nation": "Free Worlds League",
             "logo": "images/houses/logo_marik.png",
 
-            "friends": [],
-            "enemies": ["steiner", "davion", "liao"],
+            "friends": ["liao", "kurita"],
+            "enemies": ["bandits", "pirates", "rebels"],
 
             "prevalent_units":
             [
-                "Locust",
-                "Stinger",
-                "Wasp",
-                "Hermes II",
-                "Shadow Hawk",
-                "Hunchback",
-                "Crusader",
-                "Thunderbolt",
-                "Warhammer",
-                "Wolverine",
-                "Trebuchet",
-                "Archer",
-                "Orion",
-                "Awesome"
+                "Locust/LCT-3M",
+                "Stinger/STG-5M",
+                "Wasp/WSP-3M",
+                "Hermes II/HER-5S",
+                "Shadow Hawk/SHD-5M",
+                "Hunchback/HBK-5M",
+                "Crusader/CRD-5M",
+                "Thunderbolt/TDR-7M",
+                "Warhammer/WHM-7M",
+                "Wolverine/WVR-7D",
+                "Trebuchet/TBT-7M",
+                "Archer/ARC-4M",
+                "Orion/ON1-M",
+                "Awesome/AWS-9M"
             ],
 
             "start_rep": 50,
@@ -713,8 +1272,8 @@
             "adv_pay": 1.0,
             "tot_pay": 1.0,
 
-            "salv_picks": 1.25,
-            "salv_total": 1.25,
+            "salv_picks": 2.0,
+            "salv_total": 2.0,
 
             "max_units": 1.0,
             "max_tons": 1.0,
@@ -867,7 +1426,7 @@
         "Albiero":
         {
             "coords": [0.18,-0.55],
-            "faction": "kurita",
+            "faction": "smokejag",
             "desc": "Main headquarters for Matabushi Inc",
             "planet_icon": "images/planets/planet_terran.png",
 
@@ -953,7 +1512,7 @@
 
             "contracts":
             {
-                "template": "periphery_easy"
+                "template": "border_easy"
             },
             
             "actn": "new_rpg",
@@ -967,7 +1526,7 @@
         "Anywhere":
         {
             "coords": [-0.190657,-0.673808],
-            "faction": "steiner",
+            "faction": "jadefalcon",
             "desc": "A real nowhere unless you're a pirate",
             "planet_icon": "images/planets/planet_tundra.png",
 
@@ -1027,7 +1586,7 @@
         "Ares":
         {
             "coords": [0.124458,0.3],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Free port, also houses a Mech factory",
             "planet_icon": "images/planets/planet_desert.png",
 
@@ -1172,7 +1731,7 @@
         "Bharat":
         {
             "coords": [0.080712,0.119166],
-            "faction": "liao",
+            "faction": "trr",
             "desc": "A planetwide hunting preserve",
             "planet_icon": "images/planets/planet_gaia.png",
 
@@ -1192,7 +1751,7 @@
         "Bithinia":
         {
             "coords": [-0.012654,0.346235],
-            "faction": "liao",
+            "faction": "marik",
             "desc": "Planetwide entertainment center - steel industry",
             "planet_icon": "images/planets/planet_terran.png",
 
@@ -1218,7 +1777,7 @@
     
             "contracts":
             {
-                "template": "central_normal"
+                "template": "border_hard"
             },
             
             "actn": "new_rpg",
@@ -1296,7 +1855,7 @@
         "Carse":
         {
             "coords": [-0.008932,-0.346838],
-            "faction": "steiner",
+            "faction": "frr",
             "desc": "Center for plastic and plastisteel manufacturing",
             "planet_icon": "images/planets/planet_tundra.png",
     
@@ -1908,7 +2467,7 @@
         "Keid":
         {
             "coords": [0.029,0.098],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Many military, training and research facilities",
             "planet_icon": "images/planets/planet_terran.png",
 
@@ -1948,7 +2507,7 @@
         "Kirchbach":
         {
             "coords": [-0.036858,-0.585415],
-            "faction": "kurita",
+            "faction": "clanwolf",
             "desc": "Few resources but a temperate climate",
             "planet_icon": "images/planets/planet_terran.png",
 
@@ -1968,7 +2527,7 @@
         "Kittery":
         {
             "coords": [0.108617,0.421747],
-            "faction": "davion",
+            "faction": "st_ives",
             "desc": "Inhospitable jungle world, natives in rebellion",
             "planet_icon": "images/planets/planet_terran.png",
     
@@ -1988,7 +2547,7 @@
         "Kobe":
         {
             "coords": [-0.008012,-0.457212],
-            "faction": "steiner",
+            "faction": "clanwolf",
             "desc": "Major producer of electronics and chemical engines",
             "planet_icon": "images/planets/planet_tundra.png",
     
@@ -2316,7 +2875,7 @@
         "New Hessen":
         {
             "coords": [0.110806,0.144821],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Main recruiting and training center for House Liao",
             "planet_icon": "images/planets/planet_radiated.png",
 
@@ -2436,11 +2995,11 @@
         "Oliver":
         {
             "coords": [-0.028164,0.075],
-            "faction": "marik",
+            "faction": "steiner",
             "desc": "Much industry including a Mech plant",
             "planet_icon": "images/planets/planet_terran.png",
 
-            "employers": ["marik", "marik", "marik", "steiner", "liao", "davion", "kurita"],
+            "employers": ["marik", "steiner", "steiner", "steiner", "liao", "davion", "kurita"],
     
             "contracts":
             {
@@ -2501,7 +3060,7 @@
             "inner_size": 7,
             
             "coords": [0.03,0.13],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Home of the Wolf's Dragoons -- currently testing Clan units",
             "planet_icon": "images/planets/planet_terran.png",
 
@@ -2529,7 +3088,7 @@
 
             "contracts":
             {
-                "template": "central_normal"
+                "template": "border_hard"
             },
             
             "actn": "new_rpg",
@@ -2543,7 +3102,7 @@
         "Port Moseby":
         {
             "coords": [0.004025,-0.205969],
-            "faction": "steiner",
+            "faction": "kurita",
             "desc": "Major trading center - anything for a price",
             "planet_icon": "images/planets/planet_radiated.png",
     
@@ -2583,7 +3142,7 @@
         "Proserpina":
         {
             "coords": [0.199858,0.01],
-            "faction": "kurita",
+            "faction": "davion",
             "desc": "Home of the 9th Benjamin Regulars",
             "planet_icon": "images/planets/planet_cavernous.png",
     
@@ -2645,7 +3204,7 @@
         "Raballa":
         {
             "coords": [0.036051,0.311848],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Houses major aerospace support installation",
             "planet_icon": "images/planets/planet_terran.png",
     
@@ -2665,7 +3224,7 @@
         "Radstadt":
         {
             "coords": [0.059642,-0.475607],
-            "faction": "kurita",
+            "faction": "ghostbear",
             "desc": "One of the largest prisons of the Combine is here",
             "planet_icon": "images/planets/planet_terran.png",
     
@@ -2685,7 +3244,7 @@
         "Rasalhague":
         {
             "coords": [0.057130,-0.597012],
-            "faction": "kurita",
+            "faction": "ghostbear",
             "desc": "Large industries and plentiful resources",
             "planet_icon": "images/planets/planet_gaia.png",
     
@@ -2807,7 +3366,7 @@
         "Sevren":
         {
             "coords": [-0.05,-0.469990],
-            "faction": "steiner",
+            "faction": "clanwolf",
             "desc": "Large fission core manufacturing facilities",
             "planet_icon": "images/planets/planet_radiated.png",
 
@@ -2982,7 +3541,7 @@
         "St. Ives":
         {
             "coords": [0.14545,0.41333],
-            "faction": "liao",
+            "faction": "st_ives",
             "desc": "Major industrial and research world",
             "planet_icon": "images/planets/planet_tropical.png",
 
@@ -3002,7 +3561,7 @@
         "Styk":
         {
             "coords": [0.08,0.225],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "2nd largest trading and industrial center",
             "planet_icon": "images/planets/planet_terran.png",
 
@@ -3062,7 +3621,7 @@
         "Tamar":
         {
             "coords": [-0.008469,-0.512673],
-            "faction": "steiner",
+            "faction": "clanwolf",
             "desc": "Strong trading and manufacturing center",
             "planet_icon": "images/planets/planet_grassland.png",
     
@@ -3125,7 +3684,7 @@
         "Thestria":
         {
             "coords": [0.359019,-0.062666],
-            "faction": "kurita",
+            "faction": "davion",
             "desc": "Frozen ball known only for precious metal deposits",
             "planet_icon": "images/planets/planet_tundra.png",
     
@@ -3145,11 +3704,11 @@
         "Tikonov":
         {
             "coords": [0.13,0.12],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Earthwerks Incorporated, Ceres, Grand Union Battleworks, Harcourt Products, Lebedev Nautical Enterprises",
             "planet_icon": "images/planets/planet_grassland.png",
 
-            "employers": ["liao", "davion", "kurita", "marik"],
+            "employers": ["davion", "kurita", "marik"],
 
             "contracts":
             {
@@ -3187,7 +3746,7 @@
         "Tukayyid":
         {
             "coords": [0.007,-0.30888],
-            "faction": "kurita",
+            "faction": "frr",
             "desc": "Manufacturing center rich in minerals",
             "planet_icon": "images/planets/planet_grassland.png",
 
@@ -3287,7 +3846,7 @@
         "Warlock":
         {
             "coords": [0.154230,0.5],
-            "faction": "liao",
+            "faction": "st_ives",
             "desc": "Military research and development center",
             "planet_icon": "images/planets/planet_tundra.png",
 
@@ -3307,7 +3866,7 @@
         "Winfield":
         {
             "coords": [-0.124053,-0.622738],
-            "faction": "steiner",
+            "faction": "jadefalcon",
             "desc": "Agricultural world with long growing season",
             "planet_icon": "images/planets/planet_grassland.png",
 
@@ -3333,7 +3892,7 @@
 
             "contracts":
             {
-                "template": "central_normal"
+                "template": "border_hard"
             },
             
             "actn": "new_rpg",
