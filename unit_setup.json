@@ -43,6 +43,121 @@
 			"options":
 			[
 				{
+					"text": "2398",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 2398
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+				{
+					"text": "2412",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 2412
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+				{
+					"text": "2570",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 2570
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+				{
+					"text": "2900",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3025
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+				{
+					"text": "2780",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3025
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+				{
 					"text": "3025",
 					"actns":
 					[
@@ -65,7 +180,6 @@
 						}
 					]
 				},
-
 				{
 					"text": "3030",
 					"actns":
@@ -151,6 +265,144 @@
 									"day": 21,
 									"month": "May",
 									"year": 3050
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+				{
+					"text": "3052",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3052
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+				{
+					"text": "3062",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3062
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+				{
+					"text": "3068",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3068
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+				{
+					"text": "3081",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3081
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+				{
+					"text": "3131",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3131
+								}
+							}
+						},
+
+						{
+							"actn": "trigger",
+							"args": "choose_house"
+						}
+					]
+				},
+				{
+					"text": "3150",
+					"actns":
+					[
+						{
+							"actn": "update_game_date",
+							"args":
+							{
+								"set":
+								{
+									"day": 21,
+									"month": "May",
+									"year": 3150
 								}
 							}
 						},

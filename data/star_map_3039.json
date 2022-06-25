@@ -1,6 +1,6 @@
 {
     "name": "Inner Sphere",
-    "back_img": "images/IS3025.png",
+    "back_img": "images/IS3039.png",
 
     "misc":
     {
@@ -366,12 +366,48 @@
 
             "files":
             [
-                "scripts/contracts/defense_light_1wave.json",
-                "scripts/contracts/defense_light_2wave.json",
+                "scripts/contracts/deathmatch_heavy_1group.json",
+                "scripts/contracts/deathmatch_heavy_1group_wrecon.json",
+                "scripts/contracts/deathmatch_heavy_2groups.json",
+                
+                "scripts/contracts/deathmatch_medium_2groups.json",
+                "scripts/contracts/deathmatch_medium_2groups_wrecon.json",
+                "scripts/contracts/deathmatch_medium_3groups.json",
 
-                "scripts/contracts/deathmatch_light_1group.json",
-                "scripts/contracts/deathmatch_light_2groups.json",
-                "scripts/contracts/deathmatch_medium_1group.json"                
+                "scripts/contracts/defense_heavy_1wave.json",
+                "scripts/contracts/defense_heavy_2wave.json",
+                "scripts/contracts/defense_heavy_3wave.json",
+                "scripts/contracts/defense_assault_1wave.json",
+
+                "scripts/contracts/assault_medium_1group_2patrol.json",
+                "scripts/contracts/assault_heavy_1group_1patrol.json",
+                "scripts/contracts/assault_assault_1group.json",
+
+                "scripts/contracts/intercept_medium_2group.json",
+                "scripts/contracts/intercept_heavy_1group.json",
+                
+                "scripts/contracts/deathmatch_assault_1group.json",
+                "scripts/contracts/deathmatch_assault_1group_wrecon.json",
+                
+                "scripts/contracts/deathmatch_assault_2groups.json",
+                
+                "scripts/contracts/deathmatch_heavy_2groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups_wrecon.json",
+
+                "scripts/contracts/defense_heavy_2wave.json",
+                "scripts/contracts/defense_heavy_3wave.json",
+                "scripts/contracts/defense_assault_1wave.json",
+                "scripts/contracts/defense_assault_2wave.json",
+
+                "scripts/contracts/assault_heavy_1group_1patrol.json",
+                "scripts/contracts/assault_heavy_1group_2patrol.json",
+                "scripts/contracts/assault_assault_1group_1patrol.json",
+
+                "scripts/contracts/intercept_medium_3group.json",
+                "scripts/contracts/intercept_heavy_2group.json",
+                "scripts/contracts/intercept_heavy_3group.json",
+                "scripts/contracts/intercept_assault_1group.json"
             ]                
         }
     },
@@ -580,6 +616,76 @@
                 [255,125,0],
                 [255,191,0],
                                 
+                [0,0,170],
+                [85,85,255],
+                [85,255,255],
+                [0,160,128]
+            ]
+        },
+
+        "st_ives":
+        {
+            "house": "Allard-Liao",
+            "nation": "St. Ives Compact",
+            "logo": "images/houses/logo_liao.png",
+
+            "friends": ["davion", "steiner"],
+            "enemies": ["liao", "marik"],
+
+            "start_rep": 50,
+
+            "adv_pay": 0.5,
+            "tot_pay": 0.75,
+
+            "salv_picks": 1.5,
+            "salv_total": 1.5,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+
+            "swap_colors":
+            [
+                [0,64,0],
+                [8,80,8],
+                [16,160,16],
+                [80,208,80],
+                
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
+        "frr":
+        {
+            "house": "Rasalhague",
+            "nation": "Free Rasalhague Republic",
+            "logo": "images/houses/logo_kurita.png",
+
+            "friends": [],
+            "enemies": ["bandits", "pirates", "rebels"],
+
+            "start_rep": 50,
+
+            "adv_pay": 0,
+            "tot_pay": 1.5,
+
+            "salv_picks": 1.0,
+            "salv_total": 1.0,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+
+            "swap_colors":
+            [
+                [64,0,0],
+                [160,16,16],
+                [208,80,80],
+                [240,100,100],
+
                 [0,0,170],
                 [85,85,255],
                 [85,255,255],
@@ -1027,7 +1133,7 @@
         "Ares":
         {
             "coords": [0.124458,0.3],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Free port, also houses a Mech factory",
             "planet_icon": "images/planets/planet_desert.png",
 
@@ -1172,7 +1278,7 @@
         "Bharat":
         {
             "coords": [0.080712,0.119166],
-            "faction": "liao",
+            "faction": "trr",
             "desc": "A planetwide hunting preserve",
             "planet_icon": "images/planets/planet_gaia.png",
 
@@ -1192,7 +1298,7 @@
         "Bithinia":
         {
             "coords": [-0.012654,0.346235],
-            "faction": "liao",
+            "faction": "marik",
             "desc": "Planetwide entertainment center - steel industry",
             "planet_icon": "images/planets/planet_terran.png",
 
@@ -1296,7 +1402,7 @@
         "Carse":
         {
             "coords": [-0.008932,-0.346838],
-            "faction": "steiner",
+            "faction": "frr",
             "desc": "Center for plastic and plastisteel manufacturing",
             "planet_icon": "images/planets/planet_tundra.png",
     
@@ -1908,7 +2014,7 @@
         "Keid":
         {
             "coords": [0.029,0.098],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Many military, training and research facilities",
             "planet_icon": "images/planets/planet_terran.png",
 
@@ -1948,7 +2054,7 @@
         "Kirchbach":
         {
             "coords": [-0.036858,-0.585415],
-            "faction": "kurita",
+            "faction": "frr",
             "desc": "Few resources but a temperate climate",
             "planet_icon": "images/planets/planet_terran.png",
 
@@ -1968,7 +2074,7 @@
         "Kittery":
         {
             "coords": [0.108617,0.421747],
-            "faction": "davion",
+            "faction": "st_ives",
             "desc": "Inhospitable jungle world, natives in rebellion",
             "planet_icon": "images/planets/planet_terran.png",
     
@@ -1988,7 +2094,7 @@
         "Kobe":
         {
             "coords": [-0.008012,-0.457212],
-            "faction": "steiner",
+            "faction": "frr",
             "desc": "Major producer of electronics and chemical engines",
             "planet_icon": "images/planets/planet_tundra.png",
     
@@ -2316,7 +2422,7 @@
         "New Hessen":
         {
             "coords": [0.110806,0.144821],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Main recruiting and training center for House Liao",
             "planet_icon": "images/planets/planet_radiated.png",
 
@@ -2436,11 +2542,11 @@
         "Oliver":
         {
             "coords": [-0.028164,0.075],
-            "faction": "marik",
+            "faction": "steiner",
             "desc": "Much industry including a Mech plant",
             "planet_icon": "images/planets/planet_terran.png",
 
-            "employers": ["marik", "marik", "marik", "steiner", "liao", "davion", "kurita"],
+            "employers": ["marik", "steiner", "steiner", "steiner", "liao", "davion", "kurita"],
     
             "contracts":
             {
@@ -2501,7 +2607,7 @@
             "inner_size": 7,
             
             "coords": [0.03,0.13],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Home of the Wolf's Dragoons -- currently testing Clan units",
             "planet_icon": "images/planets/planet_terran.png",
 
@@ -2519,7 +2625,7 @@
                 "script": "maps/planets/capital_planet_rpg.json"
 			}
         },
-
+    
         "Pesht":
         {
             "coords": [0.257373,-0.464456],
@@ -2543,7 +2649,7 @@
         "Port Moseby":
         {
             "coords": [0.004025,-0.205969],
-            "faction": "steiner",
+            "faction": "kurita",
             "desc": "Major trading center - anything for a price",
             "planet_icon": "images/planets/planet_radiated.png",
     
@@ -2583,7 +2689,7 @@
         "Proserpina":
         {
             "coords": [0.199858,0.01],
-            "faction": "kurita",
+            "faction": "davion",
             "desc": "Home of the 9th Benjamin Regulars",
             "planet_icon": "images/planets/planet_cavernous.png",
     
@@ -2645,7 +2751,7 @@
         "Raballa":
         {
             "coords": [0.036051,0.311848],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Houses major aerospace support installation",
             "planet_icon": "images/planets/planet_terran.png",
     
@@ -2665,7 +2771,7 @@
         "Radstadt":
         {
             "coords": [0.059642,-0.475607],
-            "faction": "kurita",
+            "faction": "frr",
             "desc": "One of the largest prisons of the Combine is here",
             "planet_icon": "images/planets/planet_terran.png",
     
@@ -2685,7 +2791,7 @@
         "Rasalhague":
         {
             "coords": [0.057130,-0.597012],
-            "faction": "kurita",
+            "faction": "frr",
             "desc": "Large industries and plentiful resources",
             "planet_icon": "images/planets/planet_gaia.png",
     
@@ -2982,7 +3088,7 @@
         "St. Ives":
         {
             "coords": [0.14545,0.41333],
-            "faction": "liao",
+            "faction": "st_ives",
             "desc": "Major industrial and research world",
             "planet_icon": "images/planets/planet_tropical.png",
 
@@ -3002,7 +3108,7 @@
         "Styk":
         {
             "coords": [0.08,0.225],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "2nd largest trading and industrial center",
             "planet_icon": "images/planets/planet_terran.png",
 
@@ -3062,7 +3168,7 @@
         "Tamar":
         {
             "coords": [-0.008469,-0.512673],
-            "faction": "steiner",
+            "faction": "frr",
             "desc": "Strong trading and manufacturing center",
             "planet_icon": "images/planets/planet_grassland.png",
     
@@ -3125,7 +3231,7 @@
         "Thestria":
         {
             "coords": [0.359019,-0.062666],
-            "faction": "kurita",
+            "faction": "davion",
             "desc": "Frozen ball known only for precious metal deposits",
             "planet_icon": "images/planets/planet_tundra.png",
     
@@ -3145,11 +3251,11 @@
         "Tikonov":
         {
             "coords": [0.13,0.12],
-            "faction": "liao",
+            "faction": "davion",
             "desc": "Earthwerks Incorporated, Ceres, Grand Union Battleworks, Harcourt Products, Lebedev Nautical Enterprises",
             "planet_icon": "images/planets/planet_grassland.png",
 
-            "employers": ["liao", "davion", "kurita", "marik"],
+            "employers": ["davion", "kurita", "marik"],
 
             "contracts":
             {
@@ -3187,7 +3293,7 @@
         "Tukayyid":
         {
             "coords": [0.007,-0.30888],
-            "faction": "kurita",
+            "faction": "frr",
             "desc": "Manufacturing center rich in minerals",
             "planet_icon": "images/planets/planet_grassland.png",
 
@@ -3287,7 +3393,7 @@
         "Warlock":
         {
             "coords": [0.154230,0.5],
-            "faction": "liao",
+            "faction": "st_ives",
             "desc": "Military research and development center",
             "planet_icon": "images/planets/planet_tundra.png",
 
