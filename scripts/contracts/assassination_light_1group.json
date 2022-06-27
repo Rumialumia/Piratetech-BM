@@ -1,0 +1,172 @@
+{
+    "startup":
+    {
+        "map": ["maps/contracts/deathmatch/*"],
+        "flee_trigger": "flee"
+    },
+
+    "contract_info":
+    {
+        "mission": 
+        [
+            [
+                "Assinate VIP",
+                "A vip is active in this region, find them an eliminate them.",
+                "You must locate and destroy the vip for this mission to be a success."
+            ]
+        ],
+
+
+        "adv_pay_adj": 1,
+        "tot_pay_adj": 1,
+
+        "salv_picks_adj": 1,
+        "salv_other_adj": 1,
+
+        "max_units_adj": 0.9,
+        "max_tons_adj": 0.9
+    },
+
+    "forces":
+	[
+		{
+			"name": "Player Forces",
+            "faction": "player_units",
+            "spawn": "player_spawn",
+            "unit_list": "player_mechs",
+            "crew_list": "player_crew"
+		},
+
+        {
+            "name": "Enemy Forces 1",
+
+            "faction": "enemy",
+            "spawn": "enemy_spawn",
+            "ai": "garrison",
+
+			"type": "random",
+            "size": [3,4],
+            "min_ton": 20,
+            "max_ton": 35,
+            "crew": ["green", "regular", "veteran"]
+		},
+        {
+            "name": "VIP",
+
+            "faction": "enemy",
+            "spawn": "VIP_spawn",
+            "ai": "garrison",
+
+			"type": "random",
+            "size": [1],
+            "min_ton": 40,
+            "max_ton": 55,
+            "crew": ["green", "regular", "veteran"]
+		}
+	],
+
+    "factions":
+    [
+        {
+            "name": "player_units",
+            "player": true
+        },
+        
+        {
+            "name": "enemy",
+            "swap_colors": "default"
+        }
+    ],
+
+    "events":
+    {
+        "unit_destroyed":
+        [
+            {
+                "if": "player_count <= 0",
+                "actn": "trigger",
+                "args": "mission_failed"
+            },
+
+            {
+                "if": "vip_spawn <= 0",
+                "actns":
+                [
+                    {
+                        "actn": "scroll_to",
+                        "args": "evac_zone"
+                    },
+
+                    {
+                        "actn": "trigger",
+                        "args": "assassination_success_now_flee"
+                    },
+
+                    {
+                        "actn": "issue_order",
+                        "args":
+                        {
+                            "faction": "enemy",
+                            "ai": "hunt_solo"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    "triggers":
+    {
+        "assassination_success_now_flee":
+        {
+            "actns":
+            [
+                {
+                    "actn": "trigger_visible",
+                    "args":
+                    {
+                        "trigger": "evac_zone",
+                        "sprite": "zones:flee"
+                    }
+                },
+
+                {
+                    "actn": "trigger",
+                    "args": "assassination_evac_prompt"
+                }
+            ]
+        },
+        "assassination_evac_prompt":
+        {
+            "type": "prompt",
+            "size": 600,
+
+            "text": "The VIP has been destroyed. The evac zone has been marked on the map. Head to the evac site now!",
+
+            "options":
+            [
+                {
+                    "text": "OK",
+                    "actn": "scroll_to",
+                    "args": "player_group_all:0"
+                }
+            ]
+        },
+
+        "evac_zone":
+        {
+            "if": 
+            [
+                "and",
+                "vip_ <= 0",
+                "triggering_unit:faction:name == 'player_units"
+            ],
+            "actn": "deactivate_unit",
+            "args":
+            {
+                "unit": "triggering_unit",
+                "type": "flee"
+            }
+        }
+    }
+}
