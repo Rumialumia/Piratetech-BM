@@ -6393,7 +6393,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 1,
@@ -6435,7 +6435,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 2,
@@ -6477,7 +6477,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 3,
@@ -6520,7 +6520,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 4,
@@ -6563,7 +6563,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 5,
@@ -6606,7 +6606,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 6,
@@ -6650,7 +6650,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 1,
@@ -6693,7 +6693,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 2,
@@ -6736,7 +6736,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 3,
@@ -6779,7 +6779,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 4,
@@ -6822,7 +6822,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 5,
@@ -6865,7 +6865,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 6,
@@ -6909,7 +6909,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 1,
@@ -6952,7 +6952,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 2,
@@ -6995,7 +6995,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 3,
@@ -7038,7 +7038,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 4,
@@ -7081,7 +7081,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 5,
@@ -7124,7 +7124,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 6,
@@ -9311,7 +9311,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 1,
@@ -9354,7 +9354,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 1,
@@ -9396,7 +9396,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 2,
@@ -9439,7 +9439,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 3,
@@ -9482,7 +9482,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 1,
@@ -9524,7 +9524,7 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-
+        "to_hit_mod": 0.1,
         "fx":
         {
             "num_shots": 2,
