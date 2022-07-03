@@ -59,7 +59,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -100,7 +100,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -141,7 +141,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -182,7 +182,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -223,7 +223,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -303,7 +303,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -342,7 +342,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -381,7 +381,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -420,7 +420,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -459,7 +459,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -538,7 +538,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -577,7 +577,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -615,7 +615,7 @@
         "fx":
         {
             "num_shots": 4,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "beam_time": 0.2,
             "beam_colors": [[255,40,40], [255,80,80],[255,140,140]],
             "beam_sizes": [6,4,2],
@@ -657,7 +657,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -696,7 +696,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -775,7 +775,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -814,7 +814,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -853,7 +853,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -892,7 +892,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -931,7 +931,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -1016,7 +1016,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -1059,7 +1059,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -1103,7 +1103,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -1147,7 +1147,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -1191,7 +1191,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -1278,7 +1278,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.3, 0.8],
             "muzzle_offset": 20,
@@ -1320,7 +1320,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.3, 0.8],
             "muzzle_offset": 20,
@@ -1362,7 +1362,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.3, 0.8],
             "muzzle_offset": 20,
@@ -1404,7 +1404,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.3, 0.8],
             "muzzle_offset": 20,
@@ -1446,7 +1446,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.3, 0.8],
             "muzzle_offset": 20,
@@ -1531,7 +1531,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -1573,7 +1573,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -1617,7 +1617,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -1661,7 +1661,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -1705,7 +1705,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -1792,7 +1792,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -1835,7 +1835,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -1878,7 +1878,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -1921,7 +1921,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -1964,7 +1964,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -5440,7 +5440,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -5484,7 +5484,7 @@
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "num_shots": 3,
             
             "shot_sprite": "PPC Projectile Blue",
@@ -5520,7 +5520,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -5560,7 +5560,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -5600,7 +5600,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -5721,7 +5721,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -5760,7 +5760,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -5799,7 +5799,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -5838,7 +5838,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -5877,7 +5877,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -5955,7 +5955,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -5994,7 +5994,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6033,7 +6033,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6072,7 +6072,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6111,7 +6111,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6190,7 +6190,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6229,7 +6229,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6268,7 +6268,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6307,7 +6307,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6388,7 +6388,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6428,7 +6428,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6468,7 +6468,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6508,7 +6508,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6548,7 +6548,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6629,7 +6629,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6669,7 +6669,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6709,7 +6709,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6749,7 +6749,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6789,7 +6789,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6870,7 +6870,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6910,7 +6910,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6950,7 +6950,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -6990,7 +6990,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -7030,7 +7030,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -7117,7 +7117,7 @@
         {
             "type": "shooter",
             "shot_speed": 1800,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -7161,7 +7161,7 @@
         {
             "type": "shooter",
             "shot_speed": 1800,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -7205,7 +7205,7 @@
         {
             "type": "shooter",
             "shot_speed": 1800,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -7249,7 +7249,7 @@
         {
             "type": "shooter",
             "shot_speed": 1800,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -7293,7 +7293,7 @@
         {
             "type": "shooter",
             "shot_speed": 1800,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -7338,7 +7338,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -7383,7 +7383,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -7429,7 +7429,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.3, 0.8],
             "muzzle_offset": 20,
@@ -7474,7 +7474,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.3, 0.8],
             "muzzle_offset": 20,
@@ -7519,7 +7519,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.3, 0.8],
             "muzzle_offset": 20,
@@ -7655,7 +7655,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -7700,7 +7700,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -7745,7 +7745,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -7837,7 +7837,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -7882,7 +7882,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -7927,7 +7927,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -7972,7 +7972,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -8017,7 +8017,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -8062,7 +8062,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -8107,7 +8107,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -8152,7 +8152,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -8781,7 +8781,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -8821,7 +8821,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -8861,7 +8861,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -8901,7 +8901,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1,
+            "shot_gap": 0.1,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -8981,7 +8981,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -9060,7 +9060,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -9099,7 +9099,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -9179,7 +9179,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -9301,7 +9301,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -9341,7 +9341,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -9422,7 +9422,7 @@
         {
             "type": "shooter",
             "shot_speed": 2000,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -9509,7 +9509,7 @@
         {
             "type": "shooter",
             "shot_speed": 1800,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -9553,7 +9553,7 @@
         {
             "type": "shooter",
             "shot_speed": 1800,
-            "shot_gap": 1.66,
+            "shot_gap": 0.16,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -9597,7 +9597,7 @@
         {
             "type": "shooter",
             "shot_speed": 1800,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -9779,7 +9779,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -9870,7 +9870,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 1.25,
+            "shot_gap": 0.125,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -9915,7 +9915,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 0.83,
+            "shot_gap": 0.083,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -10143,7 +10143,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
@@ -10280,7 +10280,7 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-            "shot_gap": 2.5,
+            "shot_gap": 0.25,
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.4, 0.9],
             "muzzle_offset": 20,
