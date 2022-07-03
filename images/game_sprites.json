@@ -1340,6 +1340,24 @@
             "frame": {"x": 160, "y": 448, "w": 32, "h": 32},
             "n_frames": 1,
             "alpha": [255,0,255]
+        },
+        "Laser Projectile Green":
+        {
+            "frame": {"x": 0, "y": 448, "w": 32, "h": 32},
+            "n_frames": 1,
+            "alpha": [255,0,255]
+        },
+        "Laser Projectile Blue":
+        {
+            "frame": {"x": 96, "y": 448, "w": 32, "h": 32},
+            "n_frames": 1,
+            "alpha": [255,0,255]
+        },
+        "Laser Projectile Red":
+        {
+            "frame": {"x": 128, "y": 448, "w": 32, "h": 32},
+            "n_frames": 1,
+            "alpha": [255,0,255]
         }
     },
 

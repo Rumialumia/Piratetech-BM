@@ -101,7 +101,6 @@
                     "size": [100,30],
 
                     "text_size": 20,
-                    
                     "unit": "{mech_list_frame:selected:item}",
                     "item_loc": "h",
                     "item_idx": 0,
