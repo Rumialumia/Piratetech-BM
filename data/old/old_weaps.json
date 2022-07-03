@@ -134,7 +134,7 @@
             "fire_sound": "resources/sounds/JFX_PPC.wav"
         }
     },
-    "Ceres Arms Smasher PPC": 
+    "Ceres Smasher PPC": 
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -1192,7 +1192,7 @@
             "fire_sound": "resources/sounds/JFX_LLaser.wav"
         }
     },
-    "Diverse Optics Type 30 Large Laser": 
+    "Diverse Type 30 Large Laser": 
     {
         "cost": 100000,
         "mod_cost": 25000,
@@ -1801,7 +1801,7 @@
             "fire_sound": "resources/sounds/JFX_MLaser.wav"
         }
     },
-    "Diverse Optics Type 2 Medium Laser": 
+    "Diverse Type 2 Medium Laser": 
     {
         "cost": 40000,
         "mod_cost": 10000,
@@ -1842,7 +1842,7 @@
             "fire_sound": "resources/sounds/JFX_MLaser.wav"
         }
     },
-    "Diverse Optics Type 14 Medium Laser": 
+    "Diverse Type 14 Medium Laser": 
     {
         "cost": 40000,
         "mod_cost": 10000,
@@ -1883,7 +1883,7 @@
             "fire_sound": "resources/sounds/JFX_MLaser.wav"
         }
     },
-    "Diverse Optics Type 18 Medium Laser": 
+    "Diverse Type 18 Medium Laser": 
     {
         "cost": 40000,
         "mod_cost": 10000,
@@ -1924,7 +1924,7 @@
             "fire_sound": "resources/sounds/JFX_MLaser.wav"
         }
     },
-    "Diverse Optics Type 20 Medium Laser": 
+    "Diverse Type 20 Medium Laser": 
     {
         "cost": 40000,
         "mod_cost": 10000,
@@ -2854,7 +2854,7 @@
             "fire_sound": "resources/sounds/JFX_MLaser.wav"
         }
     },
-    "Ceres Arms Medium Laser": 
+    "Ceres Medium Laser": 
     {
         "cost": 40000,
         "mod_cost": 10000,
@@ -3593,7 +3593,7 @@
             "fire_sound": "resources/sounds/JFX_SLaser.wav"
         }
     },
-    "Diverse Optics Type 10 Small Laser": 
+    "Diverse Type 10 Small Laser": 
     {
         "cost": 11250,
         "mod_cost": 5000,
@@ -3634,7 +3634,7 @@
             "fire_sound": "resources/sounds/JFX_SLaser.wav"
         }
     },
-    "Diverse Optics Type 18 Small Laser": 
+    "Diverse Type 18 Small Laser": 
     {
         "cost": 11250,
         "mod_cost": 5000,
@@ -4868,7 +4868,7 @@
             "hit_sound": "resources/sounds/JFX_AC_hit.wav"
         }
     },
-    "Ceres Arms Model T Autocannon/10":
+    "Ceres Model T Autocannon/10":
     {
         "cost": 200000,
         "mod_cost": 30000,
@@ -4956,7 +4956,7 @@
             "hit_sound": "resources/sounds/JFX_AC_hit.wav"
         }
     },
-    "Defiance Killer Type T Autocannon/10":
+    "Defiance Type T Autocannon/10":
     {
         "cost": 200000,
         "mod_cost": 30000,
@@ -5651,7 +5651,7 @@
             "hit_sound": "resources/sounds/JFX_AC_hit.wav"
         }
     },
-    "Defiance Killer Type T Autocannon/20":
+    "Defiance Type T Autocannon/20":
     {
         "cost": 300000,
         "mod_cost": 50000,
@@ -6966,7 +6966,7 @@
             "fire_sound": "resources/sounds/JFX_PPC.wav"
         }
     },
-    "Ceres Arms Warrior ER PPC": 
+    "Ceres Warrior ER PPC": 
     {
         "cost": 300000,
         "mod_cost": 75000,
@@ -7010,7 +7010,7 @@
             "fire_sound": "resources/sounds/JFX_PPC.wav"
         }
     },
-    "Ceres Arms Smasher ER PPC": 
+    "Ceres Smasher ER PPC": 
     {
         "cost": 300000,
         "mod_cost": 75000,
