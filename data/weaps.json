@@ -4449,6 +4449,8 @@
 
             "hit_sprite": "ac_explosion",
             "hit_scale": [1.25, 1.25],
+            "sound_every_hit": false,
+            "sound_every_shot": false
         }
     },
     "Barrel Fist":
@@ -4484,6 +4486,8 @@
 
             "hit_sprite": "ac_explosion",
             "hit_scale": [1.25, 1.25],
+            "sound_every_hit": false,
+            "sound_every_shot": false
         }
     },
     "Hand Actuator":
@@ -4520,6 +4524,8 @@
 
             "hit_sprite": "ac_explosion",
             "hit_scale": [1.25, 1.25],
+            "sound_every_hit": false,
+            "sound_every_shot": false
         }
     },
     "Battlefist":
@@ -4555,6 +4561,8 @@
 
             "hit_sprite": "ac_explosion",
             "hit_scale": [1.25, 1.25],
+            "sound_every_hit": false,
+            "sound_every_shot": false
         }
     },
     "Hatchet":
