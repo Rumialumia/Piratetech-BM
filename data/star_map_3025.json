@@ -200,8 +200,10 @@
 
             "files":
             [
+                "scripts/contracts/recovery_light_1base.json",
+
                 "scripts/contracts/deathmatch_medium_1group.json",
-                
+
                 "scripts/contracts/deathmatch_light_1group.json",
                 "scripts/contracts/deathmatch_light_2groups.json",
 
@@ -232,6 +234,8 @@
 
             "files":
             [
+                "scripts/contracts/recovery_light_1base.json",
+
                 "scripts/contracts/deathmatch_medium_1group.json",
                 "scripts/contracts/deathmatch_medium_1group_wrecon.json",
                 
@@ -270,6 +274,8 @@
 
             "files":
             [
+                "scripts/contracts/recovery_light_1base.json",
+
                 "scripts/contracts/deathmatch_medium_1group.json",
                 "scripts/contracts/deathmatch_medium_1group_wrecon.json",
                 "scripts/contracts/deathmatch_medium_2groups.json",
@@ -309,10 +315,12 @@
 
             "files":
             [
+                "scripts/contracts/recovery_light_1base.json",
+
                 "scripts/contracts/deathmatch_heavy_1group.json",
                 "scripts/contracts/deathmatch_heavy_1group_wrecon.json",
                 "scripts/contracts/deathmatch_heavy_2groups.json",
-                
+
                 "scripts/contracts/deathmatch_medium_2groups.json",
                 "scripts/contracts/deathmatch_medium_2groups_wrecon.json",
                 "scripts/contracts/deathmatch_medium_3groups.json",
@@ -349,9 +357,11 @@
 
             "files":
             [
+                "scripts/contracts/recovery_light_1base.json",
+
                 "scripts/contracts/deathmatch_assault_1group.json",
                 "scripts/contracts/deathmatch_assault_1group_wrecon.json",
-                
+
                 "scripts/contracts/deathmatch_assault_2groups.json",
                 
                 "scripts/contracts/deathmatch_heavy_2groups.json",
@@ -392,6 +402,8 @@
 
             "files":
             [
+                "scripts/contracts/recovery_light_1base.json",
+
                 "scripts/contracts/deathmatch_assault_2groups.json",
                 "scripts/contracts/deathmatch_assault_2groups_wrecon.json",
 
@@ -433,6 +445,8 @@
 
             "files":
             [
+                "scripts/contracts/recovery_light_1base.json",
+
                 "scripts/contracts/defense_light_1wave.json",
                 "scripts/contracts/defense_light_2wave.json",
 
