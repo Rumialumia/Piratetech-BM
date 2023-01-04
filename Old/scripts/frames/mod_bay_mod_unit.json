@@ -92,150 +92,15 @@
 
             "ui":
             [
-                {
-                    "type": "simple_frame",
 
-                    "pos": [220,48],
-                    "size": [122, 52],
-
-                    "bg_color": [0,0,0],
-                    
-                    "border_rad": 10,
-                    "border_size": 4,
-                    
-                    "border": [85,142,213],
-                    "hborder": [255,255,0],
-
-                    "highlight_if": "over_w_float"
-                },
-
-                {
-                    "type": "simple_frame",
-
-                    "pos": [4,172],
-                    "size": [132, 162],
-
-                    "bg_color": [0,0,0],
-                    
-                    "border_rad": 20,
-                    "border_size": 4,
-                    
-                    "border": [85,142,213],
-                    "hborder": [255,255,0],
-
-                    "highlight_if": "over_w_float"
-                },
-
-                {
-                    "type": "simple_frame",
-
-                    "pos": [140,102],
-                    "size": [132, 192],
-
-                    "bg_color": [0,0,0],
-                    
-                    "border_rad": 20,
-                    "border_size": 4,
-                    
-                    "border": [85,142,213],
-                    "hborder": [255,255,0],
-
-                    "highlight_if": "over_w_float"
-                },
-
-                {
-                    "type": "simple_frame",
-
-                    "pos": [282,102],
-                    "size": [132, 192],
-
-                    "bg_color": [0,0,0],
-                    
-                    "border_rad": 20,
-                    "border_size": 4,
-                    
-                    "border": [85,142,213],
-                    "hborder": [255,255,0],
-
-                    "highlight_if": "over_w_float"
-                },
-
-                {
-                    "type": "simple_frame",
-
-                    "pos": [426,172],
-                    "size": [132, 162],
-
-                    "bg_color": [0,0,0],
-                    
-                    "border_rad": 20,
-                    "border_size": 4,
-                    
-                    "border": [85,142,213],
-                    "hborder": [255,255,0],
-
-                    "highlight_if": "over_w_float"
-                },
-
-                {
-                    "type": "simple_frame",
-
-                    "pos": [96,386],
-                    "size": [132, 92],
-
-                    "bg_color": [0,0,0],
-                    
-                    "border_rad": 20,
-                    "border_size": 4,
-                    
-                    "border": [85,142,213],
-                    "hborder": [255,255,0],
-
-                    "highlight_if": "over_w_float"
-                },
-
-                {
-                    "type": "simple_frame",
-
-                    "pos": [329,386],
-                    "size": [132, 92],
-
-                    "bg_color": [0,0,0],
-                    
-                    "border_rad": 20,
-                    "border_size": 4,
-                    
-                    "border": [85,142,213],
-                    "hborder": [255,255,0],
-
-                    "highlight_if": "over_w_float"
-                },
-
-                {
-                    "type": "simple_frame",
-
-                    "pos": [214,296],
-                    "size": [132, 92],
-
-                    "bg_color": [0,0,0],
-                    
-                    "border_rad": 20,
-                    "border_size": 4,
-                    
-                    "border": [85,142,213],
-                    "hborder": [255,255,0],
-
-                    "highlight_if": "over_w_float"
-                },
 
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [230,58],
+                    "pos": [230,210],
                     "size": [100,30],
 
                     "text_size": 20,
-                    
                     "unit": "{mech_list_frame:selected:item}",
                     "item_loc": "h",
                     "item_idx": 0,
@@ -264,7 +129,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [229,312],
+                    "pos": [230,270],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -297,7 +162,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [229,348],
+                    "pos": [230,303],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -327,10 +192,11 @@
                     }
                 },
 
+
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [156,118],
+                    "pos": [120,69],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -363,7 +229,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [156,152],
+                    "pos": [120,103],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -396,7 +262,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [156,186],
+                    "pos": [120,137],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -429,7 +295,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [156,220],
+                    "pos": [120,171],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -462,7 +328,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [156,254],
+                    "pos": [120,205],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -495,7 +361,233 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [298,118],
+                    "pos": [120,239],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "lt",
+                    "item_idx": 5,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [120,273],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "lt",
+                    "item_idx": 6,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [120,307],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "lt",
+                    "item_idx": 7,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [120,341],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "lt",
+                    "item_idx": 8,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [120,375],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "lt",
+                    "item_idx": 9,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [120,409],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "lt",
+                    "item_idx": 10,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [120,443],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "lt",
+                    "item_idx": 11,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+
+
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [340,69],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -528,7 +620,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [298,152],
+                    "pos": [340,103],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -561,7 +653,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [298,186],
+                    "pos": [340,137],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -594,7 +686,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [298,220],
+                    "pos": [340,171],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -627,7 +719,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [298,254],
+                    "pos": [340,205],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -660,7 +752,233 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [19,188],
+                    "pos": [340,239],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "rt",
+                    "item_idx": 5,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [340,273],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "rt",
+                    "item_idx": 6,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [340,307],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "rt",
+                    "item_idx": 7,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [340,341],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "rt",
+                    "item_idx": 8,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [340,375],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "rt",
+                    "item_idx": 9,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [340,409],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "rt",
+                    "item_idx": 10,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [340,443],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "rt",
+                    "item_idx": 11,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [10,120],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -689,11 +1007,10 @@
                         "args": "mod_check_remove_item"
                     }
                 },
-
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [19,222],
+                    "pos": [10,154],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -726,7 +1043,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [19,256],
+                    "pos": [10,190],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -759,7 +1076,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [19,290],
+                    "pos": [10,226],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -788,11 +1105,10 @@
                         "args": "mod_check_remove_item"
                     }
                 },
-
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [19,324],
+                    "pos": [10,262],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -821,11 +1137,171 @@
                         "args": "mod_check_remove_item"
                     }
                 },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [10,298],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "la",
+                    "item_idx": 5,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [10,334],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "la",
+                    "item_idx": 6,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [10,370],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "la",
+                    "item_idx": 7,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [10,406],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "la",
+                    "item_idx": 8,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [10,442],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "la",
+                    "item_idx": 9,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
 
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [442,188],
+                    "pos": [450,120],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -854,11 +1330,10 @@
                         "args": "mod_check_remove_item"
                     }
                 },
-
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [442,222],
+                    "pos": [450,154],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -891,7 +1366,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [442,256],
+                    "pos": [450,190],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -924,7 +1399,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [442,290],
+                    "pos": [450,226],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -957,7 +1432,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [442,324],
+                    "pos": [450,262],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -986,11 +1461,171 @@
                         "args": "mod_check_remove_item"
                     }
                 },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [450,298],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "ra",
+                    "item_idx": 5,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [450,334],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "ra",
+                    "item_idx": 6,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [450,370],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "ra",
+                    "item_idx": 7,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [450,406],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "ra",
+                    "item_idx": 8,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
+                {
+                    "type": "mod_unit_item",
+
+                    "pos": [450,442],
+                    "size": [100,30],
+
+                    "text_size": 20,
+                    
+                    "unit": "{mech_list_frame:selected:item}",
+                    "item_loc": "ra",
+                    "item_idx": 9,
+
+                    "bg_item": [0,128,0],
+                    "bg_isammo": [128,128,0],
+                    "bg_destroyed": [200,0,0],
+                    "bg_noammo": [224,100,0],
+                    "bg_empty": [0,0,80],
+
+                    "var": "mod_loc",
+
+                    "drop_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_add_item"
+                    },
+
+                    "click_actn":
+                    {
+                        "actn": "trigger",
+                        "args": "mod_check_remove_item"
+                    }
+                },
 
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [111,400],
+                    "pos": [170,476],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -1023,7 +1658,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [111,434],
+                    "pos": [170,510],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -1056,40 +1691,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [111,468],
-                    "size": [100,30],
-
-                    "text_size": 20,
-                    
-                    "unit": "{mech_list_frame:selected:item}",
-                    "item_loc": "ll",
-                    "item_idx": 2,
-
-                    "bg_item": [0,128,0],
-                    "bg_isammo": [128,128,0],
-                    "bg_destroyed": [200,0,0],
-                    "bg_noammo": [224,100,0],
-                    "bg_empty": [0,0,80],
-
-                    "var": "mod_loc",
-
-                    "drop_actn":
-                    {
-                        "actn": "trigger",
-                        "args": "mod_check_add_item"
-                    },
-
-                    "click_actn":
-                    {
-                        "actn": "trigger",
-                        "args": "mod_check_remove_item"
-                    }
-                },
-
-                {
-                    "type": "mod_unit_item",
-
-                    "pos": [345,400],
+                    "pos": [290,476],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -1122,7 +1724,7 @@
                 {
                     "type": "mod_unit_item",
 
-                    "pos": [345,434],
+                    "pos": [290,510],
                     "size": [100,30],
 
                     "text_size": 20,
@@ -1130,39 +1732,6 @@
                     "unit": "{mech_list_frame:selected:item}",
                     "item_loc": "rl",
                     "item_idx": 1,
-
-                    "bg_item": [0,128,0],
-                    "bg_isammo": [128,128,0],
-                    "bg_destroyed": [200,0,0],
-                    "bg_noammo": [224,100,0],
-                    "bg_empty": [0,0,80],
-
-                    "var": "mod_loc",
-
-                    "drop_actn":
-                    {
-                        "actn": "trigger",
-                        "args": "mod_check_add_item"
-                    },
-
-                    "click_actn":
-                    {
-                        "actn": "trigger",
-                        "args": "mod_check_remove_item"
-                    }
-                },
-
-                {
-                    "type": "mod_unit_item",
-
-                    "pos": [345,468],
-                    "size": [100,30],
-
-                    "text_size": 20,
-                    
-                    "unit": "{mech_list_frame:selected:item}",
-                    "item_loc": "rl",
-                    "item_idx": 2,
 
                     "bg_item": [0,128,0],
                     "bg_isammo": [128,128,0],
