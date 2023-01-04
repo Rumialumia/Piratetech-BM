@@ -3716,5 +3716,215 @@
 
             "fire_sound": "resources/sounds/JFX_Melee.wav"
         }
+    },
+
+    "Laser Anti-Missile":
+    {
+        "cost": 250000,
+        "mod_cost": 50000,
+        "is_ams": true,
+
+        "short": "LAMS",
+        "type": "beam",
+        "damage": 3,
+        "heat": 7,
+        "range": 2,
+        "tons": 1.5,
+        "crit": 2,
+        "ammo": -1,
+
+        "fx":
+        {
+            "num_shots": 3,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,20,160], [40,40,200], [128,128,255]],
+            "beam_sizes": [6,3,2],
+            "beam_alpha": 64,
+
+            "beam_line": [160,160,255],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.4,0.4],
+            
+            "fire_sound": "resources/sounds/JFX_SLaser.wav"
+        }
+    },
+
+    "cLaser Anti-Missile":
+    {
+        "cost": 100000,
+        "mod_cost": 20000,
+        "is_ams": true,
+        
+        "short": "cLAMS",
+        "type": "beam",
+        "damage": 3,
+        "heat": 5,
+        "range": 2,
+        "tons": 1,
+        "crit": 1,
+        "ammo": -1,
+
+        "fx":
+        {
+            "num_shots": 3,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,20,160], [40,40,200], [128,128,255]],
+            "beam_sizes": [6,3,2],
+            "beam_alpha": 64,
+
+            "beam_line": [160,160,255],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.4,0.4],
+            
+            "fire_sound": "resources/sounds/JFX_SLaser.wav"
+        }
+    },
+
+    "Binary Laser Cannon": 
+    {
+        "cost": 200000,
+        "mod_cost": 25000,
+        "short": "Blaser",
+        "type": "beam",
+        "damage": 12,
+        "heat": 16,
+        "range": 10,
+        "tons": 9,
+        "crit": 4,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,160,20], [40,200,40],[60,225,60],[80,255,80], [200,255,200]],
+            "beam_sizes": [14,12,10,8,6],
+            "beam_alpha": 192,
+
+            "beam_line": [160,255,160],
+            "beam_line_size": 5,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-20,-20,-20],[-20,-20,-20],[-20,-20,-20], [-30,-30,-30],[-30,-30,-30]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [1,1],
+
+            "fire_sound": "resources/sounds/JFX_LLaser.wav"
+        }
+    },
+
+    "Bombast Laser": 
+    {
+        "cost": 200000,
+        "mod_cost": 25000,
+        "short": "Bombast",
+        "type": "beam",
+        "damage": 12,
+        "heat": 12,
+        "range": 10,
+        "tons": 7,
+        "crit": 3,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.4,
+            "beam_colors": [[20,160,20], [40,200,40],[60,225,60],[80,255,80], [200,255,200]],
+            "beam_sizes": [12,10,8,6,4],
+            "beam_alpha": 192,
+
+            "beam_line": [160,255,160],
+            "beam_line_size": 4,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-20,-20,-20],[-20,-20,-20],[-20,-20,-20], [-30,-30,-30],[-30,-30,-30]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [1,1],
+
+            "fire_sound": "resources/sounds/JFX_LLaser.wav"
+        }
+    },
+
+    "cAP Gauss Rifle":
+    {
+        "cost": 85000,
+        "mod_cost": 4250,
+        "ammo_cost": 1000,
+
+        "short": "cAPGauss",
+        "type": "cannon",
+        "damage": 3,
+        "heat": 1,
+        "range": 6,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": 40,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.02,
+        "ignore_ams": true,
+        "explodes_on_dmg": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1800,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [1,2.25],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Gauss",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1.5, 1.5],
+            
+            "fire_sound": "resources/sounds/JFX_Gauss_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
     }
 }
