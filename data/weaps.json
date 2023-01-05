@@ -2693,7 +2693,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.05,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": -0.05,
+        "to_hit_mod": -0.1,
         "fx":
         {
             "type": "bullet",
@@ -2805,7 +2805,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": 0.05,
+        "to_hit_mod": 0.1,
         "fx":
         {
             "type": "bullet",
@@ -2918,7 +2918,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": 0.05,
+        "to_hit_mod": 0.1,
         "fx":
         {
             "type": "bullet",
@@ -2956,7 +2956,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": 0.1,
+        "to_hit_mod": 0.2,
         "fx":
         {
             "type": "bullet",
@@ -2993,7 +2993,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": -0.05,
+        "to_hit_mod": -0.1,
         "fx":
         {
             "type": "bullet",
@@ -3068,7 +3068,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": 0.1,
+        "to_hit_mod": 0.2,
         "fx":
         {
             "type": "bullet",
@@ -3141,7 +3141,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": -0.05,
+        "to_hit_mod": -0.1,
         "fx":
         {
             "type": "bullet",
@@ -3178,7 +3178,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": 0.1,
+        "to_hit_mod": 0.2,
         "fx":
         {
             "type": "bullet",
@@ -3252,7 +3252,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": -0.05,
+        "to_hit_mod": -0.1,
         "fx":
         {
             "type": "bullet",
@@ -3289,7 +3289,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": -0.1,
+        "to_hit_mod": -0.2,
         "fx":
         {
             "type": "bullet",
@@ -3326,7 +3326,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.25,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": -0.05,
+        "to_hit_mod": -0.1,
         "fx":
         {
             "type": "bullet",
@@ -3363,7 +3363,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": -0.05,
+        "to_hit_mod": -0.1,
         "fx":
         {
             "type": "bullet",
@@ -3400,7 +3400,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": 0.05,
+        "to_hit_mod": 0.1,
         "fx":
         {
             "type": "bullet",
@@ -3511,7 +3511,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": -0.05,
+        "to_hit_mod": -0.1,
         "fx":
         {
             "type": "bullet",
@@ -3696,7 +3696,7 @@
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.02,
-        "to_hit_mod": -0.05,
+        "to_hit_mod": -0.1,
         "fx":
         {
             "type": "bullet",
@@ -3884,13 +3884,1052 @@
         }
     },
 
+    "Centurion Weapon System": 
+    {
+        "cost": 1000000,
+        "mod_cost": 250000,
+        "short": "CWS",
+        "type": "beam",
+        "damage": 40,
+        "damage_type": "heat",
+        "heat": 4,
+        "range": 2,
+        "min_range": 0,
+        "tons": 5,
+        "crit": 2,
+        "ammo": -1,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.0,
+        "p_dmg_pilot": 0.0,
+        "to_hit_mod": -0.2,
+            
+        "fx":
+        {
+            "num_shots": 1,
+            "jitter": [[-2,2],[-2,2]],
+            "lock_on": true,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,80,160],[0,255,200],[255,255,255]],
+            "beam_sizes": [18, 10, 6],
+            "beam_alpha": 64,
+            
+            "Xbeam_colors": [[20,20,160],[0,255,200],[255,255,255]],
+            "Xbeam_blend": true,            
+
+            "fade_time": 0.15,
+            "fade_sizes": [-1, -1, -1],
+            "fade_amount": 1,
+            
+            "num_particles": 2,
+            "particle_time": 0.05,
+            "particle_vel": [[-100,100],[-100,100]],
+            "particle_sprite": "blue_particle",
+            "particle_anim_speed": 0.5,
+            "particle_scale": [0.75,0.75],
+            
+            "fire_sound": "resources/sounds/JFX_PPC.wav"
+        }
+    },
+
+    "Large Chem Laser": 
+    {
+        "cost": 75000,
+        "mod_cost": 18750,
+        "ammo_cost": 30000,
+        "short": "LChemLaser",
+        "type": "beam",
+        "damage": 8,
+        "heat": 6,
+        "range": 10,
+        "tons": 5,
+        "crit": 2,
+        "ammo": 10,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,160,20], [40,200,40],[60,225,60],[80,255,80], [200,255,200]],
+            "beam_sizes": [12,10,8,6,4],
+            "beam_alpha": 192,
+
+            "beam_line": [160,255,160],
+            "beam_line_size": 4,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-20,-20,-20],[-20,-20,-20],[-20,-20,-20], [-30,-30,-30],[-30,-30,-30]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [1,1],
+
+            "fire_sound": "resources/sounds/JFX_LLaser.wav"
+        }
+    },
+    
+    "Medium Chemical Laser": 
+    {
+        "cost": 40000,
+        "mod_cost": 10000,
+        "ammo_cost": 30000,
+        "short": "MChemLaser",
+        "type": "beam",
+        "damage": 5,
+        "heat": 2,
+        "range": 6,
+        "tons": 1,
+        "crit": 1,
+        "ammo": 30,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[255,40,40], [255,80,80],[255,140,140]],
+            "beam_sizes": [6,4,2],
+            "beam_alpha": 192,
+
+            "beam_line": [255,160,160],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.7,0.7],
+            
+            "fire_sound": "resources/sounds/JFX_MLaser.wav"
+        }
+    },
+
+    "Small Chemical Laser": 
+    {
+        "cost": 11250,
+        "mod_cost": 5000,
+        "ammo_cost": 30000,
+        "short": "SChemLaser",
+        "type": "beam",
+        "damage": 3,
+        "heat": 1,
+        "range": 2,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": 60,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,20,160], [40,40,200], [128,128,255]],
+            "beam_sizes": [6,3,2],
+            "beam_alpha": 64,
+
+            "beam_line": [160,160,255],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.4,0.4],
+            
+            "fire_sound": "resources/sounds/JFX_SLaser.wav"
+        }
+    },
+
+    "Vehicle Flamer":
+    {
+        "cost": 7500,
+        "mod_cost": 5000,
+        "ammo_cost": 1000,
+        "short": "VFlamer",
+        "type": "flame",
+        "damage": 3,
+        "damage_type": "heat",
+        "heat": 2,
+        "range": 2,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": 20,
+        "p_fire": 0.75,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0,
+        "ignore_ams": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 800,
+
+            "num_shots": 4,
+            "shot_gap": 0.04,
+            
+            "shot_sprite": "Flame",
+            "shot_scale": [0.75,1.5],
+            "shot_frame_rand": true,
+            "shot_sprite_blend": false,
+            "shot_hit_range": 20,
+            "shot_steady": true,
+            "sound_every_hit": false,
+            "miss_lock": false,
+            "shot_that_damages": 1,
+            
+            "hit_sprite": "fireball_explosion",
+            "hit_scale": [1, 1],
+
+            "fire_sound": "resources/sounds/JFX_Flamer_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Flamer_hit.wav"
+        }      
+    },
+
+    "cFlamer":
+    {
+        "cost": 7500,
+        "mod_cost": 5000,
+        "short": "cFlamer",
+        "type": "flame",
+        "damage": 3,
+        "damage_type": "heat",
+        "heat": 2,
+        "range": 2,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.75,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0,
+        "ignore_ams": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 800,
+
+            "num_shots": 4,
+            "shot_gap": 0.04,
+            
+            "shot_sprite": "Flame",
+            "shot_scale": [0.75,1.5],
+            "shot_frame_rand": true,
+            "shot_sprite_blend": false,
+            "shot_hit_range": 20,
+            "shot_steady": true,
+            "sound_every_hit": false,
+            "miss_lock": false,
+            "shot_that_damages": 1,
+            
+            "hit_sprite": "fireball_explosion",
+            "hit_scale": [1, 1],
+
+            "fire_sound": "resources/sounds/JFX_Flamer_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Flamer_hit.wav"
+        }      
+    },
+
+    "Heavy Flamer":
+    {
+        "cost": 11250,
+        "mod_cost": 2812,
+        "ammo_cost": 2000,
+        "type": "flame",
+        "damage": 6,
+        "damage_type": "heat",
+        "heat": 5,
+        "range": 3,
+        "tons": 1.5,
+        "crit": 1,
+        "ammo": 10,
+        "p_fire": 0.75,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0,
+        "ignore_ams": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 800,
+
+            "num_shots": 4,
+            "shot_gap": 0.04,
+            
+            "shot_sprite": "Flame",
+            "shot_scale": [0.75,1.5],
+            "shot_frame_rand": true,
+            "shot_sprite_blend": false,
+            "shot_hit_range": 20,
+            "shot_steady": true,
+            "sound_every_hit": false,
+            "miss_lock": false,
+            "shot_that_damages": 1,
+            
+            "hit_sprite": "fireball_explosion",
+            "hit_scale": [1, 1],
+
+            "fire_sound": "resources/sounds/JFX_Flamer_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Flamer_hit.wav"
+        }      
+    },
+
+    "ER Flamer":
+    {
+        "cost": 150000,
+        "mod_cost": 100000,
+        "type": "flame",
+        "damage": 1.5,
+        "damage_type": "heat",
+        "heat": 4,
+        "range": 5,
+        "tons": 1,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.75,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0,
+        "ignore_ams": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 800,
+
+            "num_shots": 4,
+            "shot_gap": 0.04,
+            
+            "shot_sprite": "Flame",
+            "shot_scale": [0.75,1.5],
+            "shot_frame_rand": true,
+            "shot_sprite_blend": false,
+            "shot_hit_range": 20,
+            "shot_steady": true,
+            "sound_every_hit": false,
+            "miss_lock": false,
+            "shot_that_damages": 1,
+            
+            "hit_sprite": "fireball_explosion",
+            "hit_scale": [1, 1],
+
+            "fire_sound": "resources/sounds/JFX_Flamer_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Flamer_hit.wav"
+        }      
+    },
+
+    "Improved Large Laser": 
+    {
+        "cost": 100000,
+        "mod_cost": 25000,
+        "short": "iLLaser",
+        "type": "beam",
+        "damage": 8,
+        "heat": 8,
+        "range": 10,
+        "tons": 4,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,160,20], [40,200,40],[60,225,60],[80,255,80], [200,255,200]],
+            "beam_sizes": [12,10,8,6,4],
+            "beam_alpha": 192,
+
+            "beam_line": [160,255,160],
+            "beam_line_size": 4,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-20,-20,-20],[-20,-20,-20],[-20,-20,-20], [-30,-30,-30],[-30,-30,-30]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [1,1],
+
+            "fire_sound": "resources/sounds/JFX_LLaser.wav"
+        }
+    },
+
+    "Improved Large Pulse Laser":
+    {
+        "cost": 175000,
+        "mod_cost": 37500,
+        "short": "iLPulse",
+        "type": "beam",
+        "damage": 9,
+        "heat": 10,
+        "range": 7,
+        "tons": 6,
+        "crit": 2,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+
+        "fx":
+        {
+            "num_shots": 3,
+            "shot_gap": 0.01,
+            "lock_on": true,
+                        
+            "beam_time": 0.02,
+            "beam_colors": [[20,160,20], [40,200,40],[60,225,60],[80,255,80], [200,255,200]],
+            "beam_sizes": [12,10,8,6,4],
+            "beam_alpha": 192,
+            
+            "beam_line": [160,255,160],
+            "beam_line_size": 4,
+            
+            "fade_time": 0.1,
+            "fade_colors": [[-20,-20,-20],[-20,-20,-20],[-20,-20,-20], [-30,-30,-30],[-30,-30,-30]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.02,
+            "particle_sprite": "yellow_particle",
+            "particle_scale": [1,1],
+        
+            "fire_sound": "resources/sounds/JFX_LLaser.wav"
+        }
+    },
+
+    "cER Micro Laser": 
+    {
+        "cost": 10000,
+        "mod_cost": 5000,
+        "short": "cER mLaser",
+        "type": "beam",
+        "damage": 2,
+        "heat": 1,
+        "range": 2,
+        "tons": 0.25,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,20,160], [40,40,200], [128,128,255]],
+            "beam_sizes": [6,3,2],
+            "beam_alpha": 64,
+
+            "beam_line": [160,160,255],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.4,0.4],
+            
+            "fire_sound": "resources/sounds/JFX_SLaser.wav"
+        }
+    },
+
+    "cHeavy Large Laser": 
+    {
+        "cost": 250000,
+        "mod_cost": 62500,
+        "short": "cH LLaser",
+        "type": "beam",
+        "damage": 16,
+        "heat": 18,
+        "range": 10,
+        "tons": 4,
+        "crit": 3,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "to_hit_mod": -0.1,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,160,20], [40,200,40],[60,225,60],[80,255,80], [200,255,200]],
+            "beam_sizes": [12,10,8,6,4],
+            "beam_alpha": 192,
+
+            "beam_line": [160,255,160],
+            "beam_line_size": 4,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-20,-20,-20],[-20,-20,-20],[-20,-20,-20], [-30,-30,-30],[-30,-30,-30]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [1,1],
+
+            "fire_sound": "resources/sounds/JFX_LLaser.wav"
+        }
+    },
+
+    "cHeavy Medium Laser": 
+    {
+        "cost": 100000,
+        "mod_cost": 25000,
+        "short": "cH MLaser",
+        "type": "beam",
+        "damage": 10,
+        "heat": 7,
+        "range": 6,
+        "tons": 1,
+        "crit": 2,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "to_hit_mod": -0.1,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[255,40,40], [255,80,80],[255,140,140]],
+            "beam_sizes": [6,4,2],
+            "beam_alpha": 192,
+
+            "beam_line": [255,160,160],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.7,0.7],
+            
+            "fire_sound": "resources/sounds/JFX_MLaser.wav"
+        }
+    },
+
+    "cHeavy Small Laser": 
+    {
+        "cost": 20000,
+        "mod_cost": 10000,
+        "short": "cH SLaser",
+        "type": "beam",
+        "damage": 6,
+        "heat": 3,
+        "range": 2,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "to_hit_mod": -0.1,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,20,160], [40,40,200], [128,128,255]],
+            "beam_sizes": [6,3,2],
+            "beam_alpha": 64,
+
+            "beam_line": [160,160,255],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.4,0.4],
+            
+            "fire_sound": "resources/sounds/JFX_SLaser.wav"
+        }
+    },
+
+    "cImproved Heavy Large Laser": 
+    {
+        "cost": 250000,
+        "mod_cost": 62500,
+        "short": "cIH LLaser",
+        "type": "beam",
+        "damage": 16,
+        "heat": 18,
+        "range": 10,
+        "tons": 4,
+        "crit": 3,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "to_hit_mod": -0.1,
+        "explodes_on_dmg": true,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,160,20], [40,200,40],[60,225,60],[80,255,80], [200,255,200]],
+            "beam_sizes": [12,10,8,6,4],
+            "beam_alpha": 192,
+
+            "beam_line": [160,255,160],
+            "beam_line_size": 4,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-20,-20,-20],[-20,-20,-20],[-20,-20,-20], [-30,-30,-30],[-30,-30,-30]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [1,1],
+
+            "fire_sound": "resources/sounds/JFX_LLaser.wav"
+        }
+    },
+
+    "cImproved Heavy Medium Laser": 
+    {
+        "cost": 100000,
+        "mod_cost": 25000,
+        "short": "cIH MLaser",
+        "type": "beam",
+        "damage": 10,
+        "heat": 7,
+        "range": 6,
+        "tons": 1,
+        "crit": 2,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "to_hit_mod": -0.1,
+        "explodes_on_dmg": true,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[255,40,40], [255,80,80],[255,140,140]],
+            "beam_sizes": [6,4,2],
+            "beam_alpha": 192,
+
+            "beam_line": [255,160,160],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.7,0.7],
+            
+            "fire_sound": "resources/sounds/JFX_MLaser.wav"
+        }
+    },
+
+    "cImproved Heavy Small Laser": 
+    {
+        "cost": 20000,
+        "mod_cost": 10000,
+        "short": "cIH SLaser",
+        "type": "beam",
+        "damage": 6,
+        "heat": 3,
+        "range": 2,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "to_hit_mod": -0.1,
+        "explodes_on_dmg": true,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,20,160], [40,40,200], [128,128,255]],
+            "beam_sizes": [6,3,2],
+            "beam_alpha": 64,
+
+            "beam_line": [160,160,255],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.4,0.4],
+            
+            "fire_sound": "resources/sounds/JFX_SLaser.wav"
+        }
+    },
+
+    "Primitive Prototype Large Laser": 
+    {
+        "cost": 100000,
+        "mod_cost": 25000,
+        "short": "pLLaser",
+        "type": "beam",
+        "damage": 8,
+        "heat": 12,
+        "range": 10,
+        "tons": 5,
+        "crit": 2,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,160,20], [40,200,40],[60,225,60],[80,255,80], [200,255,200]],
+            "beam_sizes": [12,10,8,6,4],
+            "beam_alpha": 192,
+
+            "beam_line": [160,255,160],
+            "beam_line_size": 4,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-20,-20,-20],[-20,-20,-20],[-20,-20,-20], [-30,-30,-30],[-30,-30,-30]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [1,1],
+
+            "fire_sound": "resources/sounds/JFX_LLaser.wav"
+        }
+    },
+    
+    "Primitive Prototype Medium Laser": 
+    {
+        "cost": 40000,
+        "mod_cost": 10000,
+        "short": "pMLaser",
+        "type": "beam",
+        "damage": 5,
+        "heat": 5,
+        "range": 6,
+        "tons": 1,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[255,40,40], [255,80,80],[255,140,140]],
+            "beam_sizes": [6,4,2],
+            "beam_alpha": 192,
+
+            "beam_line": [255,160,160],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.7,0.7],
+            
+            "fire_sound": "resources/sounds/JFX_MLaser.wav"
+        }
+    },
+
+    "Primitive Prototype Small Laser": 
+    {
+        "cost": 11250,
+        "mod_cost": 5000,
+        "short": "pSLaser",
+        "type": "beam",
+        "damage": 3,
+        "heat": 2,
+        "range": 2,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,20,160], [40,40,200], [128,128,255]],
+            "beam_sizes": [6,3,2],
+            "beam_alpha": 64,
+
+            "beam_line": [160,160,255],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.4,0.4],
+            
+            "fire_sound": "resources/sounds/JFX_SLaser.wav"
+        }
+    },
+
+    "cMicro Pulse Laser":
+    {
+        "cost": 125000,
+        "mod_cost": 5000,
+        "short": "cmPulse",
+        "type": "beam",
+        "damage": 3,
+        "heat": 1,
+        "range": 2,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+
+        "fx":
+        {
+            "num_shots": 3,
+            "shot_gap": 0.01,
+            "lock_on": true,
+            
+            "beam_time": 0.02,
+            "beam_colors": [[20,20,160], [40,40,200], [128,128,255]],
+            "beam_sizes": [6,3,2],
+            "beam_alpha": 64,
+            
+            "beam_line": [160,160,255],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.1,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+
+            "num_particles": 1,
+            "particle_time": 0.02,
+            "particle_sprite": "yellow_particle",
+            "particle_scale": [0.4,0.4],
+        
+            "fire_sound": "resources/sounds/JFX_SLaser.wav"
+        }
+    },
+
+    "cER Large Pulse Laser":
+    {
+        "cost": 400000,
+        "mod_cost": 75000,
+        "short": "cER LPulse",
+        "type": "beam",
+        "damage": 10,
+        "heat": 13,
+        "range": 15,
+        "tons": 6,
+        "crit": 3,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+
+        "fx":
+        {
+            "num_shots": 2,
+            "shot_gap": 0.01,
+            "lock_on": true,
+            
+            "beam_time": 0.02,
+            "beam_colors": [[20,160,20], [40,200,40],[60,225,60],[80,255,80], [200,255,200]],
+            "beam_sizes": [12,10,8,6,4],
+            "beam_alpha": 192,
+            
+            "beam_line": [160,255,160],
+            "beam_line_size": 4,
+            
+            "fade_time": 0.1,
+            "fade_colors": [[-20,-20,-20],[-20,-20,-20],[-20,-20,-20], [-30,-30,-30],[-30,-30,-30]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.02,
+            "particle_sprite": "yellow_particle",
+            "particle_scale": [1,1],
+        
+            "fire_sound": "resources/sounds/JFX_LLaser.wav"
+        }
+    },
+
+    "cER Medium Pulse Laser":
+    {
+        "cost": 150000,
+        "mod_cost": 45000,
+        "short": "cER MPulse",
+        "type": "beam",
+        "damage": 7,
+        "heat": 6,
+        "range": 9,
+        "tons": 2,
+        "crit": 2,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+
+        "fx":
+        {
+            "num_shots": 2,
+            "shot_gap": 0.01,
+            "lock_on": true,
+            
+            "beam_time": 0.02,
+            "beam_colors": [[255,40,40], [255,80,80],[255,140,140]],
+            "beam_sizes": [6,4,2],
+            "beam_alpha": 192,
+            
+            "beam_line": [255,160,160],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.1,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+
+            "num_particles": 1,
+            "particle_time": 0.02,
+            "particle_sprite": "yellow_particle",
+            "particle_scale": [0.7,0.7],
+        
+            "fire_sound": "resources/sounds/JFX_MLaser.wav"
+        }
+    },
+
+    "cER Small Pulse Laser":
+    {
+        "cost": 30000,
+        "mod_cost": 10000,
+        "short": "cER SPulse",
+        "type": "beam",
+        "damage": 5,
+        "heat": 3,
+        "range": 4,
+        "tons": 1.5,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+
+        "fx":
+        {
+            "num_shots": 2,
+            "shot_gap": 0.01,
+            "lock_on": true,
+            
+            "beam_time": 0.02,
+            "beam_colors": [[20,20,160], [40,40,200], [128,128,255]],
+            "beam_sizes": [6,3,2],
+            "beam_alpha": 64,
+            
+            "beam_line": [160,160,255],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.1,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+
+            "num_particles": 1,
+            "particle_time": 0.02,
+            "particle_sprite": "yellow_particle",
+            "particle_scale": [0.4,0.4],
+        
+            "fire_sound": "resources/sounds/JFX_SLaser.wav"
+        }
+    },
+
     "cAP Gauss Rifle":
     {
         "cost": 85000,
         "mod_cost": 4250,
         "ammo_cost": 1000,
 
-        "short": "cAPGauss",
+        "short": "cAP Gauss",
         "type": "cannon",
         "damage": 3,
         "heat": 1,
