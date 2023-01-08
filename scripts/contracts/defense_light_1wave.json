@@ -1,0 +1,252 @@
+{
+    "startup":
+    {
+        "map": ["maps/contracts/defense/*"],
+        "flee_trigger": "flee",
+        "music": "music/MUSIC03.WAV"
+    },
+
+    "mission_info":
+    {
+        "desc": "You will be guarding a local Ammo Dump facility against an invading force."
+    },
+
+    "contract_info":
+    {
+        "mission": 
+        [
+            [
+                "Garrison Duty",
+                "You are being tasked with protecting a local base from an incoming raid.",
+                "We expect enemy forces to attempt to raid our base. Payment depends on you protecting the key facilities from their attack. Salvage will be granted regardless of mission outcome."
+            ],
+
+            [
+                "Defense of a Supply Depot",
+                "You are being tasked with protecting a key supply depot from an incoming raid.",
+                "We expect enemy forces to attempt to raid our depot. Payment depends on you protecting the key facilities from their attack. Salvage will be granted regardless of mission outcome."
+            ]
+        ],
+
+        "adv_pay_adj": 0.5,
+        "tot_pay_adj": 0.5,
+
+        "salv_picks_adj": 0.5,
+        "salv_other_adj": 0.5,
+
+        "max_units_adj": 1.25,
+        "max_tons_adj": 0.8
+    },
+
+    "forces":
+	[
+		{
+			"name": "Player Forces",
+            "faction": "player_units",
+            "spawn": "player_spawn",
+            "unit_list": "player_mechs",
+            "crew_list": "player_crew"
+		},
+
+        {
+            "name": "Wave 1 - Raid 1",
+
+            "faction": "enemy",
+            "spawn": "enemy_spawn",
+            "ai": "assault",
+            "spawn_event": "wave_1",
+			
+            "type": "random",
+            "size": [1,2],
+            "min_ton": 20,
+            "max_ton": 35,
+            "crew": ["green", "regular"]
+		},
+
+        {
+            "name": "Wave 1 - Medium 2",
+
+            "faction": "enemy",
+            "spawn": "enemy_spawn",
+            "ai": "assault",
+            "spawn_event": "wave_1",
+			
+            "type": "random",
+            "size": [1,2],
+            "min_ton": 20,
+            "max_ton": 35,
+            "crew": ["green", "regular"]
+		},
+
+        {
+            "name": "Wave 1 - Medium 3",
+
+            "faction": "enemy",
+            "spawn": "enemy_spawn",
+            "ai": "assault",
+            "spawn_event": "wave_1",
+			
+            "type": "random",
+            "size": [1,2],
+            "min_ton": 20,
+            "max_ton": 35,
+            "crew": ["green", "regular"]
+		}
+	],
+
+    "factions":
+    [
+        {
+            "name": "player_units",
+            "player": true
+        },
+        
+        {
+            "name": "enemy",
+            "swap_colors": "default"
+        }
+    ],
+
+    "events":
+    {
+        "time":
+        [
+            {
+                "if": "time > 5",
+                "clear_when": true,
+
+                "actn": "trigger",
+                "args": "wave_1"
+            }
+        ],
+
+        "unit_fled":
+        [
+            {
+                "if": "enemy_count <= 0",
+                "actn": "trigger",
+                "args": "defense_failed"
+            }
+        ],
+
+        "unit_destroyed":
+        [
+            {
+                "if": "player_count <= 0",
+                "actn": "trigger",
+                "args": "mission_failed"
+                
+            },
+
+            {
+                "if": 
+                [
+                    "and",
+                    "enemy_count <= 0",
+                    "mission_building_count > 0"
+                ],
+                "actn": "trigger",
+                "args": "mission_success"
+            },
+
+            {
+                "if": 
+                [
+                    "and",
+                    "enemy_count <= 0",
+                    "mission_building_count <= 0"
+                ],
+                "actn": "trigger",
+                "args": "defense_failed"
+            },
+
+            {
+
+                "if": 
+                [
+                    "and",
+                    "triggering_unit:is_mission_target",
+                    "mission_building_count <= 0"
+                ],                
+                "actns":
+                [
+                    {
+                        "actn": "scroll_to",
+                        "args": "evac_zone"
+                    },
+
+                    {
+                        "actn": "trigger",
+                        "args": "defense_fail_now_flee"
+                    },
+
+                    {
+                        "actn": "issue_order",
+                        "args":
+                        {
+                            "faction": "enemy",
+                            "ai": "move_to",
+                            "dest": "evac_zone"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+
+    "triggers":
+    {
+        "defense_fail_now_flee":
+        {
+            "actns":
+            [
+                {
+                    "actn": "trigger_visible",
+                    "args":
+                    {
+                        "trigger": "evac_zone",
+                        "sprite": "zones:flee"
+                    }
+                },
+
+                {
+                    "actn": "trigger",
+                    "args": "defense_evac_prompt"
+                }
+            ]
+        },
+
+        "defense_evac_prompt":
+        {
+            "type": "prompt",
+            "size": 600,
+
+            "text": "The target building collapses. The evac zone has been marked on the map. Enemy forces are now fleeing!",
+
+            "options":
+            [
+                {
+                    "text": "OK",
+                    "actn": "scroll_to",
+                    "args": "player_group_all:0"
+                }
+            ]
+        },
+        
+        "evac_zone":
+        {
+            "if": 
+            [
+                "and",
+                "mission_building_count <= 0",
+                "triggering_unit:faction:name == 'enemy"
+            ],
+            "actn": "deactivate_unit",
+            "args":
+            {
+                "unit": "triggering_unit",
+                "type": "flee"
+            }
+        }
+    }
+}
