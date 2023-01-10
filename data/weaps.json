@@ -420,7 +420,7 @@
         }
     },
 
-    "cAnti-Missile":
+    "Anti-Missile (C)":
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -1470,7 +1470,7 @@
         } 
     },
 
-    "cER PPC": 
+    "ER PPC (C)": 
     {
         "cost": 600000,
         "mod_cost": 150000,
@@ -1516,7 +1516,7 @@
         }
     },
 
-    "cER Large Laser": 
+    "ER Large Laser (C)": 
     {
         "cost": 400000,
         "mod_cost": 100000,
@@ -1559,7 +1559,7 @@
         }
     },
     
-    "cER Medium Laser": 
+    "ER Medium Laser (C)": 
     {
         "cost": 160000,
         "mod_cost": 40000,
@@ -1602,7 +1602,7 @@
         }
     },
 
-    "cER Small Laser": 
+    "ER Small Laser (C)": 
     {
         "cost": 22500,
         "mod_cost": 5625,
@@ -1645,7 +1645,7 @@
         }
     },
 
-    "cLarge Pulse Laser":
+    "Large Pulse Laser (C)":
     {
         "cost": 350000,
         "mod_cost": 87500,
@@ -1688,7 +1688,7 @@
         }
     },
 
-    "cMedium Pulse Laser":
+    "Medium Pulse Laser (C)":
     {
         "cost": 120000,
         "mod_cost": 30000,
@@ -1731,7 +1731,7 @@
         }
     },
 
-    "cSmall Pulse Laser":
+    "Small Pulse Laser (C)":
     {
         "cost": 32000,
         "mod_cost": 8000,
@@ -1774,7 +1774,7 @@
         }
     },
 
-    "cGauss Rifle":
+    "Gauss Rifle (C)":
     {
         "cost": 600000,
         "mod_cost": 150000,
@@ -1819,7 +1819,7 @@
         } 
     },
 
-    "cUltra AC/2":
+    "Ultra AC/2 (C)":
     {
         "cost": 240000,
         "mod_cost": 60000,
@@ -1866,7 +1866,7 @@
         } 
     },
 
-    "cUltra AC/5":
+    "Ultra AC/5 (C)":
     {
         "cost": 400000,
         "mod_cost": 100000,
@@ -1912,7 +1912,7 @@
         }
     },
 
-    "cUltra AC/10":
+    "Ultra AC/10 (C)":
     {
         "cost": 640000,
         "mod_cost": 160000,
@@ -1958,7 +1958,7 @@
         }
     },
 
-    "cUltra AC/20":
+    "Ultra AC/20 (C)":
     {
         "cost": 960000,
         "mod_cost": 240000,
@@ -2004,7 +2004,7 @@
         }
     },
 
-    "cLB 2-X":
+    "LB 2-X (C)":
     {
         "cost": 300000,
         "mod_cost": 75000,
@@ -2051,7 +2051,7 @@
         } 
     },
     
-    "cLB 5-X":
+    "LB 5-X (C)":
     {
         "cost": 500000,
         "mod_cost": 125000,
@@ -2098,7 +2098,7 @@
         } 
     },
 
-    "cLB 10-X":
+    "LB 10-X (C)":
     {
         "cost": 800000,
         "mod_cost": 200000,
@@ -2144,7 +2144,7 @@
         } 
     },
 
-    "cLB 20-X":
+    "LB 20-X (C)":
     {
         "cost": 1200000,
         "mod_cost": 300000,
@@ -2190,7 +2190,7 @@
         } 
     },
 
-    "cLRM-5":
+    "LRM-5 (C)":
     {
         "cost": 60000,
         "mod_cost": 15000,
@@ -2230,7 +2230,7 @@
         } 
     },
 
-    "cLRM-10":
+    "LRM-10 (C)":
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -2270,7 +2270,7 @@
         }
     },
 
-    "cLRM-15":
+    "LRM-15 (C)":
     {
         "cost": 350000,
         "mod_cost": 87500,
@@ -2310,7 +2310,7 @@
         } 
     },
 
-    "cLRM-20":
+    "LRM-20 (C)":
     {
         "cost": 500000,
         "mod_cost": 125000,
@@ -2350,7 +2350,7 @@
         } 
     },
 
-    "cSRM-2":
+    "SRM-2 (C)":
     {
         "cost": 20000,
         "mod_cost": 5000,
@@ -2390,7 +2390,7 @@
         }
     },
 
-    "cSRM-4":
+    "SRM-4 (C)":
     {
         "cost": 120000,
         "mod_cost": 30000,
@@ -2430,7 +2430,7 @@
         } 
     },
 
-    "cSRM-6":
+    "SRM-6 (C)":
     {
         "cost": 160000,
         "mod_cost": 40000,
@@ -2470,7 +2470,7 @@
         } 
     },
 
-    "cStreak SRM-2":
+    "Streak SRM-2 (C)":
     {
         "cost": 30000,
         "mod_cost": 7500,
@@ -2511,7 +2511,7 @@
         }
     },
 
-    "cStreak SRM-4":
+    "Streak SRM-4 (C)":
     {
         "cost": 180000,
         "mod_cost": 45000,
@@ -2552,7 +2552,7 @@
         }
     },
 
-    "cStreak SRM-6":
+    "Streak SRM-6 (C)":
     {
         "cost": 240000,
         "mod_cost": 60000,
@@ -3780,7 +3780,7 @@
         }
     },
 
-    "cLaser Anti-Missile":
+    "Laser Anti-Missile (C)":
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -4126,7 +4126,7 @@
         }      
     },
 
-    "cFlamer":
+    "Flamer (C)":
     {
         "cost": 15000,
         "mod_cost": 3750,
@@ -4257,7 +4257,7 @@
         }      
     },
 
-    "cImproved Large Laser": 
+    "Improved Large Laser (C)": 
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -4299,7 +4299,7 @@
         }
     },
 
-    "cImproved Large Pulse Laser":
+    "Improved Large Pulse Laser (C)":
     {
         "cost": 350000,
         "mod_cost": 87500,
@@ -4342,7 +4342,7 @@
         }
     },
 
-    "cER Micro Laser": 
+    "ER Micro Laser (C)": 
     {
         "cost": 20000,
         "mod_cost": 5000,
@@ -4384,7 +4384,7 @@
         }
     },
 
-    "cHeavy Large Laser": 
+    "Heavy Large Laser (C)": 
     {
         "cost": 500000,
         "mod_cost": 125000,
@@ -4427,7 +4427,7 @@
         }
     },
 
-    "cHeavy Medium Laser": 
+    "Heavy Medium Laser (C)": 
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -4470,7 +4470,7 @@
         }
     },
 
-    "cHeavy Small Laser": 
+    "Heavy Small Laser (C)": 
     {
         "cost": 40000,
         "mod_cost": 10000,
@@ -4513,7 +4513,7 @@
         }
     },
 
-    "cImproved Heavy Large Laser": 
+    "Improved Heavy Large Laser (C)": 
     {
         "cost": 700000,
         "mod_cost": 175000,
@@ -4556,7 +4556,7 @@
         }
     },
 
-    "cImproved Heavy Medium Laser": 
+    "Improved Heavy Medium Laser (C)": 
     {
         "cost": 300000,
         "mod_cost": 75000,
@@ -4599,7 +4599,7 @@
         }
     },
 
-    "cImproved Heavy Small Laser": 
+    "Improved Heavy Small Laser (C)": 
     {
         "cost": 60000,
         "mod_cost": 15000,
@@ -4642,7 +4642,7 @@
         }
     },
 
-    "cMicro Pulse Laser":
+    "Micro Pulse Laser (C)":
     {
         "cost": 25000,
         "mod_cost": 6250,
@@ -4685,7 +4685,7 @@
         }
     },
 
-    "cER Large Pulse Laser":
+    "ER Large Pulse Laser (C)":
     {
         "cost": 800000,
         "mod_cost": 200000,
@@ -4728,7 +4728,7 @@
         }
     },
 
-    "cER Medium Pulse Laser":
+    "ER Medium Pulse Laser (C)":
     {
         "cost": 300000,
         "mod_cost": 75000,
@@ -4771,7 +4771,7 @@
         }
     },
 
-    "cER Small Pulse Laser":
+    "ER Small Pulse Laser (C)":
     {
         "cost": 60000,
         "mod_cost": 15000,
@@ -5296,7 +5296,7 @@
         }
     },
 
-    "cEnhanced ER PPC": 
+    "Enhanced ER PPC (C)": 
     {
         "cost": 600000,
         "mod_cost": 150000,
@@ -5341,7 +5341,7 @@
         }
     },
 
-    "cImproved PPC": 
+    "Improved PPC (C)": 
     {
         "cost": 400000,
         "mod_cost": 100000,
@@ -5520,7 +5520,7 @@
         }
     },
 
-    "cER PPC + CAP": 
+    "ER PPC (C) + CAP": 
     {
         "cost": 750000,
         "mod_cost": 187500,
@@ -5701,7 +5701,7 @@
         }
     },
 
-    "cPlasma Cannon": 
+    "Plasma Cannon (C)": 
     {
         "cost": 640000,
         "mod_cost": 160000,
@@ -6234,7 +6234,7 @@
         }
     },
 
-    "cAP Gauss Rifle":
+    "AP Gauss Rifle (C)":
     {
         "cost": 17000,
         "mod_cost": 4250,
@@ -6684,13 +6684,12 @@
         } 
     },
 
-    "HAG 20":
+    "HAG 20 (C)":
     {
         "cost": 800000,
         "mod_cost": 200000,
         "ammo_cost": 60000,
 
-        "short": "Gauss",
         "type": "cannon",
         "damage": 1,
         "heat": 4,
@@ -6731,13 +6730,12 @@
         } 
     },
 
-    "HAG 30":
+    "HAG 30 (C)":
     {
         "cost": 1000000,
         "mod_cost": 250000,
         "ammo_cost": 60000,
 
-        "short": "Gauss",
         "type": "cannon",
         "damage": 1,
         "heat": 6,
@@ -6778,13 +6776,12 @@
         } 
     },
 
-    "HAG 40":
+    "HAG 40 (C)":
     {
         "cost": 1200000,
         "mod_cost": 300000,
         "ammo_cost": 60000,
 
-        "short": "Gauss",
         "type": "cannon",
         "damage": 1,
         "heat": 7,
@@ -6958,7 +6955,7 @@
         }
     },
 
-    "cImproved Autocannon/2":
+    "Improved Autocannon/2 (C)":
     {
         "cost": 150000,
         "mod_cost": 37500,
@@ -7002,7 +6999,7 @@
         } 
     },
 
-    "cImproved Autocannon/5":
+    "Improved Autocannon/5 (C)":
     {
         "cost": 250000,
         "mod_cost": 62500,
@@ -7046,7 +7043,7 @@
         }
     },
 
-    "cImproved Autocannon/10":
+    "Improved Autocannon/10 (C)":
     {
         "cost": 400000,
         "mod_cost": 100000,
@@ -7089,7 +7086,7 @@
         }
     },
 
-    "cImproved Autocannon/20":
+    "Improved Autocannon/20 (C)":
     {
         "cost": 600000,
         "mod_cost": 150000,
@@ -7488,7 +7485,7 @@
         }
     },
 
-    "cLight Machinegun":
+    "Light Machinegun (C)":
     {
         "cost": 10000,
         "mod_cost": 2500,
@@ -7530,7 +7527,7 @@
         }
     },
 
-    "cMachinegun":
+    "Machinegun (C)":
     {
         "cost": 10000,
         "mod_cost": 2500,
@@ -7614,7 +7611,7 @@
         }
     },
 
-    "cHeavy Machinegun":
+    "Heavy Machinegun (C)":
     {
         "cost": 15000,
         "mod_cost": 3750,
@@ -7698,7 +7695,7 @@
         }
     },
 
-    "cLight Machinegun Array":
+    "Light Machinegun Array (C)":
     {
         "cost": 42500,
         "mod_cost": 10625,
@@ -7782,7 +7779,7 @@
         }
     },
 
-    "cMachinegun Array":
+    "Machinegun Array (C)":
     {
         "cost": 42500,
         "mod_cost": 10625,
@@ -7866,7 +7863,7 @@
         }
     },
 
-    "cHeavy Machinegun Array":
+    "Heavy Machinegun Array (C)":
     {
         "cost": 62500,
         "mod_cost": 15625,
@@ -7908,7 +7905,7 @@
         }
     },
 
-    "Protomech Autocannon/2":
+    "Protomech Autocannon/2 (C)":
     {
         "cost": 190000,
         "mod_cost": 47500,
@@ -7951,7 +7948,7 @@
         } 
     },
 
-    "Protomech Autocannon/4":
+    "Protomech Autocannon/4 (C)":
     {
         "cost": 266000,
         "mod_cost": 66500,
@@ -7994,7 +7991,7 @@
         } 
     },
 
-    "Protomech Autocannon/8":
+    "Protomech Autocannon/8 (C)":
     {
         "cost": 175000,
         "mod_cost": 43750,
@@ -8037,13 +8034,13 @@
         } 
     },
 
-    "cPrototype LB 2-X":
+    "Prototype LB 2-X (C)":
     {
         "cost": 300000,
         "mod_cost": 75000,
         "ammo_cost": 4000,
         
-        "short": "LB 10-X (C)",
+        "short": "LB 2-X (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 2,
@@ -8084,13 +8081,13 @@
         } 
     },
 
-    "cPrototype LB 5-X":
+    "Prototype LB 5-X (C)":
     {
         "cost": 500000,
         "mod_cost": 125000,
         "ammo_cost": 18000,
         
-        "short": "LB 10-X (C)",
+        "short": "LB 5-X (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 5,
@@ -8131,7 +8128,7 @@
         } 
     },
 
-    "cPrototype LB 20-X":
+    "Prototype LB 20-X (C)":
     {
         "cost": 1200000,
         "mod_cost": 300000,
@@ -8177,7 +8174,7 @@
         } 
     },
 
-    "cPrototype Ultra AC/2":
+    "Prototype Ultra AC/2 (C)":
     {
         "cost": 240000,
         "mod_cost": 60000,
@@ -8224,7 +8221,7 @@
         } 
     },
 
-    "cPrototype Ultra AC/10":
+    "Prototype Ultra AC/10 (C)":
     {
         "cost": 640000,
         "mod_cost": 160000,
@@ -8270,7 +8267,7 @@
         }
     },
 
-    "cPrototype Ultra AC/20":
+    "Prototype Ultra AC/20 (C)":
     {
         "cost": 960000,
         "mod_cost": 240000,
@@ -8323,7 +8320,7 @@
         "ammo_cost": 5000,
         "is_ams": true,
 
-        "short": "APDS",
+        "short": "APDS RISC",
         "type": "mg",
         "damage": 2,
         "heat": 1,
@@ -8573,7 +8570,7 @@
         }
     },
 
-    "cRotary AC/2":
+    "Rotary AC/2 (C)":
     {
         "cost": 350000,
         "mod_cost": 87500,
@@ -8619,7 +8616,7 @@
         } 
     },
 
-    "cRotary AC/5":
+    "Rotary AC/5 (C)":
     {
         "cost": 275000,
         "mod_cost": 68750,
@@ -8751,7 +8748,7 @@
         }
     },
 
-    "cATM/3":
+    "ATM/3 (C)":
     {
         "cost": 100000,
         "mod_cost": 25000,
@@ -8793,7 +8790,7 @@
         }
     },
 
-    "cATM/3 ER":
+    "ATM/3 ER (C)":
     {
         "cost": 100000,
         "mod_cost": 25000,
@@ -8835,7 +8832,7 @@
         }
     },
 
-    "cATM/3 HE":
+    "ATM/3 HE (C)":
     {
         "cost": 100000,
         "mod_cost": 25000,
@@ -8876,7 +8873,7 @@
         }
     },
 
-    "cATM/6":
+    "ATM/6 (C)":
     {
         "cost": 250000,
         "mod_cost": 62500,
@@ -8918,7 +8915,7 @@
         }
     },
 
-    "cATM/6 ER":
+    "ATM/6 ER (C)":
     {
         "cost": 250000,
         "mod_cost": 62500,
@@ -8960,7 +8957,7 @@
         }
     },
 
-    "cATM/6 HE":
+    "ATM/6 HE (C)":
     {
         "cost": 250000,
         "mod_cost": 62500,
@@ -9001,7 +8998,7 @@
         }
     },
 
-    "cATM/9":
+    "ATM/9 (C)":
     {
         "cost": 450000,
         "mod_cost": 112500,
@@ -9043,7 +9040,7 @@
         }
     },
 
-    "cATM/9 ER":
+    "ATM/9 ER (C)":
     {
         "cost": 450000,
         "mod_cost": 112500,
@@ -9085,7 +9082,7 @@
         }
     },
 
-    "cATM/9 HE":
+    "ATM/9 HE (C)":
     {
         "cost": 450000,
         "mod_cost": 112500,
@@ -9126,7 +9123,7 @@
         }
     },
 
-    "cATM/12":
+    "ATM/12 (C)":
     {
         "cost": 700000,
         "mod_cost": 175000,
@@ -9168,7 +9165,7 @@
         }
     },
 
-    "cATM/12 ER":
+    "ATM/12 ER (C)":
     {
         "cost": 700000,
         "mod_cost": 175000,
@@ -9210,7 +9207,7 @@
         }
     },
 
-    "cATM/12 HE":
+    "ATM/12 HE (C)":
     {
         "cost": 700000,
         "mod_cost": 175000,
@@ -9251,7 +9248,7 @@
         }
     },
 
-    "ciATM/3":
+    "IATM/3 (C)":
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -9293,7 +9290,7 @@
         }
     },
 
-    "ciATM/3 ER":
+    "IATM/3 ER (C)":
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -9336,7 +9333,7 @@
         }
     },
 
-    "ciATM/3 HE":
+    "IATM/3 HE (C)":
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -9378,7 +9375,7 @@
         }
     },
 
-    "ciATM/6":
+    "IATM/6 (C)":
     {
         "cost": 500000,
         "mod_cost": 125000,
@@ -9421,7 +9418,7 @@
         }
     },
 
-    "ciATM/6 ER":
+    "IATM/6 ER (C)":
     {
         "cost": 500000,
         "mod_cost": 125000,
@@ -9464,7 +9461,7 @@
         }
     },
 
-    "ciATM/6 HE":
+    "IATM/6 HE (C)":
     {
         "cost": 500000,
         "mod_cost": 125000,
@@ -9506,7 +9503,7 @@
         }
     },
 
-    "ciATM/9":
+    "IATM/9 (C)":
     {
         "cost": 900000,
         "mod_cost": 225000,
@@ -9549,7 +9546,7 @@
         }
     },
 
-    "ciATM/9 ER":
+    "IATM/9 ER (C)":
     {
         "cost": 900000,
         "mod_cost": 225000,
@@ -9592,7 +9589,7 @@
         }
     },
 
-    "ciATM/9 HE":
+    "IATM/9 HE (C)":
     {
         "cost": 900000,
         "mod_cost": 225000,
@@ -9634,7 +9631,7 @@
         }
     },
 
-    "ciATM/12":
+    "IATM/12 (C)":
     {
         "cost": 1400000,
         "mod_cost": 350000,
@@ -9677,7 +9674,7 @@
         }
     },
 
-    "ciATM/12 ER":
+    "IATM/12 ER (C)":
     {
         "cost": 1400000,
         "mod_cost": 350000,
@@ -9720,7 +9717,7 @@
         }
     },
 
-    "ciATM/12 HE":
+    "IATM/12 HE (C)":
     {
         "cost": 1400000,
         "mod_cost": 350000,
@@ -9762,7 +9759,7 @@
         }
     },
 
-    "ciATM/3 Improved Inferno":
+    "IATM/3 Inferno (C)":
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -9805,7 +9802,7 @@
         }
     },
 
-    "cATM/6 Improved Inferno":
+    "ATM/6 Inferno (C)":
     {
         "cost": 500000,
         "mod_cost": 125000,
@@ -9849,7 +9846,7 @@
         }
     },
 
-    "ciATM/9 Improved Inferno":
+    "IATM/9 Inferno (C)":
     {
         "cost": 900000,
         "mod_cost": 225000,
@@ -9893,7 +9890,7 @@
         }
     },
 
-    "ciATM/12 Improved Inferno":
+    "IATM/12 Inferno (C)":
     {
         "cost": 1400000,
         "mod_cost": 350000,
@@ -9976,7 +9973,7 @@
         } 
     },
 
-    "cArrow IV":
+    "Arrow IV (C)":
     {
         "cost": 900000,
         "mod_cost": 225000,
@@ -10343,7 +10340,7 @@
         } 
     },
 
-    "cImproved LRM-5":
+    "Improved LRM-5 (C)":
     {
         "cost": 60000,
         "mod_cost": 15000,
@@ -10384,7 +10381,7 @@
         } 
     },
 
-    "cImproved LRM-10":
+    "Improved LRM-10 (C)":
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -10425,7 +10422,7 @@
         }
     },
 
-    "cImproved LRM-15":
+    "Improved LRM-15 (C)":
     {
         "cost": 350000,
         "mod_cost": 87500,
@@ -10466,7 +10463,7 @@
         } 
     },
 
-    "cImproved LRM-20":
+    "Improved LRM-20 (C)":
     {
         "cost": 500000,
         "mod_cost": 125000,
@@ -10507,7 +10504,7 @@
         } 
     },
 
-    "cStreak LRM-5":
+    "Streak LRM-5 (C)":
     {
         "cost": 150000,
         "mod_cost": 37500,
@@ -10547,7 +10544,7 @@
         } 
     },
 
-    "cStreak LRM-10":
+    "Streak LRM-10 (C)":
     {
         "cost": 450000,
         "mod_cost": 112500,
@@ -10587,7 +10584,7 @@
         }
     },
 
-    "cStreak LRM-15":
+    "Streak LRM-15 (C)":
     {
         "cost": 400000,
         "mod_cost": 100000,
@@ -10627,7 +10624,7 @@
         } 
     },
 
-    "cStreak LRM-20":
+    "Streak LRM-20 (C)":
     {
         "cost": 600000,
         "mod_cost": 150000,
@@ -11308,7 +11305,7 @@
         } 
     },
 
-    "cMech Mortar 1":
+    "Mech Mortar 1 (C)":
     {
         "cost": 14000,
         "mod_cost": 3500,
@@ -11350,7 +11347,7 @@
         } 
     },
 
-    "cMech Mortar 2":
+    "Mech Mortar 2 (C)":
     {
         "cost": 30000,
         "mod_cost": 7500,
@@ -11392,7 +11389,7 @@
         } 
     },
 
-    "cMech Mortar 4":
+    "Mech Mortar 4 (C)":
     {
         "cost": 64000,
         "mod_cost": 16000,
@@ -11434,7 +11431,7 @@
         } 
     },
 
-    "cMech Mortar 8":
+    "Mech Mortar 8 (C)":
     {
         "cost": 140000,
         "mod_cost": 35000,
@@ -11515,7 +11512,7 @@
         } 
     },
 
-    "cPrototype Streak SRM-4":
+    "Prototype Streak SRM-4 (C)":
     {
         "cost": 120000,
         "mod_cost": 30000,
@@ -11555,7 +11552,7 @@
         }
     },
 
-    "cPrototype Streak SRM-6":
+    "Prototype Streak SRM-6 (C)":
     {
         "cost": 240000,
         "mod_cost": 60000,
@@ -11595,7 +11592,7 @@
         } 
     },
 
-    "cImproved SRM-2":
+    "Improved SRM-2 (C)":
     {
         "cost": 20000,
         "mod_cost": 5000,
@@ -11635,7 +11632,7 @@
         }
     },
 
-    "cImproved SRM-4":
+    "Improved SRM-4 (C)":
     {
         "cost": 120000,
         "mod_cost": 30000,
@@ -11675,7 +11672,7 @@
         } 
     },
 
-    "cImproved SRM-6":
+    "Improved SRM-6 (C)":
     {
         "cost": 160000,
         "mod_cost": 40000,
@@ -13131,7 +13128,7 @@
         } 
     },
 
-    "cLRM-5 Dead-Fire":
+    "LRM-5 (C) Dead-Fire":
     {
         "cost": 60000,
         "mod_cost": 15000,
@@ -13173,7 +13170,7 @@
         } 
     },
 
-    "cLRM-10 Dead-Fire":
+    "LRM-10 (C) Dead-Fire":
     {
         "cost": 200000,
         "mod_cost": 50000,
@@ -13215,7 +13212,7 @@
         }
     },
 
-    "cLRM-15 Dead-Fire":
+    "LRM-15 (C) Dead-Fire":
     {
         "cost": 350000,
         "mod_cost": 87500,
@@ -13257,7 +13254,7 @@
         } 
     },
 
-    "cLRM-20 Dead-Fire":
+    "LRM-20 (C) Dead-Fire":
     {
         "cost": 500000,
         "mod_cost": 125000,
@@ -13299,7 +13296,7 @@
         } 
     },
 
-    "cSRM-2 Dead-Fire":
+    "SRM-2 Dead-Fire (C)":
     {
         "cost": 20000,
         "mod_cost": 5000,
@@ -13341,7 +13338,7 @@
         }
     },
 
-    "cSRM-2 Inferno":
+    "SRM-2 Inferno  (C)":
     {
         "cost": 20000,
         "mod_cost": 5000,
@@ -13382,7 +13379,7 @@
         }
     },
 
-    "cSRM-4 Dead-Fire":
+    "SRM-4 Dead-Fire (C)":
     {
         "cost": 120000,
         "mod_cost": 30000,
@@ -13424,7 +13421,7 @@
         } 
     },
 
-    "cSRM-4 Inferno":
+    "SRM-4 Inferno (C)":
     {
         "cost": 120000,
         "mod_cost": 30000,
@@ -13465,7 +13462,7 @@
         } 
     },
 
-    "cSRM-6 Dead-Fire":
+    "SRM-6 Dead-Fire (C)":
     {
         "cost": 160000,
         "mod_cost": 40000,
@@ -13507,7 +13504,7 @@
         } 
     },
 
-    "cSRM-6 Inferno":
+    "SRM-6 Inferno (C)":
     {
         "cost": 160000,
         "mod_cost": 40000,
@@ -13548,7 +13545,7 @@
         } 
     },
 
-    "Protomech Autocannon/2 Caseless":
+    "Protomech Autocannon/2 Caseless (C)":
     {
         "cost": 190000,
         "mod_cost": 47500,
@@ -13591,7 +13588,7 @@
         } 
     },
 
-    "Protomech Autocannon/2 Flak":
+    "Protomech Autocannon/2 Flak (C)":
     {
         "cost": 190000,
         "mod_cost": 47500,
@@ -13636,7 +13633,7 @@
         } 
     },
 
-    "Protomech Autocannon/2 Precision":
+    "Protomech Autocannon/2 Precision (C)":
     {
         "cost": 190000,
         "mod_cost": 47500,
@@ -13680,7 +13677,7 @@
         } 
     },
 
-    "Protomech Autocannon/2 Incendiary":
+    "Protomech Autocannon/2 Incendiary (C)":
     {
         "cost": 190000,
         "mod_cost": 47500,
@@ -13724,7 +13721,7 @@
         } 
     },
 
-    "Protomech Autocannon/4 Caseless":
+    "Protomech Autocannon/4 Caseless (C)":
     {
         "cost": 266000,
         "mod_cost": 66500,
@@ -13767,7 +13764,7 @@
         } 
     },
 
-    "Protomech Autocannon/4 Flak":
+    "Protomech Autocannon/4 Flak (C)":
     {
         "cost": 266000,
         "mod_cost": 66500,
@@ -13812,7 +13809,7 @@
         }
     },
 
-    "Protomech Autocannon/4 Precision":
+    "Protomech Autocannon/4 Precision (C)":
     {
         "cost": 266000,
         "mod_cost": 66500,
@@ -13856,7 +13853,7 @@
         } 
     },
 
-    "Protomech Autocannon/4 Incendiary":
+    "Protomech Autocannon/4 Incendiary (C)":
     {
         "cost": 266000,
         "mod_cost": 66500,
@@ -13901,7 +13898,7 @@
         } 
     },
 
-    "Protomech Autocannon/8 Caseless ":
+    "Protomech Autocannon/8 Caseless (C)":
     {
         "cost": 175000,
         "mod_cost": 43750,
@@ -13944,7 +13941,7 @@
         } 
     },
 
-    "Protomech Autocannon/8 Flak":
+    "Protomech Autocannon/8 Flak (C)":
     {
         "cost": 175000,
         "mod_cost": 43750,
@@ -13988,7 +13985,7 @@
         }
     },
 
-    "Protomech Autocannon/8 Precision":
+    "Protomech Autocannon/8 Precision (C)":
     {
         "cost": 175000,
         "mod_cost": 43750,
@@ -14032,7 +14029,7 @@
         } 
     },
 
-    "Protomech Autocannon/8 Incendiary":
+    "Protomech Autocannon/8 Incendiary (C)":
     {
         "cost": 175000,
         "mod_cost": 43750,
