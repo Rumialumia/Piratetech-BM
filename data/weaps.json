@@ -422,7 +422,7 @@
 
     "cAnti-Missile":
     {
-        "cost": 100000,
+        "cost": 200000,
         "mod_cost": 50000,
         "ammo_cost": 2000,
         "is_ams": true,
@@ -738,7 +738,7 @@
         "type": "flame",
         "damage": 2,
         "damage_type": "heat",
-        "heat": 2,
+        "heat": 3,
         "range": 2,
         "tons": 1,
         "crit": 1,
@@ -821,7 +821,7 @@
     "ER Large Laser": 
     {
         "cost": 200000,
-        "mod_cost": 40000,
+        "mod_cost": 50000,
         "short": "ER LLaser",
         "type": "beam",
         "damage": 8,
@@ -863,7 +863,7 @@
     "ER Medium Laser": 
     {
         "cost": 80000,
-        "mod_cost": 25000,
+        "mod_cost": 20000,
         "short": "ER MLaser",
         "type": "beam",
         "damage": 5,
@@ -905,7 +905,7 @@
     "ER Small Laser": 
     {
         "cost": 11250,
-        "mod_cost": 10000,
+        "mod_cost": 2813,
         "short": "ER SLaser",
         "type": "beam",
         "damage": 3,
@@ -947,7 +947,7 @@
     "Large Pulse Laser":
     {
         "cost": 175000,
-        "mod_cost": 37500,
+        "mod_cost": 43750,
         "short": "LPulse",
         "type": "beam",
         "damage": 9,
@@ -990,7 +990,7 @@
     "Medium Pulse Laser":
     {
         "cost": 60000,
-        "mod_cost": 22500,
+        "mod_cost": 15000,
         "short": "MPulse",
         "type": "beam",
         "damage": 6,
@@ -1033,7 +1033,7 @@
     "Small Pulse Laser":
     {
         "cost": 16000,
-        "mod_cost": 10000,
+        "mod_cost": 4000,
         "short": "SPulse",
         "type": "beam",
         "damage": 3,
@@ -1121,14 +1121,15 @@
     "Ultra AC/2":
     {
         "cost": 120000,
-        "mod_cost": 20000,
-        "ammo_cost": 60000,
+        "mod_cost": 30000,
+        "ammo_cost": 1000,
 
         "short": "UAC/2",
         "type": "cannon",
         "damage": 2,
         "heat": 2,
         "range": 17,
+        "min_range": 3,
         "tons": 7,
         "crit": 3,
         "ammo": 45,
@@ -1167,17 +1168,18 @@
     "Ultra AC/5":
     {
         "cost": 200000,
-        "mod_cost": 40000,
-        "ammo_cost": 100000,
+        "mod_cost": 50000,
+        "ammo_cost": 9000,
         
         "short": "UAC/5",
         "type": "cannon",
         "damage": 5,
         "heat": 2,
         "range": 13,
+        "min_range": 2,
         "tons": 9,
         "crit": 5,
-        "ammo": 28,
+        "ammo": 20,
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.01,
@@ -1213,8 +1215,8 @@
     "Ultra AC/10":
     {
         "cost": 320000,
-        "mod_cost": 60000,
-        "ammo_cost": 160000,
+        "mod_cost": 80000,
+        "ammo_cost": 12000,
         
         "short": "UAC/10",
         "type": "cannon",
@@ -1259,8 +1261,8 @@
     "LB 10-X":
     {
         "cost": 400000,
-        "mod_cost": 70000,
-        "ammo_cost": 200000,
+        "mod_cost": 100000,
+        "ammo_cost": 12000,
         
         "short": "LB 10-X",
         "type": "missile",
@@ -1305,8 +1307,8 @@
     "Ultra AC/20":
     {
         "cost": 480000,
-        "mod_cost": 90000,
-        "ammo_cost": 220000,
+        "mod_cost": 120000,
+        "ammo_cost": 20000,
         
         "short": "UAC/20",
         "type": "cannon",
@@ -1351,8 +1353,8 @@
     "Streak SRM-2":
     {
         "cost": 15000,
-        "mod_cost": 15000,
-        "ammo_cost": 54000,
+        "mod_cost": 3750,
+        "ammo_cost": 108000,
         "is_streak": true,
         
         "short": "SSRM-2",
@@ -1391,8 +1393,8 @@
     "Streak SRM-4":
     {
         "cost": 90000,
-        "mod_cost": 25000,
-        "ammo_cost": 54000,
+        "mod_cost": 22500,
+        "ammo_cost": 108000,
         "is_streak": true,
         
         "short": "SSRM-4",
@@ -1431,8 +1433,8 @@
     "Streak SRM-6":
     {
         "cost": 120000,
-        "mod_cost": 45000,
-        "ammo_cost": 54000,
+        "mod_cost": 30000,
+        "ammo_cost": 108000,
         "is_streak": true,
         
         "short": "SSRM-6",
@@ -1472,6 +1474,8 @@
     {
         "cost": 600000,
         "mod_cost": 150000,
+
+        "short": "ER PPC (C)",
         "type": "beam",
         "damage": 15,
         "heat": 15,
@@ -1515,8 +1519,9 @@
     "cER Large Laser": 
     {
         "cost": 400000,
-        "mod_cost": 80000,
-        "short": "cER LLaser",
+        "mod_cost": 100000,
+
+        "short": "ER LLaser (C)",
         "type": "beam",
         "damage": 10,
         "heat": 12,
@@ -1557,11 +1562,12 @@
     "cER Medium Laser": 
     {
         "cost": 160000,
-        "mod_cost": 50000,
-        "short": "cER MLaser",
+        "mod_cost": 40000,
+
+        "short": "ER MLaser (C)",
         "type": "beam",
-        "damage": 5,
-        "heat": 7,
+        "damage": 7,
+        "heat": 5,
         "range": 10,
         "tons": 1,
         "crit": 1,
@@ -1599,8 +1605,9 @@
     "cER Small Laser": 
     {
         "cost": 22500,
-        "mod_cost": 20000,
-        "short": "cER SLaser",
+        "mod_cost": 5625,
+
+        "short": "ER SLaser (C)",
         "type": "beam",
         "damage": 5,
         "heat": 2,
@@ -1641,12 +1648,12 @@
     "cLarge Pulse Laser":
     {
         "cost": 350000,
-        "mod_cost": 75000,
-        "short": "cLPulse",
+        "mod_cost": 87500,
+        "short": "LPulse (C)",
         "type": "beam",
-        "damage": 10,
+        "damage": 9,
         "heat": 10,
-        "range": 14,
+        "range": 7,
         "tons": 6,
         "crit": 2,
         "ammo": -1,
@@ -1684,8 +1691,8 @@
     "cMedium Pulse Laser":
     {
         "cost": 120000,
-        "mod_cost": 45000,
-        "short": "cMPulse",
+        "mod_cost": 30000,
+        "short": "MPulse (C)",
         "type": "beam",
         "damage": 7,
         "heat": 4,
@@ -1727,8 +1734,8 @@
     "cSmall Pulse Laser":
     {
         "cost": 32000,
-        "mod_cost": 10000,
-        "short": "cSPulse",
+        "mod_cost": 8000,
+        "short": "SPulse (C)",
         "type": "beam",
         "damage": 3,
         "heat": 2,
@@ -1771,13 +1778,14 @@
     {
         "cost": 600000,
         "mod_cost": 150000,
-        "ammo_cost": 300000,
+        "ammo_cost": 40000,
 
-        "short": "cGauss",
+        "short": "Gauss (C)",
         "type": "cannon",
         "damage": 15,
         "heat": 1,
         "range": 15,
+        "min_range": 2,
         "tons": 12,
         "crit": 6,
         "ammo": 8,
@@ -1814,14 +1822,15 @@
     "cUltra AC/2":
     {
         "cost": 240000,
-        "mod_cost": 40000,
-        "ammo_cost": 120000,
+        "mod_cost": 60000,
+        "ammo_cost": 2000,
 
-        "short": "cUAC/2",
+        "short": "UAC/2 (C)",
         "type": "cannon",
         "damage": 2,
         "heat": 2,
         "range": 18,
+        "min_range": 2,
         "tons": 5,
         "crit": 2,
         "ammo": 45,
@@ -1860,10 +1869,10 @@
     "cUltra AC/5":
     {
         "cost": 400000,
-        "mod_cost": 80000,
-        "ammo_cost": 200000,
+        "mod_cost": 100000,
+        "ammo_cost": 18000,
         
-        "short": "cUAC/5",
+        "short": "UAC/5 (C)",
         "type": "cannon",
         "damage": 5,
         "heat": 2,
@@ -1906,13 +1915,13 @@
     "cUltra AC/10":
     {
         "cost": 640000,
-        "mod_cost": 120000,
-        "ammo_cost": 300000,
+        "mod_cost": 160000,
+        "ammo_cost": 24000,
         
-        "short": "cUAC/10",
+        "short": "UAC/10 (C)",
         "type": "cannon",
         "damage": 10,
-        "heat": 6,
+        "heat": 8,
         "range": 12,
         "tons": 10,
         "crit": 4,
@@ -1952,10 +1961,10 @@
     "cUltra AC/20":
     {
         "cost": 960000,
-        "mod_cost": 180000,
-        "ammo_cost": 400000,
+        "mod_cost": 240000,
+        "ammo_cost": 40000,
         
-        "short": "cUAC/20",
+        "short": "UAC/20 (C)",
         "type": "cannon",
         "damage": 20,
         "heat": 14,
@@ -1998,10 +2007,10 @@
     "cLB 2-X":
     {
         "cost": 300000,
-        "mod_cost": 50000,
-        "ammo_cost": 150000,
+        "mod_cost": 75000,
+        "ammo_cost": 4000,
         
-        "short": "cLB 2-X",
+        "short": "LB 2-X (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 2,
@@ -2045,10 +2054,10 @@
     "cLB 5-X":
     {
         "cost": 500000,
-        "mod_cost": 100000,
-        "ammo_cost": 250000,
+        "mod_cost": 125000,
+        "ammo_cost": 18000,
         
-        "short": "cLB 5-X",
+        "short": "LB 5-X (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 5,
@@ -2092,10 +2101,10 @@
     "cLB 10-X":
     {
         "cost": 800000,
-        "mod_cost": 140000,
-        "ammo_cost": 400000,
+        "mod_cost": 200000,
+        "ammo_cost": 24000,
         
-        "short": "cLB 10-X",
+        "short": "LB 10-X (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 10,
@@ -2138,10 +2147,10 @@
     "cLB 20-X":
     {
         "cost": 1200000,
-        "mod_cost": 200000,
-        "ammo_cost": 600000,
+        "mod_cost": 300000,
+        "ammo_cost": 40000,
         
-        "short": "cLB 20-X",
+        "short": "LB 20-X (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 20,
@@ -2184,9 +2193,10 @@
     "cLRM-5":
     {
         "cost": 60000,
-        "mod_cost": 20000,
+        "mod_cost": 15000,
         "ammo_cost": 60000,
         
+        "short": "LRM-5 (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 5,
@@ -2223,9 +2233,10 @@
     "cLRM-10":
     {
         "cost": 200000,
-        "mod_cost": 30000,
+        "mod_cost": 50000,
         "ammo_cost": 60000,
         
+        "short": "LRM-10 (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 10,
@@ -2262,9 +2273,10 @@
     "cLRM-15":
     {
         "cost": 350000,
-        "mod_cost": 40000,
+        "mod_cost": 87500,
         "ammo_cost": 60000,
         
+        "short": "LRM-15 (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 15,
@@ -2301,9 +2313,10 @@
     "cLRM-20":
     {
         "cost": 500000,
-        "mod_cost": 60000,
+        "mod_cost": 125000,
         "ammo_cost": 60000,
         
+        "short": "LRM-20 (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 20,
@@ -2340,9 +2353,10 @@
     "cSRM-2":
     {
         "cost": 20000,
-        "mod_cost": 10000,
-        "ammo_cost": 27000,
+        "mod_cost": 5000,
+        "ammo_cost": 54000,
         
+        "short": "SRM-2 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 2,
@@ -2379,9 +2393,10 @@
     "cSRM-4":
     {
         "cost": 120000,
-        "mod_cost": 15000,
-        "ammo_cost": 27000,
+        "mod_cost": 30000,
+        "ammo_cost": 54000,
         
+        "short": "SRM-4 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 4,
@@ -2418,9 +2433,10 @@
     "cSRM-6":
     {
         "cost": 160000,
-        "mod_cost": 20000,
-        "ammo_cost": 27000,
+        "mod_cost": 40000,
+        "ammo_cost": 54000,
         
+        "short": "SRM-6 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 6,
@@ -2457,11 +2473,11 @@
     "cStreak SRM-2":
     {
         "cost": 30000,
-        "mod_cost": 30000,
-        "ammo_cost": 54000,
+        "mod_cost": 7500,
+        "ammo_cost": 108000,
         "is_streak": true,
         
-        "short": "cSSRM-2",
+        "short": "SSRM-2 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 2,
@@ -2498,11 +2514,11 @@
     "cStreak SRM-4":
     {
         "cost": 180000,
-        "mod_cost": 50000,
-        "ammo_cost": 54000,
+        "mod_cost": 45000,
+        "ammo_cost": 108000,
         "is_streak": true,
         
-        "short": "cSSRM-4",
+        "short": "SSRM-4 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 4,
@@ -2539,11 +2555,11 @@
     "cStreak SRM-6":
     {
         "cost": 240000,
-        "mod_cost": 90000,
-        "ammo_cost": 54000,
+        "mod_cost": 60000,
+        "ammo_cost": 108000,
         "is_streak": true,
         
-        "short": "cSSRM-6",
+        "short": "SSRM-6 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 6,
@@ -3725,8 +3741,8 @@
 
     "Laser Anti-Missile":
     {
-        "cost": 250000,
-        "mod_cost": 50000,
+        "cost": 225000,
+        "mod_cost": 56250,
         "is_ams": true,
 
         "short": "LAMS",
@@ -3766,11 +3782,11 @@
 
     "cLaser Anti-Missile":
     {
-        "cost": 100000,
-        "mod_cost": 20000,
+        "cost": 200000,
+        "mod_cost": 50000,
         "is_ams": true,
         
-        "short": "cLAMS",
+        "short": "LAMS (C)",
         "type": "beam",
         "damage": 3,
         "heat": 5,
@@ -3808,7 +3824,7 @@
     "Binary Laser Cannon": 
     {
         "cost": 200000,
-        "mod_cost": 25000,
+        "mod_cost": 50000,
         "short": "Blaser",
         "type": "beam",
         "damage": 12,
@@ -3850,7 +3866,7 @@
     "Bombast Laser": 
     {
         "cost": 200000,
-        "mod_cost": 25000,
+        "mod_cost": 50000,
         "short": "Bombast",
         "type": "beam",
         "damage": 12,
@@ -3899,7 +3915,6 @@
         "damage_type": "heat",
         "heat": 4,
         "range": 2,
-        "min_range": 0,
         "tons": 5,
         "crit": 2,
         "ammo": -1,
@@ -3982,8 +3997,8 @@
     
     "Medium Chemical Laser": 
     {
-        "cost": 40000,
-        "mod_cost": 10000,
+        "cost": 30000,
+        "mod_cost": 7500,
         "ammo_cost": 30000,
         "short": "MChemLaser",
         "type": "beam",
@@ -4025,8 +4040,8 @@
 
     "Small Chemical Laser": 
     {
-        "cost": 11250,
-        "mod_cost": 5000,
+        "cost": 10000,
+        "mod_cost": 2500,
         "ammo_cost": 30000,
         "short": "SChemLaser",
         "type": "beam",
@@ -4069,13 +4084,13 @@
     "Vehicle Flamer":
     {
         "cost": 7500,
-        "mod_cost": 5000,
+        "mod_cost": 1875,
         "ammo_cost": 1000,
         "short": "VFlamer",
         "type": "flame",
-        "damage": 3,
+        "damage": 2,
         "damage_type": "heat",
-        "heat": 2,
+        "heat": 3,
         "range": 2,
         "tons": 0.5,
         "crit": 1,
@@ -4113,13 +4128,13 @@
 
     "cFlamer":
     {
-        "cost": 7500,
-        "mod_cost": 5000,
-        "short": "cFlamer",
+        "cost": 15000,
+        "mod_cost": 3750,
+        "short": "Flamer (C)",
         "type": "flame",
-        "damage": 3,
+        "damage": 2,
         "damage_type": "heat",
-        "heat": 2,
+        "heat": 3,
         "range": 2,
         "tons": 0.5,
         "crit": 1,
@@ -4158,10 +4173,10 @@
     "Heavy Flamer":
     {
         "cost": 11250,
-        "mod_cost": 2812,
+        "mod_cost": 2813,
         "ammo_cost": 2000,
         "type": "flame",
-        "damage": 6,
+        "damage": 4,
         "damage_type": "heat",
         "heat": 5,
         "range": 3,
@@ -4201,10 +4216,10 @@
 
     "ER Flamer":
     {
-        "cost": 150000,
-        "mod_cost": 100000,
+        "cost": 15000,
+        "mod_cost": 3750,
         "type": "flame",
-        "damage": 1.5,
+        "damage": 1,
         "damage_type": "heat",
         "heat": 4,
         "range": 5,
@@ -4244,9 +4259,9 @@
 
     "cImproved Large Laser": 
     {
-        "cost": 100000,
-        "mod_cost": 25000,
-        "short": "ciLLaser",
+        "cost": 200000,
+        "mod_cost": 50000,
+        "short": "ILLaser (C)",
         "type": "beam",
         "damage": 8,
         "heat": 8,
@@ -4286,9 +4301,9 @@
 
     "cImproved Large Pulse Laser":
     {
-        "cost": 175000,
-        "mod_cost": 37500,
-        "short": "ciLPulse",
+        "cost": 350000,
+        "mod_cost": 87500,
+        "short": "ILPulse (C)",
         "type": "beam",
         "damage": 9,
         "heat": 10,
@@ -4329,9 +4344,9 @@
 
     "cER Micro Laser": 
     {
-        "cost": 10000,
+        "cost": 20000,
         "mod_cost": 5000,
-        "short": "cER mLaser",
+        "short": "ER mLaser (C)",
         "type": "beam",
         "damage": 2,
         "heat": 1,
@@ -4371,9 +4386,9 @@
 
     "cHeavy Large Laser": 
     {
-        "cost": 250000,
-        "mod_cost": 62500,
-        "short": "cH LLaser",
+        "cost": 500000,
+        "mod_cost": 125000,
+        "short": "H LLaser (C)",
         "type": "beam",
         "damage": 16,
         "heat": 18,
@@ -4414,9 +4429,9 @@
 
     "cHeavy Medium Laser": 
     {
-        "cost": 100000,
-        "mod_cost": 25000,
-        "short": "cH MLaser",
+        "cost": 200000,
+        "mod_cost": 50000,
+        "short": "H MLaser (C)",
         "type": "beam",
         "damage": 10,
         "heat": 7,
@@ -4457,9 +4472,9 @@
 
     "cHeavy Small Laser": 
     {
-        "cost": 20000,
+        "cost": 40000,
         "mod_cost": 10000,
-        "short": "cH SLaser",
+        "short": "H SLaser (C)",
         "type": "beam",
         "damage": 6,
         "heat": 3,
@@ -4500,9 +4515,9 @@
 
     "cImproved Heavy Large Laser": 
     {
-        "cost": 250000,
-        "mod_cost": 62500,
-        "short": "ciHLLaser",
+        "cost": 700000,
+        "mod_cost": 175000,
+        "short": "IHLLaser (C)",
         "type": "beam",
         "damage": 16,
         "heat": 18,
@@ -4513,7 +4528,6 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-        "to_hit_mod": -0.1,
         "explodes_on_dmg": true,
         
         "fx":
@@ -4544,9 +4558,9 @@
 
     "cImproved Heavy Medium Laser": 
     {
-        "cost": 100000,
-        "mod_cost": 25000,
-        "short": "ciHMLaser",
+        "cost": 300000,
+        "mod_cost": 75000,
+        "short": "IHMLaser (C)",
         "type": "beam",
         "damage": 10,
         "heat": 7,
@@ -4557,7 +4571,6 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-        "to_hit_mod": -0.1,
         "explodes_on_dmg": true,
         
         "fx":
@@ -4588,9 +4601,9 @@
 
     "cImproved Heavy Small Laser": 
     {
-        "cost": 20000,
-        "mod_cost": 10000,
-        "short": "ciHSLaser",
+        "cost": 60000,
+        "mod_cost": 15000,
+        "short": "IHSLaser (C)",
         "type": "beam",
         "damage": 6,
         "heat": 3,
@@ -4601,7 +4614,6 @@
         "p_fire": 0.05,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
-        "to_hit_mod": -0.1,
         "explodes_on_dmg": true,
         
         "fx":
@@ -4632,9 +4644,9 @@
 
     "cMicro Pulse Laser":
     {
-        "cost": 125000,
-        "mod_cost": 5000,
-        "short": "cmPulse",
+        "cost": 25000,
+        "mod_cost": 6250,
+        "short": "mPulse (C)",
         "type": "beam",
         "damage": 3,
         "heat": 1,
@@ -4675,9 +4687,9 @@
 
     "cER Large Pulse Laser":
     {
-        "cost": 400000,
-        "mod_cost": 75000,
-        "short": "cER LPulse",
+        "cost": 800000,
+        "mod_cost": 200000,
+        "short": "ER LPulse (C)",
         "type": "beam",
         "damage": 10,
         "heat": 13,
@@ -4718,9 +4730,9 @@
 
     "cER Medium Pulse Laser":
     {
-        "cost": 150000,
-        "mod_cost": 45000,
-        "short": "cER MPulse",
+        "cost": 300000,
+        "mod_cost": 75000,
+        "short": "ER MPulse (C)",
         "type": "beam",
         "damage": 7,
         "heat": 6,
@@ -4761,9 +4773,9 @@
 
     "cER Small Pulse Laser":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "short": "cER SPulse",
+        "cost": 60000,
+        "mod_cost": 15000,
+        "short": "ER SPulse (C)",
         "type": "beam",
         "damage": 5,
         "heat": 3,
@@ -4805,7 +4817,7 @@
     "Re-Engineered Large Pulse Laser":
     {
         "cost": 250000,
-        "mod_cost": 55000,
+        "mod_cost": 62500,
         "short": "RE LPulse",
         "type": "beam",
         "damage": 10,
@@ -4849,7 +4861,7 @@
     "Re-Engineered Medium Pulse Laser":
     {
         "cost": 100000,
-        "mod_cost": 45000,
+        "mod_cost": 25000,
         "short": "RE MPulse",
         "type": "beam",
         "damage": 7,
@@ -4893,7 +4905,7 @@
     "Re-Engineered Small Pulse Laser":
     {
         "cost": 25000,
-        "mod_cost": 15000,
+        "mod_cost": 6250,
         "short": "RE SPulse",
         "type": "beam",
         "damage": 5,
@@ -4937,7 +4949,7 @@
     "Variable Speed Large Pulse Laser":
     {
         "cost": 465000,
-        "mod_cost": 82500,
+        "mod_cost": 116250,
         "short": "VS LPulse",
         "type": "beam",
         "damage": 9,
@@ -4980,7 +4992,7 @@
     "Variable Speed Medium Pulse Laser":
     {
         "cost": 200000,
-        "mod_cost": 45000,
+        "mod_cost": 50000,
         "short": "VS MPulse",
         "type": "beam",
         "damage": 7,
@@ -5023,7 +5035,7 @@
     "Variable Speed Small Pulse Laser":
     {
         "cost": 60000,
-        "mod_cost": 30000,
+        "mod_cost": 15000,
         "short": "VS SPulse",
         "type": "beam",
         "damage": 4,
@@ -5066,7 +5078,7 @@
     "Large X-Pulse Laser":
     {
         "cost": 275000,
-        "mod_cost": 52500,
+        "mod_cost": 68750,
         "short": "L X-Pulse",
         "type": "beam",
         "damage": 9,
@@ -5109,7 +5121,7 @@
     "Medium X-Pulse Laser":
     {
         "cost": 110000,
-        "mod_cost": 50000,
+        "mod_cost": 27500,
         "short": "M X-Pulse",
         "type": "beam",
         "damage": 6,
@@ -5151,8 +5163,8 @@
 
     "Small X-Pulse Laser":
     {
-        "cost": 32000,
-        "mod_cost": 20000,
+        "cost": 31000,
+        "mod_cost": 7750,
         "short": "S X-Pulse",
         "type": "beam",
         "damage": 3,
@@ -5195,13 +5207,13 @@
     "Light PPC": 
     {
         "cost": 150000,
-        "mod_cost": 45000,
+        "mod_cost": 37500,
         "short": "L PPC",
         "type": "beam",
         "damage": 5,
         "heat": 5,
         "range": 12,
-        "min_range": 2,
+        "min_range": 3,
         "tons": 3,
         "crit": 2,
         "ammo": -1,
@@ -5241,13 +5253,13 @@
     "Heavy PPC": 
     {
         "cost": 250000,
-        "mod_cost": 65000,
+        "mod_cost": 62500,
         "short": "H PPC",
         "type": "beam",
         "damage": 15,
         "heat": 15,
         "range": 12,
-        "min_range": 2,
+        "min_range": 3,
         "tons": 10,
         "crit": 4,
         "ammo": -1,
@@ -5286,9 +5298,9 @@
 
     "cEnhanced ER PPC": 
     {
-        "cost": 300000,
-        "mod_cost": 70000,
-        "short": "cEnh ER PPC",
+        "cost": 600000,
+        "mod_cost": 150000,
+        "short": "Enh ER PPC (C)",
         "type": "beam",
         "damage": 12,
         "heat": 15,
@@ -5331,13 +5343,14 @@
 
     "cImproved PPC": 
     {
-        "cost": 200000,
-        "mod_cost": 50000,
+        "cost": 400000,
+        "mod_cost": 100000,
+        "short": "IPPC (C)",
         "type": "beam",
         "damage": 10,
         "heat": 10,
         "range": 12,
-        "min_range": 2,
+        "min_range": 3,
         "tons": 6,
         "crit": 2,
         "ammo": -1,
@@ -5421,12 +5434,12 @@
     "PPC + Cap": 
     {
         "cost": 350000,
-        "mod_cost": 62500,
+        "mod_cost": 87500,
         "type": "beam",
         "damage": 15,
         "heat": 15,
         "range": 12,
-        "min_range": 2,
+        "min_range": 3,
         "tons": 8,
         "crit": 4,
         "ammo": -1,
@@ -5466,7 +5479,7 @@
     "ER PPC + CAP": 
     {
         "cost": 450000,
-        "mod_cost": 90000,
+        "mod_cost": 112500,
         "type": "beam",
         "damage": 15,
         "heat": 20,
@@ -5510,7 +5523,8 @@
     "cER PPC + CAP": 
     {
         "cost": 750000,
-        "mod_cost": 300000,
+        "mod_cost": 187500,
+        "short": "ER PPC + CAP (C)",
         "type": "beam",
         "damage": 20,
         "heat": 20,
@@ -5554,13 +5568,13 @@
     "Light PPC + CAP": 
     {
         "cost": 300000,
-        "mod_cost": 60000,
-        "short": "L PPC",
+        "mod_cost": 75000,
+        "short": "L PPC + CAP",
         "type": "beam",
         "damage": 10,
         "heat": 10,
         "range": 12,
-        "min_range": 2,
+        "min_range": 3,
         "tons": 4,
         "crit": 3,
         "ammo": -1,
@@ -5600,13 +5614,13 @@
     "Heavy PPC + CAP": 
     {
         "cost": 400000,
-        "mod_cost": 80000,
-        "short": "H PPC",
+        "mod_cost": 100000,
+        "short": "H PPC + CAP",
         "type": "beam",
         "damage": 20,
         "heat": 20,
         "range": 12,
-        "min_range": 2,
+        "min_range": 3,
         "tons": 11,
         "crit": 5,
         "ammo": -1,
@@ -5646,7 +5660,7 @@
     "SN PPC + CAP": 
     {
         "cost": 450000,
-        "mod_cost": 90000,
+        "mod_cost": 112500,
         "type": "beam",
         "damage": 13,
         "heat": 15,
@@ -5689,9 +5703,10 @@
 
     "cPlasma Cannon": 
     {
-        "cost": 320000,
-        "mod_cost": 71000,
-        "ammo_cost": 30000,
+        "cost": 640000,
+        "mod_cost": 160000,
+        "ammo_cost": 60000,
+        "short": "Plasma Cannon (C)",
         "type": "beam",
         "damage": 5,
         "damage_type": "heat",
@@ -5736,7 +5751,7 @@
     "Plasma Rifle": 
     {
         "cost": 260000,
-        "mod_cost": 53000,
+        "mod_cost": 65000,
         "ammo_cost": 30000,
         "type": "beam",
         "damage": 12,
@@ -5781,9 +5796,9 @@
 
     "Prototype ER Large Laser": 
     {
-        "cost": 200000,
-        "mod_cost": 40000,
-        "short": "Proto ER LLaser",
+        "cost": 600000,
+        "mod_cost": 150000,
+        "short": "ER LLaser",
         "type": "beam",
         "damage": 8,
         "heat": 24,
@@ -5825,8 +5840,8 @@
     "Prototype ER Medium Laser": 
     {
         "cost": 80000,
-        "mod_cost": 25000,
-        "short": "Proto ER MLaser",
+        "mod_cost": 20000,
+        "short": "ER MLaser",
         "type": "beam",
         "damage": 5,
         "heat": 10,
@@ -5868,8 +5883,8 @@
     "Prototype ER Small Laser": 
     {
         "cost": 11250,
-        "mod_cost": 10000,
-        "short": "Proto ER SLaser",
+        "mod_cost": 2813,
+        "short": "ER SLaser",
         "type": "beam",
         "damage": 3,
         "heat": 4,
@@ -5910,9 +5925,9 @@
 
     "Prototype Large Pulse Laser":
     {
-        "cost": 175000,
-        "mod_cost": 37500,
-        "short": "Proto LPulse",
+        "cost": 875000,
+        "mod_cost": 218750,
+        "short": "LPulse",
         "type": "beam",
         "damage": 9,
         "heat": 20,
@@ -5954,9 +5969,9 @@
 
     "Prototype Medium Pulse Laser":
     {
-        "cost": 60000,
-        "mod_cost": 22500,
-        "short": "Proto MPulse",
+        "cost": 300000,
+        "mod_cost": 75000,
+        "short": "MPulse",
         "type": "beam",
         "damage": 6,
         "heat": 8,
@@ -5998,9 +6013,9 @@
 
     "Prototype Small Pulse Laser":
     {
-        "cost": 16000,
-        "mod_cost": 10000,
-        "short": "Proto SPulse",
+        "cost": 80000,
+        "mod_cost": 20000,
+        "short": "SPulse",
         "type": "beam",
         "damage": 3,
         "heat": 4,
@@ -6042,8 +6057,8 @@
 
     "RISC Hyper Laser": 
     {
-        "cost": 750000,
-        "mod_cost": 75000,
+        "cost": 1875000,
+        "mod_cost": 468750,
         "type": "beam",
         "damage": 20,
         "heat": 24,
@@ -6085,7 +6100,7 @@
     "TSEMP Cannon": 
     {
         "cost": 800000,
-        "mod_cost": 100000,
+        "mod_cost": 200000,
         "type": "beam",
         "damage": 30,
         "damage_type": "heat",
@@ -6130,8 +6145,8 @@
 
     "TSEMP One-Shot": 
     {
-        "cost": 800000,
-        "mod_cost": 100000,
+        "cost": 500000,
+        "mod_cost": 125000,
         "type": "beam",
         "damage": 30,
         "damage_type": "heat",
@@ -6177,7 +6192,7 @@
     "TSEMP Repeating Cannon": 
     {
         "cost": 1200000,
-        "mod_cost": 210000,
+        "mod_cost": 300000,
         "type": "beam",
         "damage": 30,
         "damage_type": "heat",
@@ -6221,11 +6236,11 @@
 
     "cAP Gauss Rifle":
     {
-        "cost": 85000,
+        "cost": 17000,
         "mod_cost": 4250,
-        "ammo_cost": 1000,
+        "ammo_cost": 2000,
 
-        "short": "cAP Gauss",
+        "short": "AP Gauss (C)",
         "type": "cannon",
         "damage": 3,
         "heat": 1,
@@ -6266,7 +6281,7 @@
     "BattleMech Taser":
     {
         "cost": 200000,
-        "mod_cost": 40000,
+        "mod_cost": 50000,
         "ammo_cost": 2000,
         
         "short": "Taser",
@@ -6312,7 +6327,7 @@
     "Fluid Gun Inferno":
     {
         "cost": 35000,
-        "mod_cost": 10000,
+        "mod_cost": 8750,
         "ammo_cost": 500,
         "short": "Fluid Gun",
         "type": "flame",
@@ -6358,7 +6373,7 @@
     "Fluid Gun Corrosive":
     {
         "cost": 35000,
-        "mod_cost": 10000,
+        "mod_cost": 8750,
         "ammo_cost": 500,
         "short": "Fluid Gun",
         "type": "flame",
@@ -6403,7 +6418,7 @@
     "Light Gauss Rifle":
     {
         "cost": 275000,
-        "mod_cost": 52500,
+        "mod_cost": 68750,
         "ammo_cost": 20000,
 
         "short": "L Gauss",
@@ -6448,7 +6463,7 @@
     "Heavy Gauss Rifle":
     {
         "cost": 500000,
-        "mod_cost": 95000,
+        "mod_cost": 125000,
         "ammo_cost": 20000,
 
         "short": "H Gauss",
@@ -6493,10 +6508,10 @@
     "Improved Heavy Gauss Rifle":
     {
         "cost": 700000,
-        "mod_cost": 115000,
+        "mod_cost": 175000,
         "ammo_cost": 20000,
 
-        "short": "iH Gauss",
+        "short": "IH Gauss",
         "type": "cannon",
         "damage": 22,
         "heat": 2,
@@ -6538,10 +6553,10 @@
     "Prototype Gauss Rifle":
     {
         "cost": 1200000,
-        "mod_cost": 75000,
+        "mod_cost": 300000,
         "ammo_cost": 20000,
 
-        "short": "Proto Gauss",
+        "short": "Gauss",
         "type": "cannon",
         "damage": 15,
         "heat": 1,
@@ -6583,7 +6598,7 @@
     "Silver Bullet Gauss Rifle":
     {
         "cost": 350000,
-        "mod_cost": 80000,
+        "mod_cost": 87500,
         "ammo_cost": 25000,
 
         "short": "SB Gauss",
@@ -6629,7 +6644,7 @@
     "MagShot":
     {
         "cost": 8500,
-        "mod_cost": 2250,
+        "mod_cost": 2125,
         "ammo_cost": 1000,
 
         "type": "cannon",
@@ -6671,9 +6686,9 @@
 
     "HAG 20":
     {
-        "cost": 400000,
-        "mod_cost": 100000,
-        "ammo_cost": 30000,
+        "cost": 800000,
+        "mod_cost": 200000,
+        "ammo_cost": 60000,
 
         "short": "Gauss",
         "type": "cannon",
@@ -6718,9 +6733,9 @@
 
     "HAG 30":
     {
-        "cost": 500000,
-        "mod_cost": 150000,
-        "ammo_cost": 30000,
+        "cost": 1000000,
+        "mod_cost": 250000,
+        "ammo_cost": 60000,
 
         "short": "Gauss",
         "type": "cannon",
@@ -6765,9 +6780,9 @@
 
     "HAG 40":
     {
-        "cost": 600000,
-        "mod_cost": 200000,
-        "ammo_cost": 30000,
+        "cost": 1200000,
+        "mod_cost": 300000,
+        "ammo_cost": 60000,
 
         "short": "Gauss",
         "type": "cannon",
@@ -6813,10 +6828,10 @@
     "HVAC/2":
     {
         "cost": 100000,
-        "mod_cost": 15000,
+        "mod_cost": 25000,
         "ammo_cost": 3000,
 
-        "short": "AC/2",
+        "short": "HVAC/2",
         "type": "cannon",
         "damage": 2,
         "heat": 1,
@@ -6858,10 +6873,10 @@
     "HVAC/5":
     {
         "cost": 160000,
-        "mod_cost": 25000,
+        "mod_cost": 40000,
         "ammo_cost": 10000,
         
-        "short": "AC/5",
+        "short": "HVAC/5",
         "type": "cannon",
         "damage": 5,
         "heat": 3,
@@ -6902,10 +6917,10 @@
     "HVAC/10":
     {
         "cost": 230000,
-        "mod_cost": 35000,
+        "mod_cost": 57500,
         "ammo_cost": 20000,
         
-        "short": "AC/10",
+        "short": "HVAC/10",
         "type": "cannon",
         "damage": 10,
         "heat": 7,
@@ -6945,11 +6960,11 @@
 
     "cImproved Autocannon/2":
     {
-        "cost": 75000,
-        "mod_cost": 10000,
-        "ammo_cost": 5000,
+        "cost": 150000,
+        "mod_cost": 37500,
+        "ammo_cost": 2000,
 
-        "short": "ciAC/2",
+        "short": "IAC/2 (C)",
         "type": "cannon",
         "damage": 2,
         "heat": 1,
@@ -6989,11 +7004,11 @@
 
     "cImproved Autocannon/5":
     {
-        "cost": 125000,
-        "mod_cost": 20000,
-        "ammo_cost": 10000,
+        "cost": 250000,
+        "mod_cost": 62500,
+        "ammo_cost": 9000,
         
-        "short": "ciAC/5",
+        "short": "IAC/5 (C)",
         "type": "cannon",
         "damage": 5,
         "heat": 1,
@@ -7033,11 +7048,11 @@
 
     "cImproved Autocannon/10":
     {
-        "cost": 200000,
-        "mod_cost": 30000,
-        "ammo_cost": 15000,
+        "cost": 400000,
+        "mod_cost": 100000,
+        "ammo_cost": 12000,
         
-        "short": "ciAC/10",
+        "short": "IAC/10 (C)",
         "type": "cannon",
         "damage": 10,
         "heat": 3,
@@ -7076,11 +7091,11 @@
 
     "cImproved Autocannon/20":
     {
-        "cost": 300000,
-        "mod_cost": 50000,
-        "ammo_cost": 25000,
+        "cost": 600000,
+        "mod_cost": 150000,
+        "ammo_cost": 2500,
         
-        "short": "ciAC/20",
+        "short": "IAC/20 (C)",
         "type": "cannon",
         "damage": 20,
         "heat": 7,
@@ -7120,10 +7135,10 @@
     "LB 2-X":
     {
         "cost": 150000,
-        "mod_cost": 25000,
+        "mod_cost": 37500,
         "ammo_cost": 2000,
         
-        "short": "LB 10-X",
+        "short": "LB 2-X",
         "type": "missile",
         "damage": 1,
         "n_missiles": 2,
@@ -7166,11 +7181,11 @@
 
     "LB 5-X":
     {
-        "cost": 400000,
-        "mod_cost": 70000,
-        "ammo_cost": 200000,
+        "cost": 250000,
+        "mod_cost": 62500,
+        "ammo_cost": 9000,
         
-        "short": "LB 10-X",
+        "short": "LB 5-X",
         "type": "missile",
         "damage": 1,
         "n_missiles": 5,
@@ -7213,11 +7228,11 @@
 
     "LB 20-X":
     {
-        "cost": 400000,
-        "mod_cost": 70000,
-        "ammo_cost": 200000,
+        "cost": 600000,
+        "mod_cost": 150000,
+        "ammo_cost": 20000,
         
-        "short": "LB 10-X",
+        "short": "LB 20-X",
         "type": "missile",
         "damage": 1,
         "n_missiles": 20,
@@ -7259,9 +7274,9 @@
 
     "Prototype LB 10-X":
     {
-        "cost": 400000,
-        "mod_cost": 70000,
-        "ammo_cost": 200000,
+        "cost": 2000000,
+        "mod_cost": 500000,
+        "ammo_cost": 12000,
         
         "short": "LB 10-X",
         "type": "missile",
@@ -7304,9 +7319,9 @@
 
     "Light Autocannon/2":
     {
-        "cost": 75000,
-        "mod_cost": 10000,
-        "ammo_cost": 5000,
+        "cost": 100000,
+        "mod_cost": 25000,
+        "ammo_cost": 2000,
 
         "short": "LAC/2",
         "type": "cannon",
@@ -7347,9 +7362,9 @@
 
     "Light Autocannon/5":
     {
-        "cost": 125000,
-        "mod_cost": 20000,
-        "ammo_cost": 10000,
+        "cost": 150000,
+        "mod_cost": 37500,
+        "ammo_cost": 5000,
         
         "short": "LAC/5",
         "type": "cannon",
@@ -7390,9 +7405,9 @@
 
     "Long Tom Cannon":
     {
-        "cost": 300000,
-        "mod_cost": 50000,
-        "ammo_cost": 25000,
+        "cost": 650000,
+        "mod_cost": 162500,
+        "ammo_cost": 20000,
 
         "type": "cannon",
         "damage": 20,
@@ -7434,8 +7449,8 @@
     "Light Machinegun":
     {
         "cost": 5000,
-        "mod_cost": 5000,
-        "ammo_cost": 1000,
+        "mod_cost": 1250,
+        "ammo_cost": 500,
         
         "short": "LMG",
         "type": "mg",
@@ -7475,11 +7490,11 @@
 
     "cLight Machinegun":
     {
-        "cost": 5000,
-        "mod_cost": 5000,
+        "cost": 10000,
+        "mod_cost": 2500,
         "ammo_cost": 1000,
         
-        "short": "cLMG",
+        "short": "LMG (C)",
         "type": "mg",
         "damage": 1,
         "heat": 0,
@@ -7517,11 +7532,11 @@
 
     "cMachinegun":
     {
-        "cost": 5000,
-        "mod_cost": 5000,
+        "cost": 10000,
+        "mod_cost": 2500,
         "ammo_cost": 1000,
         
-        "short": "cMG",
+        "short": "MG (C)",
         "type": "mg",
         "damage": 2,
         "heat": 0,
@@ -7559,8 +7574,8 @@
 
     "Heavy Machinegun":
     {
-        "cost": 5000,
-        "mod_cost": 5000,
+        "cost": 7500,
+        "mod_cost": 1875,
         "ammo_cost": 1000,
         
         "short": "HMG",
@@ -7601,11 +7616,11 @@
 
     "cHeavy Machinegun":
     {
-        "cost": 5000,
-        "mod_cost": 5000,
-        "ammo_cost": 1000,
+        "cost": 15000,
+        "mod_cost": 3750,
+        "ammo_cost": 2000,
         
-        "short": "cHMG",
+        "short": "HMG (C)",
         "type": "mg",
         "damage": 3,
         "heat": 0,
@@ -7643,9 +7658,9 @@
 
     "Light Machinegun Array":
     {
-        "cost": 5000,
-        "mod_cost": 5000,
-        "ammo_cost": 1000,
+        "cost": 21250,
+        "mod_cost": 5313,
+        "ammo_cost": 500,
         
         "short": "LMG Array",
         "type": "mg",
@@ -7685,8 +7700,8 @@
 
     "cLight Machinegun Array":
     {
-        "cost": 5000,
-        "mod_cost": 5000,
+        "cost": 42500,
+        "mod_cost": 10625,
         "ammo_cost": 1000,
         
         "short": "cLMG Array",
@@ -7727,8 +7742,8 @@
 
     "Machinegun Array":
     {
-        "cost": 5000,
-        "mod_cost": 5000,
+        "cost": 21250,
+        "mod_cost": 5313,
         "ammo_cost": 1000,
         
         "short": "MG Array",
@@ -7769,9 +7784,9 @@
 
     "cMachinegun Array":
     {
-        "cost": 5000,
-        "mod_cost": 5000,
-        "ammo_cost": 1000,
+        "cost": 42500,
+        "mod_cost": 10625,
+        "ammo_cost": 2000,
         
         "short": "cMG Array",
         "type": "mg",
@@ -7811,8 +7826,8 @@
 
     "Heavy Machinegun Array":
     {
-        "cost": 5000,
-        "mod_cost": 5000,
+        "cost": 31250,
+        "mod_cost": 7813,
         "ammo_cost": 1000,
         
         "short": "HMG Array",
@@ -7853,9 +7868,9 @@
 
     "cHeavy Machinegun Array":
     {
-        "cost": 5000,
-        "mod_cost": 5000,
-        "ammo_cost": 1000,
+        "cost": 62500,
+        "mod_cost": 15625,
+        "ammo_cost": 2000,
         
         "short": "cHMG Array",
         "type": "mg",
@@ -7895,11 +7910,11 @@
 
     "Protomech Autocannon/2":
     {
-        "cost": 75000,
-        "mod_cost": 10000,
+        "cost": 190000,
+        "mod_cost": 47500,
         "ammo_cost": 5000,
 
-        "short": "PAC/2",
+        "short": "PAC/2 (C)",
         "type": "cannon",
         "damage": 2,
         "heat": 1,
@@ -7938,17 +7953,17 @@
 
     "Protomech Autocannon/4":
     {
-        "cost": 75000,
-        "mod_cost": 10000,
-        "ammo_cost": 5000,
+        "cost": 266000,
+        "mod_cost": 66500,
+        "ammo_cost": 9600,
 
-        "short": "PAC/4",
+        "short": "PAC/4 (C)",
         "type": "cannon",
-        "damage": 2,
+        "damage": 4,
         "heat": 1,
-        "range": 14,
-        "tons": 3.5,
-        "crit": 2,
+        "range": 10,
+        "tons": 4.5,
+        "crit": 3,
         "ammo": 20,
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
@@ -7981,17 +7996,17 @@
 
     "Protomech Autocannon/8":
     {
-        "cost": 75000,
-        "mod_cost": 10000,
-        "ammo_cost": 5000,
+        "cost": 175000,
+        "mod_cost": 43750,
+        "ammo_cost": 12600,
 
-        "short": "PAC/8",
+        "short": "PAC/8 (C)",
         "type": "cannon",
-        "damage": 2,
-        "heat": 1,
-        "range": 14,
-        "tons": 3.5,
-        "crit": 2,
+        "damage": 8,
+        "heat": 2,
+        "range": 7,
+        "tons": 5.5,
+        "crit": 4,
         "ammo": 10,
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
@@ -8024,11 +8039,11 @@
 
     "cPrototype LB 2-X":
     {
-        "cost": 150000,
-        "mod_cost": 25000,
-        "ammo_cost": 2000,
+        "cost": 300000,
+        "mod_cost": 75000,
+        "ammo_cost": 4000,
         
-        "short": "cLB 10-X",
+        "short": "LB 10-X (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 2,
@@ -8071,11 +8086,11 @@
 
     "cPrototype LB 5-X":
     {
-        "cost": 400000,
-        "mod_cost": 70000,
-        "ammo_cost": 200000,
+        "cost": 500000,
+        "mod_cost": 125000,
+        "ammo_cost": 18000,
         
-        "short": "cLB 10-X",
+        "short": "LB 10-X (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 5,
@@ -8118,11 +8133,11 @@
 
     "cPrototype LB 20-X":
     {
-        "cost": 400000,
-        "mod_cost": 70000,
-        "ammo_cost": 200000,
+        "cost": 1200000,
+        "mod_cost": 300000,
+        "ammo_cost": 40000,
         
-        "short": "cLB 10-X",
+        "short": "LB 20-X (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 20,
@@ -8164,11 +8179,11 @@
 
     "cPrototype Ultra AC/2":
     {
-        "cost": 120000,
-        "mod_cost": 20000,
-        "ammo_cost": 60000,
+        "cost": 240000,
+        "mod_cost": 60000,
+        "ammo_cost": 2000,
 
-        "short": "cUAC/2",
+        "short": "UAC/2 (C)",
         "type": "cannon",
         "damage": 2,
         "heat": 2,
@@ -8209,60 +8224,13 @@
         } 
     },
 
-    "cPrototype Ultra AC/5":
-    {
-        "cost": 200000,
-        "mod_cost": 40000,
-        "ammo_cost": 100000,
-        
-        "short": "cUAC/5",
-        "type": "cannon",
-        "damage": 5,
-        "heat": 2,
-        "range": 13,
-        "min_range": 2,
-        "tons": 9,
-        "crit": 6,
-        "ammo": 28,
-        "p_fire": 0,
-        "p_dmg_weaps": 0.2,
-        "p_dmg_pilot": 0.01,
-        "ignore_ams": true,
-        "use_ammo_per_shot": true,
-        
-        "fx":
-        {
-            "type": "shooter",
-            "shot_speed": 1200,
-
-            "muzzle_sprite": "muzzle",
-            "muzzle_scale": [0.3, 0.8],
-            "muzzle_offset": 20,
-            
-            "num_shots": 2,
-            "shot_scale": [0.75,1.5],
-            "shot_hit_range": 10,
-            "miss_lock": false,
-            "shots_roll_hit": true,
-            
-            "shot_sprite": "Autocannon/5",
-            "sound_every_shot": true,
-                        
-            "hit_sprite": "ac_explosion",
-            "hit_scale": [1, 1],
-            
-            "fire_sound": "resources/sounds/JFX_AC5_fire.wav",
-            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
-        }
-    },
-
     "cPrototype Ultra AC/10":
     {
-        "cost": 320000,
-        "mod_cost": 60000,
-        "ammo_cost": 160000,
+        "cost": 640000,
+        "mod_cost": 160000,
+        "ammo_cost": 24000,
         
-        "short": "cUAC/10",
+        "short": "UAC/10 (C)",
         "type": "cannon",
         "damage": 10,
         "heat": 8,
@@ -8304,11 +8272,11 @@
 
     "cPrototype Ultra AC/20":
     {
-        "cost": 480000,
-        "mod_cost": 90000,
-        "ammo_cost": 220000,
+        "cost": 960000,
+        "mod_cost": 240000,
+        "ammo_cost": 40000,
         
-        "short": "UAC/20",
+        "short": "UAC/20 (C)",
         "type": "cannon",
         "damage": 20,
         "heat": 16,
@@ -8350,12 +8318,12 @@
 
     "RISC Advanced Point Defense System":
     {
-        "cost": 100000,
-        "mod_cost": 20000,
-        "ammo_cost": 20000,
+        "cost": 500000,
+        "mod_cost": 125000,
+        "ammo_cost": 5000,
         "is_ams": true,
 
-        "short": "AMS",
+        "short": "APDS",
         "type": "mg",
         "damage": 2,
         "heat": 1,
@@ -8384,9 +8352,9 @@
 
     "Heavy Rifle":
     {
-        "cost": 75000,
-        "mod_cost": 10000,
-        "ammo_cost": 5000,
+        "cost": 90000,
+        "mod_cost": 22500,
+        "ammo_cost": 1000,
 
         "short": "H Rifle",
         "type": "cannon",
@@ -8428,9 +8396,9 @@
 
     "Medium Rifle":
     {
-        "cost": 75000,
-        "mod_cost": 10000,
-        "ammo_cost": 5000,
+        "cost": 75750,
+        "mod_cost": 18938,
+        "ammo_cost": 1000,
 
         "short": "M Rifle",
         "type": "cannon",
@@ -8472,9 +8440,9 @@
 
     "Light Rifle":
     {
-        "cost": 75000,
-        "mod_cost": 10000,
-        "ammo_cost": 5000,
+        "cost": 37750,
+        "mod_cost": 9438,
+        "ammo_cost": 1000,
 
         "short": "L Rifle",
         "type": "cannon",
@@ -8515,9 +8483,9 @@
 
     "Rotary AC/2":
     {
-        "cost": 120000,
-        "mod_cost": 20000,
-        "ammo_cost": 60000,
+        "cost": 175000,
+        "mod_cost": 43750,
+        "ammo_cost": 3000,
 
         "short": "RAC/2",
         "type": "cannon",
@@ -8526,7 +8494,7 @@
         "range": 12,
         "tons": 8,
         "crit": 3,
-        "ammo": 270,
+        "ammo": 45,
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.005,
@@ -8561,9 +8529,9 @@
 
     "Rotary AC/5":
     {
-        "cost": 200000,
-        "mod_cost": 40000,
-        "ammo_cost": 100000,
+        "cost": 275000,
+        "mod_cost": 68750,
+        "ammo_cost": 12000,
         
         "short": "RAC/5",
         "type": "cannon",
@@ -8572,7 +8540,7 @@
         "range": 10,
         "tons": 10,
         "crit": 6,
-        "ammo": 120,
+        "ammo": 20,
         "p_fire": 0,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.01,
@@ -8607,11 +8575,11 @@
 
     "cRotary AC/2":
     {
-        "cost": 120000,
-        "mod_cost": 20000,
-        "ammo_cost": 60000,
+        "cost": 350000,
+        "mod_cost": 87500,
+        "ammo_cost": 10000,
 
-        "short": "cRAC/2",
+        "short": "RAC/2 (C)",
         "type": "cannon",
         "damage": 2,
         "heat": 1,
@@ -8653,11 +8621,11 @@
 
     "cRotary AC/5":
     {
-        "cost": 200000,
-        "mod_cost": 40000,
-        "ammo_cost": 100000,
+        "cost": 275000,
+        "mod_cost": 68750,
+        "ammo_cost": 26000,
         
-        "short": "cRAC/5",
+        "short": "RAC/5 (C)",
         "type": "cannon",
         "damage": 5,
         "heat": 1,
@@ -8699,9 +8667,9 @@
 
     "Sniper Cannon":
     {
-        "cost": 300000,
-        "mod_cost": 50000,
-        "ammo_cost": 25000,
+        "cost": 475000,
+        "mod_cost": 118750,
+        "ammo_cost": 15000,
 
         "type": "cannon",
         "damage": 10,
@@ -8742,9 +8710,9 @@
 
     "Thumper Cannon":
     {
-        "cost": 300000,
+        "cost": 200000,
         "mod_cost": 50000,
-        "ammo_cost": 25000,
+        "ammo_cost": 10000,
 
         "type": "cannon",
         "damage": 5,
@@ -8785,10 +8753,11 @@
 
     "cATM/3":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
-        
+        "cost": 100000,
+        "mod_cost": 25000,
+        "ammo_cost": 150000,
+
+        "short": "ATM/3 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 3,
@@ -8826,10 +8795,11 @@
 
     "cATM/3 ER":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
-        
+        "cost": 100000,
+        "mod_cost": 25000,
+        "ammo_cost": 150000,
+
+        "short": "ATM/3 ER (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 3,
@@ -8867,10 +8837,11 @@
 
     "cATM/3 HE":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
-        
+        "cost": 100000,
+        "mod_cost": 25000,
+        "ammo_cost": 150000,
+
+        "short": "ATM/3 HE (C)",
         "type": "missile",
         "damage": 3,
         "n_missiles": 3,
@@ -8907,10 +8878,11 @@
 
     "cATM/6":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 250000,
+        "mod_cost": 62500,
+        "ammo_cost": 150000,
         
+        "short": "ATM/6 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 6,
@@ -8948,10 +8920,11 @@
 
     "cATM/6 ER":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 250000,
+        "mod_cost": 62500,
+        "ammo_cost": 150000,
         
+        "short": "ATM/6 ER (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 6,
@@ -8989,10 +8962,11 @@
 
     "cATM/6 HE":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 250000,
+        "mod_cost": 62500,
+        "ammo_cost": 150000,
         
+        "short": "ATM/6 HE (C)",
         "type": "missile",
         "damage": 3,
         "n_missiles": 6,
@@ -9029,10 +9003,11 @@
 
     "cATM/9":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 450000,
+        "mod_cost": 112500,
+        "ammo_cost": 150000,
         
+        "short": "ATM/9 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 9,
@@ -9070,10 +9045,11 @@
 
     "cATM/9 ER":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 450000,
+        "mod_cost": 112500,
+        "ammo_cost": 150000,
         
+        "short": "ATM/9 ER (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 9,
@@ -9111,10 +9087,11 @@
 
     "cATM/9 HE":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 450000,
+        "mod_cost": 112500,
+        "ammo_cost": 150000,
         
+        "short": "ATM/9 HE (C)",
         "type": "missile",
         "damage": 3,
         "n_missiles": 9,
@@ -9151,10 +9128,11 @@
 
     "cATM/12":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 700000,
+        "mod_cost": 175000,
+        "ammo_cost": 150000,
         
+        "short": "ATM/12 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 12,
@@ -9192,10 +9170,11 @@
 
     "cATM/12 ER":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 700000,
+        "mod_cost": 175000,
+        "ammo_cost": 150000,
         
+        "short": "ATM/12 ER (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 12,
@@ -9233,10 +9212,11 @@
 
     "cATM/12 HE":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 700000,
+        "mod_cost": 175000,
+        "ammo_cost": 150000,
         
+        "short": "ATM/12 HE (C)",
         "type": "missile",
         "damage": 3,
         "n_missiles": 12,
@@ -9273,11 +9253,12 @@
 
     "ciATM/3":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 200000,
+        "mod_cost": 50000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/3 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 3,
@@ -9314,11 +9295,12 @@
 
     "ciATM/3 ER":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 200000,
+        "mod_cost": 50000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/3 ER (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 3,
@@ -9356,11 +9338,12 @@
 
     "ciATM/3 HE":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 200000,
+        "mod_cost": 50000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/3 HE (C)",
         "type": "missile",
         "damage": 3,
         "n_missiles": 3,
@@ -9397,11 +9380,12 @@
 
     "ciATM/6":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 500000,
+        "mod_cost": 125000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/6 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 6,
@@ -9439,11 +9423,12 @@
 
     "ciATM/6 ER":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 500000,
+        "mod_cost": 125000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/6 ER (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 6,
@@ -9481,11 +9466,12 @@
 
     "ciATM/6 HE":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 500000,
+        "mod_cost": 125000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/6 HE (C)",
         "type": "missile",
         "damage": 3,
         "n_missiles": 6,
@@ -9522,11 +9508,12 @@
 
     "ciATM/9":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 900000,
+        "mod_cost": 225000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/9 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 9,
@@ -9564,11 +9551,12 @@
 
     "ciATM/9 ER":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 900000,
+        "mod_cost": 225000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/9 ER (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 9,
@@ -9606,11 +9594,12 @@
 
     "ciATM/9 HE":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 900000,
+        "mod_cost": 225000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/9 HE (C)",
         "type": "missile",
         "damage": 3,
         "n_missiles": 9,
@@ -9647,11 +9636,12 @@
 
     "ciATM/12":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 1400000,
+        "mod_cost": 350000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/12 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 12,
@@ -9689,11 +9679,12 @@
 
     "ciATM/12 ER":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 1400000,
+        "mod_cost": 350000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/12 ER (C)",
         "type": "missile",
         "damage": 1,
         "n_missiles": 12,
@@ -9731,11 +9722,12 @@
 
     "ciATM/12 HE":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 1400000,
+        "mod_cost": 350000,
+        "ammo_cost": 150000,
         "is_streak": true,
         
+        "short": "IATM/12 HE (C)",
         "type": "missile",
         "damage": 3,
         "n_missiles": 12,
@@ -9772,12 +9764,12 @@
 
     "ciATM/3 Improved Inferno":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 200000,
+        "mod_cost": 50000,
+        "ammo_cost": 150000,
         "is_streak": true,
-        "short": "ciATM/3 Inf",
         
+        "short": "IATM/3 I (C)",
         "type": "missile",
         "damage": 2,
         "damage_type": "heat",
@@ -9815,12 +9807,12 @@
 
     "cATM/6 Improved Inferno":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 500000,
+        "mod_cost": 125000,
+        "ammo_cost": 150000,
         "is_streak": true,
-        "short": "ciATM/6 Inf",
         
+        "short": "IATM/6 I (C)",
         "type": "missile",
         "damage": 2,
         "damage_type": "heat",
@@ -9859,12 +9851,12 @@
 
     "ciATM/9 Improved Inferno":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 900000,
+        "mod_cost": 225000,
+        "ammo_cost": 150000,
         "is_streak": true,
-        "short": "ciATM/9 Inf",
         
+        "short": "IATM/9 I (C)",
         "type": "missile",
         "damage": 2,
         "damage_type": "heat",
@@ -9903,12 +9895,12 @@
 
     "ciATM/12 Improved Inferno":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 1400000,
+        "mod_cost": 350000,
+        "ammo_cost": 150000,
         "is_streak": true,
-        "short": "ciATM/12 Inf",
         
+        "short": "IATM/12 I (C)",
         "type": "missile",
         "damage": 2,
         "damage_type": "heat",
@@ -9947,9 +9939,9 @@
 
     "Arrow IV":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 450000,
+        "mod_cost": 112500,
+        "ammo_cost": 10000,
         
         "type": "missile",
         "damage": 20,
@@ -9986,9 +9978,9 @@
 
     "cArrow IV":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 900000,
+        "mod_cost": 225000,
+        "ammo_cost": 20000,
         
         "type": "missile",
         "damage": 20,
@@ -10025,9 +10017,9 @@
 
     "Enhanced LRM-5":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 37000,
+        "mod_cost": 9250,
+        "ammo_cost": 31000,
         "short": "NLRM-5",
         
         "type": "missile",
@@ -10066,9 +10058,9 @@
 
     "Enhanced LRM-10":
     {
-        "cost": 100000,
-        "mod_cost": 15000,
-        "ammo_cost": 30000,
+        "cost": 125000,
+        "mod_cost": 31250,
+        "ammo_cost": 31000,
         "short": "NLRM-10",
         
         "type": "missile",
@@ -10107,9 +10099,9 @@
 
     "Enhanced LRM-15":
     {
-        "cost": 175000,
-        "mod_cost": 20000,
-        "ammo_cost": 30000,
+        "cost": 218750,
+        "mod_cost": 54688,
+        "ammo_cost": 31000,
         "short": "NLRM-15",
         
         "type": "missile",
@@ -10148,9 +10140,9 @@
 
     "Enhanced LRM-20":
     {
-        "cost": 250000,
-        "mod_cost": 30000,
-        "ammo_cost": 30000,
+        "cost": 312500,
+        "mod_cost": 78125,
+        "ammo_cost": 31000,
         "short": "NLRM-20",
         
         "type": "missile",
@@ -10189,9 +10181,9 @@
 
     "Extended LRM-5":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 60000,
+        "mod_cost": 15000,
+        "ammo_cost": 90000,
         "short": "ELRM-5",
         
         "type": "missile",
@@ -10230,9 +10222,9 @@
 
     "Extended LRM-10":
     {
-        "cost": 100000,
-        "mod_cost": 15000,
-        "ammo_cost": 30000,
+        "cost": 200000,
+        "mod_cost": 50000,
+        "ammo_cost": 90000,
         "short": "ELRM-10",
         
         "type": "missile",
@@ -10271,9 +10263,9 @@
 
     "Extended LRM-15":
     {
-        "cost": 175000,
-        "mod_cost": 20000,
-        "ammo_cost": 30000,
+        "cost": 350000,
+        "mod_cost": 87500,
+        "ammo_cost": 90000,
         "short": "ELRM-15",
         
         "type": "missile",
@@ -10312,9 +10304,9 @@
 
     "Extended LRM-20":
     {
-        "cost": 250000,
-        "mod_cost": 30000,
-        "ammo_cost": 30000,
+        "cost": 500000,
+        "mod_cost": 125000,
+        "ammo_cost": 90000,
         "short": "ELRM-20",
         
         "type": "missile",
@@ -10353,10 +10345,10 @@
 
     "cImproved LRM-5":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
-        "short": "ciLRM-5",
+        "cost": 60000,
+        "mod_cost": 15000,
+        "ammo_cost": 60000,
+        "short": "ILRM-5 (C)",
         
         "type": "missile",
         "damage": 1,
@@ -10394,10 +10386,10 @@
 
     "cImproved LRM-10":
     {
-        "cost": 100000,
-        "mod_cost": 15000,
-        "ammo_cost": 30000,
-        "short": "ciLRM-10",
+        "cost": 200000,
+        "mod_cost": 50000,
+        "ammo_cost": 60000,
+        "short": "ILRM-10 (C)",
         
         "type": "missile",
         "damage": 1,
@@ -10435,10 +10427,10 @@
 
     "cImproved LRM-15":
     {
-        "cost": 175000,
-        "mod_cost": 20000,
-        "ammo_cost": 30000,
-        "short": "ciLRM-15",
+        "cost": 350000,
+        "mod_cost": 87500,
+        "ammo_cost": 60000,
+        "short": "ILRM-15 (C)",
         
         "type": "missile",
         "damage": 1,
@@ -10476,10 +10468,10 @@
 
     "cImproved LRM-20":
     {
-        "cost": 250000,
-        "mod_cost": 30000,
-        "ammo_cost": 30000,
-        "short": "ciLRM-20",
+        "cost": 500000,
+        "mod_cost": 125000,
+        "ammo_cost": 60000,
+        "short": "ILRM-20 (C)",
         
         "type": "missile",
         "damage": 1,
@@ -10517,10 +10509,10 @@
 
     "cStreak LRM-5":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
-        "short": "cSLRM-5",
+        "cost": 150000,
+        "mod_cost": 37500,
+        "ammo_cost": 120000,
+        "short": "SLRM-5 (C)",
         "is_streak": true,
         
         "type": "missile",
@@ -10557,10 +10549,10 @@
 
     "cStreak LRM-10":
     {
-        "cost": 100000,
-        "mod_cost": 15000,
-        "ammo_cost": 30000,
-        "short": "cSLRM-10",
+        "cost": 450000,
+        "mod_cost": 112500,
+        "ammo_cost": 120000,
+        "short": "SLRM-10 (C)",
         "is_streak": true,
         
         "type": "missile",
@@ -10597,10 +10589,10 @@
 
     "cStreak LRM-15":
     {
-        "cost": 175000,
-        "mod_cost": 20000,
-        "ammo_cost": 30000,
-        "short": "cSLRM-15",
+        "cost": 400000,
+        "mod_cost": 100000,
+        "ammo_cost": 120000,
+        "short": "SLRM-15 (C)",
         "is_streak": true,
         
         "type": "missile",
@@ -10637,10 +10629,10 @@
 
     "cStreak LRM-20":
     {
-        "cost": 250000,
-        "mod_cost": 30000,
-        "ammo_cost": 30000,
-        "short": "cSLRM-20",
+        "cost": 600000,
+        "mod_cost": 150000,
+        "ammo_cost": 120000,
+        "short": "SLRM-20 (C)",
         "is_streak": true,
         
         "type": "missile",
@@ -10677,9 +10669,9 @@
 
     "MML-3 LRM":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 45000,
+        "mod_cost": 11250,
+        "ammo_cost": 30000,
         
         "type": "missile",
         "damage": 1,
@@ -10717,9 +10709,9 @@
 
     "MML-5 LRM":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 75000,
+        "mod_cost": 18750,
+        "ammo_cost": 30000,
         
         "type": "missile",
         "damage": 1,
@@ -10757,9 +10749,9 @@
 
     "MML-7 LRM":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 105000,
+        "mod_cost": 26250,
+        "ammo_cost": 30000,
         
         "type": "missile",
         "damage": 1,
@@ -10797,9 +10789,9 @@
 
     "MML-9 LRM":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 125000,
+        "mod_cost": 31250,
+        "ammo_cost": 30000,
         
         "type": "missile",
         "damage": 1,
@@ -10837,9 +10829,9 @@
 
     "MML-3 SRM":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 45000,
+        "mod_cost": 11250,
+        "ammo_cost": 54000,
         
         "type": "missile",
         "damage": 2,
@@ -10876,9 +10868,9 @@
 
     "MML-5 SRM":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 75000,
+        "mod_cost": 18750,
+        "ammo_cost": 54000,
         
         "type": "missile",
         "damage": 2,
@@ -10916,9 +10908,9 @@
 
     "MML-7 SRM":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 105000,
+        "mod_cost": 26250,
+        "ammo_cost": 54000,
         
         "type": "missile",
         "damage": 2,
@@ -10955,9 +10947,9 @@
 
     "MML-9 SRM":
     {
-        "cost": 10000,
-        "mod_cost": 5000,
-        "ammo_cost": 27000,
+        "cost": 125000,
+        "mod_cost": 31250,
+        "ammo_cost": 54000,
         
         "type": "missile",
         "damage": 2,
@@ -10994,9 +10986,9 @@
 
     "MRM-10":
     {
-        "cost": 100000,
-        "mod_cost": 15000,
-        "ammo_cost": 30000,
+        "cost": 50000,
+        "mod_cost": 12500,
+        "ammo_cost": 5000,
         
         "type": "missile",
         "damage": 1,
@@ -11034,9 +11026,9 @@
 
     "MRM-20":
     {
-        "cost": 100000,
-        "mod_cost": 15000,
-        "ammo_cost": 30000,
+        "cost": 125000,
+        "mod_cost": 31250,
+        "ammo_cost": 5000,
         
         "type": "missile",
         "damage": 1,
@@ -11074,9 +11066,9 @@
 
     "MRM-30":
     {
-        "cost": 100000,
-        "mod_cost": 15000,
-        "ammo_cost": 30000,
+        "cost": 225000,
+        "mod_cost": 56250,
+        "ammo_cost": 5000,
         
         "type": "missile",
         "damage": 1,
@@ -11114,9 +11106,9 @@
 
     "MRM-40":
     {
-        "cost": 100000,
-        "mod_cost": 15000,
-        "ammo_cost": 30000,
+        "cost": 350000,
+        "mod_cost": 87500,
+        "ammo_cost": 5000,
         
         "type": "missile",
         "damage": 1,
@@ -11154,9 +11146,9 @@
 
     "Mech Mortar 1":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 7000,
+        "mod_cost": 1750,
+        "ammo_cost": 28000,
         
         "type": "missile",
         "damage": 2,
@@ -11195,9 +11187,9 @@
 
     "Mech Mortar 2":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 15000,
+        "mod_cost": 3750,
+        "ammo_cost": 28000,
         
         "type": "missile",
         "damage": 2,
@@ -11236,9 +11228,9 @@
 
     "Mech Mortar 4":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 32000,
+        "mod_cost": 8000,
+        "ammo_cost": 28000,
         
         "type": "missile",
         "damage": 2,
@@ -11277,9 +11269,9 @@
 
     "Mech Mortar 8":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 70000,
+        "mod_cost": 17500,
+        "ammo_cost": 28000,
         
         "type": "missile",
         "damage": 2,
@@ -11318,10 +11310,11 @@
 
     "cMech Mortar 1":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 14000,
+        "mod_cost": 3500,
+        "ammo_cost": 56000,
         
+        "short": "Mech Mortar 1 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 1,
@@ -11360,9 +11353,10 @@
     "cMech Mortar 2":
     {
         "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "mod_cost": 7500,
+        "ammo_cost": 56000,
         
+        "short": "Mech Mortar 2 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 2,
@@ -11400,10 +11394,11 @@
 
     "cMech Mortar 4":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 64000,
+        "mod_cost": 16000,
+        "ammo_cost": 56000,
         
+        "short": "Mech Mortar 4 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 4,
@@ -11441,10 +11436,11 @@
 
     "cMech Mortar 8":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 140000,
+        "mod_cost": 35000,
+        "ammo_cost": 56000,
         
+        "short": "Mech Mortar 8 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 8,
@@ -11482,9 +11478,9 @@
 
     "Prototype Arrow IV":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 1800000,
+        "mod_cost": 450000,
+        "ammo_cost": 40000,
         
         "type": "missile",
         "damage": 20,
@@ -11521,12 +11517,12 @@
 
     "cPrototype Streak SRM-4":
     {
-        "cost": 90000,
-        "mod_cost": 25000,
-        "ammo_cost": 54000,
+        "cost": 120000,
+        "mod_cost": 30000,
+        "ammo_cost": 108000,
         "is_streak": true,
         
-        "short": "cSSRM-4",
+        "short": "SSRM-4 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 4,
@@ -11561,12 +11557,12 @@
 
     "cPrototype Streak SRM-6":
     {
-        "cost": 120000,
-        "mod_cost": 45000,
-        "ammo_cost": 54000,
+        "cost": 240000,
+        "mod_cost": 60000,
+        "ammo_cost": 108000,
         "is_streak": true,
         
-        "short": "cSSRM-6",
+        "short": "SSRM-6 (C)",
         "type": "missile",
         "damage": 2,
         "n_missiles": 6,
@@ -11601,10 +11597,10 @@
 
     "cImproved SRM-2":
     {
-        "cost": 10000,
+        "cost": 20000,
         "mod_cost": 5000,
-        "ammo_cost": 27000,
-        "short": "ciSRM-2",
+        "ammo_cost": 54000,
+        "short": "ISRM-2 (C)",
         
         "type": "missile",
         "damage": 2,
@@ -11641,10 +11637,10 @@
 
     "cImproved SRM-4":
     {
-        "cost": 60000,
-        "mod_cost": 7500,
-        "ammo_cost": 27000,
-        "short": "ciSRM-4",
+        "cost": 120000,
+        "mod_cost": 30000,
+        "ammo_cost": 54000,
+        "short": "ISRM-4 (C)",
         
         "type": "missile",
         "damage": 2,
@@ -11681,10 +11677,10 @@
 
     "cImproved SRM-6":
     {
-        "cost": 80000,
-        "mod_cost": 10000,
-        "ammo_cost": 27000,
-        "short": "ciSRM-6",
+        "cost": 160000,
+        "mod_cost": 40000,
+        "ammo_cost": 54000,
+        "short": "ISRM-6 (C)",
         
         "type": "missile",
         "damage": 2,
@@ -11721,9 +11717,9 @@
 
     "Thunderbolt-5":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 50000,
+        "mod_cost": 12500,
+        "ammo_cost": 50000,
         
         "type": "missile",
         "damage": 5,
@@ -11761,9 +11757,9 @@
 
     "Thunderbolt-10":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 175000,
+        "mod_cost": 43750,
+        "ammo_cost": 50000,
         
         "type": "missile",
         "damage": 10,
@@ -11801,9 +11797,9 @@
     
     "Thunderbolt-15":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 325000,
+        "mod_cost": 81250,
+        "ammo_cost": 50000,
         
         "type": "missile",
         "damage": 15,
@@ -11841,9 +11837,9 @@
 
     "Thunderbolt-20":
     {
-        "cost": 30000,
-        "mod_cost": 10000,
-        "ammo_cost": 30000,
+        "cost": 450000,
+        "mod_cost": 112500,
+        "ammo_cost": 50000,
         
         "type": "missile",
         "damage": 20,
@@ -11881,9 +11877,9 @@
 
     "Long Tom Artillery":
     {
-        "cost": 300000,
-        "mod_cost": 50000,
-        "ammo_cost": 25000,
+        "cost": 450000,
+        "mod_cost": 112500,
+        "ammo_cost": 10000,
 
         "type": "cannon",
         "damage": 25,
@@ -11924,8 +11920,8 @@
     "Sniper Artillery":
     {
         "cost": 300000,
-        "mod_cost": 50000,
-        "ammo_cost": 25000,
+        "mod_cost": 75000,
+        "ammo_cost": 6000,
 
         "type": "cannon",
         "damage": 20,
@@ -11965,9 +11961,9 @@
 
     "Thumper Artillery":
     {
-        "cost": 300000,
-        "mod_cost": 50000,
-        "ammo_cost": 25000,
+        "cost": 187500,
+        "mod_cost": 46875,
+        "ammo_cost": 4500,
 
         "type": "cannon",
         "damage": 15,
@@ -12295,7 +12291,6 @@
         "p_dmg_pilot": 0.01,
         "ignore_ams": true,
         "to_hit_mod": 0.1,
-
         
         "fx":
         {
@@ -12340,9 +12335,8 @@
         "p_fire": 0.75,
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0,
+        "ignore_ams": true,
         "to_hit_mod": 0.1,
-        
-
         
         "fx":
         {
@@ -12899,7 +12893,7 @@
         "damage": 3,
         "n_missiles": 2,
         "heat": 2,
-        "range": 6,
+        "range": 4,
         "min_range": 1,
         "tons": 1,
         "crit": 1,
@@ -12982,7 +12976,7 @@
         "damage": 3,
         "n_missiles": 4,
         "heat": 3,
-        "range": 6,
+        "range": 4,
         "min_range": 1,
         "tons": 2,
         "crit": 1,
@@ -13065,7 +13059,7 @@
         "damage": 3,
         "n_missiles": 6,
         "heat": 4,
-        "range": 6,
+        "range": 4,
         "min_range": 1,
         "tons": 3,
         "crit": 2,
@@ -13137,4 +13131,948 @@
         } 
     },
 
+    "cLRM-5 Dead-Fire":
+    {
+        "cost": 60000,
+        "mod_cost": 15000,
+        "ammo_cost": 120000,
+        
+        "short": "LRM-5 D (C)",
+        "type": "missile",
+        "damage": 2,
+        "n_missiles": 5,
+        "heat": 2,
+        "range": 10,
+        "min_range": 4,
+        "tons": 1,
+        "crit": 1,
+        "ammo": 24,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.01,
+        "p_dmg_pilot": 0,
+        "to_hit_mod": -0.1,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 400,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "LRM",
+            "shot_copies": 5,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "explosion",
+            "hit_scale": [0.5, 0.5],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        } 
+    },
+
+    "cLRM-10 Dead-Fire":
+    {
+        "cost": 200000,
+        "mod_cost": 50000,
+        "ammo_cost": 120000,
+        
+        "short": "LRM-10 D (C)",
+        "type": "missile",
+        "damage": 2,
+        "n_missiles": 10,
+        "heat": 4,
+        "range": 10,
+        "min_range": 4,
+        "tons": 2.5,
+        "crit": 1,
+        "ammo": 12,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.01,
+        "p_dmg_pilot": 0,
+        "to_hit_mod": -0.1,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 400,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "LRM",
+            "shot_copies": 10,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "explosion",
+            "hit_scale": [0.5, 0.5],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        }
+    },
+
+    "cLRM-15 Dead-Fire":
+    {
+        "cost": 350000,
+        "mod_cost": 87500,
+        "ammo_cost": 120000,
+        
+        "short": "LRM-15 D (C)",
+        "type": "missile",
+        "damage": 2,
+        "n_missiles": 15,
+        "heat": 5,
+        "range": 10,
+        "min_range": 4,
+        "tons": 3.5,
+        "crit": 2,
+        "ammo": 8,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.01,
+        "p_dmg_pilot": 0,
+        "to_hit_mod": -0.1,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 400,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "LRM",
+            "shot_copies": 15,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+            
+            "hit_sprite": "explosion",
+            "hit_scale": [0.5, 0.5],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        } 
+    },
+
+    "cLRM-20 Dead-Fire":
+    {
+        "cost": 500000,
+        "mod_cost": 125000,
+        "ammo_cost": 120000,
+        
+        "short": "LRM-20 D (C)",
+        "type": "missile",
+        "damage": 2,
+        "n_missiles": 20,
+        "heat": 6,
+        "range": 10,
+        "min_range": 4,
+        "tons": 5,
+        "crit": 4,
+        "ammo": 6,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.01,
+        "p_dmg_pilot": 0,
+        "to_hit_mod": -0.1,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 400,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "LRM",
+            "shot_copies": 20,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+            
+            "hit_sprite": "explosion",
+            "hit_scale": [0.5, 0.5],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        } 
+    },
+
+    "cSRM-2 Dead-Fire":
+    {
+        "cost": 20000,
+        "mod_cost": 5000,
+        "ammo_cost": 108000,
+        
+        "short": "SRM-2 D (C)",
+        "type": "missile",
+        "damage": 3,
+        "n_missiles": 2,
+        "heat": 2,
+        "range": 6,
+        "min_range": 1,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": 50,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.01,
+        "p_dmg_pilot": 0,
+        "to_hit_mod": -0.1,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 600,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "SRM",
+            "shot_copies": 2,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "srm_explosion",
+            "hit_scale": [1, 1],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        }
+    },
+
+    "cSRM-2 Inferno":
+    {
+        "cost": 20000,
+        "mod_cost": 5000,
+        "ammo_cost": 27000,
+        
+        "short": "SRM-2 I (C)",
+        "type": "missile",
+        "damage": 2,
+        "damage_type": "heat",
+        "n_missiles": 2,
+        "heat": 2,
+        "range": 6,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": 50,
+        "p_fire": 0.75,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 600,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "SRM",
+            "shot_copies": 2,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "srm_explosion",
+            "hit_scale": [1, 1],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        }
+    },
+
+    "cSRM-4 Dead-Fire":
+    {
+        "cost": 120000,
+        "mod_cost": 30000,
+        "ammo_cost": 108000,
+        
+        "short": "SRM-4 D (C)",
+        "type": "missile",
+        "damage": 3,
+        "n_missiles": 4,
+        "heat": 3,
+        "range": 4,
+        "min_range": 1,
+        "tons": 1,
+        "crit": 1,
+        "ammo": 25,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.01,
+        "p_dmg_pilot": 0,
+        "to_hit_mod": -0.1,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 600,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "SRM",
+            "shot_copies": 4,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "srm_explosion",
+            "hit_scale": [1, 1],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        } 
+    },
+
+    "cSRM-4 Inferno":
+    {
+        "cost": 120000,
+        "mod_cost": 30000,
+        "ammo_cost": 27000,
+        
+        "short": "SRM-4 I (C)",
+        "type": "missile",
+        "damage": 2,
+        "damage_type": "heat",
+        "n_missiles": 4,
+        "heat": 3,
+        "range": 6,
+        "tons": 1,
+        "crit": 1,
+        "ammo": 25,
+        "p_fire": 0.75,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 600,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "SRM",
+            "shot_copies": 4,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "srm_explosion",
+            "hit_scale": [1, 1],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        } 
+    },
+
+    "cSRM-6 Dead-Fire":
+    {
+        "cost": 160000,
+        "mod_cost": 40000,
+        "ammo_cost": 108000,
+        
+        "short": "SRM-6 D (C)",
+        "type": "missile",
+        "damage": 3,
+        "n_missiles": 6,
+        "heat": 4,
+        "range": 4,
+        "min_range": 1,
+        "tons": 1.5,
+        "crit": 1,
+        "ammo": 15,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.01,
+        "p_dmg_pilot": 0,
+        "to_hit_mod": -0.1,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 600,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "SRM",
+            "shot_copies": 6,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "srm_explosion",
+            "hit_scale": [1, 1],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        } 
+    },
+
+    "cSRM-6 Inferno":
+    {
+        "cost": 160000,
+        "mod_cost": 40000,
+        "ammo_cost": 13500,
+        
+        "short": "SRM-6 I (C)",
+        "type": "missile",
+        "damage": 2,
+        "damage_type": "heat",
+        "n_missiles": 6,
+        "heat": 4,
+        "range": 6,
+        "tons": 1.5,
+        "crit": 1,
+        "ammo": 15,
+        "p_fire": 0.75,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 600,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "SRM",
+            "shot_copies": 6,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "srm_explosion",
+            "hit_scale": [1, 1],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        } 
+    },
+
+    "Protomech Autocannon/2 Caseless":
+    {
+        "cost": 190000,
+        "mod_cost": 47500,
+        "ammo_cost": 3600,
+
+        "short": "PAC/2 C (C)",
+        "type": "cannon",
+        "damage": 2,
+        "heat": 1,
+        "range": 14,
+        "tons": 3.5,
+        "crit": 2,
+        "ammo": 80,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    },
+
+    "Protomech Autocannon/2 Flak":
+    {
+        "cost": 190000,
+        "mod_cost": 47500,
+        "ammo_cost": 3600,
+
+        "short": "PAC/2 F (C)",
+        "type": "missile",
+        "damage": 0.4,
+        "n_missiles": 5,
+        "heat": 1,
+        "range": 14,
+        "tons": 3.5,
+        "crit": 2,
+        "ammo": 40,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_copies": 5,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    },
+
+    "Protomech Autocannon/2 Precision":
+    {
+        "cost": 190000,
+        "mod_cost": 47500,
+        "ammo_cost": 14400,
+
+        "short": "PAC/2 P (C)",
+        "type": "cannon",
+        "damage": 2,
+        "heat": 1,
+        "range": 14,
+        "tons": 3.5,
+        "crit": 2,
+        "ammo": 20,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+        "to_hit_mod": 0.1,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    },
+
+    "Protomech Autocannon/2 Incendiary":
+    {
+        "cost": 190000,
+        "mod_cost": 47500,
+        "ammo_cost": 10000,
+
+        "short": "PAC/2 I (C)",
+        "type": "cannon",
+        "damage": 2,
+        "damage_type": "heat",
+        "heat": 1,
+        "range": 10,
+        "tons": 3.5,
+        "crit": 2,
+        "ammo": 20,
+        "p_fire": 0.75,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0,
+        "to_hit_mod": 0.1,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    },
+
+    "Protomech Autocannon/4 Caseless":
+    {
+        "cost": 266000,
+        "mod_cost": 66500,
+        "ammo_cost": 14400,
+
+        "short": "PAC/4 (C)",
+        "type": "cannon",
+        "damage": 4,
+        "heat": 1,
+        "range": 10,
+        "tons": 4.5,
+        "crit": 3,
+        "ammo": 40,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    },
+
+    "Protomech Autocannon/4 Flak":
+    {
+        "cost": 266000,
+        "mod_cost": 66500,
+        "ammo_cost": 14400,
+
+        "short": "PAC/4 F (C)",
+        "type": "missile",
+        "damage": 0.8,
+        "n_missiles": 5,
+        "heat": 1,
+        "range": 10,
+        "tons": 4.5,
+        "crit": 3,
+        "ammo": 20,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.3, 0.8],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_copies": 5,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/5",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1, 1],
+            
+            "fire_sound": "resources/sounds/JFX_AC5_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        }
+    },
+
+    "Protomech Autocannon/4 Precision":
+    {
+        "cost": 266000,
+        "mod_cost": 66500,
+        "ammo_cost": 57600,
+
+        "short": "PAC/4 P (C)",
+        "type": "cannon",
+        "damage": 4,
+        "heat": 1,
+        "range": 10,
+        "tons": 4.5,
+        "crit": 3,
+        "ammo": 10,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+        "to_hit_mod": 0.1,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    },
+
+    "Protomech Autocannon/4 Incendiary":
+    {
+        "cost": 266000,
+        "mod_cost": 66500,
+        "ammo_cost": 57600,
+
+        "short": "PAC/4 I (C)",
+        "type": "cannon",
+        "damage": 4,
+        "damage_type": "heat",
+        "heat": 1,
+        "range": 10,
+        "tons": 4.5,
+        "crit": 3,
+        "ammo": 20,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+        "to_hit_mod": 0.1,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    },
+
+    "Protomech Autocannon/8 Caseless ":
+    {
+        "cost": 175000,
+        "mod_cost": 43750,
+        "ammo_cost": 18900,
+
+        "short": "PAC/8 C (C)",
+        "type": "cannon",
+        "damage": 8,
+        "heat": 2,
+        "range": 7,
+        "tons": 5.5,
+        "crit": 4,
+        "ammo": 20,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    },
+
+    "Protomech Autocannon/8 Flak":
+    {
+        "cost": 175000,
+        "mod_cost": 43750,
+        "ammo_cost": 18900,
+
+        "short": "PAC/8 F (C)",
+        "type": "cannon",
+        "damage": 1.6,
+        "n_missiles": 5,
+        "heat": 2,
+        "tons": 5.5,
+        "crit": 4,
+        "ammo": 10,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.4, 0.9],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_copies": 5,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/10",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1.25, 1.25],
+            
+            "fire_sound": "resources/sounds/JFX_AC10_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        }
+    },
+
+    "Protomech Autocannon/8 Precision":
+    {
+        "cost": 175000,
+        "mod_cost": 43750,
+        "ammo_cost": 190000,
+
+        "short": "PAC/8 P (C)",
+        "type": "cannon",
+        "damage": 8,
+        "heat": 2,
+        "range": 7,
+        "tons": 5.5,
+        "crit": 4,
+        "ammo": 5,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+        "to_hit_mod": 0.1,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    },
+
+    "Protomech Autocannon/8 Incendiary":
+    {
+        "cost": 175000,
+        "mod_cost": 43750,
+        "ammo_cost": 190000,
+
+        "short": "PAC/8 I (C)",
+        "type": "cannon",
+        "damage": 8,
+        "damage_type": "heat",
+        "heat": 2,
+        "range": 7,
+        "tons": 5.5,
+        "crit": 4,
+        "ammo": 5,
+        "p_fire": 0.75,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0,
+        "to_hit_mod": 0.1,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    }
 }

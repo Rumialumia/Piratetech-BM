@@ -36,6 +36,9 @@
             {
                 "type": "item_list",
 
+                "sorted": "text",
+                "grouped": true,
+
                 "text": "{item:get_name}",
                 "Xtext_right": "{item:total_damage} DMG / {item:heat} HEAT",
                 "text_right": "{item:tons} TONS",

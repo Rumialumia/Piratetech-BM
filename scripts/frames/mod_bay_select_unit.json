@@ -34,6 +34,8 @@
             {
                 "type": "item_list",
 
+                "sorted": "{item:unit_stats:tons % int}",
+		                
                 "text": "{item:get_name}",
                 "text_right": "{item:unit_stats:tons} TONS",
 
