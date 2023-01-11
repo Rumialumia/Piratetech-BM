@@ -229,7 +229,7 @@
     "Mobile HQ":
     {
         
-        "move_type": "vtol",
+        "move_type": "tracks",
 
         "unit_sprite": "vehicle1_6",
         "unit_model": "no_model",
