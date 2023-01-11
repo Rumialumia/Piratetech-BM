@@ -1,8 +1,264 @@
 {
 
+    "Rommel Tank":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_8",
+        "unit_model": "no_model",
+        
+        "tons": 65,
+        "internal": 33,
+        
+        " ":
+        {
+            "cost": 2908813, 
+            "armor": 184,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/20", "ct"],
+                ["LRM-5", "ct"],
+                ["Small Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "ct"],
+                ["Autocannon/20", "ct"],
+                ["Autocannon/20", "ct"],
+                ["Autocannon/20", "ct"],
+                ["LRM-5", "ct"]
+            ]
+        }
+    },
+
+    "Drillson":
+    {
+        
+        "move_type": "hover",
+
+        "unit_sprite": "vehicle1_3",
+        "unit_model": "no_model",
+        
+        "tons": 50,
+        "internal": 27,
+        
+        " ":
+        {
+            "cost": 2819333, 
+            "armor": 112,
+            "heat_sinks": 10,
+
+            "speed": 9,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Laser", "ct"],
+                ["SRM-2", "ct"],
+                ["SRM-2", "ct"],
+                ["LRM-10", "ct"],
+                ["Machinegun", "ct"],
+                ["Machinegun", "ct"]
+            ],
+            "ammo":
+            [
+                ["SRM-2", "ct"],
+                ["LRM-10", "ct"],
+                ["Machinegun", "ct"]
+            ]
+        }
+    },
+
+    "Pegasus":
+    {
+        
+        "move_type": "hover",
+
+        "unit_sprite": "vehicle1_7",
+        "unit_model": "no_model",
+        
+        "tons": 35,
+        "internal": 19,
+        
+        " ":
+        {
+            "cost": 835125, 
+            "armor": 104,
+            "heat_sinks": 3,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["SRM-6", "ct"],
+                ["SRM-6", "ct"],
+                ["Medium Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "ct"]
+            ]
+        }
+    },
+
+    "Skulker":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_4",
+        "unit_model": "no_model",
+        
+        "tons": 20,
+        "internal": 11,
+        
+        " ":
+        {
+            "cost": 179300, 
+            "armor": 64,
+            "heat_sinks": 3,
+
+            "speed": 7,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ct"]
+            ]
+        }
+    },
+
+    "Galleon":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_1",
+        "unit_model": "no_model",
+        
+        "tons": 30,
+        "internal": 17,
+        
+        "GAL-100":
+        {
+            "cost": 323700, 
+            "armor": 56,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ct"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "ct"]
+            ]
+        }
+    },
+
+    "APC":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_2",
+        "unit_model": "no_model",
+        
+        "tons": 10,
+        "internal": 4,
+        
+        " ":
+        {
+            "cost": 64350, 
+            "armor": 40,
+            "heat_sinks": 0,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Machinegun", "ct"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        }
+    },
+
+    "Truck":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_5",
+        "unit_model": "no_model",
+        
+        "tons": 10,
+        "internal": 4,
+        
+        " ":
+        {
+            "cost": 15000, 
+            "armor": 10,
+            "heat_sinks": 0,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Machinegun", "ct"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        }
+    },
+
+    "Mobile HQ":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_6",
+        "unit_model": "no_model",
+        
+        "tons": 25,
+        "internal": 14,
+        
+        " ":
+        {
+            "cost": 392812, 
+            "armor": 40,
+            "heat_sinks": 0,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ct"]
+            ]
+        }
+    },
+
     "Toads":
     {
         "clan_name": "Elementals",
+
+        
+        "move_type": "infantry",
         
         "unit_sprite": "infantry1_1",
         "unit_model": "no_model",
@@ -23,25 +279,25 @@
 
             "weapons":
             [
-                ["Small Laser", "ra"],
-                ["Small Laser", "ra"],
-                ["Small Laser", "ra"],
-                ["Small Laser", "ra"],
-                ["Small Laser", "ra"],
-                ["Machinegun", "la"],
-                ["Machinegun", "la"],
-                ["Machinegun", "la"],
-                ["Machinegun", "la"],
-                ["Machinegun", "la"],
-                ["cSRM-2", "ct"],
-                ["cSRM-2", "ct"],
-                ["cSRM-2", "ct"],
-                ["cSRM-2", "ct"],
-                ["cSRM-2", "ct"]
+                ["ER Small Laser (C)", "ra"],
+                ["ER Small Laser (C)", "ra"],
+                ["ER Small Laser (C)", "ra"],
+                ["ER Small Laser (C)", "ra"],
+                ["ER Small Laser (C)", "ra"],
+                ["Machinegun (C)", "la"],
+                ["Machinegun (C)", "la"],
+                ["Machinegun (C)", "la"],
+                ["Machinegun (C)", "la"],
+                ["Machinegun (C)", "la"],
+                ["SRM-2 (C)", "ct"],
+                ["SRM-2 (C)", "ct"],
+                ["SRM-2 (C)", "ct"],
+                ["SRM-2 (C)", "ct"],
+                ["SRM-2 (C)", "ct"]
             ],
             "ammo":
             [
-                ["Machinegun", "ct"]
+                ["Machinegun (C)", "ct"]
             ]
         }
     },
@@ -52,6 +308,9 @@
         "unit_model": "no_model",
         "tons": -1,
         "internal": 5,
+
+        
+        "move_type": "infantry",
 
         "max_dmg_per_hit": 2,
         "flamer_hurts": true,
@@ -99,20 +358,20 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["cER Medium Laser", "la"],
-                ["cER Medium Laser", "la"],
-                ["cSRM-6", "ra"],
-                ["cSRM-4", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["SRM-6 (C)", "ra"],
+                ["SRM-4 (C)", "rt"]
             ],
             "ammo":
             [
-                ["cSRM-6", "ra"],
-                ["cSRM-4", "rt"]
+                ["SRM-6 (C)", "ra"],
+                ["SRM-4 (C)", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["MASC", "ct"],
                 ["CASE", "ra"],
                 ["CASE", "rt"]
@@ -142,22 +401,22 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["cLRM-10", "la"],
-                ["cStreak SRM-4", "ra"],
-                ["Machinegun", "ra"],
-                ["Machinegun", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10 (C)", "la"],
+                ["Streak SRM-4 (C)", "ra"],
+                ["Machinegun (C)", "ra"],
+                ["Machinegun (C)", "ra"]
             ],
             "ammo":
             [
-                ["cLRM-10", "la"],
-                ["cStreak SRM-4", "ra"],
-                ["Machinegun", "ra"]
+                ["LRM-10 (C)", "la"],
+                ["Streak SRM-4 (C)", "ra"],
+                ["Machinegun (C)", "ra"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
-                ["Beagle Probe", "h"],
+                ["Active Probe (C)", "h"],
                 ["CASE", "la"],
                 ["CASE", "ra"]
             ]
@@ -182,15 +441,17 @@
 
             "weapons":
             [
-                ["cER Small Laser", "la"],
-                ["cER Small Laser", "la"],
-                ["cER Small Laser", "la"],
-                ["cER Small Laser", "la"],
-                ["cER Small Laser", "ra"],
-                ["cER Small Laser", "ra"],
-                ["cER Small Laser", "ra"],
-                ["cER Small Laser", "ra"],
-                ["cMedium Pulse Laser", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Small Laser (C)", "la"],
+                ["ER Small Laser (C)", "la"],
+                ["ER Small Laser (C)", "la"],
+                ["ER Small Laser (C)", "la"],
+                ["ER Small Laser (C)", "ra"],
+                ["ER Small Laser (C)", "ra"],
+                ["ER Small Laser (C)", "ra"],
+                ["ER Small Laser (C)", "ra"],
+                ["Medium Pulse Laser (C)", "ct"]
             ]
         }
     },
@@ -216,19 +477,20 @@
             "weapons":
             [
                 ["Hand Actuator", "la"],
-                ["cLB 5-X", "ra"],
-                ["cER Large Laser", "la"],
-                ["cSmall Pulse Laser", "la"],
-                ["cStreak SRM-4", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 5-X (C)", "ra"],
+                ["ER Large Laser (C)", "la"],
+                ["Small Pulse Laser (C)", "la"],
+                ["Streak SRM-4 (C)", "ra"]
             ],
             "ammo":
             [
-                ["cStreak SRM-4", "ra"],
-                ["cLB 5-X", "ra"]
+                ["Streak SRM-4 (C)", "ra"],
+                ["LB 5-X (C)", "ra"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["CASE", "ra"]
             ]
         }
@@ -252,15 +514,17 @@
 
             "weapons":
             [
-                ["Pattern cStreak SRM-4", "ct"],
-                ["Pattern cSRM-6", "ra"],
-                ["Pattern cSRM-6", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Streak SRM-4 (C)", "ct"],
+                ["SRM-6 (C)", "ra"],
+                ["SRM-6 (C)", "la"]
             ],
             "ammo":
             [
-                ["Pattern cStreak SRM-4", "rt"],
-                ["Pattern cSRM-6", "rt"],
-                ["Pattern cSRM-6", "lt"]
+                ["Streak SRM-4 (C)", "rt"],
+                ["SRM-6 (C)", "rt"],
+                ["SRM-6 (C)", "lt"]
             ],
             "equip":
             [
@@ -289,9 +553,11 @@
 
             "weapons":
             [
-                ["Ripper cER PPC", "la"],
-                ["Ripper cER PPC", "ra"],
-                ["Flamer", "ct"]                
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "la"],
+                ["ER PPC (C)", "ra"],
+                ["Flamer (C)", "ct"]                
             ],
             "equip":
             [
@@ -320,22 +586,22 @@
             [
                 ["Battlefist", "la"],
                 ["Battlefist", "ra"],
-                ["cER Large Laser", "ct"],
-                ["cER Small Laser", "h"],
-                ["Type cLRM-5", "lt"],
-                ["Type cLRM-5", "lt"],
-                ["Type cLRM-5", "rt"],
-                ["Type cLRM-5", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser (C)", "ct"],
+                ["ER Small Laser (C)", "h"],
+                ["LRM-5 (C)", "lt"],
+                ["LRM-5 (C)", "lt"],
+                ["LRM-5 (C)", "rt"],
+                ["LRM-5 (C)", "rt"]
             ],
             "ammo":
             [
-                ["Type cLRM-5", "lt"],
-                ["Type cLRM-5", "rt"]
+                ["LRM-5 (C)", "lt"],
+                ["LRM-5 (C)", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"],
                 ["CASE", "rt"]
             ]
@@ -364,23 +630,23 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["cSRM-4", "la"],
-                ["cMedium Pulse Laser", "ra"],
-                ["cMedium Pulse Laser", "ra"],
-                ["Machinegun", "rt"],
-                ["Machinegun", "rt"],
-                ["cAnti-Missile", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4 (C)", "la"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["Machinegun (C)", "rt"],
+                ["Machinegun (C)", "rt"],
+                ["Anti-Missile (C)", "lt"]
             ],
             "ammo":
             [
-                ["cSRM-4", "la"],
-                ["Machinegun", "rt"],
-                ["cAnti-Missile", "lt"]
+                ["SRM-4 (C)", "la"],
+                ["Machinegun (C)", "rt"],
+                ["Anti-Missile (C)", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "la"],
                 ["CASE", "lt"],
                 ["CASE", "rt"]
@@ -408,24 +674,24 @@
             [
                 ["Battlefist", "la"],
                 ["Battlefist", "ra"],
-                ["cER Medium Laser", "h"],
-                ["cER Small Laser", "ct"],
-                ["cMedium Pulse Laser", "la"],
-                ["cMedium Pulse Laser", "ra"],
-                ["cStreak SRM-2", "lt"],
-                ["cStreak SRM-2", "lt"],
-                ["cStreak SRM-2", "rt"],
-                ["cStreak SRM-2", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Medium Laser (C)", "h"],
+                ["ER Small Laser (C)", "ct"],
+                ["Medium Pulse Laser (C)", "la"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["Streak SRM-2 (C)", "lt"],
+                ["Streak SRM-2 (C)", "lt"],
+                ["Streak SRM-2 (C)", "rt"],
+                ["Streak SRM-2 (C)", "rt"]
             ],
             "ammo":
             [
-                ["cStreak SRM-2", "lt"],
-                ["cStreak SRM-2", "rt"]
+                ["Streak SRM-2 (C)", "lt"],
+                ["Streak SRM-2 (C)", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"],
                 ["CASE", "rt"]
             ]
@@ -453,18 +719,19 @@
             "weapons":
             [
                 ["Hand Actuator", "ra"],
-                ["cER PPC", "la"],
-                ["cER Small Laser", "la"],
-                ["cStreak SRM-2", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "la"],
+                ["ER Small Laser (C)", "la"],
+                ["Streak SRM-2 (C)", "ra"]
             ],
             "ammo":
             [
-                ["cStreak SRM-2", "ra"]
+                ["Streak SRM-2 (C)", "ra"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "ra"],
-                ["Beagle Probe", "ct"],
+                ["Active Probe (C)", "ct"],
                 ["CASE", "ra"]
             ]
         }
@@ -490,20 +757,17 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Devastator cUltra AC/20", "lt"],
-                ["Devastator cUltra AC/20", "rt"],
-                ["Series cER Medium Laser", "ct"],
-                ["Series cER Medium Laser", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/20 (C)", "lt"],
+                ["Ultra AC/20 (C)", "rt"],
+                ["ER Medium Laser (C)", "ct"],
+                ["ER Medium Laser (C)", "ct"]
             ],
             "ammo":
             [
-                ["Devastator cUltra AC/20", "lt"],
-                ["Devastator cUltra AC/20", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Ultra AC/20 (C)", "lt"],
+                ["Ultra AC/20 (C)", "rt"]
             ]
         }  
     },
@@ -530,24 +794,21 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["cER Medium Laser", "la"],
-                ["cER Medium Laser", "la"],
-                ["cER Medium Laser", "la"],
-                ["cER Medium Laser", "la"],
-                ["cER Medium Laser", "la"],
-                ["cER Medium Laser", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
                 
-                ["cER Medium Laser", "ra"],
-                ["cER Medium Laser", "ra"],
-                ["cER Medium Laser", "ra"],
-                ["cER Medium Laser", "ra"],
-                ["cER Medium Laser", "ra"],
-                ["cER Medium Laser", "ra"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["ER Medium Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"]
             ]
         }
     },
@@ -574,16 +835,13 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["cER Medium Laser", "h"],
-                ["cER Large Laser", "la"],
-                ["cER Medium Laser", "la"],
-                ["cER Large Laser", "ra"],
-                ["cER Medium Laser", "ra"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Medium Laser (C)", "h"],
+                ["ER Large Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Large Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"]
             ]
         }
     },
@@ -610,17 +868,19 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["cLarge Pulse Laser", "la"],
-                ["cLarge Pulse Laser", "ra"],
-                ["cMedium Pulse Laser", "la"],
-                ["cMedium Pulse Laser", "ra"],
-                ["cLRM-20", "lt"],
-                ["cLRM-20", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Pulse Laser (C)", "la"],
+                ["Large Pulse Laser (C)", "ra"],
+                ["Medium Pulse Laser (C)", "la"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "rt"]
             ],
             "ammo":
             [
-                ["cLRM-20", "lt"],
-                ["cLRM-20", "rt"]                
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "rt"]                
             ]
         }
     },
@@ -645,28 +905,30 @@
 
             "weapons":
             [
-                ["cER PPC", "ra"],
-                ["cER PPC", "la"],
-                ["cER Medium Laser", "lt"],
-                ["cER Medium Laser", "lt"],
-                ["cER Medium Laser", "lt"],
-                ["cStreak SRM-6", "rt"],
-                ["Machinegun", "rt"],
-                ["Machinegun", "rt"],
-                ["cAnti-Missile", "h"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "ra"],
+                ["ER PPC (C)", "la"],
+                ["ER Medium Laser (C)", "lt"],
+                ["ER Medium Laser (C)", "lt"],
+                ["ER Medium Laser (C)", "lt"],
+                ["Streak SRM-6 (C)", "rt"],
+                ["Machinegun (C)", "rt"],
+                ["Machinegun (C)", "rt"],
+                ["Anti-Missile (C)", "h"]
             ],
             "ammo":
             [
-                ["cAnti-Missile", "ct"],
-                ["cStreak SRM-6", "rt"],
-                ["Machinegun", "rt"]
+                ["Anti-Missile (C)", "ct"],
+                ["Streak SRM-6 (C)", "rt"],
+                ["Machinegun (C)", "rt"]
             ],
             "equip":
             [
                 ["CASE", "lt"],
                 ["CASE", "rt"],
-                ["Guardian ECM", "lt"],
-                ["Beagle Probe", "lt"],
+                ["ECM Suite (C)", "lt"],
+                ["Active Probe (C)", "lt"],
                 ["Targeting Computer", "lt"]
             ]
         }
@@ -690,11 +952,12 @@
 
             "weapons":
             [
-                
-                ["cLarge Pulse Laser", "ra"],
-                ["cLarge Pulse Laser", "ra"],
-                ["cLarge Pulse Laser", "la"],
-                ["cLarge Pulse Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Pulse Laser (C)", "ra"],
+                ["Large Pulse Laser (C)", "ra"],
+                ["Large Pulse Laser (C)", "la"],
+                ["Large Pulse Laser (C)", "la"]
             ]
         }
     },
@@ -719,15 +982,17 @@
 
             "weapons":
             [
-                ["cER PPC", "ra"],
-                ["cLB 10-X", "la"],
-                ["cLRM-15", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "ra"],
+                ["LB 10-X (C)", "la"],
+                ["LRM-15 (C)", "lt"]
             ],
             "ammo":
             [
-                ["cLB 10-X", "la"],
-                ["cLRM-15", "lt"],
-                ["cLRM-15", "lt"]
+                ["LB 10-X (C)", "la"],
+                ["LRM-15 (C)", "lt"],
+                ["LRM-15 (C)", "lt"]
             ]
         }
     },
@@ -754,21 +1019,23 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["cER Large Laser", "la"],
-                ["cER Large Laser", "ra"],
-                ["cER Medium Laser", "la"],
-                ["cER Medium Laser", "ra"],
-                ["Machinegun", "ct"],
-                ["Machinegun", "ct"],
-                ["cLRM-20", "lt"],
-                ["cLRM-20", "rt"],
-                ["cMedium Pulse Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser (C)", "la"],
+                ["ER Large Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "ra"],
+                ["Machinegun (C)", "ct"],
+                ["Machinegun (C)", "ct"],
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "rt"],
+                ["Medium Pulse Laser (C)", "lt"]
             ],
             "ammo":
             [
-                ["cLRM-20", "lt"],
-                ["cLRM-20", "rt"],
-                ["Machinegun", "rt"]
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "rt"],
+                ["Machinegun (C)", "rt"]
             ]
         }
     },
@@ -793,20 +1060,22 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Omega cGauss Rifle", "rt"],
-                ["Type cLRM-20", "la"], 
-                ["Pattern cSRM-4", "lt"],
-                ["Series cER Large Laser", "la"],
-                ["Series cER Large Laser", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle (C)", "rt"],
+                ["LRM-20 (C)", "la"], 
+                ["SRM-4 (C)", "lt"],
+                ["ER Large Laser (C)", "la"],
+                ["ER Large Laser (C)", "ra"]
             ],
             "ammo":
             [
-                ["Omega cGauss Rifle", "rt"],
-                ["Omega cGauss Rifle", "rt"],
-                ["Type cLRM-20", "lt"], 
-                ["Type cLRM-20", "lt"], 
-                ["Type cLRM-20", "lt"], 
-                ["Pattern cSRM-4", "lt"]
+                ["Gauss Rifle (C)", "rt"],
+                ["Gauss Rifle (C)", "rt"],
+                ["LRM-20 (C)", "lt"], 
+                ["LRM-20 (C)", "lt"], 
+                ["LRM-20 (C)", "lt"], 
+                ["SRM-4 (C)", "lt"]
             ]
         }
     },
@@ -831,25 +1100,25 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["cUltra AC/10", "lt"],
-                ["cUltra AC/10", "rt"],
-                ["Machinegun", "h"],
-                ["Machinegun", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/10 (C)", "lt"],
+                ["Ultra AC/10 (C)", "rt"],
+                ["Machinegun (C)", "h"],
+                ["Machinegun (C)", "ct"]
             ],
             "ammo":
             [
-                ["cUltra AC/10", "lt"],
-                ["cUltra AC/10", "lt"],
-                ["cUltra AC/10", "lt"],
-                ["cUltra AC/10", "rt"],
-                ["cUltra AC/10", "rt"],
-                ["cUltra AC/10", "rt"],
-                ["Machinegun", "lt"]
+                ["Ultra AC/10 (C)", "lt"],
+                ["Ultra AC/10 (C)", "lt"],
+                ["Ultra AC/10 (C)", "lt"],
+                ["Ultra AC/10 (C)", "rt"],
+                ["Ultra AC/10 (C)", "rt"],
+                ["Ultra AC/10 (C)", "rt"],
+                ["Machinegun (C)", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"],
                 ["CASE", "rt"]
             ]
@@ -876,18 +1145,20 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Mk XVII cER PPC", "ra"],
-                ["Mk XVII cER PPC", "la"],
-                ["cSRM-6", "rt"],
-                ["cMedium Pulse Laser", "h"],
-                ["cMedium Pulse Laser", "lt"],
-                ["cMedium Pulse Laser", "lt"],
-                ["cMedium Pulse Laser", "rt"],
-                ["cMedium Pulse Laser", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "ra"],
+                ["ER PPC (C)", "la"],
+                ["SRM-6 (C)", "rt"],
+                ["Medium Pulse Laser (C)", "h"],
+                ["Medium Pulse Laser (C)", "lt"],
+                ["Medium Pulse Laser (C)", "lt"],
+                ["Medium Pulse Laser (C)", "rt"],
+                ["Medium Pulse Laser (C)", "rt"]
             ],
             "ammo":
             [
-                ["cSRM-6", "rt"]
+                ["SRM-6 (C)", "rt"]
             ],
             "equip":
             [
@@ -916,18 +1187,20 @@
 
             "weapons":
             [
-                ["cER Small Laser", "h"],
-                ["cLB 5-X", "la"],
-                ["cSRM-6", "la"],
-                ["cLB 5-X", "ra"],
-                ["cSRM-6", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Small Laser (C)", "h"],
+                ["LB 5-X (C)", "la"],
+                ["SRM-6 (C)", "la"],
+                ["LB 5-X (C)", "ra"],
+                ["SRM-6 (C)", "ra"]
             ],
             "ammo":
             [
-                ["cLB 5-X", "lt"],
-                ["cSRM-6", "lt"],
-                ["cLB 5-X", "rt"],
-                ["cSRM-6", "rt"]
+                ["LB 5-X (C)", "lt"],
+                ["SRM-6 (C)", "lt"],
+                ["LB 5-X (C)", "rt"],
+                ["SRM-6 (C)", "rt"]
             ],
             "equip":
             [
@@ -957,15 +1230,17 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["cER PPC", "ra"],
-                ["cER PPC", "la"],
-                ["cER PPC", "lt"],
-                ["cMedium Pulse Laser", "ra"], 
-                ["cMedium Pulse Laser", "la"], 
-                ["cER Small Laser", "lt"], 
-                ["cER Small Laser", "rt"], 
-                ["cER Small Laser", "ct"], 
-                ["cER Small Laser", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "ra"],
+                ["ER PPC (C)", "la"],
+                ["ER PPC (C)", "lt"],
+                ["Medium Pulse Laser (C)", "ra"], 
+                ["Medium Pulse Laser (C)", "la"], 
+                ["ER Small Laser (C)", "lt"], 
+                ["ER Small Laser (C)", "rt"], 
+                ["ER Small Laser (C)", "ct"], 
+                ["ER Small Laser (C)", "ct"]
             ]
         }       
     },
@@ -990,15 +1265,17 @@
 
             "weapons":
             [
-                ["cER PPC", "la"],
-                ["cER PPC", "la"],
-                ["cER PPC", "ra"],
-                ["cER PPC", "ra"],
-                ["cLRM-10", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "la"],
+                ["ER PPC (C)", "la"],
+                ["ER PPC (C)", "ra"],
+                ["ER PPC (C)", "ra"],
+                ["LRM-10 (C)", "la"]
             ],
             "ammo":
             [
-                ["cLRM-10", "la"]
+                ["LRM-10 (C)", "la"]
             ],
             "equip":
             [
@@ -1028,28 +1305,29 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Series cGauss Rifle", "ra"],
-                ["Type cLRM-20", "rt"],
-                ["MPA cStreak SRM-6", "la"],
-                ["MPA cStreak SRM-6", "la"],
-                ["Series cMedium Pulse Laser", "lt"],
-                ["Series cMedium Pulse Laser", "lt"],
-                ["Series cMedium Pulse Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle (C)", "ra"],
+                ["LRM-20 (C)", "rt"],
+                ["Streak SRM-6 (C)", "la"],
+                ["Streak SRM-6 (C)", "la"],
+                ["Medium Pulse Laser (C)", "lt"],
+                ["Medium Pulse Laser (C)", "lt"],
+                ["Medium Pulse Laser (C)", "lt"]
             ],
             "ammo":
             [
-                ["Series cGauss Rifle", "rt"],
-                ["Series cGauss Rifle", "rt"],
-                ["Series cGauss Rifle", "rt"],
-                ["MPA cStreak SRM-6", "lt"],
-                ["Type cLRM-20", "lt"],
-                ["Type cLRM-20", "lt"],
-                ["Type cLRM-20", "lt"],
-                ["Type cLRM-20", "lt"]
+                ["Gauss Rifle (C)", "rt"],
+                ["Gauss Rifle (C)", "rt"],
+                ["Gauss Rifle (C)", "rt"],
+                ["Streak SRM-6 (C)", "lt"],
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["Artemis IV FCS", "rt"]
             ]
         }  
@@ -1076,18 +1354,19 @@
             "weapons":
             [
                 ["Hand Actuator", "ra"],
-                ["cGauss Rifle", "la"],
-                ["cER Large Laser", "ra"],
-                ["cER Large Laser", "ra"],
-                ["Machinegun", "rt"],
-                ["Machinegun", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle (C)", "la"],
+                ["ER Large Laser (C)", "ra"],
+                ["ER Large Laser (C)", "ra"],
+                ["Machinegun (C)", "rt"],
+                ["Machinegun (C)", "rt"]
             ],
             "ammo":
             [
-                ["Lower Arm Actuator", "ra"],
-                ["cGauss Rifle", "lt"],
-                ["cGauss Rifle", "lt"],
-                ["Machinegun", "rt"]
+                ["Gauss Rifle (C)", "lt"],
+                ["Gauss Rifle (C)", "lt"],
+                ["Machinegun (C)", "rt"]
             ]
         }
     },
@@ -1112,23 +1391,25 @@
 
             "weapons":
             [
-                ["cER Large Laser", "la"],
-                ["cER Large Laser", "la"],
-                ["cMedium Pulse Laser", "la"],
-                ["cMedium Pulse Laser", "la"],
-                ["cUltra AC/5", "la"],
-                ["cER Large Laser", "ra"],
-                ["cER Large Laser", "ra"],
-                ["cMedium Pulse Laser", "ra"],
-                ["cMedium Pulse Laser", "ra"],
-                ["cUltra AC/5", "ra"],
-                ["cLRM-10", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser (C)", "la"],
+                ["ER Large Laser (C)", "la"],
+                ["Medium Pulse Laser (C)", "la"],
+                ["Medium Pulse Laser (C)", "la"],
+                ["Ultra AC/5 (C)", "la"],
+                ["ER Large Laser (C)", "ra"],
+                ["ER Large Laser (C)", "ra"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["Ultra AC/5 (C)", "ra"],
+                ["LRM-10 (C)", "lt"]
             ],
             "ammo":
             [
-                ["cUltra AC/5", "la"],
-                ["cUltra AC/5", "ra"],
-                ["cLRM-10", "lt"]
+                ["Ultra AC/5 (C)", "la"],
+                ["Ultra AC/5 (C)", "ra"],
+                ["LRM-10 (C)", "lt"]
             ],
             "equip":
             [
@@ -1159,13 +1440,13 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Magna Medium Laser", "ra"],
-                ["Starflash Small Laser", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Small Laser", "ct"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["Beagle Probe", "lt"],
                 ["MASC", "ct"]
             ]
@@ -1191,17 +1472,18 @@
             "weapons":
             [
                 ["Hand Actuator", "la"],
-                ["Defiance Medium Laser", "h"],
-                ["Defiance Medium Laser", "la"],
-                ["Thunderstroke LRM-5", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "h"],
+                ["Medium Laser", "la"],
+                ["LRM-5", "ra"]
             ],
             "ammo":
             [
-                ["Thunderstroke LRM-5", "rt"]
+                ["LRM-5", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["CASE", "rt"]
             ]
         }
@@ -1227,15 +1509,15 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "la"],
-                ["Diplan Medium Laser", "ct"],
-                ["Starflash Small Laser", "h"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "h"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["Beagle Probe", "lt"]
             ]
         }
@@ -1259,7 +1541,11 @@
 
             "weapons":
             [
-                ["Victory ER Large Laser", "ct"]
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ct"]
             ]
         }
     },
@@ -1284,13 +1570,11 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Irian Medium Laser", "ra"],
-                ["Irian Medium Laser", "ct"],
-                ["Zippo Flamer", "la"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Flamer", "la"]
             ]
         },
 
@@ -1307,12 +1591,13 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Irian Medium Laser", "ra"],
-                ["Irian Medium Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "ra"],
                 ["Beagle Probe", "rt"],
                 ["MASC", "lt"]
             ]
@@ -1338,18 +1623,16 @@
             "weapons":
             [
                 ["Hand Actuator", "ra"],
-                ["KWI Ultra AC/5", "la"],
-                ["Hovertec Streak SRM-2", "rt"],
-                ["Defiance Small Laser", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "la"],
+                ["Streak SRM-2", "rt"],
+                ["Small Laser", "rt"]
             ],
             "ammo":
             [
-                ["KWI Ultra AC/5", "lt"],
-                ["Hovertec Streak SRM-2", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "ra"]
+                ["Ultra AC/5", "lt"],
+                ["Streak SRM-2", "rt"]
             ]
         },
 
@@ -1365,19 +1648,16 @@
             "weapons":
             [
                 ["Hand Actuator", "ra"],
-                ["KWI Ultra AC/5", "la"],
-                ["Holly SRM-2", "rt"],
-                ["Magna Medium Laser", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "la"],
+                ["SRM-2", "rt"],
+                ["Medium Laser", "rt"]
             ],
             "ammo":
             [
-                
-                ["KWI Ultra AC/5", "lt"],
+                ["Ultra AC/5", "lt"],
                 ["Streak SRM-2", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "ra"]
             ]
         }
     },
@@ -1402,21 +1682,21 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Valiant LRM-10", "ct"],
-                ["Cyclops Large Laser", "ra"],
-                ["Starflash Small Laser", "ra"],
-                ["Starflash Small Laser", "ra"],
-                ["Exostar SRM-6", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ct"],
+                ["Large Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["SRM-6", "rt"]
             ],
             "ammo":
             [
-                ["Valiant LRM-10", "lt"],
-                ["Exostar SRM-6", "rt"]
+                ["LRM-10", "lt"],
+                ["SRM-6", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"],
                 ["CASE", "rt"]
             ]
@@ -1443,15 +1723,12 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Thunderbolt Large Laser", "la"],
-                ["Thunderbolt Large Laser", "ra"],
-                ["Diverse Medium Laser", "ct"],
-                ["ExoStar Small Laser", "h"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "la"],
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "h"]
             ]
         },
 
@@ -1468,15 +1745,12 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Thunderbolt Large Laser", "la"],
-                ["Thunderbolt Large Laser", "ra"],
-                ["Diverse Medium Laser", "ct"],
-                ["ExoStar Small Laser", "h"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "la"],
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "h"]
             ]
         }
     },
@@ -1501,23 +1775,20 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Magna Large Laser", "ct"],
-                ["Sian-Ceres LRM-5", "rt"],
-                ["Irian SRM-6", "la"],
-                ["Irian SRM-6", "rt"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ct"],
+                ["LRM-5", "rt"],
+                ["SRM-6", "la"],
+                ["SRM-6", "rt"],
                 ["Medium Laser", "ra"],
                 ["Medium Laser", "ra"]
             ],
             "ammo":
             [
-                ["Sian-Ceres LRM-5", "lt"],
-                ["Irian SRM-6", "lt"],
-                ["Irian SRM-6", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["LRM-5", "lt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "rt"]
             ]
         }  
     },
@@ -1540,17 +1811,19 @@
 
             "weapons":
             [
-                ["Kali Yama LB 10-X", "rt"],
-                ["Harpoon SRM-6", "lt"],
-                ["Magna Medium Laser", "lt"],
-                ["Magna Medium Laser", "lt"],
-                ["Diverse Small Laser", "ct"],
-                ["Diverse Small Laser", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "rt"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "ct"]
             ],
             "ammo":
             [
-                ["Kali Yama LB 10-X", "rt"],
-                ["Harpoon SRM-6", "lt"]
+                ["LB 10-X", "rt"],
+                ["SRM-6", "lt"]
             ],
             "equip":
             [
@@ -1577,10 +1850,12 @@
 
             "weapons":
             [
-                ["Parti-Kill PPC", "rt"],
-                ["Defiance Large Laser", "ra"],
-                ["Defiance Large Laser", "la"],
-                ["Defiance Medium Laser", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Medium Laser", "ct"]
             ]
         }  
     },
@@ -1605,23 +1880,20 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Irian LRM-10", "ct"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "la"],
-                ["Diplan Medium Laser", "la"],
-                ["Diverse Small Laser", "h"],
-                ["Buzzsaw Anti-Missile", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "h"],
+                ["Anti-Missile", "rt"]
             ],
             "ammo":
             [
-                ["Irian LRM-10", "ct"],
-                ["Buzzsaw Anti-Missile", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["LRM-10", "ct"],
+                ["Anti-Missile", "rt"]
             ]
         }  
     },
@@ -1646,22 +1918,22 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Shigunga LRM-20", "rt"],
-                ["Shigunga LRM-20", "lt"],
-                ["Telos SRM-4", "ra"],
-                ["Buzzsaw Anti-Missile", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["SRM-4", "ra"],
+                ["Anti-Missile", "ct"]
             ],
             "ammo":
             [
-                ["Shigunga LRM-20", "rt"],
-                ["Shigunga LRM-20", "rt"],
-                ["Telos SRM-4", "ra"],
-                ["Buzzsaw Anti-Missile", "ct"]
+                ["LRM-20", "rt"],
+                ["LRM-20", "rt"],
+                ["SRM-4", "ra"],
+                ["Anti-Missile", "ct"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "rt"]
             ]
         }  
@@ -1686,16 +1958,18 @@
             "weapons":
             [
                 ["Lower Arm Actuator", "ra"],
-                ["Thunderbolt Large Laser", "la"],
-                ["Exostar SRM-6", "ct"],
-                ["Magna Medium Laser", "lt"],
-                ["Magna Medium Laser", "rt"],
-                ["Magna Medium Laser", "ra"],
-                ["Magna Medium Laser", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "la"],
+                ["SRM-6", "ct"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"]
             ],
             "ammo":
             [
-                ["Exostar SRM-6", "rt"]
+                ["SRM-6", "rt"]
             ],
             "equip":
             [
@@ -1715,16 +1989,18 @@
             "weapons":
             [
                 ["Lower Arm Actuator", "ra"],
-                ["Diverse ER Large Laser", "la"],
-                ["Exostar SRM-6", "ct"],
-                ["Magna Medium Laser", "lt"],
-                ["Magna Medium Laser", "rt"],
-                ["Magna Medium Laser", "ra"],
-                ["Magna Medium Laser", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "la"],
+                ["SRM-6", "ct"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"]
             ],
             "ammo":
             [
-                ["Exostar SRM-6", "rt"]
+                ["SRM-6", "rt"]
             ],
             "equip":
             [
@@ -1753,20 +2029,22 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Cyclops Large Laser", "ra"],
-                ["Cyclops Large Laser", "la"],
-                ["Cyclops Large Laser", "ct"],
-                ["Defiance Medium Laser", "rt"],
-                ["Defiance Medium Laser", "lt"],
-                ["Defiance Medium Laser", "la"],
-                ["Defiance Medium Laser", "ra"],
-                ["Defiance Medium Laser", "ctr"],
-                ["Zippo Flamer", "h"],
-                ["Buzzsaw Anti-Missile", "rt"]                
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Large Laser", "ct"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ctr"],
+                ["Flamer", "h"],
+                ["Anti-Missile", "rt"]                
             ],
             "ammo":
             [
-                ["Buzzsaw Anti-Missile", "rt"]
+                ["Anti-Missile", "rt"]
             ]
         }  
     },
@@ -1778,7 +2056,7 @@
         "tons": 75,
         "internal": 114,
         
-        "BL-6-KNT":
+        "BL6-KNT":
         {
             "cost": 7136938,
             "armor": 208,
@@ -1791,19 +2069,19 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Ceres PPC", "ra"],
-                ["Defiance Large Laser", "rt"],
-                ["Defiance Large Laser", "lt"],
-                ["Magna Medium Laser", "rt"],
-                ["Magna Medium Laser", "lt"],
-                ["Magna Medium Laser", "ra"],
-                ["Magna Medium Laser", "la"],
-                ["Magna Small Laser", "h"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["Large Laser", "rt"],
+                ["Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "h"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["Beagle Probe", "ct"]
             ]
         }  
@@ -1829,20 +2107,20 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Parti-Kill PPC", "ra"],
-                ["Parti-Kill PPC", "la"],
-                ["Exostar SRM-6", "rt"],
-                ["Exostar SRM-6", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
             ],
             "ammo":
             [
-                ["Exostar SRM-6", "rt"],
-                ["Exostar SRM-6", "lt"]
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "rt"],
                 ["CASE", "lt"]
             ]
@@ -1869,21 +2147,23 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Victory ER Large Laser", "ra"],
-                ["Victory ER Large Laser", "la"],
-                ["Harpoon SRM-6", "rt"],
-                ["Harpoon SRM-6", "lt"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
                 ["Small Laser", "ra"],
                 ["Small Laser", "la"],
-                ["Blankenburg LB 10-X", "lt"]
+                ["LB 10-X", "lt"]
             ],
             "ammo":
             [
-                ["Harpoon SRM-6", "rt"],
-                ["Harpoon SRM-6", "rt"],
-                ["Blankenburg LB 10-X", "rt"],
-                ["Blankenburg LB 10-X", "rt"],
-                ["Blankenburg LB 10-X", "lt"]
+                ["SRM-6", "rt"],
+                ["SRM-6", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "lt"]
             ]
         }  
     },
@@ -1908,20 +2188,22 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Magna Large Laser", "ra"],
-                ["Magna Large Laser", "la"],
-                ["Harpoon SRM-6", "rt"],
-                ["Harpoon SRM-6", "lt"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
                 ["Small Laser", "ra"],
                 ["Small Laser", "la"],
-                ["Blankenburg LB 10-X", "lt"]
+                ["LB 10-X", "lt"]
             ],
             "ammo":
             [
-                ["Harpoon SRM-6", "rt"],
-                ["Harpoon SRM-6", "rt"],
-                ["Blankenburg LB 10-X", "rt"],
-                ["Blankenburg LB 10-X", "rt"]
+                ["SRM-6", "rt"],
+                ["SRM-6", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
             ]
         }  
     },
@@ -1946,23 +2228,24 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["M-7 Gauss Rifle", "ra"],
-                ["Holly LRM-20", "lt"],
-                ["Exostar SRM-6", "la"],
-                ["Diverse Medium Laser", "rt"],
-                ["Diverse Medium Laser", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "ra"],
+                ["LRM-20", "lt"],
+                ["SRM-6", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "rt"]
             ],
             "ammo":
             [
-                ["M-7 Gauss Rifle", "rt"],
-                ["Holly LRM-20", "lt"],
-                ["Holly LRM-20", "lt"],
-                ["Exostar SRM-6", "lt"],
-                ["Exostar SRM-6", "lt"]
+                ["Gauss Rifle", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["CASE", "lt"]
             ]
         }  
@@ -1986,11 +2269,13 @@
 
             "weapons":
             [
-                ["Tronel Medium Pulse Laser", "ra"],
-                ["Tronel Medium Pulse Laser", "la"],
-                ["Starflash Small Laser", "rt"],
-                ["Starflash Small Laser", "lt"],
-                ["Coventry Flamer", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "la"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "lt"],
+                ["Flamer", "ct"]
             ],
             "equip":
             [
@@ -2017,15 +2302,17 @@
 
             "weapons":
             [
-                ["Thunderstroke LRM-5", "rt"],
-                ["Diplan Medium Laser", "ra"],
-                ["Voelkers Anti-Missile", "h"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-5", "rt"],
+                ["Medium Laser", "ra"],
+                ["Anti-Missile", "h"]
             ],
             "ammo":
             [
-                ["Thunderstroke LRM-5", "lt"],
-                ["Thunderstroke LRM-5", "lt"],
-                ["Voelkers Anti-Missile", "lt"]
+                ["LRM-5", "lt"],
+                ["LRM-5", "lt"],
+                ["Anti-Missile", "lt"]
             ],
             "equip":
             [
@@ -2052,13 +2339,15 @@
 
             "weapons":
             [
-                ["Irian Medium Laser", "ct"],
-                ["Sperry Machinegun", "ra"],
-                ["Sperry Machinegun", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ct"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
             ],
             "ammo":
             [
-                ["Sperry Machinegun", "ct"]
+                ["Machinegun", "ct"]
             ]
         },
 
@@ -2073,16 +2362,18 @@
 
             "weapons":
             [
-                ["Irian Medium Laser", "ct"],
-                ["Magna Small Laser", "la"],
-                ["Magna Small Laser", "la"],
-                ["Magna Small Laser", "ra"],
-                ["Magna Small Laser", "ra"],
-                ["Burrow Anti-Missile", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "la"],
+                ["Small Laser", "la"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Anti-Missile", "la"]
             ],
             "ammo":
             [
-                ["Burrow Anti-Missile", "lt"]
+                ["Anti-Missile", "lt"]
             ],
             "equip":
             [
@@ -2111,17 +2402,14 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Diverse Medium Laser", "ra"],
-                ["Bical INF SRM-2", "ll"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["SRM-2", "ll"]
             ],
             "ammo":
             [
-                ["Bical INF SRM-2", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["SRM-2", "lt"]
             ]
         },
 
@@ -2138,17 +2426,17 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Tronel Medium Pulse Laser", "ra"],
-                ["Telos SRM-2", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Pulse Laser", "ra"],
+                ["SRM-2", "rt"]
             ],
             "ammo":
             [
-                ["Telos SRM-2", "lt"]
+                ["SRM-2", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"]
             ]
         }
@@ -2174,18 +2462,15 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Irian Medium Laser", "ra"],
-                ["M100 Machinegun", "ra"],
-                ["M100 Machinegun", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
             ],
             "ammo":
             [
-                ["M100 Machinegun", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Machinegun", "ct"]
             ]
         },
 
@@ -2202,18 +2487,15 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Irian Medium Laser", "ra"],
-                ["Firestorm Flamer", "la"],
-                ["Yori Anti-Missile", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Flamer", "la"],
+                ["Anti-Missile", "ra"]
             ],
             "ammo":
             [
-                ["Yori Anti-Missile", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Anti-Missile", "rt"]
             ]
         }
     },
@@ -2238,19 +2520,16 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Irian SRM-6", "ct"],
-                ["TharHes SRM-4", "ra"],
-                ["Defiance Medium Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "ct"],
+                ["SRM-4", "ra"],
+                ["Medium Laser", "la"]
             ],
             "ammo":
             [
-                ["Irian SRM-6", "lt"],
-                ["TharHes SRM-4", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["SRM-6", "lt"],
+                ["SRM-4", "rt"]
             ]
         },
 
@@ -2267,19 +2546,19 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Exostar SRM-6", "ct"],
-                ["Coventry Streak SRM-2", "ra"],
-                ["Defiance Medium Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "ct"],
+                ["Streak SRM-2", "ra"],
+                ["Medium Laser", "la"]
             ],
             "ammo":
             [
-                ["Exostar SRM-6", "rt"],
-                ["Coventry Streak SRM-2", "rt"]
+                ["SRM-6", "rt"],
+                ["Streak SRM-2", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["Artemis IV FCS", "h"],
                 ["CASE", "rt"]
             ]
@@ -2306,18 +2585,15 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Harpoon SRM-6", "rt"],
-                ["Harpoon SRM-6", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
             ],
             "ammo": 
             [
-                ["Harpoon SRM-6", "rt"],
-                ["Harpoon SRM-6", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
             ]
         },
 
@@ -2334,19 +2610,16 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Harpoon SRM-6", "rt"],
-                ["Hovertec Streak SRM-2", "lt"],
-                ["Hovertec Streak SRM-2", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "rt"],
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "lt"]
             ],
             "ammo": 
             [
-                ["Harpoon SRM-6", "rt"],
-                ["Hovertec Streak SRM-2", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["SRM-6", "rt"],
+                ["Streak SRM-2", "lt"]
             ]
         }
     },
@@ -2371,19 +2644,16 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Magna Medium Pulse Laser", "ra"],
-                ["Starflash Small Laser", "ra"],
-                ["Starflash Small Laser", "la"],
-                ["McArthur Anti-Missile", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Pulse Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "la"],
+                ["Anti-Missile", "lt"]
             ],
             "ammo":
             [
-                ["McArthur Anti-Missile", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Anti-Missile", "rt"]
             ]
         }
     },
@@ -2406,16 +2676,18 @@
 
             "weapons":
             [
-                ["Magna Medium Laser", "ct"],
-                ["Magna Medium Laser", "rt"],
-                ["Magna Medium Laser", "lt"],
-                ["Sian-Ceres LRM-5", "rt"],
-                ["Burrow Anti-Missile", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["LRM-5", "rt"],
+                ["Anti-Missile", "la"]
             ],
             "ammo":
             [
-                ["Sian-Ceres LRM-5", "lt"],
-                ["Burrow Anti-Missile", "lt"]
+                ["LRM-5", "lt"],
+                ["Anti-Missile", "lt"]
             ],
             "equip":
             [
@@ -2444,13 +2716,10 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Diplan Medium Laser", "ct"],
-                ["Diplan Medium Laser", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ct"]
             ]
         },
 
@@ -2467,13 +2736,10 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Tronel Medium Pulse Laser", "ct"],
-                ["Tronel Medium Pulse Laser", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Pulse Laser", "ct"]
             ]
         }
     },
@@ -2496,12 +2762,14 @@
 
             "weapons":
             [
-                ["Imperator Autocannon/10", "ra"],
-                ["Diverse Small Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "ra"],
+                ["Small Laser", "la"]
             ],
             "ammo": 
             [
-                ["Imperator Autocannon/10", "rt"]
+                ["Autocannon/10", "rt"]
             ]
         },
 
@@ -2516,13 +2784,15 @@
 
             "weapons":
             [
-                ["Defiance LB 10-X", "ra"],
-                ["Magna Small Pulse Laser", "lt"],
-                ["Diverse Small Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["Small Pulse Laser", "lt"],
+                ["Small Laser", "la"]
             ],
             "ammo": 
             [
-                ["Defiance LB 10-X", "rt"]
+                ["LB 10-X", "rt"]
             ]
         }
     },
@@ -2547,16 +2817,14 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Valiant LRM-10", "lt"],
-                ["Defiance Medium Laser", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ra"]
             ],
             "ammo": 
             [
-                ["Valiant LRM-10", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"]
+                ["LRM-10", "rt"]
             ]
         },
 
@@ -2573,16 +2841,17 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Valiant LRM-10", "lt"],
-                ["Ceres Medium Pulse Laser", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "lt"],
+                ["Medium Pulse Laser", "ra"]
             ],
             "ammo": 
             [
-                ["Valiant LRM-10", "rt"]
+                ["LRM-10", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["Artemis IV FCS", "ct"],
                 ["CASE", "rt"]
             ]
@@ -2609,18 +2878,20 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Firestorm Flamer", "ra"],
-                ["Firestorm Flamer", "ct"],
-                ["Firestorm Flamer", "la"],
-                ["Firestorm Flamer", "ctr"],
-                ["Magna Medium Laser", "ra"],
-                ["Magna Medium Laser", "la"],
-                ["M100 Machinegun", "rt"],
-                ["M100 Machinegun", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Flamer", "ra"],
+                ["Flamer", "ct"],
+                ["Flamer", "la"],
+                ["Flamer", "ctr"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Machinegun", "rt"],
+                ["Machinegun", "lt"]
             ],
             "ammo": 
             [
-                ["M100 Machinegun", "rt"]
+                ["Machinegun", "rt"]
             ]
         },
 
@@ -2637,18 +2908,20 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["FlameShot Flamer", "ra"],
-                ["FlameShot Flamer", "ct"],
-                ["FlameShot Flamer", "la"],
-                ["FlameShot Flamer", "ctr"],
-                ["Defiance Medium Laser", "ra"],
-                ["Defiance Medium Laser", "la"],
-                ["Diverse Small Laser", "rt"],
-                ["Yori Anti-Missile", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Flamer", "ra"],
+                ["Flamer", "ct"],
+                ["Flamer", "la"],
+                ["Flamer", "ctr"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "rt"],
+                ["Anti-Missile", "lt"]
             ],
             "ammo": 
             [
-                ["Yori Anti-Missile", "rt"]
+                ["Anti-Missile", "rt"]
             ],
             "equip":
             [
@@ -2675,15 +2948,17 @@
 
             "weapons":
             [
-                ["Irian SRM-4", "ct"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "la"],
-                ["Diplan Medium Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"]
             ],
             "ammo":
             [
-                ["Irian SRM-4", "rt"]
+                ["SRM-4", "rt"]
             ]
         },
 
@@ -2698,15 +2973,17 @@
 
             "weapons":
             [
-                ["Irian SRM-4", "ct"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "la"],
-                ["Diplan Medium Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"]
             ],
             "ammo":
             [
-                ["Irian SRM-4", "rt"]
+                ["SRM-4", "rt"]
             ],
             "equip":
             [
@@ -2735,12 +3012,9 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Defiance Medium Laser", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ct"]
             ]
         }
     },
@@ -2765,17 +3039,14 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Telos SRM-4", "ct"],
-                ["Lord's Light PPC", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "ct"],
+                ["PPC", "ra"]
             ],
             "ammo":
             [
-                ["Telos SRM-4", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["SRM-4", "lt"]
             ]
         },
 
@@ -2792,17 +3063,17 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Telos SRM-4", "ct"],
-                ["Lord's Light ER PPC", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "ct"],
+                ["ER PPC", "ra"]
             ],
             "ammo":
             [
-                ["Telos SRM-4", "lt"]
+                ["SRM-4", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["Artemis IV FCS", "ct"],
                 ["CASE", "lt"]
             ]
@@ -2827,16 +3098,18 @@
 
             "weapons":
             [
-                ["Harpoon SRM-6", "rt"],
-                ["Harpoon SRM-6", "lt"],
-                ["Irian Medium Laser", "ra"],
-                ["Irian Medium Laser", "ra"],
-                ["Irian Medium Laser", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "rt"]
             ],
             "ammo":
             [
-                ["Harpoon SRM-6", "lt"],
-                ["Harpoon SRM-6", "lt"]
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]
             ],
             "equip":
             [
@@ -2867,15 +3140,13 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Defiance ER Large Laser", "ra"],
-                ["Defiance Medium Laser", "ct"],
-                ["Defiance Medium Laser", "rt"],
-                ["Defiance Medium Laser", "lt"],
-                ["Defiance Medium Laser", "ctr"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ctr"]
             ]
         }
     },
@@ -2900,18 +3171,16 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Diverse Medium Laser", "ra"],
-                ["Thunderstroke LRM-5", "rt"],
-                ["Holly SRM-2", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["LRM-5", "rt"],
+                ["SRM-2", "lt"]
             ],
             "ammo":
             [
-                ["Thunderstroke LRM-5", "rt"],
-                ["Holly SRM-2", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"]
+                ["LRM-5", "rt"],
+                ["SRM-2", "lt"]
             ]
         },
 
@@ -2928,16 +3197,17 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Magna Medium Pulse Laser", "ra"],
-                ["Thunderstroke LRM-5", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Pulse Laser", "ra"],
+                ["LRM-5", "rt"]
             ],
             "ammo":
             [
-                ["Thunderstroke LRM-5", "rt"]
+                ["LRM-5", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["Artemis IV FCS", "rt"]
             ]
         }
@@ -2961,9 +3231,11 @@
 
             "weapons":
             [
-                ["Magna Medium Laser", "rt"],
-                ["Magna Medium Laser", "lt"],
-                ["Magna Small Laser", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Small Laser", "ct"]
             ]
         },
 
@@ -2978,14 +3250,16 @@
 
             "weapons":
             [
-                ["Magna Medium Laser", "rt"],
-                ["Magna Medium Laser", "lt"],
-                ["Armstrong Ultra AC/5", "lt"],
-                ["Magna Small Pulse Laser", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Ultra AC/5", "lt"],
+                ["Small Pulse Laser", "ct"]
             ],
             "ammo":
             [
-                ["Armstrong Ultra AC/5", "rt"]
+                ["Ultra AC/5", "rt"]
             ],
             "equip":
             [
@@ -3014,19 +3288,16 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Imperator Autocannon/5", "ra"],
-                ["Irian Medium Laser", "ct"],
-                ["Irian Medium Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "ra"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "lt"]
             ],
             "ammo":
             [
-                ["Imperator Autocannon/5", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"]
+                ["Autocannon/5", "rt"]
             ]
-            
         },
         
         "CLNT-2-3U":
@@ -3042,13 +3313,11 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Magna ER PPC", "ra"],
-                ["Magna Medium Pulse Laser", "ct"],
-                ["Magna Medium Pulse Laser", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Pulse Laser", "lt"]
             ]
         }
     },
@@ -3071,19 +3340,17 @@
 
             "weapons":
             [
-                ["Lower Arm Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Mydron Autocannon/5", "rt"],
-                ["Irian Medium Laser", "ra"],
-                ["Skylight Flamer", "la"]
+                ["Lower Arm Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "rt"],
+                ["Medium Laser", "ra"],
+                ["Flamer", "la"]
             ],
             "ammo":
             [
-                ["Mydron Autocannon/5", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "ra"]
+                ["Autocannon/5", "rt"]
             ]
         },
 
@@ -3098,19 +3365,17 @@
 
             "weapons":
             [
-                ["Lower Arm Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Imperator Ultra AC/5", "rt"],
-                ["Victory Medium Pulse Laser", "ra"],
-                ["Skylight Flamer", "la"]
+                ["Lower Arm Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "rt"],
+                ["Medium Pulse Laser", "ra"],
+                ["Flamer", "la"]
             ],
             "ammo":
             [
-                ["Imperator Ultra AC/5", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "ra"]
+                ["Ultra AC/5", "lt"]
             ]
         }
     },
@@ -3135,19 +3400,21 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["SarLon-2 Autocannon/2", "rt"],
-                ["Defiance Medium Laser", "lt"],
-                ["Firestorm Flamer", "ra"],
-                ["Sperry Machinegun", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/2", "rt"],
+                ["Medium Laser", "lt"],
+                ["Flamer", "ra"],
+                ["Machinegun", "la"]
             ],
             "ammo":
             [
-                ["SarLon-2 Autocannon/2", "rt"],
-                ["Sperry Machinegun", "lt"]
+                ["Autocannon/2", "rt"],
+                ["Machinegun", "lt"]
             ]
         },
 
-        "VT-5M":
+        "VL-5M":
         {
             "cost": 3789100,
             "armor": 80,
@@ -3160,14 +3427,16 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Tronel Large Pulse Laser", "rt"],
-                ["Tronel Medium Pulse Laser", "lt"],
-                ["Firestorm Flamer", "ra"],
-                ["Sperry Machinegun", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "lt"],
+                ["Flamer", "ra"],
+                ["Machinegun", "la"]
             ],
             "ammo":
             [
-                ["Sperry Machinegun", "lt"]
+                ["Machinegun", "lt"]
             ]
         }
     },
@@ -3192,16 +3461,18 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Valiant LRM-10", "rt"],
-                ["Valiant LRM-10", "lt"],
-                ["Irian Medium Laser", "h"],
-                ["Irian Medium Laser", "ra"],
-                ["Irian Medium Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "h"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
             ],
             "ammo":
             [
-                ["Valiant LRM-10", "rt"],
-                ["Valiant LRM-10", "lt"]
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"]
             ]
         },
 
@@ -3218,14 +3489,16 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Valiant LRM-10", "rt"],
-                ["Valiant LRM-10", "lt"],
-                ["Irian Medium Laser", "h"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "h"]
             ],
             "ammo":
             [
-                ["Valiant LRM-10", "rt"],
-                ["Valiant LRM-10", "lt"]
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"]
             ],
             "equip":
             [
@@ -3253,16 +3526,18 @@
 
             "weapons":
             [
-                ["Whirlwind Autocannon/2", "ra"],
-                ["Whirlwind Autocannon/2", "la"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "rt"],
-                ["Diplan Medium Laser", "la"],
-                ["Diplan Medium Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/2", "ra"],
+                ["Autocannon/2", "la"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "lt"]
             ],
             "ammo":
             [
-                ["Whirlwind Autocannon/2", "ct"]
+                ["Autocannon/2", "ct"]
             ]
         },
 
@@ -3277,17 +3552,19 @@
 
             "weapons":
             [
-                ["Diverse ER Large Laser", "ra"],
-                ["Diverse ER Large Laser", "la"],
-                ["Hovertec Streak SRM-2", "lt"],
-                ["Hovertec Streak SRM-2", "lt"],
-                ["Hovertec Streak SRM-2", "rt"],
-                ["Hovertec Streak SRM-2", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "rt"],
+                ["Streak SRM-2", "rt"]
             ],
             "ammo":
             [
-                ["Hovertec Streak SRM-2", "lt"],
-                ["Hovertec Streak SRM-2", "rt"]
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "rt"]
             ]
         }
     },
@@ -3311,21 +3588,17 @@
             "weapons":
             [
                 ["Hand Actuator", "la"],
-                ["Defiance Autocannon/10", "rt"],
-                ["Defiance Medium Laser", "ra"],
-                ["Defiance Medium Laser", "rt"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "rt"],
                 ["Hatchet", "ra"]
             ],
             "ammo":
             [
-                ["Defiance Autocannon/10", "ct"],
-                ["Defiance Autocannon/10", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
-                ["Hand Actuator", "ra"]
+                ["Autocannon/10", "ct"],
+                ["Autocannon/10", "ct"]
             ]
         },
 
@@ -3341,21 +3614,20 @@
             "weapons":
             [
                 ["Hand Actuator", "la"],
-                ["DefianceLB 10-X", "rt"],
-                ["Defiance Medium Pulse Laser", "ra"],
-                ["Defiance Medium Pulse Laser", "la"],
-                ["Defiance Medium Pulse Laser", "lt"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "rt"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "la"],
+                ["Medium Pulse Laser", "lt"],
                 ["Hatchet", "ra"]
             ],
             "ammo":
             [
-                ["DefianceLB 10-X", "rt"]
+                ["LB 10-X", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
-                ["Hand Actuator", "ra"],
                 ["CASE", "rt"]
             ]
         }
@@ -3381,20 +3653,17 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Thunderbolt Large Laser", "ra"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "la"],
-                ["M100 Machinegun", "ra"],
-                ["M100 Machinegun", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
             ],
             "ammo":
             [
-                ["M100 Machinegun", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Machinegun", "ct"]
             ]
         },
 
@@ -3411,23 +3680,20 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Diverse ER Large Laser", "ra"],
-                ["Diverse ER Large Laser", "la"],
-                ["Victory Medium Pulse Laser", "ra"],
-                ["Victory Medium Pulse Laser", "la"],
-                ["M100 Machinegun", "la"],
-                ["Voelkers Anti-Missile", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "la"],
+                ["Machinegun", "la"],
+                ["Anti-Missile", "ra"]
             ],
             "ammo":
             [
-                ["M100 Machinegun", "lt"],
-                ["Voelkers Anti-Missile", "rt"],
-                ["Voelkers Anti-Missile", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Machinegun", "lt"],
+                ["Anti-Missile", "rt"],
+                ["Anti-Missile", "rt"]
             ]
         }
     },
@@ -3452,18 +3718,16 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Sian-Ceres LRM-5", "lt"],
-                ["Ceres PPC", "ra"],
-                ["Irian Medium Laser", "h"],
-                ["ExoStar Small Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-5", "lt"],
+                ["PPC", "ra"],
+                ["Medium Laser", "h"],
+                ["Small Laser", "la"]
             ],
             "ammo":
             [
-                ["Sian-Ceres LRM-5", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"]
+                ["LRM-5", "ct"]
             ]
         },
 
@@ -3480,17 +3744,18 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Sian-Ceres LRM-5", "lt"],
-                ["Ceres ER PPC", "ra"],
-                ["Ceres Medium Pulse Laser", "h"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-5", "lt"],
+                ["ER PPC", "ra"],
+                ["Medium Pulse Laser", "h"]
             ],
             "ammo":
             [
-                ["Sian-Ceres LRM-5", "rt"]
+                ["LRM-5", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["CASE", "rt"]
             ]
         }
@@ -3515,20 +3780,21 @@
             "weapons":
             [
                 ["Hand Actuator", "la"],
-                ["Imperator LB 10-X", "ra"],
-                ["Magna Medium Laser", "lt"],
-                ["Magna Medium Laser", "lt"],
-                ["Shigunga LRM-10", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["LRM-10", "ct"]
             ],
             "ammo":
             [
-                ["Imperator LB 10-X", "rt"],
-                ["Imperator LB 10-X", "rt"],
-                ["Shigunga LRM-10", "rt"]
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LRM-10", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["CASE", "rt"]
             ]
         }
@@ -3554,21 +3820,19 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Federated Autocannon/10", "ra"],
-                ["Valiant LRM-10", "lt"],
-                ["Defiance Medium Laser", "ct"],
-                ["Defiance Medium Laser", "ctr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "ra"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ctr"]
             ],
             "ammo":
             [
-                ["Federated Autocannon/10", "ra"],
-                ["Federated Autocannon/10", "ra"],
-                ["Valiant LRM-10", "lt"],
-                ["Valiant LRM-10", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"]
+                ["Autocannon/10", "ra"],
+                ["Autocannon/10", "ra"],
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"]
             ]
         },
 
@@ -3585,21 +3849,22 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Defiance LB 10-X", "ra"],
-                ["LValiant RM-10", "lt"],
-                ["Defiance Medium Laser", "ct"],
-                ["Defiance Medium Laser", "ctr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ctr"]
             ],
             "ammo":
             [
-                ["Defiance LB 10-X", "ra"],
-                ["Defiance LB 10-X", "ra"],
-                ["Valiant LRM-10", "lt"],
-                ["Valiant LRM-10", "lt"]
+                ["LB 10-X", "ra"],
+                ["LB 10-X", "ra"],
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["Artemis IV FCS", "lt"]
             ]
         }
@@ -3612,7 +3877,7 @@
         "tons": 50,
         "internal": 83,
         
-        "CLN-7V":
+        "CHM-3":
         {
             "cost": 4623375,
             "armor": 112,
@@ -3625,23 +3890,21 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Cyclops Large Laser", "ra"],
-                ["Defiance Medium Laser", "ra"],
-                ["Defiance Medium Laser", "la"],
-                ["Defiance Small Laser", "rt"],
-                ["Defiance Small Laser", "rt"],
-                ["Defiance Small Laser", "lt"],
-                ["Gatling Machinegun", "ct"],
-                ["Gatling Machinegun", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "lt"],
+                ["Small Laser", "lt"],
+                ["Machinegun", "ct"],
+                ["Machinegun", "ct"]
             ],
             "ammo":
             [
-                ["Gatling Machinegun", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Machinegun", "rt"]
             ]
         }  
     },
@@ -3664,15 +3927,17 @@
 
             "weapons":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
-                ["Federated Autocannon/10", "ra"],
-                ["Thunderbolt Large Laser", "la"],
-                ["Starflash Small Laser", "lt"]
+                ["Barrel Fist", "la"],
+                ["Barrel Fist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "ra"],
+                ["Large Laser", "la"],
+                ["Medium Laser", "lt"]
             ],
             "ammo":
             [
-                ["Federated Autocannon/10", "rt"]
+                ["Autocannon/10", "rt"]
             ]
         },
 
@@ -3689,14 +3954,16 @@
             [
                 ["Barrel Fist", "la"],
                 ["Barrel Fist", "ra"],
-                ["Kali Yama LB 10-X", "ra"],
-                ["BlazeFire ER Large Laser", "la"],
-                ["Starflash Small Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["ER Large Laser", "la"],
+                ["Small Laser", "lt"]
             ],
             "ammo":
             [
-                ["Kali Yama LB 10-X", "rt"],
-                ["Kali Yama LB 10-X", "rt"]
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
             ],
             "equip":
             [
@@ -3725,20 +3992,17 @@
             [
                 ["Battlefist", "la"],
                 ["Battlefist", "ra"],
-                ["Zeus Autocannon/20", "rt"],
-                ["Defiance Medium Laser", "ra"],
-                ["Defiance Medium Laser", "la"],
-                ["Diverse Small Laser", "h"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "h"]
             ],
             "ammo":
             [
-                ["Zeus Autocannon/20", "lt"],
-                ["Zeus Autocannon/20", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Autocannon/20", "lt"],
+                ["Autocannon/20", "lt"]
             ]
         },
 
@@ -3753,21 +4017,21 @@
 
             "weapons":
             [
-                ["Hand Actuator", "la"],
-                ["Hand Actuator", "ra"],
-                ["Kali Yama Autocannon/20", "rt"],
-                ["Magna Medium Laser", "ra"],
-                ["Magna Medium Laser", "la"],
-                ["Magna Small Pulse Laser", "h"]
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Pulse Laser", "h"]
             ],
             "ammo":
             [
-                ["Kali Yama Autocannon/20", "lt"]
+                ["Autocannon/20", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"]
             ]
         }
@@ -3793,20 +4057,18 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Zeus LRM-15", "rt"],
-                ["Zeus LRM-15", "lt"],
-                ["Magna Medium Laser", "ra"],
-                ["Magna Medium Laser", "ra"],
-                ["Magna Medium Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
             ],
             "ammo":
             [
-                ["Zeus LRM-15", "rt"],
-                ["Zeus LRM-15", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"]
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"]
             ]
         },
 
@@ -3823,22 +4085,23 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Zeus LRM-15", "rt"],
-                ["Zeus LRM-15", "la"],
-                ["Holly SRM-2", "lt"],
-                ["Magna Medium Laser", "ra"],
-                ["Magna Medium Laser", "ra"],
-                ["Magna Medium Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "la"],
+                ["SRM-2", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
             ],
             "ammo":
             [
-                ["Zeus LRM-15", "rt"],
-                ["Zeus LRM-15", "lt"],
-                ["Holly SRM-2", "lt"]
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["SRM-2", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["Artemis IV FCS", "rt"],
                 ["Artemis IV FCS", "lt"],
                 ["Artemis IV FCS", "lt"],
@@ -3868,19 +4131,21 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Shigunga LRM-10", "rt"],
-                ["Shigunga LRM-10", "lt"],
-                ["Diverse Medium Laser", "ra"],
-                ["Diverse Medium Laser", "ra"],
-                ["HoverTec SRM-2", "la"],
-                ["HoverTec SRM-2", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["SRM-2", "la"],
+                ["SRM-2", "la"]
             ],
             "ammo":
             [
-                ["Shigunga LRM-10", "rt"],
-                ["Shigunga LRM-10", "lt"],
-                ["HoverTec SRM-2", "ra"],
-                ["HoverTec SRM-2", "la"]
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["SRM-2", "ra"],
+                ["SRM-2", "la"]
             ]
         },
 
@@ -3897,19 +4162,21 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Shigunga LRM-10", "rt"],
-                ["Shigunga LRM-10", "lt"],
-                ["Diverse Medium Laser", "ra"],
-                ["Diverse Medium Laser", "ra"],
-                ["Federated Streak SRM-2", "la"],
-                ["Federated Streak SRM-2", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Streak SRM-2", "la"],
+                ["Streak SRM-2", "la"]
             ],
             "ammo":
             [
-                ["Shigunga LRM-10", "rt"],
-                ["Shigunga LRM-10", "lt"],
-                ["Federated Streak SRM-2", "ra"],
-                ["Federated Streak SRM-2", "la"]
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Streak SRM-2", "ra"],
+                ["Streak SRM-2", "la"]
             ],
             "equip":
             [
@@ -3939,18 +4206,15 @@
             [
                 ["Battlefist", "la"],
                 ["Battlefist", "ra"],
-                ["Fusigon PPC", "ra"],
-                ["Irian LRM-10", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["LRM-10", "rt"]
             ],
             "ammo":
             [
-                ["Irian LRM-10", "rt"],
-                ["Irian LRM-10", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["LRM-10", "rt"],
+                ["LRM-10", "rt"]
             ]
         },
 
@@ -3967,19 +4231,19 @@
             [
                 ["Battlefist", "la"],
                 ["Battlefist", "ra"],
-                ["Defiance ER PPC", "ra"],
-                ["Holly LRM-20", "rt"],
-                ["Magna Small Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["LRM-20", "rt"],
+                ["Small Laser", "lt"]
             ],
             "ammo":
             [
-                ["Holly LRM-20", "lt"],
-                ["Holly LRM-20", "lt"]
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"]
             ]
         }
@@ -4003,14 +4267,16 @@
 
             "weapons":
             [
-                ["Imperator LB 10-X", "ra"],
-                ["Thunderstroke LRM-5", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["LRM-5", "la"]
             ],
             "ammo":
             [
-                ["Imperator LB 10-X", "rt"],
-                ["Imperator LB 10-X", "rt"],
-                ["Thunderstroke LRM-5", "ct"]
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LRM-5", "ct"]
             ]
         }
     },
@@ -4035,21 +4301,18 @@
             [
                 ["Battlefist", "la"],
                 ["Battlefist", "ra"],
-                ["Imperator Autocannon/5", "lt"],
-                ["Magna LRM-5", "rt"],
-                ["Holly SRM-2", "h"],
-                ["Magna Medium Laser", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "lt"],
+                ["LRM-5", "rt"],
+                ["SRM-2", "h"],
+                ["Medium Laser", "ra"]
             ],
             "ammo":
             [
-                ["Imperator Autocannon/5", "lt"],
-                ["Magna LRM-5", "rt"],
-                ["Holly SRM-2", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Autocannon/5", "lt"],
+                ["LRM-5", "rt"],
+                ["SRM-2", "ct"]
             ]
         },
 
@@ -4066,21 +4329,21 @@
             [
                 ["Battlefist", "la"],
                 ["Battlefist", "ra"],
-                ["Imperator Ultra AC/5", "lt"],
-                ["Shigunga LRM-20", "rt"],
-                ["Hovertec Streak SRM-2", "h"],
-                ["Magna Medium Laser", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "lt"],
+                ["LRM-20", "rt"],
+                ["Streak SRM-2", "h"],
+                ["Medium Laser", "ra"]
             ],
             "ammo":
             [
-                ["Imperator Ultra AC/5", "lt"],
-                ["Shigunga LRM-20", "rt"],
-                ["Hovertec Streak SRM-2", "ct"]
+                ["Ultra AC/5", "lt"],
+                ["LRM-20", "rt"],
+                ["Streak SRM-2", "ct"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"],
                 ["CASE", "rt"]
             ]
@@ -4105,16 +4368,20 @@
 
             "weapons":
             [
-                ["Ceres PPC", "rt"],
-                ["Harpoon SRM-6", "rt"]
+                ["Foot Actuator", "la"],
+                ["Foot Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"],
+                ["SRM-6", "rt"]
             ],
             "ammo":
             [
-                ["Harpoon SRM-6", "lt"]
+                ["SRM-6", "lt"]
             ]
         },
 
-        "SCP-1O":
+        "SCP-10":
         {
             "cost": 5449800,
             "armor": 112,
@@ -4125,12 +4392,16 @@
 
             "weapons":
             [
-                ["Ceres ER PPC", "rt"],
-                ["Harpoon SRM-6", "rt"]
+                ["Foot Actuator", "la"],
+                ["Foot Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "rt"],
+                ["SRM-6", "rt"]
             ],
             "ammo":
             [
-                ["Harpoon SRM-6", "lt"]
+                ["SRM-6", "lt"]
             ]
         }
     },
@@ -4155,19 +4426,16 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Whirlwind Autocannon/5", "ra"],
-                ["Harpoon SRM-6", "lt"],
-                ["Magna Medium Laser", "h"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "ra"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "h"]
             ],
             "ammo":
             [
-                ["Whirlwind Autocannon/5", "ra"],
-                ["Harpoon SRM-6", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Autocannon/5", "ra"],
+                ["SRM-6", "lt"]
             ]
         },
 
@@ -4184,19 +4452,19 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["General Motors Ultra AC/5", "ra"],
-                ["Harpoon SRM-6", "lt"],
-                ["Magna Medium Pulse Laser", "h"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "ra"],
+                ["SRM-6", "lt"],
+                ["Medium Pulse Laser", "h"]
             ],
             "ammo":
             [
-                ["General Motors Ultra AC/5", "rt"],
-                ["Harpoon SRM-6", "lt"]
+                ["Ultra AC/5", "rt"],
+                ["SRM-6", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "rt"],
                 ["CASE", "lt"],
                 ["MASC", "rt"]
@@ -4224,20 +4492,18 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Shigunga LRM-10", "ct"],
-                ["Imperator Autocannon/5", "ra"],
-                ["Diplan Medium Laser", "la"],
-                ["Diplan Medium Laser", "ltr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ct"],
+                ["Autocannon/5", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ltr"]
             ],
             "ammo":
             [
-                ["Shigunga LRM-10", "lt"],
-                ["Imperator Autocannon/5", "rt"],
-                ["Imperator Autocannon/5", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"]
+                ["LRM-10", "lt"],
+                ["Autocannon/5", "rt"],
+                ["Autocannon/5", "rt"]
             ]
         }
     },
@@ -4262,20 +4528,21 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Irian LRM-10", "ct"],
-                ["Lord's Light ER PPC", "ra"],
-                ["Irian Medium Laser", "la"],
-                ["Irian Medium Laser", "ltr"],
-                ["Irian Medium Laser", "rtr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ct"],
+                ["ER PPC", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ltr"],
+                ["Medium Laser", "rtr"]
             ],
             "ammo":
             [
-                ["Irian LRM-10", "lt"],
-                ["Irian LRM-10", "lt"]
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["CASE", "lt"]
             ]
         }
@@ -4288,7 +4555,7 @@
         "tons": 60,
         "internal": 99,
         
-        "OSR-2C":
+        "OSR-2R":
         {
             "cost": 5025600,
             "armor": 144,
@@ -4301,20 +4568,17 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Telos SRM-4", "rt"],
-                ["Defiance Large Laser", "rt"],
-                ["Defiance Large Laser", "lt"],
-                ["Defiance Medium Laser", "rt"],
-                ["Defiance Medium Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "rt"],
+                ["Large Laser", "rt"],
+                ["Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
             ],
             "ammo":
             [
-                ["Telos SRM-4", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["SRM-4", "ct"]
             ]
         },
 
@@ -4331,20 +4595,17 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Telos SRM-4", "rt"],
-                ["Defiance ER Large Laser", "rt"],
-                ["Defiance ER Large Laser", "lt"],
-                ["Defiance Medium Laser", "rt"],
-                ["Defiance Medium Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "rt"],
+                ["ER Large Laser", "rt"],
+                ["ER Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
             ],
             "ammo":
             [
-                ["Telos SRM-4", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["SRM-4", "ct"]
             ]
         }
     },
@@ -4369,12 +4630,14 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Thunderbolt Large Laser", "rt"],
-                ["Thunderbolt Large Laser", "lt"],
-                ["Diverse Medium Laser", "rt"],
-                ["Diverse Medium Laser", "lt"],
-                ["Diverse Medium Laser", "ctr"],
-                ["Diverse Medium Laser", "ctr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "rt"],
+                ["Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ctr"],
+                ["Medium Laser", "ctr"]
             ]
         },
 
@@ -4391,22 +4654,19 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Tronel Large Pulse Laser", "rt"],
-                ["Tronel Large Pulse Laser", "lt"],
-                ["Tronel Medium Pulse Laser", "rt"],
-                ["Tronel Medium Pulse Laser", "lt"],
-                ["Tronel Medium Pulse Laser", "ctr"],
-                ["Tronel Medium Pulse Laser", "ctr"],
-                ["McArthur Anti-Missile", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Pulse Laser", "rt"],
+                ["Large Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "ctr"],
+                ["Medium Pulse Laser", "ctr"],
+                ["Anti-Missile", "rt"]
             ],
             "ammo":
             [
-                ["McArthur Anti-Missile", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Anti-Missile", "lt"]
             ]
         }
     },
@@ -4431,22 +4691,19 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Valiant LRM-10", "lt"],
-                ["Telos SRM-4", "ct"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "la"],
-                ["Diplan Medium Laser", "rtr"],
-                ["Diplan Medium Laser", "rtr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rtr"],
+                ["Medium Laser", "rtr"]
             ],
             "ammo":
             [
-                ["Valiant LRM-10", "lt"],
-                ["Telos SRM-4", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["LRM-10", "lt"],
+                ["SRM-4", "rt"]
             ]
         },
 
@@ -4463,21 +4720,21 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Valiant LRM-10", "lt"],
-                ["Telos SRM-4", "ct"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "la"],
-                ["Diplan Medium Laser", "rtr"],
-                ["Diplan Medium Laser", "rtr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rtr"],
+                ["Medium Laser", "rtr"]
             ],
             "ammo":
             [
-                ["Valiant LRM-10", "lt"]
+                ["LRM-10", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"]
             ]
         }
@@ -4501,12 +4758,14 @@
 
             "weapons":
             [
-                ["Magna Large Laser", "ra"],
-                ["Magna Large Laser", "la"],
-                ["Imperator Autocannon/5", "ra"],
-                ["Imperator Autocannon/5", "la"],
-                ["Magna Medium Laser", "rt"],
-                ["Magna Medium Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Autocannon/5", "ra"],
+                ["Autocannon/5", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
             ],
             "ammo":
             [
@@ -4525,16 +4784,18 @@
 
             "weapons":
             [
-                ["Magna Large Laser", "ra"],
-                ["Magna Large Laser", "la"],
-                ["Imperator Ultra AC/5", "ra"],
-                ["Imperator Ultra AC/5", "la"],
-                ["Magna Medium Laser", "rt"],
-                ["Magna Medium Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Ultra AC/5", "ra"],
+                ["Ultra AC/5", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
             ],
             "ammo":
             [
-                ["Imperator Ultra AC/5", "rt"]
+                ["Ultra AC/5", "rt"]
             ],
             "equip":
             [
@@ -4562,24 +4823,23 @@
             "weapons":
             [
                 ["Hand Actuator", "la"],
-                ["Defiance Autocannon/20", "rt"],
-                ["Diverse Medium Laser", "ra"],
-                ["Diverse Medium Laser", "ra"],
-                ["Diverse Medium Laser", "ra"],
-                ["Thunderbolt Large Pulse Laser", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Large Pulse Laser", "la"],
                 ["Hatchet", "ra"]
             ],
             "ammo":
             [
-                ["Defiance Autocannon/20", "lt"],
-                ["Defiance Autocannon/20", "lt"]
+                ["Autocannon/20", "lt"],
+                ["Autocannon/20", "lt"]
 
             ],
             "equip":
             [
-                ["Hand Actuator", "ra"],
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"]
             ]
         }
@@ -4603,17 +4863,19 @@
 
             "weapons":
             [
-                ["Zeus LRM-15", "ra"],
-                ["Zeus LRM-15", "la"],
-                ["Diplan Medium Laser", "rt"],
-                ["Diplan Medium Laser", "lt"],
-                ["Diplan Medium Laser", "ct"],
-                ["Diplan Medium Laser", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ct"]
             ],
             "ammo":
             [
-                ["Zeus LRM-15", "rt"],
-                ["Zeus LRM-15", "lt"]
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"]
             ]
         },
 
@@ -4628,15 +4890,17 @@
 
             "weapons":
             [
-                ["Kali Yama LRM-20", "ra"],
-                ["Kali Yama LRM-20", "la"],
-                ["Defiance Large Laser", "rt"],
-                ["Defiance Small Pulse Laser", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-20", "ra"],
+                ["LRM-20", "la"],
+                ["Large Laser", "rt"],
+                ["Small Pulse Laser", "ct"]
             ],
             "ammo":
             [
-                ["Kali Yama LRM-20", "rt"],
-                ["Kali Yama LRM-20", "lt"]
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"]
             ],
             "equip":
             [
@@ -4665,26 +4929,23 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["TharHes LRM-15", "ra"],
-                ["TharHes LRM-15", "la"],
-                ["Harpoon SRM-6", "rl"],
-                ["Harpoon SRM-6", "ll"],
-                ["Irian Medium Laser", "ra"],
-                ["Irian Medium Laser", "la"],
-                ["M100 Machinegun", "ra"],
-                ["M100 Machinegun", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["SRM-6", "rl"],
+                ["SRM-6", "ll"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
             ],
             "ammo":
             [
-                ["TharHes LRM-15", "rt"],
-                ["TharHes LRM-15", "lt"],
-                ["Harpoon SRM-6", "ct"],
-                ["M100 Machinegun", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["SRM-6", "ct"],
+                ["Machinegun", "ct"]
             ]
         },
 
@@ -4701,26 +4962,26 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["TharHes LRM-15", "ra"],
-                ["TharHes LRM-15", "la"],
-                ["Hovertec Streak SRM-2", "rl"],
-                ["Hovertec Streak SRM-2", "ll"],
-                ["FlameShot Flamer", "ra"],
-                ["Buzzsaw Anti-Missile", "h"],
-                ["M100 Machinegun", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["Streak SRM-2", "rl"],
+                ["Streak SRM-2", "ll"],
+                ["Flamer", "ra"],
+                ["Anti-Missile", "h"],
+                ["Machinegun", "ra"]
             ],
             "ammo":
             [
-                ["TharHes LRM-15", "rt"],
-                ["TharHes LRM-15", "rt"],
-                ["Hovertec Streak SRM-2", "lt"],
-                ["Buzzsaw Anti-Missile", "rt"],
-                ["M100 Machinegun", "ra"]
+                ["LRM-15", "rt"],
+                ["LRM-15", "rt"],
+                ["Streak SRM-2", "lt"],
+                ["Anti-Missile", "rt"],
+                ["Machinegun", "ra"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "rt"],
                 ["CASE", "lt"]
             ]
@@ -4745,18 +5006,20 @@
 
             "weapons":
             [
-                ["Mydron Autocannon/5", "ra"],
-                ["Mydron Autocannon/5", "la"],
-                ["Mydron Autocannon/2", "ra"],
-                ["Mydron Autocannon/2", "la"],
-                ["Magna Medium Laser", "rt"],
-                ["Magna Medium Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "ra"],
+                ["Autocannon/5", "la"],
+                ["Autocannon/2", "ra"],
+                ["Autocannon/2", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
             ],
             "ammo":
             [
-                ["Mydron Autocannon/5", "rt"],
-                ["Mydron Autocannon/5", "lt"],
-                ["Mydron Autocannon/2", "ct"]                
+                ["Autocannon/5", "rt"],
+                ["Autocannon/5", "lt"],
+                ["Autocannon/2", "ct"]                
             ]
         },
 
@@ -4771,18 +5034,20 @@
 
             "weapons":
             [
-                ["General Motors Ultra AC/5", "ra"],
-                ["General Motors Ultra AC/5", "la"],
-                ["Mydron Autocannon/2", "ra"],
-                ["Mydron Autocannon/2", "la"],
-                ["Victory Medium Pulse Laser", "rt"],
-                ["Victory Medium Pulse Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "ra"],
+                ["Ultra AC/5", "la"],
+                ["Autocannon/2", "ra"],
+                ["Autocannon/2", "la"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "lt"]
             ],
             "ammo":
             [
-                ["General Motors Ultra AC/5", "rt"],
-                ["General Motors Ultra AC/5", "lt"],
-                ["Mydron Autocannon/2", "ct"]                
+                ["Ultra AC/5", "rt"],
+                ["Ultra AC/5", "lt"],
+                ["Autocannon/2", "ct"]                
             ],
             "equip":
             [
@@ -4812,26 +5077,23 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Thunderbolt Large Laser", "ra"],
-                ["TharHes LRM-15", "rt"],
-                ["Diverse Medium Laser", "lt"],
-                ["Diverse Medium Laser", "lt"],
-                ["Diverse Medium Laser", "lt"],
-                ["Holly SRM-2", "rt"],
-                ["Voelkers Machinegun", "la"],
-                ["Voelkers Machinegun", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["LRM-15", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["SRM-2", "rt"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"]
             ],
             "ammo":
             [
-                ["TharHes LRM-15", "ct"],
-                ["TharHes LRM-15", "ct"],
-                ["Holly SRM-2", "rt"],
-                ["Voelkers Machinegun", "la"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["LRM-15", "ct"],
+                ["LRM-15", "ct"],
+                ["SRM-2", "rt"],
+                ["Machinegun", "la"]
             ]
         },
 
@@ -4848,26 +5110,26 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Diverse ER Large Laser", "ra"],
-                ["TharHes LRM-15", "rt"],
-                ["Diverse Medium Laser", "lt"],
-                ["Diverse Medium Laser", "lt"],
-                ["Diverse Medium Laser", "lt"],
-                ["Hovertec Streak SRM-2", "rt"],
-                ["Voelkers Machinegun", "la"],
-                ["Voelkers Machinegun", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["LRM-15", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Streak SRM-2", "rt"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"]
             ],
             "ammo":
             [
-                ["TharHes LRM-15", "lt"],
-                ["TharHes LRM-15", "lt"],
-                ["Hovertec Streak SRM-2", "rt"],
-                ["Voelkers Machinegun", "lt"]
+                ["LRM-15", "lt"],
+                ["LRM-15", "lt"],
+                ["Streak SRM-2", "rt"],
+                ["Machinegun", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"],
                 ["CASE", "rt"]
             ]
@@ -4894,24 +5156,21 @@
             [
                 ["Battlefist", "la"],
                 ["Battlefist", "ra"],
-                ["Kali Yama LRM-20", "rt"],
-                ["Kali Yama LRM-20", "lt"],
-                ["Diverse Medium Laser", "ra"],
-                ["Diverse Medium Laser", "la"],
-                ["Diverse Medium Laser", "ctr"],
-                ["Diverse Medium Laser", "ctr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"],
+                ["Medium Laser", "ctr"]
             ],
             "ammo":
             [
-                ["Kali Yama LRM-20", "rt"],
-                ["Kali Yama LRM-20", "rt"],
-                ["Kali Yama LRM-20", "lt"],
-                ["Kali Yama LRM-20", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["LRM-20", "rt"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
             ]
         },
 
@@ -4928,24 +5187,24 @@
             [
                 ["Battlefist", "la"],
                 ["Battlefist", "ra"],
-                ["Kali Yama LRM-20", "rt"],
-                ["Kali Yama LRM-20", "lt"],
-                ["Diverse Medium Laser", "ra"],
-                ["Diverse Medium Laser", "la"],
-                ["Diverse Medium Laser", "ctr"],
-                ["Diverse Medium Laser", "ctr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"],
+                ["Medium Laser", "ctr"]
             ],
             "ammo":
             [
-                ["Kali Yama LRM-20", "rt"],
-                ["Kali Yama LRM-20", "rt"],
-                ["Kali Yama LRM-20", "lt"],
-                ["Kali Yama LRM-20", "lt"]
+                ["LRM-20", "rt"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["Artemis IV FCS", "rt"],
                 ["CASE", "rt"],
                 ["Artemis IV FCS", "lt"],
@@ -4974,22 +5233,22 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Poland Gauss Rifle", "rt"],
-                ["Defiance ER PPC", "ra"],
-                ["Ceres Medium Pulse Laser", "ra"],
-                ["Ceres Medium Pulse Laser", "la"],
-                ["Ceres Medium Pulse Laser", "rtr"],
-                ["Ceres Medium Pulse Laser", "ltr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "rt"],
+                ["ER PPC", "ra"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "la"],
+                ["Medium Pulse Laser", "rtr"],
+                ["Medium Pulse Laser", "ltr"]
             ],
             "ammo":
             [
-                ["Poland Gauss Rifle", "lt"],
-                ["Poland Gauss Rifle", "lt"]
+                ["Gauss Rifle", "lt"],
+                ["Gauss Rifle", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "rt"]
             ]
         }  
@@ -5015,22 +5274,23 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Kali Yama LB 10-X", "rt"],
-                ["General Motors Ultra AC/5", "ra"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "la"],
-                ["Diplan Medium Laser", "rtr"],
-                ["Diplan Medium Laser", "ltr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "rt"],
+                ["Ultra AC/5", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rtr"],
+                ["Medium Laser", "ltr"]
             ],
             "ammo":
             [
-                ["Kali Yama LB 10-X", "lt"],
-                ["Kali Yama LB 10-X", "lt"],
-                ["General Motors Ultra AC/5", "rt"]
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "lt"],
+                ["Ultra AC/5", "rt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["CASE", "rt"],
                 ["CASE", "lt"]
             ]
@@ -5057,21 +5317,18 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Thunderbolt Large Laser", "ct"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "la"],
-                ["Diplan Medium Laser", "rt"],
-                ["Diplan Medium Laser", "lt"],
-                ["Sian-Ceres LRM-5", "h"]                
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["LRM-5", "h"]                
             ],
             "ammo":
             [
-                ["Sian-Ceres LRM-5", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["LRM-5", "rt"]
             ]
         },
 
@@ -5088,22 +5345,19 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Diverse ER Large Laser", "ct"],
-                ["Diplan Medium Laser", "ra"],
-                ["Diplan Medium Laser", "la"],
-                ["Hovertec Streak SRM-2", "h"],
-                ["Yori Anti-Missile", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Streak SRM-2", "h"],
+                ["Anti-Missile", "rt"]
             ],
             "ammo":
             [
-                ["Hovertec Streak SRM-2", "rt"],
-                ["Hovertec Streak SRM-2", "rt"],
-                ["Yori Anti-Missile", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Streak SRM-2", "rt"],
+                ["Streak SRM-2", "rt"],
+                ["Anti-Missile", "lt"]
             ]
         }
     },
@@ -5128,20 +5382,22 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Donal PPC", "ra"],
-                ["Donal PPC", "la"],
-                ["Irian SRM-6", "rt"],
-                ["Magna Medium Laser", "rt"],
-                ["Magna Medium Laser", "lt"],
-                ["Magna Small Laser", "rt"],
-                ["Magna Small Laser", "lt"],
-                ["Sperry Machinegun", "rt"],
-                ["Sperry Machinegun", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["SRM-6", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "lt"],
+                ["Machinegun", "rt"],
+                ["Machinegun", "lt"]
             ],
             "ammo":
             [
-                ["Irian SRM-6", "rt"],
-                ["Sperry Machinegun", "ct"]
+                ["SRM-6", "rt"],
+                ["Machinegun", "ct"]
             ]
         },
 
@@ -5158,19 +5414,21 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Ceres ER PPC", "ra"],
-                ["Ceres ER PPC", "la"],
-                ["Irian SRM-6", "rt"],
-                ["Magna Medium Laser", "rt"],
-                ["Magna Medium Laser", "lt"],
-                ["Sperry Machinegun", "rt"],
-                ["Voelkers Anti-Missile", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["ER PPC", "la"],
+                ["SRM-6", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Machinegun", "rt"],
+                ["Anti-Missile", "lt"]
             ],
             "ammo":
             [
-                ["Irian SRM-6", "rt"],
-                ["Sperry Machinegun", "ct"],
-                ["Voelkers Anti-Missile", "rt"]
+                ["SRM-6", "rt"],
+                ["Machinegun", "ct"],
+                ["Anti-Missile", "rt"]
             ]
         } 
     },
@@ -5195,15 +5453,17 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Parti-Kill PPC", "ra"],
-                ["Parti-Kill PPC", "la"],
-                ["Magna Medium Laser", "ra"], 
-                ["Magna Medium Laser", "la"], 
-                ["Whirlwind Autocannon/5", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Autocannon/5", "rt"]
             ],
             "ammo":
             [
-                ["Whirlwind Autocannon/5", "lt"]
+                ["Autocannon/5", "lt"]
             ]
         },
 
@@ -5220,16 +5480,18 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Defiance ER PPC", "ra"],
-                ["Defiance ER PPC", "la"],
-                ["Diplan Medium Pulse Laser", "ra"], 
-                ["Diplan Medium Pulse Laser", "la"], 
-                ["SCI Large Pulse Laser", "rt"],
-                ["Federated Streak SRM-2", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["ER PPC", "la"],
+                ["Medium Pulse Laser", "ra"], 
+                ["Medium Pulse Laser", "la"], 
+                ["Large Pulse Laser", "rt"],
+                ["Streak SRM-2", "lt"]
             ],
             "ammo":
             [
-                ["Federated Streak SRM-2", "lt"]
+                ["Streak SRM-2", "lt"]
             ],
             "equip":
             [
@@ -5258,20 +5520,22 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Ceres Autocannon/10", "rt"],
-                ["Zeus LRM-15", "lt"], 
-                ["Irian Medium Laser", "ra"], 
-                ["Irian Medium Laser", "la"], 
-                ["Irian SRM-4", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "rt"],
+                ["LRM-15", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["SRM-4", "lt"]
             ],
             "ammo":
             [
-                ["Ceres Autocannon/10", "rt"],
-                ["Ceres Autocannon/10", "rt"],
-                ["Zeus LRM-15", "lt"], 
-                ["Zeus LRM-15", "lt"], 
-                ["Irian SRM-4", "lt"],
-                ["Irian SRM-4", "lt"]
+                ["Autocannon/10", "rt"],
+                ["Autocannon/10", "rt"],
+                ["LRM-15", "lt"], 
+                ["LRM-15", "lt"], 
+                ["SRM-4", "lt"],
+                ["SRM-4", "lt"]
             ]
         },
 
@@ -5288,21 +5552,22 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Kali Yama LB 10-X", "rt"],
-                ["Kali Yama LRM-20", "la"], 
-                ["Irian Medium Laser", "ra"], 
-                ["Irian Medium Laser", "la"], 
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "rt"],
+                ["LRM-20", "la"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
                 ["SRM-4", "lt"],
                 ["SRM-6", "ct"]
             ],
             "ammo":
             [
-                ["Kali Yama LB 10-X", "rt"],
-                ["Kali Yama LB 10-X", "rt"],
-                ["Kali Yama LRM-20", "lt"], 
-                ["Kali Yama LRM-20", "lt"], 
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LRM-20", "lt"], 
+                ["LRM-20", "lt"], 
                 ["SRM-4", "rt"],
-                ["SRM-6", "lt"],
                 ["SRM-6", "lt"]
             ]
         }
@@ -5328,15 +5593,12 @@
             [
                 ["Battlefist", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Ceres PPC", "ra"],
-                ["Ceres PPC", "rt"], 
-                ["Ceres PPC", "lt"],
-                ["Diverse Small Laser", "h"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["PPC", "rt"], 
+                ["PPC", "lt"],
+                ["Small Laser", "h"]
             ]
         },
 
@@ -5353,22 +5615,19 @@
             [
                 ["Battlefist", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Kinslaughter ER PPC", "ra"],
-                ["Kinslaughter ER PPC", "rt"], 
-                ["Kinslaughter ER PPC", "lt"],
-                ["Diverse Small Laser", "h"],
-                ["Magna Medium Pulse Laser", "ct"],
-                ["Hovertec Streak SRM-2", "ct"],
-                ["Hovertec Streak SRM-2", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["ER PPC", "rt"], 
+                ["ER PPC", "lt"],
+                ["Small Laser", "h"],
+                ["Medium Pulse Laser", "ct"],
+                ["Streak SRM-2", "ct"],
+                ["Streak SRM-2", "la"]
             ],
             "ammo":
             [
-                ["Hovertec Streak SRM-2", "ll"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Streak SRM-2", "ll"]
             ]
         }
     },
@@ -5393,15 +5652,13 @@
             [
                 ["Barrel Fist", "la"],
                 ["Hand Actuator", "ra"],
-                ["Magna Small Laser", "h"],
-                ["Magna Small Laser", "rt"],
-                ["Magna Small Laser", "ra"],
-                ["Magna Small Laser", "lt"],
-                ["Magna Small Laser", "la"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "ra"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Small Laser", "h"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "lt"],
+                ["Small Laser", "la"]
             ]
         },
 
@@ -5418,20 +5675,21 @@
             [
                 ["Barrel Fist", "la"],
                 ["Hand Actuator", "ra"],
-                ["Shigunga LRM-20", "rt"],
-                ["Tronel Medium Pulse Laser", "rt"],
-                ["Tronel Medium Pulse Laser", "ra"],
-                ["Tronel Medium Pulse Laser", "lt"],
-                ["Tronel Medium Pulse Laser", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-20", "rt"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "la"]
             ],
             "ammo":
             [
-                ["Shigunga LRM-20", "lt"],
-                ["Shigunga LRM-20", "lt"]
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "ra"],
                 ["Artemis IV FCS", "rt"],
                 ["CASE", "lt"]
             ]
@@ -5456,17 +5714,21 @@
 
             "weapons":
             [
-                ["Fusigon PPC", "rt"], 
-                ["Irian LRM-10", "rt"],
-                ["Irian LRM-10", "lt"],
-                ["Coventry Machinegun", "rt"], 
-                ["Coventry Machinegun", "lt"]
+                ["Foot Actuator", "la"],
+                ["Foot Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"], 
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Machinegun", "rt"], 
+                ["Machinegun", "lt"]
             ],
             "ammo":
             [
-                ["Irian LRM-10", "ct"],
-                ["Irian LRM-10", "ct"],
-                ["Coventry Machinegun", "lt"]               
+                ["LRM-10", "ct"],
+                ["LRM-10", "ct"],
+                ["Machinegun", "lt"]               
             ]
         },
 
@@ -5481,18 +5743,22 @@
 
             "weapons":
             [
-                ["Norse-Storm Gauss Rifle", "rt"], 
-                ["Irian LRM-10", "rt"],
-                ["Irian LRM-10", "lt"],
-                ["Coventry Machinegun", "ct"]
+                ["Foot Actuator", "la"],
+                ["Foot Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "rt"], 
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Machinegun", "ct"]
             ],
             "ammo":
             [
-                ["Norse-Storm Gauss Rifle", "ct"],
-                ["Irian LRM-10", "lt"],
-                ["Irian LRM-10", "lt"],
-                ["Coventry Machinegun", "lt"],
-                ["Coventry Machinegun", "lt"]
+                ["Gauss Rifle", "ct"],
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"],
+                ["Machinegun", "lt"],
+                ["Machinegun", "lt"]
             ],
             "equip":
             [
@@ -5520,21 +5786,19 @@
             "weapons":
             [
                 ["Hand Actuator", "la"],
-                ["Chemjet Autocannon/20", "ra"], 
-                ["Irian Medium Laser", "la"],
-                ["Irian Medium Laser", "la"],
-                ["Irian SRM-4", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "ra"], 
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["SRM-4", "lt"]
             ],
             "ammo":
             [
-                ["Chemjet Autocannon/20", "rt"],
-                ["Chemjet Autocannon/20", "rt"],
-                ["Chemjet Autocannon/20", "rt"],
-                ["Irian SRM-4", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"]
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["SRM-4", "lt"]
             ]
         },
 
@@ -5551,20 +5815,21 @@
             [
                 ["Hand Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Grizzard Gauss Rifle", "ra"], 
-                ["Victory Medium Pulse Laser", "la"],
-                ["Victory Medium Pulse Laser", "la"],
-                ["TharHes SRM-4", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "ra"], 
+                ["Medium Pulse Laser", "la"],
+                ["Medium Pulse Laser", "la"],
+                ["SRM-4", "lt"]
             ],
             "ammo":
             [
-                ["Grizzard Gauss Rifle", "rt"],
-                ["Grizzard Gauss Rifle", "rt"],
-                ["TharHes SRM-4", "lt"]
+                ["Gauss Rifle", "rt"],
+                ["Gauss Rifle", "rt"],
+                ["SRM-4", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
                 ["CASE", "ra"],
                 ["CASE", "lt"]
             ]
@@ -5591,19 +5856,20 @@
             [
                 ["Hand Actuator", "ra"],
                 ["Lower Arm Actuator", "la"],
-                ["Ceres PPC", "ra"],
-                ["Ceres PPC", "la"],
-                ["Exostar SRM-6", "rt"],
-                ["Exostar SRM-6", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
             ],
             "ammo":
             [
-                ["Exostar SRM-6", "rt"],
-                ["Exostar SRM-6", "lt"]
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "rt"],
                 ["CASE", "lt"]
             ]
@@ -5630,16 +5896,18 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Barrel Fist", "ra"],
-                ["Thunderbolt Large Laser", "lt"],
-                ["Zeus LRM-15", "ra"],
-                ["Defiance Medium Laser", "ltr"],
-                ["Defiance Medium Laser", "ct"],
-                ["Defiance Autocannon/5", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "lt"],
+                ["LRM-15", "ra"],
+                ["Medium Laser", "ltr"],
+                ["Medium Laser", "ct"],
+                ["Autocannon/5", "la"]
             ],
             "ammo":
             [
-                ["Zeus LRM-15", "rt"],
-                ["Defiance Autocannon/5", "la"]
+                ["LRM-15", "rt"],
+                ["Autocannon/5", "la"]
             ]
         },
 
@@ -5656,15 +5924,17 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Barrel Fist", "ra"],
-                ["Defiance ER PPC", "la"],
-                ["Cyclops ER Large Laser", "lt"],
-                ["Zeus LRM-15", "ra"],
-                ["Defiance Medium Pulse Laser", "ltr"],
-                ["Defiance Medium Pulse Laser", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "la"],
+                ["ER Large Laser", "lt"],
+                ["LRM-15", "ra"],
+                ["Medium Pulse Laser", "ltr"],
+                ["Medium Pulse Laser", "ct"]
             ],
             "ammo":
             [
-                ["Zeus LRM-15", "rt"]
+                ["LRM-15", "rt"]
             ],
             "equip":
             [
@@ -5693,26 +5963,23 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Donal PPC", "ra"], 
-                ["Diplan Medium Laser", "rt"], 
-                ["Diplan Medium Laser", "rt"], 
-                ["Diplan Medium Laser", "rtr"], 
-                ["Sperry Machinegun", "la"],
-                ["Sperry Machinegun", "la"],
-                ["Harpoon SRM-6", "lt"],
-                ["Diplan Medium Laser", "lt"], 
-                ["Diplan Medium Laser", "lt"], 
-                ["Diplan Medium Laser", "ltr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rtr"], 
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "ltr"]
             ],
             "ammo":
             [
-                ["Sperry Machinegun", "lt"],
-                ["Harpoon SRM-6", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Machinegun", "lt"],
+                ["SRM-6", "lt"]
             ]
         },
 
@@ -5729,27 +5996,27 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Majestry Metals ER PPC", "ra"], 
-                ["Diplan Medium Laser", "rt"], 
-                ["Diplan Medium Laser", "rt"], 
-                ["Diplan Medium Laser", "rtr"], 
-                ["Sperry Machinegun", "la"],
-                ["Sperry Machinegun", "la"],
-                ["Harpoon SRM-6", "lt"],
-                ["Diplan Medium Laser", "lt"], 
-                ["Diplan Medium Laser", "lt"], 
-                ["Diplan Medium Laser", "ltr"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rtr"], 
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "ltr"]
             ],
             "ammo":
             [
-                ["Sperry Machinegun", "lt"],
-                ["Harpoon SRM-6", "lt"],
-                ["Harpoon SRM-6", "lt"]
+                ["Machinegun", "lt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "lt"]
             ]
         }
@@ -5775,23 +6042,23 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Harpoon SRM-6", "rt"],
-                ["Harpoon SRM-6", "lt"],
-                ["TharHes LRM-15", "ra"],
-                ["TharHes LRM-15", "la"],
-                ["Magna ER PPC", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["ER PPC", "rt"]
             ],
             "ammo":
             [
-                ["Harpoon SRM-6", "rt"],
-                ["Harpoon SRM-6", "lt"],
-                ["TharHes LRM-15", "rt"],
-                ["TharHes LRM-15", "lt"]
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "rt"],
                 ["CASE", "lt"]
             ]
@@ -5816,23 +6083,25 @@
 
             "weapons":
             [
-                ["Irian LRM-10", "ra"], 
-                ["Irian LRM-10", "la"], 
-                ["Magna Large Laser", "rt"], 
-                ["Magna Large Laser", "lt"], 
-                ["Magna Medium Laser", "ra"], 
-                ["Magna Medium Laser", "ra"], 
-                ["Magna Medium Laser", "la"], 
-                ["Magna Medium Laser", "la"], 
-                ["Irian SRM-6", "rt"],
-                ["Irian SRM-6", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["Large Laser", "rt"], 
+                ["Large Laser", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Medium Laser", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
             ],
             "ammo":
             [
-                ["Irian LRM-10", "ra"], 
-                ["Irian LRM-10", "la"], 
-                ["Irian SRM-6", "rt"],
-                ["Irian SRM-6", "lt"]                
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]                
             ]
         },
 
@@ -5847,27 +6116,29 @@
 
             "weapons":
             [
-                ["Irian LRM-10", "ra"], 
-                ["Irian LRM-10", "la"], 
-                ["Diverse ER Large Laser", "rt"], 
-                ["Magna Medium Laser", "ra"], 
-                ["Magna Medium Laser", "ra"], 
-                ["Magna Medium Laser", "la"], 
-                ["Magna Medium Laser", "la"], 
-                ["Irian SRM-6", "rt"],
-                ["Irian SRM-6", "lt"],
-                ["Irian SRM-6", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["ER Large Laser", "rt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Medium Laser", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]
             ],
             "ammo":
             [
-                ["Irian LRM-10", "ra"], 
-                ["Irian LRM-10", "ra"], 
-                ["Irian LRM-10", "la"], 
-                ["Irian LRM-10", "la"], 
-                ["Irian SRM-6", "rt"],
-                ["Irian SRM-6", "lt"],
-                ["Irian SRM-6", "lt"],
-                ["Irian SRM-6", "lt"]                
+                ["LRM-10", "ra"], 
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["LRM-10", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]                
             ]
         }
     },
@@ -5892,25 +6163,22 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Zeus Autocannon/20", "rt"], 
-                ["Shigunga LRM-10", "lt"], 
-                ["Diverse Medium Laser", "ra"], 
-                ["Diverse Medium Laser", "la"], 
-                ["TharHes SRM-4", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"], 
+                ["LRM-10", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["SRM-4", "ct"]
             ],
             "ammo":
             [
-                ["Zeus Autocannon/20", "rt"], 
-                ["Zeus Autocannon/20", "rt"], 
-                ["Zeus Autocannon/20", "lt"],
-                ["Zeus Autocannon/20", "lt"], 
-                ["Shigunga LRM-10", "lt"],
-                ["TharHes SRM-4", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Autocannon/20", "rt"], 
+                ["Autocannon/20", "rt"], 
+                ["Autocannon/20", "lt"],
+                ["Autocannon/20", "lt"], 
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"]
             ]
         },
 
@@ -5927,24 +6195,21 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Norse-Storm Gauss Rifle", "rt"], 
-                ["Shigunga LRM-10", "lt"], 
-                ["Diverse Medium Laser", "ra"], 
-                ["Diverse Medium Laser", "ra"], 
-                ["TharHes SRM-4", "ct"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "rt"], 
+                ["LRM-10", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "ra"], 
+                ["SRM-4", "ct"]
             ],
             "ammo":
             [
-                ["Norse-Storm Gauss Rifle", "rt"], 
-                ["Norse-Storm Gauss Rifle", "rt"], 
-                ["Shigunga LRM-10", "lt"],
-                ["Shigunga LRM-10", "lt"],
-                ["TharHes SRM-4", "ct"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Gauss Rifle", "rt"], 
+                ["Gauss Rifle", "rt"], 
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"]
             ]
         }
     },
@@ -5969,23 +6234,25 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Victory ER Large Laser", "ra"],
-                ["Victory ER Large Laser", "la"],
-                ["TharHes LRM-15", "rt"],
-                ["TharHes LRM-15", "lt"],
-                ["Imperator Autocannon/2", "rt"],
-                ["Imperator Autocannon/2", "rt"],
-                ["Imperator Autocannon/2", "lt"],
-                ["Imperator Autocannon/2", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["Autocannon/2", "rt"],
+                ["Autocannon/2", "rt"],
+                ["Autocannon/2", "lt"],
+                ["Autocannon/2", "lt"]
             ],
             "ammo":
             [
-                ["TharHes LRM-15", "rt"],
-                ["TharHes LRM-15", "rt"],
-                ["TharHes LRM-15", "lt"],
-                ["TharHes LRM-15", "lt"],
-                ["Imperator Autocannon/2", "rt"],
-                ["Imperator Autocannon/2", "lt"]
+                ["LRM-15", "rt"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["LRM-15", "lt"],
+                ["Autocannon/2", "rt"],
+                ["Autocannon/2", "lt"]
             ],
             "equip":
             [
@@ -6015,18 +6282,15 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Lord's Light PPC", "rt"],
-                ["Imperator Autocannon/5", "lt"],
-                ["Magna Small Laser", "h"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"],
+                ["Autocannon/5", "lt"],
+                ["Small Laser", "h"]
             ],
             "ammo":
             [
-                ["Imperator Autocannon/5", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Autocannon/5", "lt"]
             ]
         },
 
@@ -6043,25 +6307,23 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Defiance ER PPC", "rt"],
-                ["Defiance ER PPC", "rt"],
-                ["Poland Gauss Rifle", "lt"],
-                ["Exostar SRM-6", "ra"],
-                ["Defiance Medium Laser", "la"],
-                ["Defiance Medium Laser", "la"],
-                ["Defiance Medium Laser", "ltr"],
-                ["Defiance Medium Laser", "rtr"],
-                ["Defiance Small Laser", "ct"],
-                ["Defiance Small Laser", "h"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "rt"],
+                ["ER PPC", "rt"],
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ltr"],
+                ["Medium Laser", "rtr"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "h"]
             ],
             "ammo":
             [
-                ["Poland Gauss Rifle", "lt"],
-                ["Exostar SRM-6", "ra"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "ra"]
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "ra"]
             ]
         }
     },
@@ -6086,10 +6348,12 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Blankenburg LB 10-X", "ra"],
-                ["Blankenburg LB 10-X", "la"],
-                ["Blankenburg LB 10-X", "rt"],
-                ["Blankenburg LB 10-X", "lt"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["LB 10-X", "la"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "lt"],
                 ["Medium Pulse Laser", "la"], 
                 ["Medium Pulse Laser", "ra"], 
                 ["Medium Pulse Laser", "ct"], 
@@ -6097,10 +6361,10 @@
             ],
             "ammo":
             [
-                ["Blankenburg LB 10-X", "rt"],
-                ["Blankenburg LB 10-X", "rt"],
-                ["Blankenburg LB 10-X", "lt"],
-                ["Blankenburg LB 10-X", "lt"]
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "lt"]
             ],
             "equip":
             [
@@ -6130,24 +6394,21 @@
             [
                 ["Battlefist", "la"],
                 ["Battlefist", "ra"],
-                ["Defiance Autocannon/20", "rt"],
-                ["Kali Yama LRM-20", "lt"],
-                ["Defiance Medium Laser", "ra"],
-                ["Defiance Medium Laser", "la"],
-                ["Defiance Medium Laser", "ctr"], 
-                ["Defiance Medium Laser", "ctr"], 
-                ["Harpoon SRM-6", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"], 
+                ["Medium Laser", "ctr"], 
+                ["SRM-6", "lt"]
             ],
             "ammo":
             [
-                ["Defiance Autocannon/20", "rt"],
-                ["Kali Yama LRM-20", "lt"],
-                ["Harpoon SRM-6", "rt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Autocannon/20", "rt"],
+                ["LRM-20", "lt"],
+                ["SRM-6", "rt"]
             ]
         },
 
@@ -6164,26 +6425,26 @@
             [
                 ["Battlefist", "la"],
                 ["Battlefist", "ra"],
-                ["Grizzard Gauss Rifle", "rt"],
-                ["Kali Yama LRM-20", "lt"],
-                ["Victory ER Large Laser", "ra"],
-                ["Victory ER Large Laser", "la"],
-                ["Victory Medium Pulse Laser", "ctr"], 
-                ["Victory Medium Pulse Laser", "ctr"], 
-                ["Yori Anti-Missile", "la"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "rt"],
+                ["LRM-20", "lt"],
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["Medium Pulse Laser", "ctr"], 
+                ["Medium Pulse Laser", "ctr"], 
+                ["Anti-Missile", "la"]
             ],
             "ammo":
             [
-                ["Grizzard Gauss Rifle", "rt"],
-                ["Grizzard Gauss Rifle", "rt"],
-                ["Kali Yama LRM-20", "lt"],
-                ["Kali Yama LRM-20", "lt"],
-                ["Yori Anti-Missile", "lt"]
+                ["Gauss Rifle", "rt"],
+                ["Gauss Rifle", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"],
+                ["Anti-Missile", "lt"]
             ],
             "equip":
             [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"],
                 ["CASE", "rt"],
                 ["CASE", "lt"]
             ]
@@ -6210,17 +6471,19 @@
             [
                 ["Lower Arm Actuator", "la"],
                 ["Lower Arm Actuator", "ra"],
-                ["Magna ER PPC", "ra"],
-                ["Magna ER PPC", "la"],
-                ["Magna Medium Laser", "ra"], 
-                ["Magna Medium Laser", "la"], 
-                ["Armstrong LB 10-X", "rt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["ER PPC", "la"],
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["LB 10-X", "rt"]
             ],
             "ammo":
             [
-                ["Armstrong LB 10-X", "rt"],
-                ["Armstrong LB 10-X", "rt"],
-                ["Armstrong LB 10-X", "rt"]
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
             ],
             "equip":
             [
@@ -6248,19 +6511,21 @@
             "weapons":
             [
                 ["Lower Arm Actuator", "ra"],
-                ["Magna ER PPC", "rt"],
-                ["Magna ER PPC", "lt"],
-                ["Zeus LRM-15", "ra"],
-                ["Thunderbolt Large Pulse Laser", "la"],
-                ["Magna Medium Pulse Laser", "ct"],
-                ["Magna Medium Pulse Laser", "ct"],
-                ["Magna Medium Laser", "rt"], 
-                ["Magna Medium Laser", "lt"]
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "rt"],
+                ["ER PPC", "lt"],
+                ["LRM-15", "ra"],
+                ["Large Pulse Laser", "la"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "lt"]
             ],
             "ammo":
             [
-                ["Zeus LRM-15", "lt"],
-                ["Zeus LRM-15", "lt"]
+                ["LRM-15", "lt"],
+                ["LRM-15", "lt"]
             ],
             "equip":
             [
@@ -6289,21 +6554,18 @@
             [
                 ["Hand Actuator", "la"],
                 ["Hand Actuator", "ra"],
-                ["Defiance Autocannon/20", "ra"],
-                ["Defiance Autocannon/20", "la"],
-                ["Cyclops Large Laser", "rt"],
-                ["TharHes LRM-15", "lt"]                
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "ra"],
+                ["Autocannon/20", "la"],
+                ["Large Laser", "rt"],
+                ["LRM-15", "lt"]                
             ],
             "ammo":
             [
-                ["Defiance Autocannon/20", "rt"],
-                ["Defiance Autocannon/20", "lt"],
-                ["TharHes LRM-15", "lt"]
-            ],
-            "equip":
-            [
-                ["Lower Arm Actuator", "la"],
-                ["Lower Arm Actuator", "ra"]
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "lt"],
+                ["LRM-15", "lt"]
             ]
         }       
     },
@@ -6353,15 +6615,15 @@
                 ["Gauss Rifle", "la"],
                 ["Gauss Rifle", "la"],
                 ["Gauss Rifle", "la"],
-                ["cGauss Rifle", "la"],
-                ["cGauss Rifle", "la"],
-                ["cGauss Rifle", "la"],
-                ["cGauss Rifle", "la"]
+                ["Gauss Rifle (C)", "la"],
+                ["Gauss Rifle (C)", "la"],
+                ["Gauss Rifle (C)", "la"],
+                ["Gauss Rifle (C)", "la"]
             ],
             "ammo":
             [
                 ["Gauss Rifle", "la"],
-                ["cGauss Rifle", "la"]
+                ["Gauss Rifle (C)", "la"]
             ],
 
             "Xweapons":

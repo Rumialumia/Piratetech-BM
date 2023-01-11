@@ -1,6 +1,6 @@
 {
     "name": "Piratetech",
-    "desc": "",
+    "desc": "Arrr! you looking to become the merc you always dreamed of? Love the experimental gear produced by the brightest and craziest people? Come enjoy PirateTech!",
     "splash": "images/splash.png",
 
     "first_trigger": "startup",
@@ -39,6 +39,11 @@
                 {
                     "actn": "set_star_map_file",
                     "args": "data/star_map_3025.json"
+                },
+
+                {
+                    "actn": "var",
+                    "args": "show_era_blurbs = true"
                 },
 
                 {
