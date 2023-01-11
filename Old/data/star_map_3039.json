@@ -1,0 +1,3580 @@
+{
+    "name": "Inner Sphere",
+    "back_img": "images/IS3039.png",
+
+    "misc":
+    {
+        "base_colors":
+        [
+            [0,0,0],
+            [85,85,85],
+            [170,170,170],
+            [255,255,255],
+            
+            [0,0,170],
+            [85,85,255],
+            [85,255,255],
+            [0,160,128]
+        ]
+    },
+
+    "available_units": 
+    [
+        "Locust",
+        "Wasp",
+        "Stinger",
+        "Commando",
+        "Javelin",
+        "Spider",
+        "Urbanmech",
+        "Valkyrie",
+        "Firestarter",
+        "Jenner",
+        "Ostscout",
+        "Panther",
+        "Assassin",
+        "Cicada",
+        "Clint",
+        "Hermes II",
+        "Vulcan",
+        "Whitworth",
+        "Blackjack",
+        "Hatchetman",
+        "Phoenix Hawk",
+        "Vindicator",
+        "Centurion",
+        "Enforcer",
+        "Hunchback",
+        "Trebuchet",
+        "Dervish",
+        "Griffin",
+        "Shadow Hawk",
+        "Scorpion",
+        "Wolverine",
+        "Dragon",
+        "Ostroc",
+        "Ostsol",
+        "Quickdraw",
+        "Rifleman",
+        "Catapult",
+        "Crusader",
+        "Jagermech",
+        "Thunderbolt",
+        "Archer",
+        "Grasshopper",
+        "Warhammer",
+        "Marauder",
+        "Orion",
+        "Awesome",
+        "Charger",
+        "Goliath",
+        "Victor",
+        "Zeus",
+        "Battlemaster",
+        "Stalker",
+        "Cyclops",
+        "Banshee",
+        "Atlas"
+    ],
+
+    "available_tech":
+    [
+        "PPC",
+        "Large Laser",
+        "Medium Laser",
+        "Small Laser",
+        "Autocannon/2",
+        "Autocannon/5",
+        "Autocannon/10",
+        "Autocannon/20",
+        "Machinegun",
+        "LRM-5",
+        "LRM-10",
+        "LRM-15",
+        "LRM-20",
+        "SRM-2",
+        "SRM-4",
+        "SRM-6",
+        "Flamer",
+        
+        "Ceres PPC",
+        "Donal PPC",
+        "Fusigon PPC",
+        "Lord's Light PPC",
+        "Parti-Kill PPC",
+        "Cyclops Large Laser",
+        "Defiance Large Laser",
+        "Magna Large Laser",
+        "Thunderbolt Large Laser",
+        "Diverse Large Laser",
+        "Defiance Medium Laser",
+        "Diplan Medium Laser",
+        "Diverse Medium Laser",
+        "Irian Medium Laser",
+        "Magna Medium Laser",
+        "Defiance Small Laser",
+        "Diverse Small Laser",
+        "ExoStar Small Laser",
+        "Magna Small Laser",
+        "Starflash Small Laser",
+        "Imperator Autocannon/2",
+        "Defiance Autocannon/5",
+        "Whirlwind Autocannon/5",
+        "Imperator Autocannon/5",
+        "Mydron Autocannon/5",
+        "Pontiac Autocannon/5",
+        "Federated Autocannon/10",
+        "Ceres Autocannon/10",
+        "Defiance Autocannon/10",
+        "Imperator Autocannon/10",
+        "Zeus Autocannon/10",
+        "Chemjet Autocannon/20",
+        "Defiance Autocannon/20",
+        "Imperator Autocannon/20",
+        "Kali Yama Autocannon/20",
+        "Zeus Autocannon/20",
+        "Gatling Machinegun",
+        "Coventry Machinegun",
+        "M100 Machinegun",
+        "Sperry Machinegun",
+        "Voelkers Machinegun",
+        "Coventry INC LRM-5",
+        "Holly DF LRM-5",
+        "Magna LRM-5",
+        "Sian-Ceres LRM-5",
+        "Thunderstroke LRM-5",
+        "Delta INC LRM-10",
+        "Federated DF LRM-10",
+        "Irian LRM-10",
+        "Shigunga LRM-10",
+        "Valiant LRM-10",
+        "Coventry INC LRM-15",
+        "ExoStar DF LRM-15",
+        "TharHes LRM-15",
+        "Zeus LRM-15",
+        "Delta INC LRM-20",
+        "Doombud DF LRM-20",
+        "Holly LRM-20",
+        "Kali Yama LRM-20",
+        "Shigunga LRM-20",
+        "Bical INF SRM-2",
+        "Harvester DF SRM-2",
+        "Holly SRM-2",
+        "HoverTec SRM-2",
+        "Telos SRM-2",
+        "Holly INF SRM-4",
+        "Hovertec DF SRM-4",
+        "Irian SRM-4",
+        "Telos SRM-4",
+        "TharHes SRM-4",
+        "Bical INF SRM-6",
+        "Coventry DF SRM-6",
+        "Exostar SRM-6",
+        "Harpoon SRM-6",
+        "Irian SRM-6",
+        "Coventry Flamer",
+        "Firestorm Flamer",
+        "FlameShot Flamer",
+        "Skylight Flamer",
+        "Zippo Flamer"
+    ],
+
+    "contract_templates":
+    {
+        "periphery_easy":
+        {
+            "enemy_skill": ["green"],
+            "enemy_factions": ["bandits", "pirates", "rebels"],
+                            
+            "adv_pay_pw": [800,1200],
+            "tot_pay_pw": [4000,6000],
+
+            "salv_picks_pe": [0.25,0.5],
+            "salv_other_pe": [0.75,1],
+
+            "max_units_var": [-1,1],
+            "max_tons_var": [0, 5, 10],
+
+            "min_tons": 80,
+            "min_units": 2,
+
+            "files":
+            [
+                "scripts/contracts/deathmatch_medium_1group.json",
+                
+                "scripts/contracts/deathmatch_light_1group.json",
+                "scripts/contracts/deathmatch_light_2groups.json",
+
+                "scripts/contracts/defense_light_1wave.json",
+                "scripts/contracts/defense_light_2wave.json",
+
+                "scripts/contracts/assault_light_1group.json",
+                "scripts/contracts/assault_light_1group_1patrol.json"
+            ]                
+        },
+
+        "periphery_normal":
+        {
+            "enemy_skill": ["regular"],
+            "enemy_factions": ["bandits", "pirates", "rebels"],
+                            
+            "adv_pay_pw": [800,1200],
+            "tot_pay_pw": [4000,6000],
+
+            "salv_picks_pe": [0.25,0.5],
+            "salv_other_pe": [0.75,1],
+
+            "max_units_var": [-1,1],
+            "max_tons_var": [0, 5, 10],
+
+            "min_tons": 100,
+            "min_units": 2,
+
+            "files":
+            [
+                "scripts/contracts/deathmatch_medium_1group.json",
+                "scripts/contracts/deathmatch_medium_1group_wrecon.json",
+                
+                "scripts/contracts/deathmatch_light_1group.json",
+                "scripts/contracts/deathmatch_light_2groups.json",
+
+                "scripts/contracts/defense_light_2wave.json",
+                "scripts/contracts/defense_medium_1wave.json",
+                "scripts/contracts/defense_medium_2wave.json",
+                
+                "scripts/contracts/assault_light_1group.json",
+                "scripts/contracts/assault_light_1group_1patrol.json",
+
+                "scripts/contracts/assault_medium_1group.json",
+                "scripts/contracts/assault_medium_1group_1patrol.json",
+
+                "scripts/contracts/intercept_light_1group.json"
+            ]                
+        },
+
+        "central_normal":
+        {
+            "enemy_skill": ["regular"],
+                            
+            "adv_pay_pw": [800,1200],
+            "tot_pay_pw": [4000,6000],
+
+            "salv_picks_pe": [0.25,0.5],
+            "salv_other_pe": [0.75,1],
+
+            "max_units_var": [-1,1],
+            "max_tons_var": [0, 5, 10],
+
+            "min_tons": 100,
+            "min_units": 2,
+
+            "files":
+            [
+                "scripts/contracts/deathmatch_medium_1group.json",
+                "scripts/contracts/deathmatch_medium_1group_wrecon.json",
+                "scripts/contracts/deathmatch_medium_2groups.json",
+                "scripts/contracts/deathmatch_heavy_1group.json",
+
+                "scripts/contracts/defense_medium_1wave.json",
+                "scripts/contracts/defense_medium_2wave.json",
+                "scripts/contracts/defense_medium_3wave.json",
+                "scripts/contracts/defense_heavy_1wave.json",
+                "scripts/contracts/defense_heavy_2wave.json",
+                
+                "scripts/contracts/assault_medium_1group_1patrol.json",
+                "scripts/contracts/assault_medium_1group_2patrol.json",
+                "scripts/contracts/assault_heavy_1group.json",
+                "scripts/contracts/assault_heavy_1group_1patrol.json",
+
+                "scripts/contracts/intercept_light_2group.json",
+                "scripts/contracts/intercept_light_3group.json"
+            ]                
+        },
+
+        "border_easy":
+        {
+            "enemy_skill": ["regular"],
+                            
+            "adv_pay_pw": [800,1200],
+            "tot_pay_pw": [4000,6000],
+
+            "salv_picks_pe": [0.25,0.5],
+            "salv_other_pe": [0.75,1],
+
+            "max_units_var": [-1,1],
+            "max_tons_var": [0, 5, 10],
+
+            "min_tons": 100,
+            "min_units": 2,
+
+            "files":
+            [
+                "scripts/contracts/deathmatch_heavy_1group.json",
+                "scripts/contracts/deathmatch_heavy_1group_wrecon.json",
+                "scripts/contracts/deathmatch_heavy_2groups.json",
+                
+                "scripts/contracts/deathmatch_medium_2groups.json",
+                "scripts/contracts/deathmatch_medium_2groups_wrecon.json",
+                "scripts/contracts/deathmatch_medium_3groups.json",
+
+                "scripts/contracts/defense_heavy_1wave.json",
+                "scripts/contracts/defense_heavy_2wave.json",
+                "scripts/contracts/defense_heavy_3wave.json",
+                "scripts/contracts/defense_assault_1wave.json",
+
+                "scripts/contracts/assault_medium_1group_2patrol.json",
+                "scripts/contracts/assault_heavy_1group_1patrol.json",
+                "scripts/contracts/assault_assault_1group.json",
+
+                "scripts/contracts/intercept_medium_2group.json",
+                "scripts/contracts/intercept_heavy_1group.json"
+            ]                
+        },
+
+        "border_normal":
+        {
+            "enemy_skill": ["regular", "veteran"],
+                            
+            "adv_pay_pw": [800,1200],
+            "tot_pay_pw": [4000,6000],
+
+            "salv_picks_pe": [0.25,0.5],
+            "salv_other_pe": [0.75,1],
+
+            "max_units_var": [-1,1],
+            "max_tons_var": [0, 5, 10],
+
+            "min_tons": 100,
+            "min_units": 2,
+
+            "files":
+            [
+                "scripts/contracts/deathmatch_assault_1group.json",
+                "scripts/contracts/deathmatch_assault_1group_wrecon.json",
+                
+                "scripts/contracts/deathmatch_assault_2groups.json",
+                
+                "scripts/contracts/deathmatch_heavy_2groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups_wrecon.json",
+
+                "scripts/contracts/defense_heavy_2wave.json",
+                "scripts/contracts/defense_heavy_3wave.json",
+                "scripts/contracts/defense_assault_1wave.json",
+                "scripts/contracts/defense_assault_2wave.json",
+
+                "scripts/contracts/assault_heavy_1group_1patrol.json",
+                "scripts/contracts/assault_heavy_1group_2patrol.json",
+                "scripts/contracts/assault_assault_1group_1patrol.json",
+
+                "scripts/contracts/intercept_medium_3group.json",
+                "scripts/contracts/intercept_heavy_2group.json",
+                "scripts/contracts/intercept_heavy_3group.json",
+                "scripts/contracts/intercept_assault_1group.json"
+            ]              
+        },
+
+        "border_hard":
+        {
+            "enemy_skill": ["veteran", "elite"],
+                            
+            "adv_pay_pw": [800,1200],
+            "tot_pay_pw": [4000,6000],
+
+            "salv_picks_pe": [0.25,0.5],
+            "salv_other_pe": [0.75,1],
+
+            "max_units_var": [-1,1],
+            "max_tons_var": [0, 5, 10],
+
+            "min_tons": 100,
+            "min_units": 2,
+
+            "files":
+            [
+                "scripts/contracts/deathmatch_assault_2groups.json",
+                "scripts/contracts/deathmatch_assault_2groups_wrecon.json",
+
+                "scripts/contracts/deathmatch_assault_3groups.json",
+                "scripts/contracts/deathmatch_assault_3groups_wrecon.json",
+
+                "scripts/contracts/deathmatch_heavy_2groups_wrecon.json",
+                "scripts/contracts/deathmatch_heavy_3groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups_wrecon.json",
+
+                "scripts/contracts/defense_heavy_3wave.json",
+                "scripts/contracts/defense_assault_2wave.json",
+                "scripts/contracts/defense_assault_3wave.json",
+
+                "scripts/contracts/assault_heavy_1group_2patrol.json",
+                "scripts/contracts/assault_assault_1group_1patrol.json",
+                "scripts/contracts/assault_assault_1group_2patrol.json",
+
+                "scripts/contracts/intercept_assault_2group.json",
+                "scripts/contracts/intercept_assault_3group.json"
+            ]                
+        },
+
+        "outreach":
+        {
+            "enemy_skill": ["veteran", "elite"],
+                            
+            "adv_pay_pw": [800,1200],
+            "tot_pay_pw": [4000,6000],
+
+            "salv_picks_pe": [0.25,0.5],
+            "salv_other_pe": [0.75,1],
+
+            "max_units_var": [-1,1],
+            "max_tons_var": [0, 5, 10],
+
+            "min_tons": 100,
+            "min_units": 2,
+
+            "files":
+            [
+                "scripts/contracts/deathmatch_heavy_1group.json",
+                "scripts/contracts/deathmatch_heavy_1group_wrecon.json",
+                "scripts/contracts/deathmatch_heavy_2groups.json",
+                
+                "scripts/contracts/deathmatch_medium_2groups.json",
+                "scripts/contracts/deathmatch_medium_2groups_wrecon.json",
+                "scripts/contracts/deathmatch_medium_3groups.json",
+
+                "scripts/contracts/defense_heavy_1wave.json",
+                "scripts/contracts/defense_heavy_2wave.json",
+                "scripts/contracts/defense_heavy_3wave.json",
+                "scripts/contracts/defense_assault_1wave.json",
+
+                "scripts/contracts/assault_medium_1group_2patrol.json",
+                "scripts/contracts/assault_heavy_1group_1patrol.json",
+                "scripts/contracts/assault_assault_1group.json",
+
+                "scripts/contracts/intercept_medium_2group.json",
+                "scripts/contracts/intercept_heavy_1group.json",
+                
+                "scripts/contracts/deathmatch_assault_1group.json",
+                "scripts/contracts/deathmatch_assault_1group_wrecon.json",
+                
+                "scripts/contracts/deathmatch_assault_2groups.json",
+                
+                "scripts/contracts/deathmatch_heavy_2groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups_wrecon.json",
+
+                "scripts/contracts/defense_heavy_2wave.json",
+                "scripts/contracts/defense_heavy_3wave.json",
+                "scripts/contracts/defense_assault_1wave.json",
+                "scripts/contracts/defense_assault_2wave.json",
+
+                "scripts/contracts/assault_heavy_1group_1patrol.json",
+                "scripts/contracts/assault_heavy_1group_2patrol.json",
+                "scripts/contracts/assault_assault_1group_1patrol.json",
+
+                "scripts/contracts/intercept_medium_3group.json",
+                "scripts/contracts/intercept_heavy_2group.json",
+                "scripts/contracts/intercept_heavy_3group.json",
+                "scripts/contracts/intercept_assault_1group.json"
+            ]                
+        }
+    },
+
+    "factions":
+    {
+        "clan_wolf_test":
+        {
+            "house": "Clan Wolf",
+            "nation": "Clan Wolf",
+            "logo": "images/houses/logo_comstar.png",
+
+            "friends": [],
+            "enemies": [],
+
+            "available_units":
+            [
+                "Dasher",
+                "Locust IIC",
+                "Koshi",
+                "Uller",
+                "Jenner IIC",
+                "Puma",
+                "Dragonfly",
+                "Griffin IIC",
+                "Fenris",
+                "Black Hawk",
+                "Phoenix Hawk IIC",
+                "Shadow Hawk IIC",
+                "Hunchback IIC",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Orion IIC",
+                "Mad Cat",
+                "Man O' War",
+                "Marauder IIC",
+                "Warhammer IIC",
+                "Masakari",
+                "Highlander IIC",
+                "Gladiator",
+                "Daishi"
+            ],
+
+            "prevalent_units":
+            [
+                "Dasher",
+                "Koshi",
+                "Uller",
+                "Puma",
+                "Dragonfly",
+                "Fenris",
+                "Black Hawk",
+                "Ryoken",
+                "Vulture",
+                "Loki",
+                "Thor",
+                "Mad Cat",
+                "Man O' War",
+                "Masakari",
+                "Gladiator",
+                "Daishi"
+            ]
+        },
+
+        "comstar":
+        {
+            "house": "Comstar",
+            "nation": "Comstar",
+            "logo": "images/houses/logo_comstar.png",
+
+            "friends": [],
+            "enemies": [],
+
+            "available_units":
+            [
+                "Mercury",
+                "Thorn",
+                "Mongoose",
+                "Hermes",
+                "Hussar",
+                "Ostscout",
+                "Sentinel",
+                "Wyvern",
+                "Crab",
+                "Kintaro",
+                "Champion",
+                "Lancelot",
+                "Exterminator",
+                "Bombardier",
+                "Guillotine",
+                "Flashman",
+                "Black Knight",
+                "Thug",
+                "Crockett",
+                "Highlander",
+                "Banshee",
+                "King Crab"
+            ],
+
+            "start_rep": 50,
+
+            "swap_colors":
+            [
+                [0,0,0],
+                [16,16,16],
+                [80,80,80],
+                [100,160,160],
+
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
+        "steiner":
+        {
+            "house": "Steiner",
+            "nation": "Lyran Commonwealth",
+            "logo": "images/houses/logo_steiner.png",
+
+            "friends": ["davion"],
+            "enemies": ["kurita", "liao", "marik"],
+
+            "prevalent_units": 
+            [
+                "Locust",
+                "Stinger",
+                "Wasp",
+                "Commando", 
+                "Firestarter", 
+                "Phoenix Hawk",
+                "Griffin",
+                "Crusader", 
+                "Warhammer",
+                "Archer", 
+                "Zeus",
+                "Banshee", 
+                "Stalker",
+                "Atlas"
+            ],
+
+            "start_rep": 50,
+
+            "adv_pay": 1.5,
+            "tot_pay": 1.25,
+
+            "salv_picks": 1.0,
+            "salv_total": 1.0,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+            "swap_colors":
+            [
+                [0,0,64],
+                [16,16,160],
+                [80,80,208],
+                [100,100,240],
+
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
+        "davion":
+        {
+            "house": "Davion",
+            "nation": "Federated Suns",
+            "logo": "images/houses/logo_davion.png",
+
+            "friends": ["steiner"],
+            "enemies": ["kurita", "liao", "marik"],
+
+            "prevalent_units":
+            [
+                "Wasp",
+                "Valkyrie",
+                "Enforcer",
+                "Centurion",
+                "Blackjack",
+                "Jagermech",
+                "Rifleman",
+                "Victor"
+            ],
+
+            "start_rep": 50,
+
+            "adv_pay": 1.0,
+            "tot_pay": 1.0,
+
+            "salv_picks": 1.0,
+            "salv_total": 1.0,
+
+            "max_units": 1.5,
+            "max_tons": 1.5,
+
+            "swap_colors":
+            [
+                [64,32,0],
+                [160,80,0],
+                [255,125,0],
+                [255,191,0],
+                                
+                [0,0,170],
+                [85,85,255],
+                [85,255,255],
+                [0,160,128]
+            ]
+        },
+
+        "st_ives":
+        {
+            "house": "Allard-Liao",
+            "nation": "St. Ives Compact",
+            "logo": "images/houses/logo_liao.png",
+
+            "friends": ["davion", "steiner"],
+            "enemies": ["liao", "marik"],
+
+            "start_rep": 50,
+
+            "adv_pay": 0.5,
+            "tot_pay": 0.75,
+
+            "salv_picks": 1.5,
+            "salv_total": 1.5,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+
+            "swap_colors":
+            [
+                [0,64,0],
+                [8,80,8],
+                [16,160,16],
+                [80,208,80],
+                
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
+        "frr":
+        {
+            "house": "Rasalhague",
+            "nation": "Free Rasalhague Republic",
+            "logo": "images/houses/logo_kurita.png",
+
+            "friends": [],
+            "enemies": ["bandits", "pirates", "rebels"],
+
+            "start_rep": 50,
+
+            "adv_pay": 0,
+            "tot_pay": 1.5,
+
+            "salv_picks": 1.0,
+            "salv_total": 1.0,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+
+            "swap_colors":
+            [
+                [64,0,0],
+                [160,16,16],
+                [208,80,80],
+                [240,100,100],
+
+                [0,0,170],
+                [85,85,255],
+                [85,255,255],
+                [0,160,128]
+            ]
+        },
+
+        "kurita":
+        {
+            "house": "Kurita",
+            "nation": "Draconis Combine",
+            "logo": "images/houses/logo_kurita.png",
+
+            "friends": [],
+            "enemies": ["steiner", "davion"],
+
+            "prevalent_units": 
+            [
+                "Locust",
+                "Wasp",
+                "Jenner",
+                "Panther",
+                "Hunchback",
+                "Archer",
+                "Dragon",
+                "Grasshopper",
+                "Charger"
+            ],
+
+            "start_rep": 40,
+
+            "adv_pay": 0,
+            "tot_pay": 1.5,
+
+            "salv_picks": 1.0,
+            "salv_total": 1.0,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+
+            "swap_colors":
+            [
+                [64,0,0],
+                [160,16,16],
+                [208,80,80],
+                [240,100,100],
+
+                [0,0,170],
+                [85,85,255],
+                [85,255,255],
+                [0,160,128]
+            ]
+        },
+
+        "liao":
+        {
+            "house": "Liao",
+            "nation": "Capellan Confederation",
+            "logo": "images/houses/logo_liao.png",
+
+            "friends": [],
+            "enemies": ["steiner", "davion", "marik"],
+
+            "prevalent_units":
+            [
+                "Wasp",
+                "Phoenix Hawk",
+                "Vindicator",
+                "Jagermech",
+                "Crusader",
+                "Catapult",
+                "Cyclops"
+            ],
+
+            "start_rep": 33,
+
+            "adv_pay": 0.5,
+            "tot_pay": 0.75,
+
+            "salv_picks": 1.5,
+            "salv_total": 1.5,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+
+            "swap_colors":
+            [
+                [0,64,0],
+                [8,80,8],
+                [16,160,16],
+                [80,208,80],
+                
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
+        "marik":
+        {
+            "house": "Marik",
+            "nation": "Free Worlds League",
+            "logo": "images/houses/logo_marik.png",
+
+            "friends": [],
+            "enemies": ["steiner", "davion", "liao"],
+
+            "prevalent_units":
+            [
+                "Locust",
+                "Stinger",
+                "Wasp",
+                "Hermes II",
+                "Shadow Hawk",
+                "Hunchback",
+                "Crusader",
+                "Thunderbolt",
+                "Warhammer",
+                "Wolverine",
+                "Trebuchet",
+                "Archer",
+                "Orion",
+                "Awesome"
+            ],
+
+            "start_rep": 50,
+
+            "adv_pay": 1.0,
+            "tot_pay": 1.0,
+
+            "salv_picks": 1.25,
+            "salv_total": 1.25,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+            "swap_colors":
+            [
+                [64,0,64],
+                [160,16,160],
+                [208,80,208],
+                [240,100,240],
+                
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0] 
+            ]
+        },
+
+        "pirates":
+        {
+            "start_rep": 10,
+            "house": "Pirates",
+            "nation": "Force of Pirates",
+
+            "base_colors":
+            [
+                [85,85,85],
+                [170,170,170],
+                [255,255,255],
+                [0,0,0],
+
+                [0,0,170],
+                [85,85,255],
+                [85,255,255],
+                [0,160,128]
+            ], 
+            
+            "swap_colors":
+            [
+                [16,16,16],
+                [80,80,80],
+                [100,160,160],
+                [0,0,0],
+
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+            
+        },
+
+        "bandits":
+        {
+            "start_rep": 0,
+            "house": "Bandits",
+            "nation": "Force of Bandits",
+            
+            "base_colors":
+            [
+                [85,85,85],
+                [170,170,170],
+                [255,255,255],
+                [0,0,0],
+
+                [0,0,170],
+                [85,85,255],
+                [85,255,255],
+                [0,160,128]
+            ], 
+            
+            "swap_colors":
+            [
+                [16,16,16],
+                [80,80,80],
+                [100,160,160],
+                [0,0,0],
+
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+        },
+
+        "rebels":
+        {
+            "start_rep": 30,
+            "house": "Rebels",
+            "nation": "Force of Rebels",
+
+            "base_colors":
+            [
+                [85,85,85],
+                [170,170,170],
+                [255,255,255],
+                [0,0,0],
+
+                [0,0,170],
+                [85,85,255],
+                [85,255,255],
+                [0,160,128]
+            ], 
+            
+            "swap_colors":
+            [
+                [16,16,16],
+                [80,80,80],
+                [100,160,160],
+                [0,0,0],
+
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0]
+            ]
+            
+        }
+    },
+
+    "center_reference":
+    {
+        "coords": [100,0],
+        "faction": "reference",
+        "desc": ""
+    },
+    
+    "planets":
+    {
+        "Alarion":
+        {
+            "coords": [-0.373647,-0.180079],
+            "faction": "steiner",
+            "desc": "Heavy industry and orbiting shipyards",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Albiero":
+        {
+            "coords": [0.18,-0.55],
+            "faction": "kurita",
+            "desc": "Main headquarters for Matabushi Inc",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+			}
+        },
+    
+        "Alshain":
+        {
+            "coords": [0.09,-0.39],
+            "faction": "kurita",
+            "desc": "Supports a thriving BattleMech factory",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+			}
+        },
+    
+        "Amity":
+        {
+            "coords": [-0.144746,0.101150],
+            "faction": "marik",
+            "desc": "Large and varied manufacturing facilities",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Andurien":
+        {
+            "coords": [-0.039602,0.573307],
+            "faction": "marik",
+            "desc": "Famous for its botanical gardens",
+            "planet_icon": "images/planets/planet_ocean.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Anembo":
+        {
+            "coords": [-0.336475,-0.472556],
+            "faction": "steiner",
+            "desc": "Unremarkable world scarce in everything",
+            "planet_icon": "images/planets/planet_cavernous.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Anywhere":
+        {
+            "coords": [-0.190657,-0.673808],
+            "faction": "steiner",
+            "desc": "A real nowhere unless you're a pirate",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic_m.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Arc Royal":
+        {
+            "coords": [-0.31,-0.33],
+            "faction": "steiner",
+            "desc": "Home of the Kell Hounds",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+			}
+        },
+    
+        "Arcadia":
+        {
+            "coords": [0.314486,0.197078],
+            "faction": "davion",
+            "desc": "Strong in agriculture and manufacturing",
+            "planet_icon": "images/planets/planet_grassland.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Ares":
+        {
+            "coords": [0.124458,0.3],
+            "faction": "davion",
+            "desc": "Free port, also houses a Mech factory",
+            "planet_icon": "images/planets/planet_desert.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Atreus":
+        {
+            "shape_size": 13,
+            "inner_size": 7,
+
+            "coords": [-0.22,0.34],
+            "faction": "marik",
+            "desc": "The capital of the Free Worlds League",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/capital_temperate.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+			}
+        },
+    
+        "Autumn Wind":
+        {
+            "coords": [-0.191014,0.195116],
+            "faction": "marik",
+            "desc": "Garden planet catering to vacationers",
+            "planet_icon": "images/planets/planet_tropical.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Baxley":
+        {
+            "coords": [0.528635,0.299017],
+            "faction": "davion",
+            "desc": "A real backwater world of absolutely no importance",
+            "planet_icon": "images/planets/planet_radiated.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Beecher":
+        {
+            "coords": [0.230540,0.133334],
+            "faction": "davion",
+            "desc": "Strong industry and agriculture, excellent wines",
+            "planet_icon": "images/planets/planet_grassland.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Benjamin":
+        {
+            "coords": [0.18,-0.15],
+            "faction": "kurita",
+            "desc": "Regional capital of the nexus of the Combine and decently important economically.",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "employers": ["kurita", "kurita", "kurita", "davion"],
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+			}
+        },
+    
+        "Betelgeuse":
+        {
+            "coords": [0.02,0.559459],
+            "faction": "liao",
+            "desc": "Major industrial center including a Mech complex",
+            "planet_icon": "images/planets/planet_arid.png",
+    
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Bharat":
+        {
+            "coords": [0.080712,0.119166],
+            "faction": "trr",
+            "desc": "A planetwide hunting preserve",
+            "planet_icon": "images/planets/planet_gaia.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Bithinia":
+        {
+            "coords": [-0.012654,0.346235],
+            "faction": "marik",
+            "desc": "Planetwide entertainment center - steel industry",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Bountiful Harvest":
+        {
+            "coords": [-0.154737,-0.383313],
+            "faction": "steiner",
+            "desc": "Largest agricultural planet in the Commonwealth",
+            "planet_icon": "images/planets/planet_terran.png",
+    
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Buckminster":
+        {
+            "coords": [0.03,-0.22],
+            "faction": "kurita",
+            "desc": "2nd Sword of Light stationed here",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "employers": ["kurita", "steiner"],
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+			}
+        },
+    
+        "Buenos Aires":
+        {
+            "coords": [0.041710,0.617710],
+            "faction": "liao",
+            "desc": "Subterranean and offshore hydroponic agriculture",
+            "planet_icon": "images/planets/planet_terran.png",
+    
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Capella":
+        {
+            "coords": [0.08,0.35],
+            "faction": "liao",
+            "desc": "The ex-capital of the Capellan Confederation",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "employers": ["liao", "marik", "davion"],
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+			}
+        },
+    
+        "Carse":
+        {
+            "coords": [-0.008932,-0.346838],
+            "faction": "frr",
+            "desc": "Center for plastic and plastisteel manufacturing",
+            "planet_icon": "images/planets/planet_tundra.png",
+    
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Chalouba":
+        {
+            "coords": [-0.323512,0.285197],
+            "faction": "marik",
+            "desc": "Pastoral but with growing electronics industry",
+            "planet_icon": "images/planets/planet_grassland.png",
+    
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Cirebon":
+        {
+            "coords": [-0.166513,0.486907],
+            "faction": "marik",
+            "desc": "Large computer and aerospace industries",
+            "planet_icon": "images/planets/planet_terran.png",
+    
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Claybrooke":
+        {
+            "coords": [-0.052366,0.662784],
+            "faction": "marik",
+            "desc": "Major exports are ranch and dairy products",
+            "planet_icon": "images/planets/planet_grassland.png",
+    
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Cogdell":
+        {
+            "coords": [0.636282,0.284912],
+            "faction": "davion",
+            "desc": "Agri-world in deep political turmoil",
+            "planet_icon": "images/planets/planet_grassland.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Coventry":
+        {
+            "coords": [-0.35,-0.31],
+            "faction": "steiner",
+            "desc": "Industrial World, Regional Capital, A battle on it helped spawn the Second Star League",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+			}
+        },
+    
+        "Delacambre":
+        {
+            "coords": [0.657650,0.041912],
+            "faction": "davion",
+            "desc": "Agricultural world supporting several near planets",
+            "planet_icon": "images/planets/planet_grassland.png",
+    
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Delacruz":
+        {
+            "coords": [0.48,-0.2],
+            "faction": "kurita",
+            "desc": "War torn - some large industry",
+            "planet_icon": "images/planets/planet_desert.png",
+
+            "employers": ["kurita", "davion"],
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+			}
+        },
+    
+        "Dieron":
+        {
+            "coords": [0.04,0],
+            "faction": "kurita",
+            "desc": "Regional capital and living testament to the Combine's ability to ultimately impose its will over those of Terran-based empires.",
+            "planet_icon": "images/planets/planet_cavernous.png",
+
+            "employers": ["kurita", "liao", "marik", "steiner", "davion"],
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+			}
+        },
+    
+        "Dixie":
+        {
+            "coords": [-0.294609,0.085268],
+            "faction": "steiner",
+            "desc": "Known for good food and warm hospitality",
+            "planet_icon": "images/planets/planet_gaia.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Donegal":
+        {
+            "coords": [-0.208886,-0.214418],
+            "faction": "steiner",
+            "desc": "Rich in diamonds, rare metals, and traders",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Dustball":
+        {
+            "coords": [-0.115380,-0.391890],
+            "faction": "steiner",
+            "desc": "Where the elite satisfy their most wicked desires",
+            "planet_icon": "images/planets/planet_cavernous.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert_am.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Exedor":
+        {
+            "coords": [0.01,0.395097],
+            "faction": "liao",
+            "desc": "Liao personal treasures guarded by crack troops",
+            "planet_icon": "images/planets/planet_radiated.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Frazer":
+        {
+            "coords": [0.265078,0.603555],
+            "faction": "davion",
+            "desc": "Large producer of rice, some petroleum",
+            "planet_icon": "images/planets/planet_grassland.png",
+
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Galax":
+        {
+            "coords": [0.350358,0.256748],
+            "faction": "davion",
+            "desc": "Major mining and industrial center",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Galedon V":
+        {
+            "coords": [0.45,-0.26],
+            "faction": "kurita",
+            "desc": "Known for its high grade industrial diamonds.",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+			}
+        },
+    
+        "Garrison":
+        {
+            "coords": [-0.113824,-0.249434],
+            "faction": "steiner",
+            "desc": "Military training center and post",
+            "planet_icon": "images/planets/planet_desert.png",
+    
+            "contracts":
+            {
+                "template": "border_normal"
+            },    
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Gibson":
+        {
+            "coords": [-0.284973,0.407111],
+            "faction": "marik",
+            "desc": "Amazing diversity of peoples and religions",
+            "planet_icon": "images/planets/planet_cavernous.png",
+
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Goodna":
+        {
+            "coords": [-0.03,0.448732],
+            "faction": "marik",
+            "desc": "A planet filled with rare edible delicacies",
+            "planet_icon": "images/planets/planet_tropical.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Grand Base":
+        {
+            "coords": [0.065202,0.546137],
+            "faction": "liao",
+            "desc": "Military staging, training and repair facility",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Great Gorge":
+        {
+            "coords": [0.601214,0.492998],
+            "faction": "davion",
+            "desc": "Nice world rich in minerals on the edge of nowhere",
+            "planet_icon": "images/planets/planet_radiated.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Griffith":
+        {
+            "coords": [-0.390481,0.197090],
+            "faction": "marik",
+            "desc": "Small but important weapons business",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+
+        "Hesperus II":
+        {
+            "coords": [-0.18,-0.04],
+            "faction": "steiner",
+            "desc": "Home of one of the largest mech manufacturing facilities in the Inner Sphere. Repelled many raids across the succession wars",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "employers": ["steiner", "marik"],
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_barren.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+			}
+        },
+    
+        "Hobbs":
+        {
+            "coords": [0.316463,0.455155],
+            "faction": "davion",
+            "desc": "Giant cave systems here used as warehouses",
+            "planet_icon": "images/planets/planet_cavernous.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Hoff":
+        {
+            "coords": [0.327011,-0.010846],
+            "faction": "davion",
+            "desc": "Houses the Friden Aerospace research facility",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Hyalite":
+        {
+            "coords": [0.332589,0.637950],
+            "faction": "davion",
+            "desc": "Strong chemical industries",
+            "planet_icon": "images/planets/planet_radiated.png",
+    
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Immenstadt":
+        {
+            "coords": [0.128617,0.53],
+            "faction": "davion",
+            "desc": "Cold much of the year, strong hydroponic industry",
+            "planet_icon": "images/planets/planet_tundra.png",
+    
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Irian":
+        {
+            "coords": [-0.04,0.14],
+            "faction": "marik",
+            "desc": "Irian is home of the eponymous mega corporation, which produces interstellar media, industrial and commercial products, battle armor, and BattleMechs.  The company runs the planet, giving it immense influence.",
+            "planet_icon": "images/planets/planet_desert.png",
+
+            "employers": ["marik", "steiner", "liao"],
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+			}
+        },
+    
+        "Irurzun":
+        {
+            "coords": [0.25,-0.15],
+            "faction": "kurita",
+            "desc": "A valuable world housing a sizable military force",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "employers": ["kurita", "davion"],
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+			}
+        },
+
+        "Kathil":
+        {
+            "coords": [0.25,0.32],
+            "faction": "davion",
+            "desc": "Home to the Kathil Shipyards which produce Jumpships and Warships as well as a General Motors Factory and dozens of other smaller industrial concerns",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "employers": ["davion", "liao"],
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+			}
+        },
+    
+        "Keid":
+        {
+            "coords": [0.029,0.098],
+            "faction": "davion",
+            "desc": "Many military, training and research facilities",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Kessel":
+        {
+            "coords": [-0.005763,-0.088955],
+            "faction": "kurita",
+            "desc": "Strong rebel forces - visits may be dangerous",
+            "planet_icon": "images/planets/planet_desert.png",
+    
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Kirchbach":
+        {
+            "coords": [-0.036858,-0.585415],
+            "faction": "frr",
+            "desc": "Few resources but a temperate climate",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Kittery":
+        {
+            "coords": [0.108617,0.421747],
+            "faction": "st_ives",
+            "desc": "Inhospitable jungle world, natives in rebellion",
+            "planet_icon": "images/planets/planet_terran.png",
+    
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Kobe":
+        {
+            "coords": [-0.008012,-0.457212],
+            "faction": "frr",
+            "desc": "Major producer of electronics and chemical engines",
+            "planet_icon": "images/planets/planet_tundra.png",
+    
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Land's End":
+        {
+            "coords": [0.499461,-0.481197],
+            "faction": "kurita",
+            "desc": "Desolate rock on the periphery",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Lesnovo":
+        {
+            "coords": [-0.368480,0.492988],
+            "faction": "marik",
+            "desc": "Often raided by bandits of the Marian Hegemony",
+            "planet_icon": "images/planets/planet_radiated.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Luthien":
+        {
+            "shape_size": 13,
+            "inner_size": 7,
+
+            "coords": [0.22,-0.35],
+            "faction": "kurita",
+            "desc": "Aside from the importance imparted from being the imperial capital, the so-called \"Black Pearl\" is again doubly important to House Kurita as being one of the most industrialized worlds in the Inner Sphere.",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/capital_temperate.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+			}
+        },
+    
+        "Mallory's World":
+        {
+            "coords": [0.143682,0.03],
+            "faction": "davion",
+            "desc": "Once plentiful agri-world now war torn",
+            "planet_icon": "images/planets/planet_arid.png",
+    
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Marduk":
+        {
+            "coords": [0.28,-0.07],
+            "faction": "davion",
+            "desc": "One of the best socio-industrial levels outside of Terra and home to some of the most prolific mech factories in the Inner Sphere",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "employers": ["davion", "kurita"],
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+			}
+        },
+    
+        "Marik":
+        {
+            "coords": [-0.085545,0.174965],
+            "faction": "marik",
+            "desc": "Winter residence of the Captain-General",
+            "planet_icon": "images/planets/planet_desert.png",
+    
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Matsuida":
+        {
+            "coords": [0.344086,-0.164308],
+            "faction": "kurita",
+            "desc": "Nicknamed 'Nausea' - planet is known for seafood",
+            "planet_icon": "images/planets/planet_ocean.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Menke":
+        {
+            "coords": [0.118871,0.599286],
+            "faction": "liao",
+            "desc": "Home of McCarron's Armored Cavalry",
+            "planet_icon": "images/planets/planet_gaia.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Milos":
+        {
+            "coords": [0.079167,0.423890],
+            "faction": "liao",
+            "desc": "Agricultural world of some strategic importance",
+            "planet_icon": "images/planets/planet_grassland.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Mosiro":
+        {
+            "coords": [-0.068173,0.516032],
+            "faction": "marik",
+            "desc": "Mostly moslem, strong in astrophysics and the arts",
+            "planet_icon": "images/planets/planet_cavernous.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Necromo":
+        {
+            "coords": [0.133451,0.362852],
+            "faction": "liao",
+            "desc": "Liao Dropship repair facility",
+            "planet_icon": "images/planets/planet_desert.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Nestor":
+        {
+            "coords": [-0.194701,0.112986],
+            "faction": "marik",
+            "desc": "Agricultural mostly rice and other cereals",
+            "planet_icon": "images/planets/planet_grassland.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "New Aragon":
+        {
+            "coords": [0.093442,0.196397],
+            "faction": "davion",
+            "desc": "Captured in 2832, House Liao still claims it",
+            "planet_icon": "images/planets/planet_tropical.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "New Avalon":
+        {
+            "shape_size": 13,
+            "inner_size": 7,
+
+            "coords": [0.40,0.24],
+            "faction": "davion",
+            "desc": "The capital of the Federated Suns",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/capital_temperate.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+			}
+        },
+    
+        "New Delos":
+        {
+            "coords": [-0.035611,0.283549],
+            "faction": "marik",
+            "desc": "Beautiful world but a depressed economy",
+            "planet_icon": "images/planets/planet_gaia.png",
+    
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "New Hessen":
+        {
+            "coords": [0.110806,0.144821],
+            "faction": "davion",
+            "desc": "Main recruiting and training center for House Liao",
+            "planet_icon": "images/planets/planet_radiated.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "New Samarkand":
+        {
+            "coords": [0.441342,-0.362658],
+            "faction": "kurita",
+            "desc": "Home of the Internal Security Force",
+            "planet_icon": "images/planets/planet_desert.png",
+
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "New Syrtis":
+        {
+            "coords": [0.287276,0.542852],
+            "faction": "davion",
+            "desc": "Military capital of the Capellan March",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+            }
+        },
+    
+        "Niangol":
+        {
+            "coords": [-0.439130,-0.353274],
+            "faction": "steiner",
+            "desc": "Petroleum and ore processing center",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Noatak":
+        {
+            "coords": [0.407032,0.404976],
+            "faction": "davion",
+            "desc": "Known for its whales, seals and aquatic life",
+            "planet_icon": "images/planets/planet_ocean.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Okefenokee":
+        {
+            "coords": [0.738310,0.162068],
+            "faction": "davion",
+            "desc": "Rich petroleum deposits just discovered",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Oliver":
+        {
+            "coords": [-0.028164,0.075],
+            "faction": "steiner",
+            "desc": "Much industry including a Mech plant",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "employers": ["marik", "steiner", "steiner", "steiner", "liao", "davion", "kurita"],
+    
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Oriente":
+        {
+            "coords": [-0.081534,0.400962],
+            "faction": "marik",
+            "desc": "Lush, green world of rolling grassland and forests",
+            "planet_icon": "images/planets/planet_tropical.png",
+    
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Oshika":
+        {
+            "coords": [0.296981,-0.243282],
+            "faction": "kurita",
+            "desc": "Home of the 16th Galedon Regulars",
+            "planet_icon": "images/planets/planet_cavernous.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+
+        "Outreach":
+        {
+            "shape_size": 13,
+            "inner_size": 7,
+            
+            "coords": [0.03,0.13],
+            "faction": "davion",
+            "desc": "Home of the Wolf's Dragoons -- currently testing Clan units",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "employers": ["kurita", "liao", "marik", "steiner", "davion"],
+
+            "contracts":
+            {
+                "template": "outreach"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/outreach.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+			}
+        },
+    
+        "Pesht":
+        {
+            "coords": [0.257373,-0.464456],
+            "faction": "kurita",
+            "desc": "Heavy military garrison",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Port Moseby":
+        {
+            "coords": [0.004025,-0.205969],
+            "faction": "kurita",
+            "desc": "Major trading center - anything for a price",
+            "planet_icon": "images/planets/planet_radiated.png",
+    
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert_m.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Poulsbo":
+        {
+            "coords": [-0.440425,0.155644],
+            "faction": "steiner",
+            "desc": "Jumping off point for regiments attacking Marik",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Proserpina":
+        {
+            "coords": [0.199858,0.01],
+            "faction": "davion",
+            "desc": "Home of the 9th Benjamin Regulars",
+            "planet_icon": "images/planets/planet_cavernous.png",
+    
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Qandahar":
+        {
+            "coords": [0.391565,-0.544473],
+            "faction": "kurita",
+            "desc": "Highly toxic environment",
+            "planet_icon": "images/planets/planet_toxic.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Quentin":
+        {
+            "coords": [0.07,0.04],
+            "faction": "davion",
+            "desc": "Populous and fantastically wealthy in mineral riches and home to a prolific mech factory.",
+            "planet_icon": "images/planets/planet_tropical.png",
+
+            "employers": ["kurita", "liao", "marik", "steiner", "davion"],
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+			}
+        },
+    
+        "Raballa":
+        {
+            "coords": [0.036051,0.311848],
+            "faction": "davion",
+            "desc": "Houses major aerospace support installation",
+            "planet_icon": "images/planets/planet_terran.png",
+    
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Radstadt":
+        {
+            "coords": [0.059642,-0.475607],
+            "faction": "frr",
+            "desc": "One of the largest prisons of the Combine is here",
+            "planet_icon": "images/planets/planet_terran.png",
+    
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Rasalhague":
+        {
+            "coords": [0.057130,-0.597012],
+            "faction": "frr",
+            "desc": "Large industries and plentiful resources",
+            "planet_icon": "images/planets/planet_gaia.png",
+    
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Redfield":
+        {
+            "coords": [0.178112,0.403160],
+            "faction": "davion",
+            "desc": "Such a constant battlefield nothing else happens",
+            "planet_icon": "images/planets/planet_grassland.png",
+
+            "employers": ["liao", "davion"],
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Regulus":
+        {
+            "coords": [-0.17,0.39],
+            "faction": "marik",
+            "desc": "An important trading hub. Regulans are known for their financial prowess. Regulus lacks any heavy industries, but Aiutaki Academy produces excellent MechWarriors.",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate_m.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+			}
+        },
+    
+        "Robinson":
+        {
+            "coords": [0.289264,0.060760],
+            "faction": "davion",
+            "desc": "Military capital of the Terran March",
+            "planet_icon": "images/planets/planet_terran.png",
+    
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+            }
+        },
+    
+        "Rubigen":
+        {
+            "coords": [0.046592,-0.311644],
+            "faction": "kurita",
+            "desc": "An ice world known for its wolverine pelts",
+            "planet_icon": "images/planets/planet_tundra.png",
+    
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Sadurni":
+        {
+            "coords": [-0.008002,0.621659],
+            "faction": "marik",
+            "desc": "A frozen, barren, lifeless rock - see you there",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Sevren":
+        {
+            "coords": [-0.05,-0.469990],
+            "faction": "steiner",
+            "desc": "Large fission core manufacturing facilities",
+            "planet_icon": "images/planets/planet_radiated.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Shiloh":
+        {
+            "coords": [-0.095779,0.075],
+            "faction": "marik",
+            "desc": "Main exports include woodcarvings and silkscreens",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Sian":
+        {
+            "shape_size": 13,
+            "inner_size": 7,
+
+            "coords": [0.018582,0.431239],
+            "faction": "liao",
+            "desc": "Capital of the Capellan Confederation",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/capital_temperate.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+            }
+        },
+    
+        "Silver":
+        {
+            "coords": [-0.397026,0.267253],
+            "faction": "marik",
+            "desc": "Named for its large deposits of that ore",
+            "planet_icon": "images/planets/planet_arid.png",
+    
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Skye":
+        {
+            "coords": [-0.054,-0.027],
+            "faction": "steiner",
+            "desc": "Major Dropship and vehicle production, A Regional Capital, as well as a Hotbed of Dissent against the Archon on many occasions",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "employers": ["steiner", "steiner", "steiner", "kurita", "liao", "marik", "davion"],
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+			}
+        },
+
+        "Sol":
+        {
+            "shape_size": 13,
+            "inner_size": 7,
+
+            "coords": [0.01,0.05],
+            "faction": "comstar",
+            "desc": "The cradle of civilization. -- currently testing star league mechs",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "employers": ["steiner", "davion", "kurita", "liao", "marik"],
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/capital_temperate.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+			}
+        },
+
+        "Solaris VII":
+        {
+            "shape_size": 13,
+            "inner_size": 7,
+
+            "coords": [-0.13,0.03],
+            "faction": "steiner",
+            "desc": "The Gladiator World, fantastic plots typically originate here and it makes the Commonwealth a lot of money",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "employers": ["steiner", "marik"],
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+                        
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/solaris.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+			}
+        },
+    
+        "Sophie's World":
+        {
+            "coords": [-0.113109,0.268904],
+            "faction": "marik",
+            "desc": "A center for the arts and learning",
+            "planet_icon": "images/planets/planet_desert.png",
+    
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "St. Ives":
+        {
+            "coords": [0.14545,0.41333],
+            "faction": "st_ives",
+            "desc": "Major industrial and research world",
+            "planet_icon": "images/planets/planet_tropical.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Styk":
+        {
+            "coords": [0.08,0.225],
+            "faction": "davion",
+            "desc": "2nd largest trading and industrial center",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Suzano":
+        {
+            "coords": [0.028916,0.239232],
+            "faction": "marik",
+            "desc": "Famous for Ando Bass fished from its frozen seas",
+            "planet_icon": "images/planets/planet_tundra.png",
+    
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Tabayama":
+        {
+            "coords": [0.499072,-0.336938],
+            "faction": "kurita",
+            "desc": "Capital of Galedon's periphery prefecture",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Tamar":
+        {
+            "coords": [-0.008469,-0.512673],
+            "faction": "frr",
+            "desc": "Strong trading and manufacturing center",
+            "planet_icon": "images/planets/planet_grassland.png",
+    
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Tamarind":
+        {
+            "coords": [-0.312730,0.188265],
+            "faction": "marik",
+            "desc": "The talent of the artists here is legendary",
+            "planet_icon": "images/planets/planet_radiated.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Tharkad":
+        {
+            "shape_size": 13,
+            "inner_size": 7,
+
+            "coords": [-0.31,-0.20],
+            "faction": "steiner",
+            "desc": "The capital of the Lyran Commonwealth",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/capital_arctic.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+			}
+        },
+    
+        "Thestria":
+        {
+            "coords": [0.359019,-0.062666],
+            "faction": "davion",
+            "desc": "Frozen ball known only for precious metal deposits",
+            "planet_icon": "images/planets/planet_tundra.png",
+    
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Tikonov":
+        {
+            "coords": [0.13,0.12],
+            "faction": "davion",
+            "desc": "Earthwerks Incorporated, Ceres, Grand Union Battleworks, Harcourt Products, Lebedev Nautical Enterprises",
+            "planet_icon": "images/planets/planet_grassland.png",
+
+            "employers": ["davion", "kurita", "marik"],
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args": 
+            {
+				"map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+			}
+        },
+    
+        "Timbiqui":
+        {
+            "coords": [-0.390481,0.148330],
+            "faction": "steiner",
+            "desc": "Manufacturing center rich in minerals",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+
+        "Tukayyid":
+        {
+            "coords": [0.007,-0.30888],
+            "faction": "frr",
+            "desc": "Manufacturing center rich in minerals",
+            "planet_icon": "images/planets/planet_grassland.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Timbuktu":
+        {
+            "coords": [-0.525966,-0.206907],
+            "faction": "steiner",
+            "desc": "Home of the 11th Arcturan Guards",
+            "planet_icon": "images/planets/planet_desert.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Turin":
+        {
+            "coords": [0.045423,0.660644],
+            "faction": "liao",
+            "desc": "Noted for its horses and special cattle",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Valloire":
+        {
+            "coords": [-0.450918,-0.016237],
+            "faction": "steiner",
+            "desc": "Producer of the best teas in the Commonwealth",
+            "planet_icon": "images/planets/planet_terran.png",
+    
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+                        
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Vega":
+        {
+            "coords": [0.005644,-0.126981],
+            "faction": "kurita",
+            "desc": "Home of Cosby Myomer Research Company",
+            "planet_icon": "images/planets/planet_desert.png",
+    
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+    
+        "Warlock":
+        {
+            "coords": [0.154230,0.5],
+            "faction": "st_ives",
+            "desc": "Military research and development center",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+
+        "Winfield":
+        {
+            "coords": [-0.124053,-0.622738],
+            "faction": "steiner",
+            "desc": "Agricultural world with long growing season",
+            "planet_icon": "images/planets/planet_grassland.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Wolcott":
+        {
+            "coords": [0.1927,-0.4777],
+            "faction": "kurita",
+            "desc": "A quiet backwater world",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Xinyang":
+        {
+            "coords": [0.145857,-0.323402],
+            "faction": "kurita",
+            "desc": "Resort atmosphere catering to soldiers on leave",
+            "planet_icon": "images/planets/planet_gaia.png",
+    
+            "contracts":
+            {
+                "template": "central_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+    
+        "Zanzibar":
+        {
+            "coords": [0.153600,0.655545],
+            "faction": "liao",
+            "desc": "Famous black market - anything can be bought here",
+            "planet_icon": "images/planets/planet_cavernous.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert_m.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+    
+        "Zortman":
+        {
+            "coords": [-0.245250,0.178381],
+            "faction": "marik",
+            "desc": "Center for technology research",
+            "planet_icon": "images/planets/planet_radiated.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/border_planet_rpg.json"
+            }
+        }
+    }
+}
