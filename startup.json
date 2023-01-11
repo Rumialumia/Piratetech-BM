@@ -1,6 +1,6 @@
 {
     "name": "Piratetech",
-    "desc": "The far reaches of the Innersphere are home to many exotic groups and people. Sometimes, in situations where savants or even well trained technicians fall into lives of crime and deviancy, strange creations are made. These weapons of war are used to bring in bounties for those clever enough to cobble together something that works. Being designed to fulfill a specific use or reduce waste, they allow the pirates, corsairs, mercenaries, and bandits of the outer reaches to eke out any and every advantage over their foes. We invite you to experience this with your own hands, scraping together every possible advantage and using unique and wild weapons to spread your own reign of supremacy over the Inner Sphere.",
+    "desc": "Arrr! you looking to become the merc you always dreamed of? Love the experimental gear produced by the brightest and craziest people? Come enjoy PirateTech!",
     "splash": "images/splash.png",
 
     "first_trigger": "startup",
