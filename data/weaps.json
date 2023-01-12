@@ -104,7 +104,9 @@
         
         "fx":
         {
+
             "num_shots": 1,
+
             
             "beam_time": 0.2,
             "beam_colors": [[255,40,40], [255,80,80],[255,140,140]],
@@ -324,7 +326,6 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -439,7 +440,6 @@
         "fx":
         {
             "type": "bullet",
-
             "num_shots": 3,
             "shot_gap": 0.025,
             "lock_on": true,
@@ -1190,7 +1190,6 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.3, 0.8],
             "muzzle_offset": 20,
@@ -8502,7 +8501,6 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.25, 0.7],
             "muzzle_offset": 20,
@@ -8640,7 +8638,6 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.3, 0.8],
             "muzzle_offset": 20,
@@ -8685,7 +8682,6 @@
         {
             "type": "shooter",
             "shot_speed": 1200,
-
             "muzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
@@ -8727,9 +8723,7 @@
         "fx":
         {
             "type": "shooter",
-            "shot_speed": 1200,
-
-            "muzzle_sprite": "muzzle",
+            "shot_speed": 1200,uzzle_sprite": "muzzle",
             "muzzle_scale": [0.75, 1],
             "muzzle_offset": 20,
             
@@ -11458,6 +11452,7 @@
             "shot_speed": 400,
 
             "num_shots": 1,
+
             
             "shot_sprite": "LRM",
             "shot_copies": 8,
@@ -11494,6 +11489,7 @@
         "fx":
         {
             "type": "shooter",
+
             "shot_speed": 400,
 
             "num_shots": 1,
