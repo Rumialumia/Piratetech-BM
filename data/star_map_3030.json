@@ -96,87 +96,27 @@
         "SRM-4",
         "SRM-6",
         "Flamer",
-        
-        "Ceres PPC",
-        "Donal PPC",
-        "Fusigon PPC",
-        "Lord's Light PPC",
-        "Parti-Kill PPC",
-        "Cyclops Large Laser",
-        "Defiance Large Laser",
-        "Magna Large Laser",
-        "Thunderbolt Large Laser",
-        "Diverse Large Laser",
-        "Defiance Medium Laser",
-        "Diplan Medium Laser",
-        "Diverse Medium Laser",
-        "Irian Medium Laser",
-        "Magna Medium Laser",
-        "Defiance Small Laser",
-        "Diverse Small Laser",
-        "ExoStar Small Laser",
-        "Magna Small Laser",
-        "Starflash Small Laser",
-        "Imperator Autocannon/2",
-        "Defiance Autocannon/5",
-        "Whirlwind Autocannon/5",
-        "Imperator Autocannon/5",
-        "Mydron Autocannon/5",
-        "Pontiac Autocannon/5",
-        "Federated Autocannon/10",
-        "Ceres Autocannon/10",
-        "Defiance Autocannon/10",
-        "Imperator Autocannon/10",
-        "Zeus Autocannon/10",
-        "Chemjet Autocannon/20",
-        "Defiance Autocannon/20",
-        "Imperator Autocannon/20",
-        "Kali Yama Autocannon/20",
-        "Zeus Autocannon/20",
-        "Gatling Machinegun",
-        "Coventry Machinegun",
-        "M100 Machinegun",
-        "Sperry Machinegun",
-        "Voelkers Machinegun",
-        "Coventry INC LRM-5",
-        "Holly DF LRM-5",
-        "Magna LRM-5",
-        "Sian-Ceres LRM-5",
-        "Thunderstroke LRM-5",
-        "Delta INC LRM-10",
-        "Federated DF LRM-10",
-        "Irian LRM-10",
-        "Shigunga LRM-10",
-        "Valiant LRM-10",
-        "Coventry INC LRM-15",
-        "ExoStar DF LRM-15",
-        "TharHes LRM-15",
-        "Zeus LRM-15",
-        "Delta INC LRM-20",
-        "Doombud DF LRM-20",
-        "Holly LRM-20",
-        "Kali Yama LRM-20",
-        "Shigunga LRM-20",
-        "Bical INF SRM-2",
-        "Harvester DF SRM-2",
-        "Holly SRM-2",
-        "HoverTec SRM-2",
-        "Telos SRM-2",
-        "Holly INF SRM-4",
-        "Hovertec DF SRM-4",
-        "Irian SRM-4",
-        "Telos SRM-4",
-        "TharHes SRM-4",
-        "Bical INF SRM-6",
-        "Coventry DF SRM-6",
-        "Exostar SRM-6",
-        "Harpoon SRM-6",
-        "Irian SRM-6",
-        "Coventry Flamer",
-        "Firestorm Flamer",
-        "FlameShot Flamer",
-        "Skylight Flamer",
-        "Zippo Flamer"
+
+        "Autocannon/2 Flak",
+        "Autocannon/5 Flak",
+        "Autocannon/10 Flak",
+        "Autocannon/20 Flak",
+        "Binary Laser Cannon",
+        "Vehicle Flamer",
+        "Fluid Gun Inferno",
+        "Fluid Gun Corrosive",
+        "Long Tom Artillery",
+        "Heavy Rifle",
+        "Medium Rifle",
+        "Light Rifle",
+        "Large Chemical Laser",
+        "Medium Chemical Laser",
+        "Small Chemical Laser",
+        "Sniper Artillery",
+        "Thumper Artillery",
+        "SRM-2 Inferno",
+        "SRM-4 Inferno",
+        "SRM-6 Inferno"
     ],
 
     "contract_templates":
@@ -185,7 +125,7 @@
         {
             "enemy_skill": ["green"],
             "enemy_factions": ["bandits", "pirates", "rebels"],
-                            
+
             "adv_pay_pw": [800,1200],
             "tot_pay_pw": [4000,6000],
 
@@ -210,7 +150,7 @@
 
                 "scripts/contracts/assault_light_1group.json",
                 "scripts/contracts/assault_light_1group_1patrol.json"
-            ]                
+            ]        
         },
 
         "periphery_normal":
@@ -248,7 +188,15 @@
                 "scripts/contracts/assault_medium_1group.json",
                 "scripts/contracts/assault_medium_1group_1patrol.json",
 
-                "scripts/contracts/intercept_light_1group.json"
+                "scripts/contracts/intercept_light_1group.json",
+                "scripts/contracts/intercept_light_1group.json",
+                
+                "scripts/contracts/escort_light_1group.json",
+                "scripts/contracts/escort_light_1group.json",
+                
+                "scripts/contracts/longterm_light_general.json",
+                "scripts/contracts/longterm_light_offensive.json",
+                "scripts/contracts/longterm_light_defensive.json"
             ]                
         },
 
@@ -287,7 +235,16 @@
                 "scripts/contracts/assault_heavy_1group_1patrol.json",
 
                 "scripts/contracts/intercept_light_2group.json",
-                "scripts/contracts/intercept_light_3group.json"
+                "scripts/contracts/intercept_light_2group.json",
+                "scripts/contracts/intercept_light_3group.json",
+                
+                "scripts/contracts/escort_light_1group.json",
+                "scripts/contracts/escort_medium_1group.json",
+                "scripts/contracts/escort_medium_1group.json",
+                    
+                "scripts/contracts/longterm_medium_general.json",
+                "scripts/contracts/longterm_medium_offensive.json",
+                "scripts/contracts/longterm_medium_defensive.json"
             ]                
         },
 
@@ -327,7 +284,14 @@
                 "scripts/contracts/assault_assault_1group.json",
 
                 "scripts/contracts/intercept_medium_2group.json",
-                "scripts/contracts/intercept_heavy_1group.json"
+                "scripts/contracts/intercept_heavy_1group.json",
+                
+                "scripts/contracts/escort_medium_1group.json",
+                "scripts/contracts/escort_medium_1group.json",
+                    
+                "scripts/contracts/longterm_medium_general.json",
+                "scripts/contracts/longterm_medium_offensive.json",
+                "scripts/contracts/longterm_medium_defensive.json"
             ]                
         },
 
@@ -365,12 +329,26 @@
 
                 "scripts/contracts/assault_heavy_1group_1patrol.json",
                 "scripts/contracts/assault_heavy_1group_2patrol.json",
+                "scripts/contracts/assault_heavy_1group_2patrol.json",
                 "scripts/contracts/assault_assault_1group_1patrol.json",
 
                 "scripts/contracts/intercept_medium_3group.json",
                 "scripts/contracts/intercept_heavy_2group.json",
                 "scripts/contracts/intercept_heavy_3group.json",
-                "scripts/contracts/intercept_assault_1group.json"
+                "scripts/contracts/intercept_assault_1group.json",
+
+                "scripts/contracts/escort_medium_1group.json",
+                "scripts/contracts/escort_medium_1group.json",
+                "scripts/contracts/escort_heavy_1group.json",
+                "scripts/contracts/escort_heavy_1group.json",
+                       
+                "scripts/contracts/longterm_medium_general.json",
+                "scripts/contracts/longterm_medium_offensive.json",
+                "scripts/contracts/longterm_medium_defensive.json",
+
+                "scripts/contracts/longterm_heavy_general.json",
+                "scripts/contracts/longterm_heavy_offensive.json",
+                "scripts/contracts/longterm_heavy_defensive.json"
             ]              
         },
 
@@ -411,7 +389,21 @@
                 "scripts/contracts/assault_assault_1group_2patrol.json",
 
                 "scripts/contracts/intercept_assault_2group.json",
-                "scripts/contracts/intercept_assault_3group.json"
+                "scripts/contracts/intercept_assault_2group.json",
+                "scripts/contracts/intercept_assault_3group.json",
+
+                "scripts/contracts/escort_heavy_1group.json",
+                "scripts/contracts/escort_heavy_1group.json",
+                "scripts/contracts/escort_assault_1group.json",
+                "scripts/contracts/escort_assault_1group.json",
+                    
+                "scripts/contracts/longterm_heavy_general.json",
+                "scripts/contracts/longterm_heavy_offensive.json",
+                "scripts/contracts/longterm_heavy_defensive.json",
+
+                "scripts/contracts/longterm_assault_general.json",
+                "scripts/contracts/longterm_assault_offensive.json",
+                "scripts/contracts/longterm_assault_defensive.json"
             ]                
         },
 
@@ -474,7 +466,19 @@
                 "scripts/contracts/intercept_medium_3group.json",
                 "scripts/contracts/intercept_heavy_2group.json",
                 "scripts/contracts/intercept_heavy_3group.json",
-                "scripts/contracts/intercept_assault_1group.json"
+                "scripts/contracts/intercept_assault_1group.json",
+
+                "scripts/contracts/escort_medium_1group.json",
+                "scripts/contracts/escort_heavy_1group.json",
+                "scripts/contracts/escort_assault_1group.json",
+                
+                "scripts/contracts/longterm_heavy_general.json",
+                "scripts/contracts/longterm_heavy_offensive.json",
+                "scripts/contracts/longterm_heavy_defensive.json",
+
+                "scripts/contracts/longterm_assault_general.json",
+                "scripts/contracts/longterm_assault_offensive.json",
+                "scripts/contracts/longterm_assault_defensive.json"
             ]                
         }
     },
@@ -911,6 +915,7 @@
             "start_rep": 10,
             "house": "Pirates",
             "nation": "Force of Pirates",
+            "damage": [0,0.25],
 
             "base_colors":
             [
@@ -945,6 +950,7 @@
             "start_rep": 0,
             "house": "Bandits",
             "nation": "Force of Bandits",
+            "damage": [0,0.25],
             
             "base_colors":
             [
@@ -978,6 +984,7 @@
             "start_rep": 30,
             "house": "Rebels",
             "nation": "Force of Rebels",
+            "damage": [0,0.25],
 
             "base_colors":
             [
@@ -1706,7 +1713,7 @@
             "args":
             {
                 "map": "maps/planets/small_desert_am.tmx",
-                "script": "maps/planets/poor_planet_rpg.json"
+                "script": "maps/planets/poor_planet_a_rpg.json"
             }
         },
     
@@ -3128,7 +3135,7 @@
             "args": 
             {
 				"map": "maps/planets/solaris.tmx",
-                "script": "maps/planets/capital_planet_rpg.json"
+                "script": "maps/planets/capital_planet_a_rpg.json"
 			}
         },
     

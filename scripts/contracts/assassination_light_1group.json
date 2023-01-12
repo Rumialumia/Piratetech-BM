@@ -10,7 +10,7 @@
         "mission": 
         [
             [
-                "Assinate VIP",
+                "Assassinate VIP",
                 "A vip is active in this region, find them an eliminate them.",
                 "You must locate and destroy the vip for this mission to be a success."
             ]
@@ -54,7 +54,7 @@
             "name": "VIP",
 
             "faction": "enemy",
-            "spawn": "VIP_spawn",
+            "spawn": "enemy_spawn",
             "ai": "garrison",
 
 			"type": "random",
@@ -89,28 +89,9 @@
             },
 
             {
-                "if": "vip_spawn <= 0",
-                "actns":
-                [
-                    {
-                        "actn": "scroll_to",
-                        "args": "evac_zone"
-                    },
-
-                    {
-                        "actn": "trigger",
-                        "args": "assassination_success_now_flee"
-                    },
-
-                    {
-                        "actn": "issue_order",
-                        "args":
-                        {
-                            "faction": "enemy",
-                            "ai": "hunt_solo"
-                        }
-                    }
-                ]
+                "if": "VIP <= 0",
+                "actn": "trigger",
+                "args": "mission_success"
             }
         ]
     },

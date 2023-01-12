@@ -1,0 +1,271 @@
+{
+    "startup":
+    {
+        "map": ["maps/contracts/recovery/*"],
+        "flee_trigger": "flee",
+
+        "first_trigger": "start_level"
+    },
+
+    "contract_info":
+    {
+        "mission": 
+        [
+            [
+                "Recover VIP",
+                "A VIP has been captured, and is being held behind enemy lines. Get them and get out of the area as soon as you can",
+                "You must locate and extract the VIP by any means neccecary."
+            ],
+
+            [
+                "Recover Equipment",
+                "Equipment with delicate information has been stolen and is being stored at this enemy base",
+                "You must locate and extract the Equipment by any means neccecary."
+            ]
+        ],
+
+
+        "adv_pay_adj": 1,
+        "tot_pay_adj": 1,
+
+        "salv_picks_adj": 1,
+        "salv_other_adj": 1,
+
+        "max_units_adj": 0.9,
+        "max_tons_adj": 0.9
+    },
+
+    "forces":
+	[
+		{
+			"name": "Player Forces",
+            "faction": "player_units",
+            "spawn": "player_spawn",
+            "unit_list": "player_mechs",
+            "crew_list": "player_crew"
+		},
+
+        {
+            "name": "Guard 1",
+
+            "faction": "enemy",
+            "spawn": "guard_spawn",
+            "spawn_type": "exclusive",
+            "ai": "garrison",
+            
+            "type": "random",
+            "size": [1,2],
+            "min_ton": 20,
+            "max_ton": 35,
+            "crew": ["green", "regular"]
+		},
+
+        {
+            "name": "Guard 2",
+
+            "faction": "enemy",
+            "spawn": "guard_spawn",
+            "spawn_type": "exclusive",
+            "ai": "garrison",
+            
+            "type": "random",
+            "size": 1,
+            "min_ton": 20,
+            "max_ton": 35,
+            "crew": ["green", "regular"]
+		},
+
+        {
+            "name": "Guard 3",
+
+            "faction": "enemy",
+            "spawn": "guard_spawn",
+            "spawn_type": "exclusive",
+            "ai": "garrison",
+            
+            "type": "random",
+            "size": [0,1],
+            "min_ton": 20,
+            "max_ton": 35,
+            "crew": ["green", "regular"]
+		}
+	],
+
+    "factions":
+    [
+        {
+            "name": "player_units",
+            "player": true
+        },
+        
+        {
+            "name": "enemy",
+            "swap_colors": "default"
+        }
+    ],
+
+    "events":
+    {
+        "unit_destroyed":
+        [
+            {
+                "if": "player_count <= 0",
+                "actn": "trigger",
+                "args": "mission_failed"
+            },
+
+            {
+                "if": "mission_building_count <= 0",
+                "actn": "trigger",
+                "args": "mission_failed"
+            },
+
+            {
+                "if": "enemy_count <= 0",
+                "actn": "trigger",
+                "args": "mission_success"
+            }
+        ],
+
+
+        "unit_fled":
+        [
+            {
+                "if": "player_count <= 0",
+                "actn": "trigger",
+                "args": "assault_success"
+            }
+        ]
+    },
+
+    "triggers":
+    {
+        "start_level":
+        {
+            "actns":
+            [
+                {
+                    "actn": "trigger",
+                    "args": "reset_vip_count"
+                }
+            ]
+        },
+
+        "reset_vip_count":
+        {
+            "actn": "var",
+            "args": "vips_left = 1"
+        },
+
+        "vips_collected":
+        {              
+            "actns":
+            [
+                {
+                    "actn": "scroll_to",
+                    "args": "evac_zone"
+                },
+
+                {
+                    "actn": "trigger",
+                    "args": "vip_reached_now_flee"
+                },
+
+                {
+                    "actn": "issue_order",
+                    "args":
+                    {
+                        "faction": "enemy",
+                        "ai": "hunt_solo"
+                    }
+                }
+            ]   
+        },
+
+        "vip_reached":
+        {
+            "actns":
+            [
+                {
+                    "actn": "var",
+                    "args": "vips_left -= 1"
+                },
+
+                {
+                    "if": "vips_left == 0",
+                    "actn": "trigger",
+                    "args": "vips_collected"
+                }
+            ]
+        },
+
+        "vip_location":
+        {
+            "actns":
+            [
+                {
+                    "actn": "trigger",
+                    "args": "vip_reached"
+                },
+
+                {
+                    "actn": "remove_trigger",
+                    "args": "vip_location"
+                }
+            ]
+        },
+        
+        "vip_reached_now_flee":
+        {
+            "actns":
+            [
+                {
+                    "actn": "trigger_visible",
+                    "args":
+                    {
+                        "trigger": "evac_zone",
+                        "sprite": "zones:flee"
+                    }
+                },
+
+                {
+                    "actn": "trigger",
+                    "args": "vip_evac_prompt"
+                }
+            ]
+        },
+
+        "vip_evac_prompt":
+        {
+            "type": "prompt",
+            "size": 600,
+
+            "text": "The vip has been picked up . The evac zone has been marked on the map. Head to the evac site now!",
+
+            "options":
+            [
+                {
+                    "text": "OK",
+                    "actn": "scroll_to",
+                    "args": "player_group_all:0"
+                }
+            ]
+        },
+
+        "evac_zone":
+        {
+            "if": 
+            [
+                "and",
+                "vips_left == 0",
+                "triggering_unit:faction:name == 'player_units"
+            ],
+            "actn": "deactivate_unit",
+            "args":
+            {
+                "unit": "triggering_unit",
+                "type": "flee"
+            }
+        }
+    }
+}

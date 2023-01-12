@@ -1,0 +1,276 @@
+{
+    "size": [600,200],
+    "bg_color": [0,0,0],
+
+    "frames":
+    [
+        {
+            "pos": [5, 10],
+            "size": [140,140],
+            "border": 0,
+
+            "grid":
+            {
+                "bg_color": [0,0,48],
+                "line_color":[20,20,120],
+                "line_width": 20
+            }
+        },
+
+        {
+            "pos": [-15,-30],
+            "size": [180,180],
+            "border": 0,
+
+            "Ximage": "{mech_list_frame:selected:unit:get_model}",
+            "image_offset": 10,
+            "image_dynamic": true
+        },
+
+        {
+            "pos": [155, 10],
+            "size": [380, 40],
+            "border": 0,
+
+            "text": "{mech_mod_frame:selected:item:name}",
+            "text_dynamic": true
+        },
+
+        {
+            "pos": [155, 10],
+            "size": [380, 40],
+            "border": 0,
+
+            "text": "{mech_mod_frame:selected:item:tons} tons",
+            "text_dynamic": true,
+            "text_align": "right"
+        },
+
+        {
+            "draw_if": "{mech_mod_frame:selected:item:ammo_max} <= 0",
+
+            "pos": [155,50],
+            "size": [190,160],
+            "border": 0,
+
+            "texts":
+            [
+                {
+                    "text": "DMG",
+                    "text_size": 28
+                },
+
+                {
+                    "text": "HEAT",
+                    "text_size": 28
+                },
+
+                {
+                    "text": "AMMO",
+                    "text_size": 28
+                }
+            ]
+        },
+
+        {
+            "draw_if": "{mech_mod_frame:selected:item:ammo_max} > 0",
+
+            "pos": [155,50],
+            "size": [190,160],
+            "border": 0,
+
+            "texts":
+            [
+                {
+                    "text": "DMG",
+                    "text_size": 28
+                },
+
+                {
+                    "text": "HEAT",
+                    "text_size": 28
+                },
+
+                {
+                    "text": "AMMO",
+                    "text_size": 28
+                }
+            ]
+        },
+
+        {
+            "draw_if": "{mech_mod_frame:selected:item:ammo_max} <= 0",
+
+            "pos": [230,50],
+            "size": [40,160],
+            "border": 0,
+
+            "texts":
+            [
+                {
+                    "text": "{mech_mod_frame:selected:item:damage}",
+                    "text_size": 28,
+                    "text_color": [0,160,255],
+                    "text_align": "center",
+                    "text_dynamic": true
+                },
+
+                {
+                    "text": "{mech_mod_frame:selected:item:heat}",
+                    "text_size": 28,
+                    "text_color": [0,160,255],
+                    "text_align": "center",
+                    "text_dynamic": true
+                },
+
+                {
+                    "text": "-",
+                    "text_size": 28,
+                    "text_color": [0,160,255],
+                    "text_align": "center",
+                    "text_dynamic": true
+                }
+            ]
+        },
+
+        {
+            "draw_if": "{mech_mod_frame:selected:item:ammo_max} > 0",
+
+            "pos": [230,50],
+            "size": [40,160],
+            "border": 0,
+
+            "texts":
+            [
+                {
+                    "text": "{mech_mod_frame:selected:item:damage}",
+                    "text_size": 28,
+                    "text_color": [0,160,255],
+                    "text_align": "center",
+                    "text_dynamic": true
+                },
+
+                {
+                    "text": "{mech_mod_frame:selected:item:heat}",
+                    "text_size": 28,
+                    "text_color": [0,160,255],
+                    "text_align": "center",
+                    "text_dynamic": true
+                },
+
+                {
+                    "text": "{mech_mod_frame:selected:item:ammo_max}",
+                    "text_size": 28,
+                    "text_color": [0,160,255],
+                    "text_align": "center",
+                    "text_dynamic": true
+                }
+            ]
+        },
+
+        {
+            "pos": [290,50],
+            "size": [200,160],
+            "border": 0,
+
+            "texts":
+            [
+                {
+                    "text": "CRT",
+                    "text_size": 28,
+                    "text_dynamic": true
+                },
+                {
+                    "text": "RNG",
+                    "text_size": 28,
+                    "text_dynamic": true
+                },
+
+                {
+                    "text": "MIN",
+                    "text_size": 28,
+                    "text_dynamic": true
+                }
+            ]
+        },
+
+        {
+            "pos": [350,50],
+            "size": [30,160],
+            "border": 0,
+
+            "texts":
+            [
+                {
+                    "text": "{mech_mod_frame:selected:item:crit}",
+                    "text_size": 28,
+                    "text_color": [0,160,255],
+                    "text_align": "center",
+                    "text_dynamic": true
+                },
+                {
+                    "text": "{mech_mod_frame:selected:item:range}",
+                    "text_size": 28,
+                    "text_color": [0,160,255],
+                    "text_align": "center",
+                    "text_dynamic": true
+                },
+
+                {
+                    "text": "{mech_mod_frame:selected:item:min_range}",
+                    "text_size": 28,
+                    "text_color": [0,160,255],
+                    "text_align": "center",
+                    "text_dynamic": true
+                }
+            ]
+        },
+
+        {
+            "draw_if": "{mech_list_frame:selected:unit:destroyed}",
+
+            "pos": [5,60],
+            "size": [140,40],
+            "border": 0,
+    
+            "text": "DESTROYED",
+            "text_color": [255,0,0],
+            "text_size": 32,
+            "text_align": "center",
+
+            "bg_color": [255,255,0]
+        },
+
+        {
+            "id": "mech_details_blank",
+            "visible": false,
+
+            "pos": [0,0],
+            "size": [560,160],
+
+            "bg_color": [0,0,0],
+            "border": 0
+        },
+
+        {
+            "pos": [400,85],
+            "size": [150,60],
+            "border": 0,
+
+            "texts":
+            [
+                {
+                    "text": "Installation:",
+                    "text_size": 24
+                },
+
+                {
+                    "text": "{mech_mod_frame:selected:item:get_mod_cost} C-Bills",
+                    "text_size": 24,
+                    "text_color": [0,255,0],
+                    "text_dynamic": true
+                }
+            ]
+        }
+    ]
+}
