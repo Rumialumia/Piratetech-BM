@@ -17,7 +17,7 @@
 				
 				{
 					"actn": "trigger",
-					"args": "choose_era"
+					"args": "choose_name"
 				}				
 			],
 
@@ -27,6 +27,258 @@
 					"size": [1280, 720],
 
 					"image": "images/CHR/JUMPSHIP.bmp"
+				}
+			]
+		},
+
+		"choose_name":
+		{
+			"actns":
+			[
+				{
+					"actn": "rand_pilot_name",
+					"args": 
+					{
+						"var": "merc_name"
+					}
+				},
+
+				{
+					"actn": "trigger",
+					"args": "get_merc_name_prompt"
+				}
+			]
+		},
+
+		"get_merc_name_prompt":
+		{
+			"esc_enabled": false,
+
+			"type": "sub_prompt",
+			"size": 500,
+
+			"title": "What's Your Name?",
+
+			"text_input":
+			{
+				"game_var_ref": "merc_name_input",
+
+				"default": "{merc_name}",
+				"var": "merc_name",
+				"type": "alphanumeric",
+				"max_len": 32
+			},
+
+			"options":
+			[
+				{
+					"text": "OK",
+					"actns":
+					[
+						{
+							"actn": "set_crew_name",
+							"args":
+							{
+								"crew": "{player_crew:0}",
+								"name": "{merc_name}"
+							}							 
+						},
+
+						{
+							"actn": "trigger",
+							"args": "get_merc_gender"
+						}
+					]					
+				},
+
+				{
+					"text": "Random Name",
+					"select_closes": false,
+
+					"actns":
+					[
+						{
+							"actn": "trigger",
+							"args": "randomize_merc_name"
+						}
+					]
+				}
+			]
+		},
+
+		"randomize_merc_name":
+		{
+			"actns":
+			[
+				{
+					"actn": "rand_pilot_name",
+					"args": 
+					{
+						"var": "merc_name"
+					}
+					
+				},
+
+				{
+					"actn": "update_text_input",
+					"args":
+					{
+						"game_var_ref": "merc_name_input",
+						"val": "{merc_name}"
+					}
+				}
+			]
+		},
+
+		"get_merc_gender":
+		{
+			"esc_enabled": false,
+
+			"type": "sub_prompt",
+			"size": 500,
+
+			"title": "What's Your Gender?",
+
+			"options":
+			[
+				{
+					"text": "Female",
+					"actns":
+					[
+						{
+							"actn": "set_crew_gender",
+							"args":
+							{
+								"crew": "{player_crew:0}",
+								"gender": "female"
+							}							 
+						},
+
+						{
+							"actn": "trigger",
+							"args": "randomize_merc_portrait"
+						},
+
+						{
+							"actn": "trigger",
+							"args": "get_merc_portrait"
+						}
+					]
+				},
+
+				{
+					"text": "Male",
+					"actns":
+					[
+						{
+							"actn": "set_crew_gender",
+							"args":
+							{
+								"crew": "{player_crew:0}",
+								"gender": "male"
+							}							 
+						},
+
+						{
+							"actn": "trigger",
+							"args": "randomize_merc_portrait"
+						},
+
+						{
+							"actn": "trigger",
+							"args": "get_merc_portrait"
+						}
+					]
+				},
+
+				{
+					"text": "Non-Binary",
+					"actns":
+					[
+						{
+							"actn": "set_crew_gender",
+							"args":
+							{
+								"crew": "{player_crew:0}",
+								"gender": "non-binary"
+							}							 
+						},
+
+						{
+							"actn": "trigger",
+							"args": "randomize_merc_portrait"
+						},
+
+						{
+							"actn": "trigger",
+							"args": "get_merc_portrait"
+						}
+					]
+				}
+			]
+		},
+
+		"randomize_merc_portrait":
+		{
+			"actn": "rand_pilot_portrait",
+			"args": "{player_crew:0}"
+		},
+
+		"get_merc_portrait":
+		{
+			"esc_enabled": false,
+		
+			"type": "sub_prompt",
+			"size": [400, 364],
+		
+			"frames":
+			[
+				{
+					"size": [400, 250],
+					
+					"title": "Select a Portrait"
+				},
+		
+				{
+					"pos": [125,70],
+					"size": [150,150],
+					"border": 0,
+		
+					"bg_color": [255,0,0],
+		
+					"image": "{player_crew:0:orig_image}",
+					"image_dynamic": true
+				},
+		
+				{
+					"size": [400, 114],
+					"pos": [0,250],
+		
+					"options":
+					[
+						{
+							"text": "OK",
+							"actns":
+							[
+								{
+									"actn": "trigger",
+									"args": "choose_era"
+								}
+							]
+						},
+		
+						{
+							"text": "Randomize",
+							"select_closes": false,
+							"actns":
+							[
+								{
+									"actn": "trigger",
+									"args": "randomize_merc_portrait"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -432,8 +684,12 @@
 					"actns":
 					[
 						{
-							"actn": "var",
-							"args": "money += 3000000"
+							"actn": "rand_var",
+							"args":
+							{
+								"var": "money",
+								"val": [6000000,7000000]
+							}
 						},
 
 						{
@@ -464,7 +720,7 @@
 							{
 								"list": "player_crew",
 								"type": "crew",
-								"skill_level": ["regular", "elite"]
+								"skill_level": ["regular"]
 							}
 						},
 
@@ -474,7 +730,7 @@
 							{
 								"list": "player_crew",
 								"type": "crew",
-								"skill_level": ["regular", "elite"]
+								"skill_level": ["regular"]
 							}
 						},
 
@@ -484,13 +740,13 @@
 							{
 								"list": "player_crew",
 								"type": "crew",
-								"skill_level": ["regular", "elite"]
+								"skill_level": ["regular", "green"]
 							}
 						},
 
 						{
 							"actn": "trigger",
-							"args": "launch_career"
+							"args": "choose_unit_name"
 						}
 					]
 				},
@@ -500,10 +756,14 @@
 					"actns":
 					[
 						{
-							"actn": "var",
-							"args": "money += 2000000"
+							"actn": "rand_var",
+							"args":
+							{
+								"var": "money",
+								"val": [3000000,5000000]
+							}
 						},
-
+						
 						{
 							"actn": "add_player_unit",
 							"args": 
@@ -543,7 +803,7 @@
 							{
 								"list": "player_crew",
 								"type": "crew",
-								"skill_level": ["green", "regular"]
+								"skill_level": ["regular"]
 							}
 						},
 
@@ -563,13 +823,13 @@
 							{
 								"list": "player_crew",
 								"type": "crew",
-								"skill_level": ["regular", "elite"]
+								"skill_level": ["green"]
 							}
 						},
 
 						{
 							"actn": "trigger",
-							"args": "launch_career"
+							"args": "choose_unit_name"
 						}
 					]
 				},
@@ -579,9 +839,13 @@
 					"actns":
 					[
 						{
-							"actn": "var",
-							"args": "money += 1000000"
-						},
+							"actn": "rand_var",
+							"args":
+							{
+								"var": "money",
+								"val": [2000000,3000000]
+							}
+						},						
 
 						{
 							"actn": "add_player_unit",
@@ -611,7 +875,7 @@
 							{
 								"list": "player_crew",
 								"type": "crew",
-								"skill_level": ["green", "regular"]
+								"skill_level": ["green"]
 							}
 						},
 
@@ -627,9 +891,87 @@
 
 						{
 							"actn": "trigger",
-							"args": "launch_career"
+							"args": "choose_unit_name"
 						}
 					]
+				}
+			]
+		},
+
+		"choose_unit_name":
+		{
+			"actns":
+			[
+				{
+					"actn": "rand_force_name",
+					"args": "merc_unit_name"
+				},
+
+				{
+					"actn": "trigger",
+					"args": "get_merc_unit_name_prompt"
+				}
+			]
+		},
+
+		"get_merc_unit_name_prompt":
+		{
+			"esc_enabled": false,
+
+			"type": "sub_prompt",
+			"size": 500,
+
+			"title": "Merc Unit's Name",
+
+			"text_input":
+			{
+				"game_var_ref": "merc_unit_input",
+
+				"default": "{merc_unit_name}",
+				"var": "merc_unit_name",
+				"type": "alphanumeric",
+				"max_len": 32
+			},
+
+			"options":
+			[
+				{
+					"text": "OK",
+					"actn": "trigger",
+					"args": "launch_career"
+				},
+
+				{
+					"text": "Random Name",
+					"select_closes": false,
+
+					"actns":
+					[
+						{
+							"actn": "trigger",
+							"args": "randomize_merc_unit_name"
+						}
+					]
+				}
+			]
+		},
+
+		"randomize_merc_unit_name":
+		{
+			"actns":
+			[
+				{
+					"actn": "rand_force_name",
+					"args": "merc_unit_name"
+				},
+
+				{
+					"actn": "update_text_input",
+					"args":
+					{
+						"game_var_ref": "merc_unit_input",
+						"val": "{merc_unit_name}"
+					}
 				}
 			]
 		},
@@ -650,8 +992,44 @@
 					"actns":
 					[
 						{
+							"if": "year < 3050",
+							"true":
+							{
+								"actn": "rand_var",
+								"args":
+								{
+									"var": "start_planet",
+									"val": 
+									[
+										"Timbuktu",
+										"Valloire",
+										"Niangol",
+										"Anembo",
+										"Anywhere",
+										"Winfield"
+									]
+								}
+							},
+							"false":
+							{
+								"actn": "rand_var",
+								"args":
+								{
+									"var": "start_planet",
+									"val": 
+									[
+										"Timbuktu",
+										"Valloire",
+										"Niangol",
+										"Anembo"
+									]
+								}
+							}
+						},
+
+						{
 							"actn": "set_planet",
-							"args": "Timbuktu"
+							"args": "{start_planet}"
 						},
 
 						{
@@ -676,8 +1054,26 @@
 					"actns":
 					[
 						{
+							"actn": "rand_var",
+							"args":
+							{
+								"var": "start_planet",
+								"val": 
+								[
+									"Baxley",
+									"Delacambre",
+									"Cogdell",
+									"Baxley",
+									"Great Gorge",
+									"Hyalite",
+									"Noatak"
+								]
+							}
+						},
+
+						{
 							"actn": "set_planet",
-							"args": "Baxley"
+							"args": "{start_planet}"
 						},
 
 						{
@@ -702,8 +1098,46 @@
 					"actns":
 					[
 						{
+							"if": "year < 3039",
+							"true":
+							{
+								"actn": "rand_var",
+								"args":
+								{
+									"var": "start_planet",
+									"val": 
+									[
+										"Galedon V",
+										"New Samarkand",
+										"Tabayama",
+										"Land's End",
+										"Qandahar",
+										"Rasalhague"
+									]
+								}
+							},
+							"false":
+							{
+								"actn": "rand_var",
+								"args":
+								{
+									"var": "start_planet",
+									"val": 
+									[
+										"Galedon V",
+										"New Samarkand",
+										"Tabayama",
+										"Land's End",
+										"Qandahar"
+									]
+								}
+							}
+							
+						},
+
+						{
 							"actn": "set_planet",
-							"args": "Land's End"
+							"args": "{start_planet}"
 						},
 
 						{
@@ -728,11 +1162,24 @@
 					"actns":
 					[
 						{
-							"actn": "set_planet",
-							"args": "Zanzibar"
+							"actn": "rand_var",
+							"args":
+							{
+								"var": "start_planet",
+								"val": 
+								[
+									"Zanzibar",
+									"Turin",
+									"Menke",
+									"Buenos Aires"
+								]
+							}
 						},
 
 						{
+							"actn": "set_planet",
+							"args": "{start_planet}"
+						},{
 							"actn": "var",
 							"args": "reputation:liao = 70"
 						},
@@ -754,8 +1201,24 @@
 					"actns":
 					[
 						{
+							"actn": "rand_var",
+							"args":
+							{
+								"var": "start_planet",
+								"val": 
+								[
+									"Claybrooke",
+									"Cirebon",
+									"Lesnovo",
+									"Silver",
+									"Chalouba"
+								]
+							}
+						},
+
+						{
 							"actn": "set_planet",
-							"args": "Lesnovo"
+							"args": "{start_planet}"
 						},
 
 						{
@@ -780,9 +1243,14 @@
 					"actns":
 					[
 						{
-							"actn": "set_planet",
-							"args": "Outreach"
+							"actn": "var",
+							"args": "start_planet = 'Outreach"
 						},
+
+						{
+							"actn": "set_planet",
+							"args": "{start_planet}"
+						},						
 
 						{
 							"actn": "var",
@@ -803,187 +1271,28 @@
 			"actns":
 			[
 				{
-					"if": "starting_faction == 'steiner",
-					"actns":
-					[
-						{
-							"actn": "set_planet",
-							"args": "Timbuktu"
-						},
-
-						{
-							"actn": "var",
-							"args": "reputation:steiner = 70"
-						},
-
-						{
-							"actn": "new_rpg",
-							"args":
-							{
-								"map": "maps/planets/small_desert_am.tmx",
-                				"script": "maps/planets/poor_planet_rpg.json",
-                                "mods":
-                                [
-                                    "welcome.json"
-                                ]
-							}
-						}
-					]
+					"actn": "print",
+					"args": "starting new career with {starting_faction} on {start_planet}"
 				},
 
 				{
-					"if": "starting_faction == 'davion",
-					"actns":
-					[
-						{
-							"actn": "set_planet",
-							"args": "Baxley"
-						},
-
-						{
-							"actn": "var",
-							"args": "reputation:davion = 70"
-						},
-
-						{
-							"actn": "new_rpg",
-							"args":
-							{
-								"map": "maps/planets/small_desert.tmx",
-                				"script": "maps/planets/poor_planet_rpg.json",
-                                "mods":
-                                [
-                                    "welcome.json"
-                                ]
-							}
-						}
-					]
+					"actn": "var",
+					"args": "cur_planet = {start_planet}"
 				},
 
 				{
-					"if": "starting_faction == 'kurita",
-					"actns":
-					[
-						{
-							"actn": "set_planet",
-							"args": "Land's End"
-						},
-
-						{
-							"actn": "var",
-							"args": "reputation:kurita = 70"
-						},
-
-						{
-							"actn": "var",
-							"args": "starting_faction = 'kurita"
-						},						
-
-						{
-							"actn": "new_rpg",
-							"args":
-							{
-								"map": "maps/planets/small_arctic.tmx",
-                				"script": "maps/planets/poor_planet_rpg.json",
-                                "mods":
-                                [
-                                    "welcome.json"
-                                ]
-							}
-						}
-					]
+					"actn": "var",
+					"args": "cur_planet_info = get_planet_info:{start_planet}"
 				},
 
 				{
-					"if": "starting_faction == 'liao",
-					"actns":
-					[
-						{
-							"actn": "set_planet",
-							"args": "Zanzibar"
-						},
-
-						{
-							"actn": "var",
-							"args": "reputation:liao = 70"
-						},
-
-						{
-							"actn": "var",
-							"args": "starting_faction = 'liao"
-						},						
-
-						{
-							"actn": "new_rpg",
-							"args":
-							{
-								"map": "maps/planets/small_desert_m.tmx",
-                				"script": "maps/planets/poor_planet_rpg.json",
-                                "mods":
-                                [
-                                    "welcome.json"
-                                ]
-							}
-						}
-					]
+					"actn": "var",
+					"args": "cur_planet_faction = cur_planet_info:faction"
 				},
 
 				{
-					"if": "starting_faction == 'marik",
-					"actns":
-					[
-						{
-							"actn": "set_planet",
-							"args": "Lesnovo"
-						},
-
-						{
-							"actn": "var",
-							"args": "reputation:marik = 70"
-						},
-
-						{
-							"actn": "var",
-							"args": "starting_faction = 'marik"
-						},
-
-						{
-							"actn": "new_rpg",
-							"args":
-							{
-								"map": "maps/planets/small_desert.tmx",
-								"script": "maps/planets/poor_planet_rpg.json",
-                                "mods":
-                                [
-                                    "welcome.json"
-                                ]
-							}
-						}
-					]
-				},
-
-				{
-					"if": "starting_faction == 'merc",
-					"actns":
-					[
-						{
-							"actn": "set_planet",
-							"args": "Outreach"
-						},
-
-						{
-							"actn": "new_rpg",
-							"args":
-							{
-								"map": "maps/planets/outreach.tmx",
-								"script": "maps/planets/capital_planet_rpg.json",
-                                "mods":
-                                [
-                                    "welcome.json"
-                                ]
-							}
-						}
-					]
+					"actn": "{cur_planet_info:actn}",
+					"args": "{cur_planet_info:args}"
 				},
 
 				{

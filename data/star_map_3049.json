@@ -237,10 +237,135 @@
                 "scripts/contracts/escort_light_1group.json",
                 "scripts/contracts/escort_light_1group.json",
                 
+                "scripts/contracts/diversion_light_1group.json",
+                "scripts/contracts/diversion_light_1group.json",
+                
                 "scripts/contracts/longterm_light_general.json",
                 "scripts/contracts/longterm_light_offensive.json",
                 "scripts/contracts/longterm_light_defensive.json"
             ]                
+        },
+
+        "periphery_hard":
+        {
+            "enemy_skill": ["regular", "veteran"],
+            "enemy_factions": ["bandits", "pirates", "rebels"],
+                            
+            "adv_pay_pw": [800,1200],
+            "tot_pay_pw": [4000,6000],
+
+            "salv_picks_pe": [0.25,0.5],
+            "salv_other_pe": [0.75,1],
+
+            "max_units_var": [-1,1],
+            "max_tons_var": [0, 5, 10],
+
+            "min_tons": 100,
+            "min_units": 2,
+
+            "files":
+            [
+                "scripts/contracts/deathmatch_assault_1group.json",
+                "scripts/contracts/deathmatch_assault_1group_wrecon.json",
+                
+                "scripts/contracts/deathmatch_assault_2groups.json",
+                
+                "scripts/contracts/deathmatch_heavy_2groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups_wrecon.json",
+
+                "scripts/contracts/defense_heavy_2wave.json",
+                "scripts/contracts/defense_heavy_3wave.json",
+                "scripts/contracts/defense_assault_1wave.json",
+                "scripts/contracts/defense_assault_2wave.json",
+
+                "scripts/contracts/assault_heavy_1group_1patrol.json",
+                "scripts/contracts/assault_heavy_1group_2patrol.json",
+                "scripts/contracts/assault_heavy_1group_2patrol.json",
+                "scripts/contracts/assault_assault_1group_1patrol.json",
+
+                "scripts/contracts/intercept_medium_3group.json",
+                "scripts/contracts/intercept_heavy_2group.json",
+                "scripts/contracts/intercept_heavy_3group.json",
+                "scripts/contracts/intercept_assault_1group.json",
+
+                "scripts/contracts/escort_medium_1group.json",
+                "scripts/contracts/escort_medium_1group.json",
+                "scripts/contracts/escort_heavy_1group.json",
+                "scripts/contracts/escort_heavy_1group.json",
+                
+                "scripts/contracts/diversion_medium_1group.json",
+                "scripts/contracts/diversion_medium_1group.json",
+                "scripts/contracts/diversion_heavy_1group.json",
+                
+                "scripts/contracts/longterm_medium_general.json",
+                "scripts/contracts/longterm_medium_offensive.json",
+                "scripts/contracts/longterm_medium_defensive.json",
+
+                "scripts/contracts/longterm_heavy_general.json",
+                "scripts/contracts/longterm_heavy_offensive.json",
+                "scripts/contracts/longterm_heavy_defensive.json"
+            ]         
+        },
+
+        "periphery_very_hard":
+        {
+            "enemy_factions": ["bandits", "pirates", "rebels"],
+            "enemy_skill": ["veteran", "elite"],
+                            
+            "adv_pay_pw": [800,1200],
+            "tot_pay_pw": [4000,6000],
+
+            "salv_picks_pe": [0.25,0.5],
+            "salv_other_pe": [0.75,1],
+
+            "max_units_var": [-1,1],
+            "max_tons_var": [0, 5, 10],
+
+            "min_tons": 100,
+            "min_units": 2,
+
+            "files":
+            [
+                "scripts/contracts/deathmatch_assault_2groups.json",
+                "scripts/contracts/deathmatch_assault_2groups_wrecon.json",
+
+                "scripts/contracts/deathmatch_assault_3groups.json",
+                "scripts/contracts/deathmatch_assault_3groups_wrecon.json",
+
+                "scripts/contracts/deathmatch_heavy_2groups_wrecon.json",
+                "scripts/contracts/deathmatch_heavy_3groups.json",
+                "scripts/contracts/deathmatch_heavy_3groups_wrecon.json",
+
+                "scripts/contracts/defense_heavy_3wave.json",
+                "scripts/contracts/defense_assault_2wave.json",
+                "scripts/contracts/defense_assault_3wave.json",
+
+                "scripts/contracts/assault_heavy_1group_2patrol.json",
+                "scripts/contracts/assault_assault_1group_1patrol.json",
+                "scripts/contracts/assault_assault_1group_2patrol.json",
+
+                "scripts/contracts/intercept_assault_2group.json",
+                "scripts/contracts/intercept_assault_2group.json",
+                "scripts/contracts/intercept_assault_3group.json",
+
+                "scripts/contracts/escort_heavy_1group.json",
+                "scripts/contracts/escort_heavy_1group.json",
+                "scripts/contracts/escort_assault_1group.json",
+                "scripts/contracts/escort_assault_1group.json",
+                
+                "scripts/contracts/diversion_heavy_1group.json",
+                "scripts/contracts/diversion_heavy_1group.json",
+                "scripts/contracts/diversion_assault_1group.json",
+                
+                "scripts/contracts/longterm_heavy_general.json",
+                "scripts/contracts/longterm_heavy_offensive.json",
+                "scripts/contracts/longterm_heavy_defensive.json",
+
+                "scripts/contracts/longterm_assault_general.json",
+                "scripts/contracts/longterm_assault_offensive.json",
+                "scripts/contracts/longterm_assault_defensive.json"
+            ]         
         },
 
         "central_normal":
@@ -284,6 +409,10 @@
                 "scripts/contracts/escort_light_1group.json",
                 "scripts/contracts/escort_medium_1group.json",
                 "scripts/contracts/escort_medium_1group.json",
+                    
+                "scripts/contracts/diversion_light_1group.json",
+                "scripts/contracts/diversion_medium_1group.json",
+                "scripts/contracts/diversion_medium_1group.json",
                     
                 "scripts/contracts/longterm_medium_general.json",
                 "scripts/contracts/longterm_medium_offensive.json",
@@ -331,6 +460,9 @@
                 
                 "scripts/contracts/escort_medium_1group.json",
                 "scripts/contracts/escort_medium_1group.json",
+                    
+                "scripts/contracts/diversion_medium_1group.json",
+                "scripts/contracts/diversion_medium_1group.json",
                     
                 "scripts/contracts/longterm_medium_general.json",
                 "scripts/contracts/longterm_medium_offensive.json",
@@ -384,7 +516,11 @@
                 "scripts/contracts/escort_medium_1group.json",
                 "scripts/contracts/escort_heavy_1group.json",
                 "scripts/contracts/escort_heavy_1group.json",
-                       
+                
+                "scripts/contracts/diversion_medium_1group.json",
+                "scripts/contracts/diversion_medium_1group.json",
+                "scripts/contracts/diversion_heavy_1group.json",
+                
                 "scripts/contracts/longterm_medium_general.json",
                 "scripts/contracts/longterm_medium_offensive.json",
                 "scripts/contracts/longterm_medium_defensive.json",
@@ -439,7 +575,11 @@
                 "scripts/contracts/escort_heavy_1group.json",
                 "scripts/contracts/escort_assault_1group.json",
                 "scripts/contracts/escort_assault_1group.json",
-                    
+                
+                "scripts/contracts/diversion_heavy_1group.json",
+                "scripts/contracts/diversion_heavy_1group.json",
+                "scripts/contracts/diversion_assault_1group.json",
+                
                 "scripts/contracts/longterm_heavy_general.json",
                 "scripts/contracts/longterm_heavy_offensive.json",
                 "scripts/contracts/longterm_heavy_defensive.json",
@@ -514,6 +654,10 @@
                 "scripts/contracts/escort_medium_1group.json",
                 "scripts/contracts/escort_heavy_1group.json",
                 "scripts/contracts/escort_assault_1group.json",
+                
+                "scripts/contracts/diversion_medium_1group.json",
+                "scripts/contracts/diversion_heavy_1group.json",
+                "scripts/contracts/diversion_assault_1group.json",
                 
                 "scripts/contracts/longterm_heavy_general.json",
                 "scripts/contracts/longterm_heavy_offensive.json",
@@ -1335,6 +1479,7 @@
             "start_rep": 10,
             "house": "Pirates",
             "nation": "Force of Pirates",
+            "logo": "images/houses/Logo_Pirates.png",
             "damage": [0,0.25],
 
             "base_colors":
@@ -1370,6 +1515,7 @@
             "start_rep": 0,
             "house": "Bandits",
             "nation": "Force of Bandits",
+            "logo": "images/houses/Logo_Pirates.png",
             "damage": [0,0.25],
             
             "base_colors":
@@ -1404,8 +1550,17 @@
             "start_rep": 30,
             "house": "Rebels",
             "nation": "Force of Rebels",
+            "logo": "images/houses/Logo_NoFaction.png",
             "damage": [0,0.25],
 
+            "adv_pay": 1.0,
+            "tot_pay": 1.0,
+
+            "salv_picks": 1.0,
+            "salv_total": 1.0,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
             "base_colors":
             [
                 [85,85,85],
@@ -1432,6 +1587,113 @@
                 [170,170,0]
             ]
             
+        },
+
+
+
+
+        "arano":
+        {
+            "house": "Arano",
+            "nation": "Aurigan Coalition",
+            "logo": "images/houses/logo_arano.png",
+
+            "friends": [],
+            "enemies": ["davion", "liao"],
+
+            "prevalent_units":
+            [
+                "Locust",
+                "Stinger",
+                "Wasp",
+                "Hermes II",
+                "Shadow Hawk",
+                "Hunchback",
+                "Crusader",
+                "Thunderbolt",
+                "Warhammer",
+                "Wolverine",
+                "Trebuchet",
+                "Archer",
+                "Orion",
+                "Awesome"
+            ],
+
+            "start_rep": 50,
+
+            "adv_pay": 1.0,
+            "tot_pay": 1.0,
+
+            "salv_picks": 1.25,
+            "salv_total": 1.25,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+            "swap_colors":
+            [
+                [64,0,64],
+                [160,16,160],
+                [208,80,208],
+                [240,100,240],
+                
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0] 
+            ]
+        },
+
+        "independant":
+        {
+            "house": "Independant",
+            "nation": "Independant Systems",
+            "logo": "images/houses/Logo_NoFaction.png",
+
+            "friends": [],
+            "enemies": ["pirates", "bandits", "rebels"],
+
+            "prevalent_units":
+            [
+                "Locust",
+                "Stinger",
+                "Wasp",
+                "Hermes II",
+                "Shadow Hawk",
+                "Hunchback",
+                "Crusader",
+                "Thunderbolt",
+                "Warhammer",
+                "Wolverine",
+                "Trebuchet",
+                "Archer",
+                "Orion",
+                "Awesome"
+            ],
+
+            "start_rep": 50,
+
+            "adv_pay": 1.0,
+            "tot_pay": 1.0,
+
+            "salv_picks": 1.0,
+            "salv_total": 1.0,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+            "swap_colors":
+            [
+                [64,0,64],
+                [160,16,160],
+                [208,80,208],
+                [240,100,240],
+                
+                [255,255,85],
+                [255,255,85],
+                [255,255,0],
+                [170,170,0] 
+            ]
         }
     },
 
@@ -4001,6 +4263,475 @@
             {
                 "map": "maps/planets/small_desert.tmx",
                 "script": "maps/planets/border_planet_rpg.json"
+            }
+        },
+
+
+
+
+
+        "Port Arthur":
+        {
+            "coords": [0.1547870588,-0.3906052941],
+            "faction": "kurita",
+            "desc": "A breadbasket world and notable for its natural beauty, Port Arthur also suffers from bacteria-heavy water and until the renaissance sparked by the Helm Memory Core was unable to purify local water sources.",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Galatea":
+        {
+            "shape_size": 13,
+            "inner_size": 7,
+
+            "coords": [-0.052,-0.0001358823529],
+            "faction": "steiner",
+            "desc": "A major mercenary hiring hall and gameworld.",
+            "planet_icon": "images/planets/planet_radiated.png",
+
+            "contracts":
+            {
+                "template": "outreach"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Artru":
+        {
+
+            "coords": [0.1952929412,0.8790782353],
+            "faction": "arano",
+            "desc": "Rumored to house ruins of a Star League Castle.",
+            "planet_icon": "images/planets/planet_radiated.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Coromodir":
+        {
+            "shape_size": 13,
+            "inner_size": 7,
+
+            "coords": [0.1084211765,0.8732547059],
+            "faction": "arano",
+            "desc": "Capital of the Aurigan Coalition.",
+            "planet_icon": "images/planets/planet_gaia.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/capital_planet_rpg.json"
+            }
+        },
+
+        "Itrom":
+        {
+
+            "coords": [0.1087752941,0.8312052941],
+            "faction": "arano",
+            "desc": "One of the planets involved in the Aurigan Trade Partnership.",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Mechdur":
+        {
+
+            "coords": [0.1322588235,0.7970794118],
+            "faction": "arano",
+            "desc": "Major industrial hub of the Aurigan Coalition.",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Panzyr":
+        {
+
+            "coords": [0.1020835294,0.8081476471],
+            "faction": "arano",
+            "desc": "Seat of House Decimis of the Aurigan Coalition, recently devastated by the civil war.",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "border_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Regis Roost":
+        {
+
+            "coords": [0.1804611765,0.8302858824],
+            "faction": "arano",
+            "desc": "Filled with fungal life, visitors are prone to a illness known as Spore-lung.",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Smithon":
+        {
+
+            "coords": [0.1488223529,0.8135352941],
+            "faction": "arano",
+            "desc": "Former home of House Karosas, its now ran by the planetary govenor, it's sustained by agroponic farming.",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "border_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Tyrlon":
+        {
+
+            "coords": [0.1361788235,0.8378794118],
+            "faction": "arano",
+            "desc": "Major agricultural center based around the major river system thats on the southern hemisphere of the planet.",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Weldry":
+        {
+
+            "coords": [0.08699294118,0.78632],
+            "faction": "arano",
+            "desc": "Notable stop on the route to herotitus or the Magistracy of Canopus, the small population focuses on manufacturing and agriculture",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "border_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/med_planet_rpg.json"
+            }
+        },
+
+        "Appian":
+        {
+
+            "coords": [0.03797294118,0.7912770588],
+            "faction": "independant",
+            "desc": "A independent world largely left alone.",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Bellerophon":
+        {
+
+            "coords": [0.01350117647,0.7938261765],
+            "faction": "independant",
+            "desc": "Recently liberated from mercenaries and religious fanatics.",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "periphery_very_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Detroit":
+        {
+
+            "coords": [0.02252941176,0.7687574706],
+            "faction": "independant",
+            "desc": "Hosts a number of defence manufacturing companies and facilities.",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "periphery_very_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Fronc":
+        {
+
+            "coords": [-0.001318823529,0.8716798824],
+            "faction": "independant",
+            "desc": "Capital of the Fronc Reaches.",
+            "planet_icon": "images/planets/planet_arid.png",
+
+            "contracts":
+            {
+                "template": "periphery_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Herotitus":
+        {
+
+            "coords": [0.05909294118,0.7931158824],
+            "faction": "independant",
+            "desc": "Settled by both the Taurians and Canopians.",
+            "planet_icon": "images/planets/planet_terran.png",
+
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Independence":
+        {
+
+            "coords": [0.05900705882,0.8521588824],
+            "faction": "independant",
+            "desc": "Host to a small defence manufacturer, Hilltopper Engineering.",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "periphery_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Lyreton":
+        {
+
+            "coords": [0.05948117647,0.7681451765],
+            "faction": "independant",
+            "desc": "Independant world with little to report on.",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "McEvans' Sacrifice":
+        {
+
+            "coords": [0.03996705882,0.8762682941],
+            "faction": "independant",
+            "desc": "Colonized by refugees of the Reunification War.",
+            "planet_icon": "images/planets/planet_desert.png",
+
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Portland":
+        {
+
+            "coords": [0.0873776471,0.8577828235],
+            "faction": "independant",
+            "desc": "Settled during the Star League it became home to fierce fighting during the First Succession War between Magistracy of Canopus and the Taurian Concordat.",
+            "planet_icon": "images/planets/planet_grassland.png",
+
+            "contracts":
+            {
+                "template": "periphery_very_hard"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_temperate.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Spencer":
+        {
+
+            "coords": [0.006496470588,0.8274030588],
+            "faction": "independant",
+            "desc": "One of the planets fought over by the Magistracy and Taurian Concordat during the First Succession War.",
+            "planet_icon": "images/planets/planet_radiated.png",
+
+            "contracts":
+            {
+                "template": "periphery_normal"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_desert.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
+            }
+        },
+
+        "Ur Cruinne":
+        {
+
+            "coords": [-0.01790235294,0.7995501765],
+            "faction": "independant",
+            "desc": "Small independant world.",
+            "planet_icon": "images/planets/planet_tundra.png",
+
+            "contracts":
+            {
+                "template": "periphery_easy"
+            },
+            
+            "actn": "new_rpg",
+            "args":
+            {
+                "map": "maps/planets/small_arctic.tmx",
+                "script": "maps/planets/poor_planet_rpg.json"
             }
         }
     }
