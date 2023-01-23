@@ -4,6 +4,7 @@
         "cost": 200000,
         "mod_cost": 50000,
         "type": "beam",
+        "store_type": "beam",
         "damage": 10,
         "heat": 10,
         "range": 12,
@@ -50,6 +51,7 @@
         "mod_cost": 25000,
         "short": "LLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 8,
         "heat": 8,
         "range": 10,
@@ -92,6 +94,7 @@
         "mod_cost": 10000,
         "short": "MLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 5,
         "heat": 3,
         "range": 6,
@@ -134,6 +137,7 @@
         "mod_cost": 2812,
         "short": "SLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 3,
         "heat": 1,
         "range": 2,
@@ -178,6 +182,7 @@
 
         "short": "AC/2",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 16,
@@ -222,6 +227,7 @@
         
         "short": "AC/5",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "heat": 1,
         "range": 12,
@@ -266,6 +272,7 @@
         
         "short": "AC/10",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 10,
         "heat": 3,
         "range": 10,
@@ -309,6 +316,7 @@
         
         "short": "AC/20",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 20,
         "heat": 7,
         "range": 6,
@@ -352,6 +360,7 @@
         
         "short": "MG",
         "type": "mg",
+        "store_type": "mg",
         "damage": 2,
         "heat": 0,
         "range": 2,
@@ -395,6 +404,7 @@
 
         "short": "AMS",
         "type": "mg",
+        "store_type": "mg",
         "damage": 2,
         "heat": 1,
         "range": 2,
@@ -429,6 +439,7 @@
         
         "short": "AMS (C)",
         "type": "mg",
+        "store_type": "mg",
         "damage": 2,
         "heat": 1,
         "range": 2,
@@ -461,6 +472,7 @@
         "ammo_cost": 30000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 5,
         "heat": 2,
@@ -501,6 +513,7 @@
         "ammo_cost": 30000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 10,
         "min_range": 6,
@@ -541,6 +554,7 @@
         "ammo_cost": 30000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 15,
         "min_range": 6,
@@ -581,6 +595,7 @@
         "ammo_cost": 30000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 20,
         "heat": 6,
@@ -621,6 +636,7 @@
         "ammo_cost": 27000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 2,
         "heat": 2,
@@ -660,6 +676,7 @@
         "ammo_cost": 27000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 4,
         "heat": 3,
@@ -699,6 +716,7 @@
         "ammo_cost": 27000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 6,
         "heat": 4,
@@ -736,6 +754,7 @@
         "cost": 7500,
         "mod_cost": 1875,
         "type": "flame",
+        "store_type": "flame",
         "damage": 2,
         "damage_type": "heat",
         "heat": 3,
@@ -779,6 +798,7 @@
         "cost": 300000,
         "mod_cost": 75000,
         "type": "beam",
+        "store_type": "beam",
         "damage": 10,
         "heat": 15,
         "range": 14,
@@ -824,6 +844,7 @@
         "mod_cost": 50000,
         "short": "ER LLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 8,
         "heat": 12,
         "range": 14,
@@ -866,6 +887,7 @@
         "mod_cost": 20000,
         "short": "ER MLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 5,
         "heat": 5,
         "range": 8,
@@ -908,6 +930,7 @@
         "mod_cost": 2813,
         "short": "ER SLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 3,
         "heat": 2,
         "range": 4,
@@ -950,6 +973,7 @@
         "mod_cost": 43750,
         "short": "LPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 9,
         "heat": 10,
         "range": 7,
@@ -993,6 +1017,7 @@
         "mod_cost": 15000,
         "short": "MPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 6,
         "heat": 4,
         "range": 4,
@@ -1036,6 +1061,7 @@
         "mod_cost": 4000,
         "short": "SPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 3,
         "heat": 2,
         "range": 2,
@@ -1081,6 +1107,7 @@
 
         "short": "Gauss",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 15,
         "heat": 1,
         "range": 15,
@@ -1126,6 +1153,7 @@
 
         "short": "UAC/2",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 2,
         "range": 17,
@@ -1173,6 +1201,7 @@
         
         "short": "UAC/5",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "heat": 2,
         "range": 13,
@@ -1220,6 +1249,7 @@
         
         "short": "UAC/10",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 10,
         "heat": 8,
         "range": 12,
@@ -1266,6 +1296,7 @@
         
         "short": "LB 10-X",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 10,
         "heat": 2,
@@ -1312,6 +1343,7 @@
         
         "short": "UAC/20",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 20,
         "heat": 16,
         "range": 7,
@@ -1359,6 +1391,7 @@
         
         "short": "SSRM-2",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 2,
         "heat": 2,
@@ -1399,6 +1432,7 @@
         
         "short": "SSRM-4",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 4,
         "heat": 3,
@@ -1439,6 +1473,7 @@
         
         "short": "SSRM-6",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 6,
         "heat": 4,
@@ -1477,6 +1512,7 @@
 
         "short": "ER PPC (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 15,
         "heat": 15,
         "range": 14,
@@ -1523,6 +1559,7 @@
 
         "short": "ER LLaser (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 10,
         "heat": 12,
         "range": 15,
@@ -1566,6 +1603,7 @@
 
         "short": "ER MLaser (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 7,
         "heat": 5,
         "range": 10,
@@ -1609,6 +1647,7 @@
 
         "short": "ER SLaser (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 5,
         "heat": 2,
         "range": 4,
@@ -1651,6 +1690,7 @@
         "mod_cost": 87500,
         "short": "LPulse (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 9,
         "heat": 10,
         "range": 7,
@@ -1694,6 +1734,7 @@
         "mod_cost": 30000,
         "short": "MPulse (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 7,
         "heat": 4,
         "range": 8,
@@ -1737,6 +1778,7 @@
         "mod_cost": 8000,
         "short": "SPulse (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 3,
         "heat": 2,
         "range": 4,
@@ -1782,6 +1824,7 @@
 
         "short": "Gauss (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 15,
         "heat": 1,
         "range": 15,
@@ -1827,6 +1870,7 @@
 
         "short": "UAC/2 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 2,
         "range": 18,
@@ -1874,6 +1918,7 @@
         
         "short": "UAC/5 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "heat": 2,
         "range": 14,
@@ -1920,6 +1965,7 @@
         
         "short": "UAC/10 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 10,
         "heat": 8,
         "range": 12,
@@ -1966,6 +2012,7 @@
         
         "short": "UAC/20 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 20,
         "heat": 14,
         "range": 8,
@@ -2012,6 +2059,7 @@
         
         "short": "LB 2-X (C)",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 2,
         "heat": 1,
@@ -2059,6 +2107,7 @@
         
         "short": "LB 5-X (C)",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 5,
         "heat": 1,
@@ -2106,6 +2155,7 @@
         
         "short": "LB 10-X (C)",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 10,
         "heat": 2,
@@ -2152,6 +2202,7 @@
         
         "short": "LB 20-X (C)",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 20,
         "heat": 6,
@@ -2198,6 +2249,7 @@
         
         "short": "LRM-5 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 5,
         "heat": 2,
@@ -2238,6 +2290,7 @@
         
         "short": "LRM-10 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 10,
         "heat": 4,
@@ -2278,6 +2331,7 @@
         
         "short": "LRM-15 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 15,
         "heat": 5,
@@ -2318,6 +2372,7 @@
         
         "short": "LRM-20 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 20,
         "heat": 6,
@@ -2358,6 +2413,7 @@
         
         "short": "SRM-2 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 2,
         "heat": 2,
@@ -2398,6 +2454,7 @@
         
         "short": "SRM-4 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 4,
         "heat": 3,
@@ -2438,6 +2495,7 @@
         
         "short": "SRM-6 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 6,
         "heat": 4,
@@ -2479,6 +2537,7 @@
         
         "short": "SSRM-2 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 2,
         "heat": 2,
@@ -2520,6 +2579,7 @@
         
         "short": "SSRM-4 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 4,
         "heat": 3,
@@ -2561,6 +2621,7 @@
         
         "short": "SSRM-6 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 6,
         "heat": 4,
@@ -2598,6 +2659,7 @@
         "cost": 40000,
         "short": "BLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 5,
         "heat": 3,
         "range": 6,
@@ -2636,6 +2698,7 @@
         "cost": 40000,
         "short": "PLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 5,
         "heat": 3,
         "range": 6,
@@ -2674,6 +2737,7 @@
         
         "short": "MG",
         "type": "beam",
+        "store_type": "beam",
         "damage": 2,
         "heat": 0,
         "range": 2,
@@ -2703,6 +2767,7 @@
         "mod_cost": -1,
         "short": "Lower Arm",
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.05,
         "can_be_modded": false,
 
@@ -2740,6 +2805,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.05,
         "can_be_modded": false,
 
@@ -2778,6 +2844,7 @@
         "mod_cost": -1,
         "short": "Hand",
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.1,
         "can_be_modded": false,
 
@@ -2815,6 +2882,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.1,
         "can_be_modded": false,
 
@@ -2853,6 +2921,7 @@
         "mod_cost": -1,
         "short": "Foot",
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.2,
         "can_be_modded": false,
 
@@ -2891,6 +2960,7 @@
         "mod_cost": -1,
         "short": "Talon",
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.3,
         "can_be_modded": false,
 
@@ -2928,6 +2998,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.2,
         "can_be_modded": false,
 
@@ -2965,6 +3036,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 1,
         "damage_per_ton": 0.15,
         "can_be_modded": false,
@@ -3003,6 +3075,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 6,
         "can_be_modded": false,
 
@@ -3040,6 +3113,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 6,
         "can_be_modded": false,
 
@@ -3077,6 +3151,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage":2,
         "damage_per_ton": 0.1,
         "can_be_modded": false,
@@ -3115,6 +3190,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 5,
         "can_be_modded": false,
 
@@ -3151,6 +3227,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.14,
         "can_be_modded": false,
 
@@ -3188,6 +3265,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 3,
         "can_be_modded": false,
 
@@ -3225,6 +3303,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 7,
         "can_be_modded": false,
 
@@ -3262,6 +3341,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 9,
         "can_be_modded": false,
 
@@ -3299,6 +3379,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 9,
         "can_be_modded": false,
 
@@ -3336,6 +3417,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.2,
         "can_be_modded": false,
 
@@ -3373,6 +3455,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.25,
         "can_be_modded": false,
 
@@ -3410,6 +3493,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 4,
         "can_be_modded": false,
 
@@ -3447,6 +3531,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.1,
         "can_be_modded": false,
 
@@ -3484,6 +3569,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage_per_ton": 0.1,
         "can_be_modded": false,
 
@@ -3521,6 +3607,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 5,
         "can_be_modded": false,
 
@@ -3558,6 +3645,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 5,
         "can_be_modded": false,
 
@@ -3595,6 +3683,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 7,
         "can_be_modded": false,
 
@@ -3632,6 +3721,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 10,
         "can_be_modded": false,
 
@@ -3669,6 +3759,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 14,
         "can_be_modded": false,
 
@@ -3706,6 +3797,7 @@
         "cost": 0,
         "mod_cost": -1,
         "type": "melee",
+        "store_type": "melee",
         "damage": 8,
         "can_be_modded": false,
 
@@ -3747,6 +3839,7 @@
 
         "short": "LAMS",
         "type": "beam",
+        "store_type": "mg",
         "damage": 3,
         "heat": 7,
         "range": 2,
@@ -3788,6 +3881,7 @@
         
         "short": "LAMS (C)",
         "type": "beam",
+        "store_type": "mg",
         "damage": 3,
         "heat": 5,
         "range": 2,
@@ -3827,6 +3921,7 @@
         "mod_cost": 50000,
         "short": "Blaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 12,
         "heat": 16,
         "range": 10,
@@ -3869,6 +3964,7 @@
         "mod_cost": 50000,
         "short": "Bombast",
         "type": "beam",
+        "store_type": "beam",
         "damage": 12,
         "heat": 12,
         "range": 10,
@@ -3911,6 +4007,7 @@
         "mod_cost": 250000,
         "short": "CWS",
         "type": "beam",
+        "store_type": "beam",
         "damage": 40,
         "damage_type": "heat",
         "heat": 4,
@@ -3959,6 +4056,7 @@
         "ammo_cost": 30000,
         "short": "LChemLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 8,
         "heat": 6,
         "range": 10,
@@ -4002,6 +4100,7 @@
         "ammo_cost": 30000,
         "short": "MChemLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 5,
         "heat": 2,
         "range": 6,
@@ -4045,6 +4144,7 @@
         "ammo_cost": 30000,
         "short": "SChemLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 3,
         "heat": 1,
         "range": 2,
@@ -4088,6 +4188,7 @@
         "ammo_cost": 1000,
         "short": "VFlamer",
         "type": "flame",
+        "store_type": "flame",
         "damage": 2,
         "damage_type": "heat",
         "heat": 3,
@@ -4132,6 +4233,7 @@
         "mod_cost": 3750,
         "short": "Flamer (C)",
         "type": "flame",
+        "store_type": "flame",
         "damage": 2,
         "damage_type": "heat",
         "heat": 3,
@@ -4176,6 +4278,7 @@
         "mod_cost": 2813,
         "ammo_cost": 2000,
         "type": "flame",
+        "store_type": "flame",
         "damage": 4,
         "damage_type": "heat",
         "heat": 5,
@@ -4219,6 +4322,7 @@
         "cost": 15000,
         "mod_cost": 3750,
         "type": "flame",
+        "store_type": "flame",
         "damage": 1,
         "damage_type": "heat",
         "heat": 4,
@@ -4263,6 +4367,7 @@
         "mod_cost": 50000,
         "short": "ILLaser (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 8,
         "heat": 8,
         "range": 10,
@@ -4305,6 +4410,7 @@
         "mod_cost": 87500,
         "short": "ILPulse (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 9,
         "heat": 10,
         "range": 7,
@@ -4348,6 +4454,7 @@
         "mod_cost": 5000,
         "short": "ER mLaser (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 2,
         "heat": 1,
         "range": 2,
@@ -4390,6 +4497,7 @@
         "mod_cost": 125000,
         "short": "H LLaser (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 16,
         "heat": 18,
         "range": 10,
@@ -4433,6 +4541,7 @@
         "mod_cost": 50000,
         "short": "H MLaser (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 10,
         "heat": 7,
         "range": 6,
@@ -4476,6 +4585,7 @@
         "mod_cost": 10000,
         "short": "H SLaser (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 6,
         "heat": 3,
         "range": 2,
@@ -4519,6 +4629,7 @@
         "mod_cost": 175000,
         "short": "IHLLaser (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 16,
         "heat": 18,
         "range": 10,
@@ -4562,6 +4673,7 @@
         "mod_cost": 75000,
         "short": "IHMLaser (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 10,
         "heat": 7,
         "range": 6,
@@ -4605,6 +4717,7 @@
         "mod_cost": 15000,
         "short": "IHSLaser (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 6,
         "heat": 3,
         "range": 2,
@@ -4648,6 +4761,7 @@
         "mod_cost": 6250,
         "short": "mPulse (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 3,
         "heat": 1,
         "range": 2,
@@ -4691,6 +4805,7 @@
         "mod_cost": 200000,
         "short": "ER LPulse (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 10,
         "heat": 13,
         "range": 15,
@@ -4734,6 +4849,7 @@
         "mod_cost": 75000,
         "short": "ER MPulse (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 7,
         "heat": 6,
         "range": 9,
@@ -4777,6 +4893,7 @@
         "mod_cost": 15000,
         "short": "ER SPulse (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 5,
         "heat": 3,
         "range": 4,
@@ -4820,6 +4937,7 @@
         "mod_cost": 62500,
         "short": "RE LPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 10,
         "heat": 9,
         "range": 7,
@@ -4864,6 +4982,7 @@
         "mod_cost": 25000,
         "short": "RE MPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 7,
         "heat": 6,
         "range": 4,
@@ -4908,6 +5027,7 @@
         "mod_cost": 6250,
         "short": "RE SPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 5,
         "heat": 4,
         "range": 2,
@@ -4952,6 +5072,7 @@
         "mod_cost": 116250,
         "short": "VS LPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 9,
         "heat": 10,
         "range": 8,
@@ -4995,6 +5116,7 @@
         "mod_cost": 50000,
         "short": "VS MPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 7,
         "heat": 7,
         "range": 5,
@@ -5038,6 +5160,7 @@
         "mod_cost": 15000,
         "short": "VS SPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 4,
         "heat": 3,
         "range": 4,
@@ -5081,6 +5204,7 @@
         "mod_cost": 68750,
         "short": "L X-Pulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 9,
         "heat": 15,
         "range": 10,
@@ -5124,6 +5248,7 @@
         "mod_cost": 27500,
         "short": "M X-Pulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 6,
         "heat": 6,
         "range": 6,
@@ -5167,6 +5292,7 @@
         "mod_cost": 7750,
         "short": "S X-Pulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 3,
         "heat": 3,
         "range": 4,
@@ -5210,6 +5336,7 @@
         "mod_cost": 37500,
         "short": "L PPC",
         "type": "beam",
+        "store_type": "beam",
         "damage": 5,
         "heat": 5,
         "range": 12,
@@ -5256,6 +5383,7 @@
         "mod_cost": 62500,
         "short": "H PPC",
         "type": "beam",
+        "store_type": "beam",
         "damage": 15,
         "heat": 15,
         "range": 12,
@@ -5302,6 +5430,7 @@
         "mod_cost": 150000,
         "short": "Enh ER PPC (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 12,
         "heat": 15,
         "range": 14,
@@ -5347,6 +5476,7 @@
         "mod_cost": 100000,
         "short": "IPPC (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 10,
         "heat": 10,
         "range": 12,
@@ -5392,6 +5522,7 @@
         "cost": 300000,
         "mod_cost": 75000,
         "type": "beam",
+        "store_type": "beam",
         "damage": 8,
         "heat": 10,
         "range": 13,
@@ -5436,6 +5567,7 @@
         "cost": 350000,
         "mod_cost": 87500,
         "type": "beam",
+        "store_type": "beam",
         "damage": 15,
         "heat": 15,
         "range": 12,
@@ -5481,6 +5613,7 @@
         "cost": 450000,
         "mod_cost": 112500,
         "type": "beam",
+        "store_type": "beam",
         "damage": 15,
         "heat": 20,
         "range": 14,
@@ -5526,6 +5659,7 @@
         "mod_cost": 187500,
         "short": "ER PPC + CAP (C)",
         "type": "beam",
+        "store_type": "beam",
         "damage": 20,
         "heat": 20,
         "range": 14,
@@ -5571,6 +5705,7 @@
         "mod_cost": 75000,
         "short": "L PPC + CAP",
         "type": "beam",
+        "store_type": "beam",
         "damage": 10,
         "heat": 10,
         "range": 12,
@@ -5617,6 +5752,7 @@
         "mod_cost": 100000,
         "short": "H PPC + CAP",
         "type": "beam",
+        "store_type": "beam",
         "damage": 20,
         "heat": 20,
         "range": 12,
@@ -5662,6 +5798,7 @@
         "cost": 450000,
         "mod_cost": 112500,
         "type": "beam",
+        "store_type": "beam",
         "damage": 13,
         "heat": 15,
         "range": 13,
@@ -5708,6 +5845,7 @@
         "ammo_cost": 60000,
         "short": "Plasma Cannon (C)",
         "type": "beam",
+        "store_type": "flame",
         "damage": 5,
         "damage_type": "heat",
         "heat": 7,
@@ -5754,6 +5892,7 @@
         "mod_cost": 65000,
         "ammo_cost": 30000,
         "type": "beam",
+        "store_type": "flame",
         "damage": 12,
         "damage_type": "heat",
         "heat": 10,
@@ -5800,6 +5939,7 @@
         "mod_cost": 150000,
         "short": "ER LLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 8,
         "heat": 24,
         "range": 14,
@@ -5843,6 +5983,7 @@
         "mod_cost": 20000,
         "short": "ER MLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 5,
         "heat": 10,
         "range": 8,
@@ -5886,6 +6027,7 @@
         "mod_cost": 2813,
         "short": "ER SLaser",
         "type": "beam",
+        "store_type": "beam",
         "damage": 3,
         "heat": 4,
         "range": 4,
@@ -5929,6 +6071,7 @@
         "mod_cost": 218750,
         "short": "LPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 9,
         "heat": 20,
         "range": 7,
@@ -5973,6 +6116,7 @@
         "mod_cost": 75000,
         "short": "MPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 6,
         "heat": 8,
         "range": 4,
@@ -6017,6 +6161,7 @@
         "mod_cost": 20000,
         "short": "SPulse",
         "type": "beam",
+        "store_type": "beam",
         "damage": 3,
         "heat": 4,
         "range": 2,
@@ -6060,6 +6205,7 @@
         "cost": 1875000,
         "mod_cost": 468750,
         "type": "beam",
+        "store_type": "beam",
         "damage": 20,
         "heat": 24,
         "range": 15,
@@ -6102,6 +6248,7 @@
         "cost": 800000,
         "mod_cost": 200000,
         "type": "beam",
+        "store_type": "beam",
         "damage": 30,
         "damage_type": "heat",
         "heat": 10,
@@ -6148,6 +6295,7 @@
         "cost": 500000,
         "mod_cost": 125000,
         "type": "beam",
+        "store_type": "beam",
         "damage": 30,
         "damage_type": "heat",
         "heat": 10,
@@ -6194,6 +6342,7 @@
         "cost": 1200000,
         "mod_cost": 300000,
         "type": "beam",
+        "store_type": "beam",
         "damage": 30,
         "damage_type": "heat",
         "heat": 10,
@@ -6242,6 +6391,7 @@
 
         "short": "AP Gauss (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 3,
         "heat": 1,
         "range": 6,
@@ -6286,6 +6436,7 @@
         
         "short": "Taser",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 6,
         "damage_type": "heat",
         "heat": 6,
@@ -6331,6 +6482,7 @@
         "ammo_cost": 500,
         "short": "Fluid Gun",
         "type": "flame",
+        "store_type": "flame",
         "damage": 3,
         "damage_type": "heat",
         "heat": 0,
@@ -6377,6 +6529,7 @@
         "ammo_cost": 500,
         "short": "Fluid Gun",
         "type": "flame",
+        "store_type": "flame",
         "damage": 3,
         "heat": 0,
         "range": 2,
@@ -6423,6 +6576,7 @@
 
         "short": "L Gauss",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 8,
         "heat": 1,
         "range": 17,
@@ -6468,6 +6622,7 @@
 
         "short": "H Gauss",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 20,
         "heat": 2,
         "range": 13,
@@ -6513,6 +6668,7 @@
 
         "short": "IH Gauss",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 22,
         "heat": 2,
         "range": 12,
@@ -6558,6 +6714,7 @@
 
         "short": "Gauss",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 15,
         "heat": 1,
         "range": 15,
@@ -6603,6 +6760,7 @@
 
         "short": "SB Gauss",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 15,
         "heat": 1,
@@ -6648,6 +6806,7 @@
         "ammo_cost": 1000,
 
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 6,
@@ -6691,6 +6850,7 @@
         "ammo_cost": 60000,
 
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 1,
         "heat": 4,
         "range": 16,
@@ -6737,6 +6897,7 @@
         "ammo_cost": 60000,
 
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 1,
         "heat": 6,
         "range": 16,
@@ -6783,6 +6944,7 @@
         "ammo_cost": 60000,
 
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 1,
         "heat": 7,
         "range": 16,
@@ -6830,6 +6992,7 @@
 
         "short": "HVAC/2",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 20,
@@ -6875,6 +7038,7 @@
         
         "short": "HVAC/5",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "heat": 3,
         "range": 16,
@@ -6919,6 +7083,7 @@
         
         "short": "HVAC/10",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 10,
         "heat": 7,
         "range": 12,
@@ -6963,6 +7128,7 @@
 
         "short": "IAC/2 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 16,
@@ -7007,6 +7173,7 @@
         
         "short": "IAC/5 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "heat": 1,
         "range": 12,
@@ -7051,6 +7218,7 @@
         
         "short": "IAC/10 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 10,
         "heat": 3,
         "range": 10,
@@ -7094,6 +7262,7 @@
         
         "short": "IAC/20 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 20,
         "heat": 7,
         "range": 6,
@@ -7137,6 +7306,7 @@
         
         "short": "LB 2-X",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 2,
         "heat": 1,
@@ -7184,6 +7354,7 @@
         
         "short": "LB 5-X",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 5,
         "heat": 1,
@@ -7231,6 +7402,7 @@
         
         "short": "LB 20-X",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 20,
         "heat": 6,
@@ -7277,6 +7449,7 @@
         
         "short": "LB 10-X",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 10,
         "heat": 2,
@@ -7322,6 +7495,7 @@
 
         "short": "LAC/2",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 12,
@@ -7365,6 +7539,7 @@
         
         "short": "LAC/5",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "heat": 1,
         "range": 10,
@@ -7407,6 +7582,7 @@
         "ammo_cost": 20000,
 
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 20,
         "heat": 20,
         "range": 13,
@@ -7451,6 +7627,7 @@
         
         "short": "LMG",
         "type": "mg",
+        "store_type": "mg",
         "damage": 1,
         "heat": 0,
         "range": 4,
@@ -7493,6 +7670,7 @@
         
         "short": "LMG (C)",
         "type": "mg",
+        "store_type": "mg",
         "damage": 1,
         "heat": 0,
         "range": 4,
@@ -7535,6 +7713,7 @@
         
         "short": "MG (C)",
         "type": "mg",
+        "store_type": "mg",
         "damage": 2,
         "heat": 0,
         "range": 2,
@@ -7577,6 +7756,7 @@
         
         "short": "HMG",
         "type": "mg",
+        "store_type": "mg",
         "damage": 3,
         "heat": 0,
         "range": 2,
@@ -7619,6 +7799,7 @@
         
         "short": "HMG (C)",
         "type": "mg",
+        "store_type": "mg",
         "damage": 3,
         "heat": 0,
         "range": 2,
@@ -7661,6 +7842,7 @@
         
         "short": "LMG Array",
         "type": "mg",
+        "store_type": "mg",
         "damage": 1,
         "heat": 0,
         "range": 4,
@@ -7703,6 +7885,7 @@
         
         "short": "cLMG Array",
         "type": "mg",
+        "store_type": "mg",
         "damage": 1,
         "heat": 0,
         "range": 4,
@@ -7745,6 +7928,7 @@
         
         "short": "MG Array",
         "type": "mg",
+        "store_type": "mg",
         "damage": 2,
         "heat": 0,
         "range": 2,
@@ -7787,6 +7971,7 @@
         
         "short": "cMG Array",
         "type": "mg",
+        "store_type": "mg",
         "damage": 2,
         "heat": 0,
         "range": 2,
@@ -7829,6 +8014,7 @@
         
         "short": "HMG Array",
         "type": "mg",
+        "store_type": "mg",
         "damage": 3,
         "heat": 0,
         "range": 2,
@@ -7871,6 +8057,7 @@
         
         "short": "cHMG Array",
         "type": "mg",
+        "store_type": "mg",
         "damage": 3,
         "heat": 0,
         "range": 2,
@@ -7913,6 +8100,7 @@
 
         "short": "PAC/2 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 14,
@@ -7956,6 +8144,7 @@
 
         "short": "PAC/4 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 4,
         "heat": 1,
         "range": 10,
@@ -7999,6 +8188,7 @@
 
         "short": "PAC/8 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 8,
         "heat": 2,
         "range": 7,
@@ -8042,6 +8232,7 @@
         
         "short": "LB 2-X (C)",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 2,
         "heat": 1,
@@ -8089,6 +8280,7 @@
         
         "short": "LB 5-X (C)",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 5,
         "heat": 1,
@@ -8136,6 +8328,7 @@
         
         "short": "LB 20-X (C)",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 20,
         "heat": 6,
@@ -8182,6 +8375,7 @@
 
         "short": "UAC/2 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 2,
         "range": 17,
@@ -8229,6 +8423,7 @@
         
         "short": "UAC/10 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 10,
         "heat": 8,
         "range": 12,
@@ -8275,6 +8470,7 @@
         
         "short": "UAC/20 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 20,
         "heat": 16,
         "range": 7,
@@ -8322,6 +8518,7 @@
 
         "short": "APDS RISC",
         "type": "mg",
+        "store_type": "mg",
         "damage": 2,
         "heat": 1,
         "range": 2,
@@ -8355,6 +8552,7 @@
 
         "short": "H Rifle",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 9,
         "heat": 2,
         "range": 12,
@@ -8399,6 +8597,7 @@
 
         "short": "M Rifle",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 6,
         "heat": 2,
         "range": 10,
@@ -8443,6 +8642,7 @@
 
         "short": "L Rifle",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 3,
         "heat": 1,
         "range": 8,
@@ -8486,6 +8686,7 @@
 
         "short": "RAC/2",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 12,
@@ -8532,6 +8733,7 @@
         
         "short": "RAC/5",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "heat": 1,
         "range": 10,
@@ -8578,6 +8780,7 @@
 
         "short": "RAC/2 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 17,
@@ -8624,6 +8827,7 @@
         
         "short": "RAC/5 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "heat": 1,
         "range": 14,
@@ -8669,6 +8873,7 @@
         "ammo_cost": 15000,
 
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 10,
         "heat": 10,
         "range": 8,
@@ -8712,6 +8917,7 @@
         "ammo_cost": 10000,
 
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "heat": 5,
         "range": 9,
@@ -8756,6 +8962,7 @@
 
         "short": "ATM/3 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 3,
         "heat": 2,
@@ -8798,6 +9005,7 @@
 
         "short": "ATM/3 ER (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 3,
         "heat": 2,
@@ -8840,6 +9048,7 @@
 
         "short": "ATM/3 HE (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 3,
         "heat": 2,
@@ -8881,6 +9090,7 @@
         
         "short": "ATM/6 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 6,
         "heat": 4,
@@ -8923,6 +9133,7 @@
         
         "short": "ATM/6 ER (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 6,
         "heat": 4,
@@ -8965,6 +9176,7 @@
         
         "short": "ATM/6 HE (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 6,
         "heat": 4,
@@ -9006,6 +9218,7 @@
         
         "short": "ATM/9 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 9,
         "heat": 6,
@@ -9048,6 +9261,7 @@
         
         "short": "ATM/9 ER (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 9,
         "heat": 6,
@@ -9090,6 +9304,7 @@
         
         "short": "ATM/9 HE (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 9,
         "heat": 6,
@@ -9131,6 +9346,7 @@
         
         "short": "ATM/12 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 12,
         "heat": 8,
@@ -9173,6 +9389,7 @@
         
         "short": "ATM/12 ER (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 12,
         "heat": 8,
@@ -9215,6 +9432,7 @@
         
         "short": "ATM/12 HE (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 12,
         "heat": 8,
@@ -9257,6 +9475,7 @@
         
         "short": "IATM/3 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 3,
         "heat": 2,
@@ -9299,6 +9518,7 @@
         
         "short": "IATM/3 ER (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 3,
         "heat": 2,
@@ -9342,6 +9562,7 @@
         
         "short": "IATM/3 HE (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 3,
         "heat": 2,
@@ -9384,6 +9605,7 @@
         
         "short": "IATM/6 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 6,
         "heat": 4,
@@ -9427,6 +9649,7 @@
         
         "short": "IATM/6 ER (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 6,
         "heat": 4,
@@ -9470,6 +9693,7 @@
         
         "short": "IATM/6 HE (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 6,
         "heat": 4,
@@ -9512,6 +9736,7 @@
         
         "short": "IATM/9 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 9,
         "heat": 6,
@@ -9555,6 +9780,7 @@
         
         "short": "IATM/9 ER (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 9,
         "heat": 6,
@@ -9598,6 +9824,7 @@
         
         "short": "IATM/9 HE (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 9,
         "heat": 6,
@@ -9640,6 +9867,7 @@
         
         "short": "IATM/12 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 12,
         "heat": 8,
@@ -9683,6 +9911,7 @@
         
         "short": "IATM/12 ER (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 12,
         "heat": 8,
@@ -9726,6 +9955,7 @@
         
         "short": "IATM/12 HE (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 12,
         "heat": 8,
@@ -9768,6 +9998,7 @@
         
         "short": "IATM/3 I (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "damage_type": "heat",
         "n_missiles": 3,
@@ -9811,6 +10042,7 @@
         
         "short": "IATM/6 I (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "damage_type": "heat",
         "n_missiles": 6,
@@ -9855,6 +10087,7 @@
         
         "short": "IATM/9 I (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "damage_type": "heat",
         "n_missiles": 9,
@@ -9899,6 +10132,7 @@
         
         "short": "IATM/12 I (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "damage_type": "heat",
         "n_missiles": 12,
@@ -9941,6 +10175,7 @@
         "ammo_cost": 10000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 20,
         "n_missiles": 1,
         "heat": 10,
@@ -9980,6 +10215,7 @@
         "ammo_cost": 20000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 20,
         "n_missiles": 1,
         "heat": 10,
@@ -10020,6 +10256,7 @@
         "short": "NLRM-5",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 5,
         "heat": 2,
@@ -10061,6 +10298,7 @@
         "short": "NLRM-10",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 10,
         "min_range": 3,
@@ -10102,6 +10340,7 @@
         "short": "NLRM-15",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 15,
         "min_range": 4,
@@ -10143,6 +10382,7 @@
         "short": "NLRM-20",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 20,
         "heat": 6,
@@ -10184,6 +10424,7 @@
         "short": "ELRM-5",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 5,
         "heat": 3,
@@ -10225,6 +10466,7 @@
         "short": "ELRM-10",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 10,
         "min_range": 10,
@@ -10266,6 +10508,7 @@
         "short": "ELRM-15",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 15,
         "min_range": 10,
@@ -10307,6 +10550,7 @@
         "short": "ELRM-20",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 20,
         "heat": 10,
@@ -10348,6 +10592,7 @@
         "short": "ILRM-5 (C)",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 5,
         "heat": 2,
@@ -10389,6 +10634,7 @@
         "short": "ILRM-10 (C)",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 10,
         "min_range": 6,
@@ -10430,6 +10676,7 @@
         "short": "ILRM-15 (C)",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 15,
         "min_range": 6,
@@ -10471,6 +10718,7 @@
         "short": "ILRM-20 (C)",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 20,
         "heat": 6,
@@ -10513,6 +10761,7 @@
         "is_streak": true,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 5,
         "heat": 2,
@@ -10553,6 +10802,7 @@
         "is_streak": true,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 10,
         "heat": 4,
@@ -10593,6 +10843,7 @@
         "is_streak": true,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 15,
         "heat": 5,
@@ -10633,6 +10884,7 @@
         "is_streak": true,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 20,
         "heat": 6,
@@ -10671,6 +10923,7 @@
         "ammo_cost": 30000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 3,
         "heat": 2,
@@ -10711,6 +10964,7 @@
         "ammo_cost": 30000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 5,
         "heat": 3,
@@ -10751,6 +11005,7 @@
         "ammo_cost": 30000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 7,
         "heat": 4,
@@ -10791,6 +11046,7 @@
         "ammo_cost": 30000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 9,
         "heat": 5,
@@ -10831,6 +11087,7 @@
         "ammo_cost": 54000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 3,
         "heat": 2,
@@ -10870,6 +11127,7 @@
         "ammo_cost": 54000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 5,
         "heat": 3,
@@ -10910,6 +11168,7 @@
         "ammo_cost": 54000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 7,
         "heat": 4,
@@ -10949,6 +11208,7 @@
         "ammo_cost": 54000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 9,
         "heat": 5,
@@ -10988,6 +11248,7 @@
         "ammo_cost": 5000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 10,
         "heat": 4,
@@ -11028,6 +11289,7 @@
         "ammo_cost": 5000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 20,
         "heat": 6,
@@ -11068,6 +11330,7 @@
         "ammo_cost": 5000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 30,
         "heat": 10,
@@ -11108,6 +11371,7 @@
         "ammo_cost": 5000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 1,
         "n_missiles": 40,
         "heat": 12,
@@ -11148,6 +11412,7 @@
         "ammo_cost": 28000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 1,
         "heat": 1,
@@ -11189,6 +11454,7 @@
         "ammo_cost": 28000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 2,
         "heat": 2,
@@ -11230,6 +11496,7 @@
         "ammo_cost": 28000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 4,
         "heat": 5,
@@ -11271,6 +11538,7 @@
         "ammo_cost": 28000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 8,
         "heat": 10,
@@ -11313,6 +11581,7 @@
         
         "short": "Mech Mortar 1 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 1,
         "heat": 1,
@@ -11355,6 +11624,7 @@
         
         "short": "Mech Mortar 2 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 2,
         "heat": 2,
@@ -11397,6 +11667,7 @@
         
         "short": "Mech Mortar 4 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 4,
         "heat": 5,
@@ -11439,6 +11710,7 @@
         
         "short": "Mech Mortar 8 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 8,
         "heat": 10,
@@ -11480,6 +11752,7 @@
         "ammo_cost": 40000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 20,
         "n_missiles": 1,
         "heat": 10,
@@ -11521,6 +11794,7 @@
         
         "short": "SSRM-4 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 4,
         "heat": 3,
@@ -11561,6 +11835,7 @@
         
         "short": "SSRM-6 (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 6,
         "heat": 4,
@@ -11600,6 +11875,7 @@
         "short": "ISRM-2 (C)",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 2,
         "heat": 2,
@@ -11640,6 +11916,7 @@
         "short": "ISRM-4 (C)",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 4,
         "heat": 3,
@@ -11680,6 +11957,7 @@
         "short": "ISRM-6 (C)",
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 6,
         "heat": 4,
@@ -11719,6 +11997,7 @@
         "ammo_cost": 50000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 5,
         "n_missiles": 1,
         "heat": 3,
@@ -11759,6 +12038,7 @@
         "ammo_cost": 50000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 10,
         "n_missiles": 1,
         "heat": 5,
@@ -11799,6 +12079,7 @@
         "ammo_cost": 50000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 15,
         "n_missiles": 1,
         "heat": 7,
@@ -11839,6 +12120,7 @@
         "ammo_cost": 50000,
         
         "type": "missile",
+        "store_type": "missile",
         "damage": 20,
         "n_missiles": 1,
         "heat": 8,
@@ -11879,6 +12161,7 @@
         "ammo_cost": 10000,
 
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 25,
         "heat": 20,
         "range": 64,
@@ -11921,6 +12204,7 @@
         "ammo_cost": 6000,
 
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 20,
         "heat": 10,
         "range": 32,
@@ -11963,6 +12247,7 @@
         "ammo_cost": 4500,
 
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 15,
         "heat": 5,
         "range": 48,
@@ -12006,6 +12291,7 @@
 
         "short": "AC/2 C",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 16,
@@ -12050,6 +12336,7 @@
 
         "short": "AC/2 F",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 0.4,
         "n_missiles": 5,
         "heat": 1,
@@ -12096,6 +12383,7 @@
 
         "short": "AC/2 P",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 16,
@@ -12141,6 +12429,7 @@
 
         "short": "AC/2 I",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "damage_type": "heat",
         "heat": 1,
@@ -12186,6 +12475,7 @@
         
         "short": "AC/5 C",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "heat": 1,
         "range": 12,
@@ -12230,6 +12520,7 @@
         
         "short": "AC/5 F",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 1,
         "n_missiles": 5,
         "heat": 1,
@@ -12276,6 +12567,7 @@
         
         "short": "AC/5 P",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "heat": 1,
         "range": 12,
@@ -12321,6 +12613,7 @@
         
         "short": "AC/5 I",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 5,
         "damage_type": "heat",
         "heat": 1,
@@ -12367,6 +12660,7 @@
         
         "short": "AC/10 C",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 10,
         "heat": 3,
         "range": 10,
@@ -12410,6 +12704,7 @@
         
         "short": "AC/10 F",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 2,
         "n_missiles": 5,
         "heat": 3,
@@ -12455,6 +12750,7 @@
         
         "short": "AC/10 P",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 10,
         "heat": 3,
         "range": 10,
@@ -12499,6 +12795,7 @@
         
         "short": "AC/10 I",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 10,
         "damage_type": "heat",
         "heat": 3,
@@ -12543,6 +12840,7 @@
         
         "short": "AC/20 C",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 20,
         "heat": 7,
         "range": 6,
@@ -12586,6 +12884,7 @@
         
         "short": "AC/20 F",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 4,
         "n_missiles": 5,
         "heat": 7,
@@ -12631,6 +12930,7 @@
         
         "short": "AC/20 P",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 20,
         "heat": 7,
         "range": 6,
@@ -12675,6 +12975,7 @@
         
         "short": "AC/20 I",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 20,
         "damage_type": "heat",
         "heat": 7,
@@ -12719,6 +13020,7 @@
         
         "short": "LRM-5 D",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 5,
         "heat": 2,
@@ -12761,6 +13063,7 @@
         
         "short": "LRM-10 D",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 10,
         "min_range": 4,
@@ -12803,6 +13106,7 @@
         
         "short": "LRM-15 D",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 15,
         "min_range": 4,
@@ -12845,6 +13149,7 @@
         
         "short": "LRM-20 D",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 20,
         "min_range": 4,
@@ -12887,6 +13192,7 @@
         
         "short": "SRM-2 D",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 2,
         "heat": 2,
@@ -12929,6 +13235,7 @@
         
         "short": "SRM-2 I",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "damage_type": "heat",
         "n_missiles": 2,
@@ -12970,6 +13277,7 @@
         
         "short": "SRM-4 D",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 4,
         "heat": 3,
@@ -13012,6 +13320,7 @@
         
         "short": "SRM-4 I",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "damage_type": "heat",
         "n_missiles": 4,
@@ -13053,6 +13362,7 @@
         
         "short": "SRM-6 D",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 6,
         "heat": 4,
@@ -13095,6 +13405,7 @@
         
         "short": "SRM-6 I",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "damage_type": "heat",
         "n_missiles": 6,
@@ -13136,6 +13447,7 @@
         
         "short": "LRM-5 D (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 5,
         "heat": 2,
@@ -13178,6 +13490,7 @@
         
         "short": "LRM-10 D (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 10,
         "heat": 4,
@@ -13220,6 +13533,7 @@
         
         "short": "LRM-15 D (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 15,
         "heat": 5,
@@ -13262,6 +13576,7 @@
         
         "short": "LRM-20 D (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "n_missiles": 20,
         "heat": 6,
@@ -13304,6 +13619,7 @@
         
         "short": "SRM-2 D (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 2,
         "heat": 2,
@@ -13346,6 +13662,7 @@
         
         "short": "SRM-2 I (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "damage_type": "heat",
         "n_missiles": 2,
@@ -13387,6 +13704,7 @@
         
         "short": "SRM-4 D (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 4,
         "heat": 3,
@@ -13429,6 +13747,7 @@
         
         "short": "SRM-4 I (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "damage_type": "heat",
         "n_missiles": 4,
@@ -13470,6 +13789,7 @@
         
         "short": "SRM-6 D (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 3,
         "n_missiles": 6,
         "heat": 4,
@@ -13512,6 +13832,7 @@
         
         "short": "SRM-6 I (C)",
         "type": "missile",
+        "store_type": "missile",
         "damage": 2,
         "damage_type": "heat",
         "n_missiles": 6,
@@ -13553,6 +13874,7 @@
 
         "short": "PAC/2 C (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 14,
@@ -13596,6 +13918,7 @@
 
         "short": "PAC/2 F (C)",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 0.4,
         "n_missiles": 5,
         "heat": 1,
@@ -13641,6 +13964,7 @@
 
         "short": "PAC/2 P (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "heat": 1,
         "range": 14,
@@ -13685,6 +14009,7 @@
 
         "short": "PAC/2 I (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 2,
         "damage_type": "heat",
         "heat": 1,
@@ -13729,6 +14054,7 @@
 
         "short": "PAC/4 (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 4,
         "heat": 1,
         "range": 10,
@@ -13772,6 +14098,7 @@
 
         "short": "PAC/4 F (C)",
         "type": "missile",
+        "store_type": "cannon",
         "damage": 0.8,
         "n_missiles": 5,
         "heat": 1,
@@ -13817,6 +14144,7 @@
 
         "short": "PAC/4 P (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 4,
         "heat": 1,
         "range": 10,
@@ -13861,6 +14189,7 @@
 
         "short": "PAC/4 I (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 4,
         "damage_type": "heat",
         "heat": 1,
@@ -13906,6 +14235,7 @@
 
         "short": "PAC/8 C (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 8,
         "heat": 2,
         "range": 7,
@@ -13949,6 +14279,7 @@
 
         "short": "PAC/8 F (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 1.6,
         "n_missiles": 5,
         "heat": 2,
@@ -13993,6 +14324,7 @@
 
         "short": "PAC/8 P (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 8,
         "heat": 2,
         "range": 7,
@@ -14037,6 +14369,7 @@
 
         "short": "PAC/8 I (C)",
         "type": "cannon",
+        "store_type": "cannon",
         "damage": 8,
         "damage_type": "heat",
         "heat": 2,

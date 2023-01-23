@@ -56,6 +56,39 @@
                 },
 
                 {
+                    "actn": "new_list",
+                    "args": 
+                    {
+                        "name": "news_list",
+                        "persistent": "true"
+                    }
+                },
+
+                {
+                    "actn": "add_to_list",
+                    "args": 
+                    {
+                        "list": "news_list",
+                        "type": "news",
+
+                        "xfiles": "texts/news",
+                        "file": "texts/news/mw_news_stories.txt"
+                    }
+                },
+
+                {
+                    "actn": "add_to_list",
+                    "args":
+                    {
+                        "list": "news_list",
+                        "type": "news",
+
+                        "date": "last",
+                        "contents": "There are no more new stories right now"
+                    }
+                },
+
+                {
                     "actn": "set_planet",
                     "args": "Outreach"
                 },
@@ -118,6 +151,8 @@
                         "type": "crew",
 
                         "max_health": 5,
+
+                        "skill_level": ["veteran"],
 
                         "is_player": true,
                         "can_fire": false
