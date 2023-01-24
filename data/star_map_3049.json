@@ -1482,6 +1482,11 @@
             "logo": "images/houses/Logo_Pirates.png",
             "damage": [0,0.25],
 
+            "prevalent_units":
+            [
+                "Atlas Black Beard"
+            ],
+
             "base_colors":
             [
                 [85,85,85],

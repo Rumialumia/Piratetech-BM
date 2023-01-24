@@ -1,0 +1,46 @@
+{
+    "Medium AC Turret":
+    {
+        "is_turret": true,
+        
+        "unit_sprite": "turret1_7",
+        "unit_model": "no_model",
+
+        "spawn_stamp": "turret1_8",
+        "solid_death": true,
+        
+        "tons": 0,
+        "internal": 33,
+        
+        " ":
+        {
+            "cost": 0, 
+            "armor": 64,
+            "heat_sinks": 15,
+
+            "speed": 0,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/10", "ct"],
+                ["Autocannon/5", "ct"],
+                ["Autocannon/5", "ct"]
+            ],
+
+            "ammo":
+            [
+                ["Autocannon/10", "ct"],
+                ["Autocannon/10", "ct"],
+                ["Autocannon/10", "ct"],
+                ["Autocannon/10", "ct"],
+                ["Autocannon/5", "ct"],
+                ["Autocannon/5", "ct"],
+                ["Autocannon/5", "ct"],
+                ["Autocannon/5", "ct"],
+                ["Autocannon/5", "ct"],
+                ["Autocannon/5", "ct"]
+            ]
+        }
+    }
+}

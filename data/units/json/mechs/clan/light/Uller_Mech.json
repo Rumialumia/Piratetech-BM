@@ -1,0 +1,41 @@
+{
+    "Uller":
+    {
+        "clan_name": "Kit Fox",
+        
+        "unit_sprite": "light4_8",
+        "unit_model": "kitfox",
+        "tons": 30,
+        "internal": 51,
+        
+        "Prime":
+        {
+            "cost": 5368837,
+            "armor": 77,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 5-X (C)", "ra"],
+                ["ER Large Laser (C)", "la"],
+                ["Small Pulse Laser (C)", "la"],
+                ["Streak SRM-4 (C)", "ra"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-4 (C)", "ra"],
+                ["LB 5-X (C)", "ra"]
+            ],
+            "equip":
+            [
+                ["CASE", "ra"]
+            ]
+        }
+    }
+}

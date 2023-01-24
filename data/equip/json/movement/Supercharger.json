@@ -1,0 +1,13 @@
+{
+    "Supercharger":
+    {
+        "tons": 0.5,
+        "crit": 1,
+        "cost": 50000,
+        "mod_cost": -1,
+
+        "speed_boost": 2,
+        "boost_time": 4,
+        "boost_cooldown": 8
+    }
+}

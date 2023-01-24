@@ -1,0 +1,34 @@
+{
+    "Locust IIC":
+    {
+        "unit_sprite": "walker2_3",
+        "unit_model": "locust",
+        "tons": 25,
+        "internal": 43,
+        
+        " ":
+        {
+            "cost": 2044792,
+            "armor": 77,
+            "heat_sinks": 20,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Small Laser (C)", "la"],
+                ["ER Small Laser (C)", "la"],
+                ["ER Small Laser (C)", "la"],
+                ["ER Small Laser (C)", "la"],
+                ["ER Small Laser (C)", "ra"],
+                ["ER Small Laser (C)", "ra"],
+                ["ER Small Laser (C)", "ra"],
+                ["ER Small Laser (C)", "ra"],
+                ["Medium Pulse Laser (C)", "ct"]
+            ]
+        }
+    }
+}

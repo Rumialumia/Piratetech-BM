@@ -1,0 +1,13 @@
+{
+    "Polly":
+    {
+        "short": "Polly",
+        "tons": 0,
+        "crit": 1,
+        "cost": 910000,
+        "mod_cost": -1,
+        "can_be_modded": false,
+
+        "radar_range": 18
+    }
+}

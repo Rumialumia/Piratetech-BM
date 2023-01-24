@@ -1,0 +1,43 @@
+{
+    "Griffin IIC":
+    {
+        "unit_sprite": "med7_5",
+        "unit_model": "griffin",
+        "tons": 40,
+        "internal": 67,
+        
+        " ":
+        {
+            "cost": 4255510,
+            "armor": 134,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser (C)", "ct"],
+                ["ER Small Laser (C)", "h"],
+                ["LRM-5 (C)", "lt"],
+                ["LRM-5 (C)", "lt"],
+                ["LRM-5 (C)", "rt"],
+                ["LRM-5 (C)", "rt"]
+            ],
+            "ammo":
+            [
+                ["LRM-5 (C)", "lt"],
+                ["LRM-5 (C)", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

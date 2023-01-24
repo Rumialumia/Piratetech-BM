@@ -1,0 +1,12 @@
+{
+    "Beagle Probe Prototype":
+    {
+        "short": "Beagle",
+        "tons": 2,
+        "crit": 3,
+        "cost": 600000,
+        "mod_cost": 150000,
+
+        "radar_range": 16
+    }
+}

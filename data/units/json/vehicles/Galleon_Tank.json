@@ -1,0 +1,32 @@
+{
+    "APC":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_2",
+        "unit_model": "no_model",
+        
+        "tons": 10,
+        "internal": 4,
+        
+        " ":
+        {
+            "cost": 64350, 
+            "armor": 40,
+            "heat_sinks": 0,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Machinegun", "ct"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        }
+    }
+}

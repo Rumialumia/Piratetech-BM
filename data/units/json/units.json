@@ -1,1083 +1,4 @@
-{
-
-    "Light Laser Turret":
-    {
-        "is_turret": true,
-        
-        "unit_sprite": "turret1_1",
-        "unit_model": "no_model",
-
-        "spawn_stamp": "turret1_4",
-        "solid_death": true,
-        
-        "tons": 0,
-        "internal": 33,
-        
-        " ":
-        {
-            "cost": 0, 
-            "armor": 32,
-            "heat_sinks": 10,
-
-            "speed": 0,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Medium Laser", "ct"],
-                ["Medium Laser", "ct"]
-            ]
-        }
-    },
-
-    "Light LRM Turret":
-    {
-        "is_turret": true,
-        
-        "unit_sprite": "turret1_2",
-        "unit_model": "no_model",
-
-        "spawn_stamp": "turret1_4",
-        "solid_death": true,
-        
-        "tons": 0,
-        "internal": 33,
-        
-        " ":
-        {
-            "cost": 0, 
-            "armor": 32,
-            "heat_sinks": 10,
-
-            "speed": 0,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["LRM-5", "ct"],
-                ["LRM-5", "ct"]
-            ],
-
-            "ammo":
-            [
-                ["LRM-5", "ct"],
-                ["LRM-5", "ct"],
-                ["LRM-5", "ct"],
-                ["LRM-5", "ct"]
-            ]
-        }
-    },
-
-    "Light AC Turret":
-    {
-        "is_turret": true,
-        
-        "unit_sprite": "turret1_3",
-        "unit_model": "no_model",
-
-        "spawn_stamp": "turret1_4",
-        "solid_death": true,
-        
-        "tons": 0,
-        "internal": 33,
-        
-        " ":
-        {
-            "cost": 0, 
-            "armor": 32,
-            "heat_sinks": 10,
-
-            "speed": 0,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Autocannon/5", "ct"],
-                ["Autocannon/2", "ct"],
-                ["Autocannon/2", "ct"]
-            ],
-
-            "ammo":
-            [
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/2", "ct"],
-                ["Autocannon/2", "ct"],
-                ["Autocannon/2", "ct"]
-            ]
-        }
-    },
-
-    "Medium Laser Turret":
-    {
-        "is_turret": true,
-        
-        "unit_sprite": "turret1_5",
-        "unit_model": "no_model",
-
-        "spawn_stamp": "turret1_8",
-        "solid_death": true,
-        
-        "tons": 0,
-        "internal": 33,
-        
-        " ":
-        {
-            "cost": 0, 
-            "armor": 64,
-            "heat_sinks": 15,
-
-            "speed": 0,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Large Laser", "ct"],
-                ["Large Laser", "ct"]
-            ]
-        }
-    },
-
-    "Medium LRM Turret":
-    {
-        "is_turret": true,
-        
-        "unit_sprite": "turret1_6",
-        "unit_model": "no_model",
-
-        "spawn_stamp": "turret1_8",
-        "solid_death": true,
-        
-        "tons": 0,
-        "internal": 33,
-        
-        " ":
-        {
-            "cost": 0, 
-            "armor": 64,
-            "heat_sinks": 15,
-
-            "speed": 0,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["LRM-10", "ct"],
-                ["LRM-10", "ct"]
-            ],
-
-            "ammo":
-            [
-                ["LRM-10", "ct"],
-                ["LRM-10", "ct"],
-                ["LRM-10", "ct"],
-                ["LRM-10", "ct"],
-                ["LRM-10", "ct"],
-                ["LRM-10", "ct"]
-            ]
-        }
-    },
-
-    "Medium AC Turret":
-    {
-        "is_turret": true,
-        
-        "unit_sprite": "turret1_7",
-        "unit_model": "no_model",
-
-        "spawn_stamp": "turret1_8",
-        "solid_death": true,
-        
-        "tons": 0,
-        "internal": 33,
-        
-        " ":
-        {
-            "cost": 0, 
-            "armor": 64,
-            "heat_sinks": 15,
-
-            "speed": 0,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Autocannon/10", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"]
-            ],
-
-            "ammo":
-            [
-                ["Autocannon/10", "ct"],
-                ["Autocannon/10", "ct"],
-                ["Autocannon/10", "ct"],
-                ["Autocannon/10", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"]
-            ]
-        }
-    },
-
-    "PPC Turret":
-    {
-        "is_turret": true,
-        
-        "unit_sprite": "turret1_9",
-        "unit_model": "no_model",
-
-        "spawn_stamp": "turret1_12",
-        "solid_death": true,
-        
-        "tons": 0,
-        "internal": 33,
-        
-        " ":
-        {
-            "cost": 0, 
-            "armor": 128,
-            "heat_sinks": 20,
-
-            "speed": 0,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["PPC", "ct"],
-                ["PPC", "ct"]
-            ]
-        }
-    },
-
-    "Heavy LRM Turret":
-    {
-        "is_turret": true,
-        
-        "unit_sprite": "turret1_10",
-        "unit_model": "no_model",
-
-        "spawn_stamp": "turret1_12",
-        "solid_death": true,
-        
-        "tons": 0,
-        "internal": 33,
-        
-        " ":
-        {
-            "cost": 0, 
-            "armor": 128,
-            "heat_sinks": 20,
-
-            "speed": 0,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["LRM-20", "ct"],
-                ["LRM-20", "ct"]
-            ],
-
-            "ammo":
-            [
-                ["LRM-20", "ct"],
-                ["LRM-20", "ct"],
-                ["LRM-20", "ct"],
-                ["LRM-20", "ct"],
-                ["LRM-20", "ct"],
-                ["LRM-20", "ct"],
-                ["LRM-20", "ct"],
-                ["LRM-20", "ct"]
-            ]
-        }
-    },
-
-    "Heavy AC Turret":
-    {
-        "is_turret": true,
-        
-        "unit_sprite": "turret1_11",
-        "unit_model": "no_model",
-
-        "spawn_stamp": "turret1_12",
-        "solid_death": true,
-        
-        "tons": 0,
-        "internal": 33,
-        
-        " ":
-        {
-            "cost": 0, 
-            "armor": 128,
-            "heat_sinks": 20,
-
-            "speed": 0,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Autocannon/20", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"]
-            ],
-
-            "ammo":
-            [
-                ["Autocannon/20", "ct"],
-                ["Autocannon/20", "ct"],
-                ["Autocannon/20", "ct"],
-                ["Autocannon/20", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"],
-                ["Autocannon/5", "ct"]
-            ]
-        }
-    },
-
-    "Rommel Tank":
-    {
-        
-        "move_type": "tracks",
-
-        "unit_sprite": "vehicle1_8",
-        "unit_model": "no_model",
-        
-        "tons": 65,
-        "internal": 33,
-        
-        " ":
-        {
-            "cost": 2908813, 
-            "armor": 184,
-            "heat_sinks": 10,
-
-            "speed": 4,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Autocannon/20", "ct"],
-                ["LRM-5", "ct"],
-                ["Small Laser", "ct"]
-            ],
-            "ammo":
-            [
-                ["Autocannon/20", "ct"],
-                ["Autocannon/20", "ct"],
-                ["Autocannon/20", "ct"],
-                ["Autocannon/20", "ct"],
-                ["LRM-5", "ct"]
-            ]
-        }
-    },
-
-    "Drillson":
-    {
-        
-        "move_type": "hover",
-
-        "unit_sprite": "vehicle1_3",
-        "unit_model": "no_model",
-        
-        "tons": 50,
-        "internal": 27,
-        
-        " ":
-        {
-            "cost": 2819333, 
-            "armor": 112,
-            "heat_sinks": 10,
-
-            "speed": 9,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Large Laser", "ct"],
-                ["SRM-2", "ct"],
-                ["SRM-2", "ct"],
-                ["LRM-10", "ct"],
-                ["Machinegun", "ct"],
-                ["Machinegun", "ct"]
-            ],
-            "ammo":
-            [
-                ["SRM-2", "ct"],
-                ["LRM-10", "ct"],
-                ["Machinegun", "ct"]
-            ]
-        }
-    },
-
-    "Pegasus":
-    {
-        
-        "move_type": "hover",
-
-        "unit_sprite": "vehicle1_7",
-        "unit_model": "no_model",
-        
-        "tons": 35,
-        "internal": 19,
-        
-        " ":
-        {
-            "cost": 835125, 
-            "armor": 104,
-            "heat_sinks": 3,
-
-            "speed": 8,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["SRM-6", "ct"],
-                ["SRM-6", "ct"],
-                ["Medium Laser", "ct"]
-            ],
-            "ammo":
-            [
-                ["SRM-6", "ct"]
-            ]
-        }
-    },
-
-    "Skulker":
-    {
-        
-        "move_type": "tracks",
-
-        "unit_sprite": "vehicle1_4",
-        "unit_model": "no_model",
-        
-        "tons": 20,
-        "internal": 11,
-        
-        " ":
-        {
-            "cost": 179300, 
-            "armor": 64,
-            "heat_sinks": 3,
-
-            "speed": 7,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Medium Laser", "ct"]
-            ]
-        }
-    },
-
-    "Galleon":
-    {
-        
-        "move_type": "tracks",
-
-        "unit_sprite": "vehicle1_1",
-        "unit_model": "no_model",
-        
-        "tons": 30,
-        "internal": 17,
-        
-        "GAL-100":
-        {
-            "cost": 323700, 
-            "armor": 56,
-            "heat_sinks": 10,
-
-            "speed": 6,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Medium Laser", "ct"],
-                ["Small Laser", "ct"],
-                ["Small Laser", "ct"]
-            ]
-        }
-    },
-
-    "APC":
-    {
-        
-        "move_type": "tracks",
-
-        "unit_sprite": "vehicle1_2",
-        "unit_model": "no_model",
-        
-        "tons": 10,
-        "internal": 4,
-        
-        " ":
-        {
-            "cost": 64350, 
-            "armor": 40,
-            "heat_sinks": 0,
-
-            "speed": 6,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Machinegun", "ct"]
-            ],
-            "ammo":
-            [
-                ["Machinegun", "ct"]
-            ]
-        }
-    },
-
-    "Truck":
-    {
-        
-        "move_type": "tracks",
-
-        "unit_sprite": "vehicle1_5",
-        "unit_model": "no_model",
-        
-        "tons": 10,
-        "internal": 4,
-        
-        " ":
-        {
-            "cost": 15000, 
-            "armor": 10,
-            "heat_sinks": 0,
-
-            "speed": 6,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Machinegun", "ct"]
-            ],
-            "ammo":
-            [
-                ["Machinegun", "ct"]
-            ]
-        }
-    },
-
-    "Mobile HQ":
-    {
-        
-        "move_type": "tracks",
-
-        "unit_sprite": "vehicle1_6",
-        "unit_model": "no_model",
-        
-        "tons": 25,
-        "internal": 14,
-        
-        " ":
-        {
-            "cost": 392812, 
-            "armor": 40,
-            "heat_sinks": 0,
-
-            "speed": 6,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Medium Laser", "ct"]
-            ]
-        }
-    },
-
-    "Toads":
-    {
-        "clan_name": "Elementals",
-
-        
-        "move_type": "infantry",
-        
-        "unit_sprite": "infantry1_1",
-        "unit_model": "no_model",
-        "tons": -1,
-        "internal": 40,
-
-        "max_dmg_per_hit": 5,
-        "flamer_hurts": true,
-        
-        "Prime":
-        {
-            "cost": 25000000,
-            "armor": 10,
-            "heat_sinks": 20,
-
-            "speed": 3,
-            "jump": 7,
-
-            "weapons":
-            [
-                ["ER Small Laser (C)", "ra"],
-                ["ER Small Laser (C)", "ra"],
-                ["ER Small Laser (C)", "ra"],
-                ["ER Small Laser (C)", "ra"],
-                ["ER Small Laser (C)", "ra"],
-                ["Machinegun (C)", "la"],
-                ["Machinegun (C)", "la"],
-                ["Machinegun (C)", "la"],
-                ["Machinegun (C)", "la"],
-                ["Machinegun (C)", "la"],
-                ["SRM-2 (C)", "ct"],
-                ["SRM-2 (C)", "ct"],
-                ["SRM-2 (C)", "ct"],
-                ["SRM-2 (C)", "ct"],
-                ["SRM-2 (C)", "ct"]
-            ],
-            "ammo":
-            [
-                ["Machinegun (C)", "ct"]
-            ]
-        }
-    },
-
-    "Infantry":
-    {
-        "unit_sprite": "infantry1_2",
-        "unit_model": "no_model",
-        "tons": -1,
-        "internal": 5,
-
-        
-        "move_type": "infantry",
-
-        "max_dmg_per_hit": 2,
-        "flamer_hurts": true,
-                
-        "Prime":
-        {
-            "cost": 5000000,
-            "armor": 5,
-            "heat_sinks": 10,
-
-            "speed": 2,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Machinegun", "la"],
-                ["Machinegun", "la"]
-            ],
-            "ammo":
-            [
-                ["Machinegun", "ct"]
-            ]
-        }
-    },
-    
-    "Dasher":
-    {
-        "clan_name": "Fire Moth",
-        
-        "unit_sprite": "light4_8",
-        "unit_model": "fire_moth",
-        "tons": 20,
-        "internal": 33,
-        
-        "Prime":
-        {
-            "cost": 4208800,
-            "armor": 38,
-            "heat_sinks": 20,
-
-            "speed": 10,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Hand Actuator", "la"],
-                ["Hand Actuator", "ra"],
-                ["Foot Actuator", "ll"],
-                ["Foot Actuator", "rl"],
-                ["ER Medium Laser (C)", "la"],
-                ["ER Medium Laser (C)", "la"],
-                ["SRM-6 (C)", "ra"],
-                ["SRM-4 (C)", "rt"]
-            ],
-            "ammo":
-            [
-                ["SRM-6 (C)", "ra"],
-                ["SRM-4 (C)", "rt"]
-            ],
-            "equip":
-            [
-                ["MASC", "ct"],
-                ["CASE", "ra"],
-                ["CASE", "rt"]
-            ]
-        }
-    },
-
-    "Koshi":
-    {
-        "clan_name": "Mist Lynx",
-
-        "unit_sprite": "light5_6",
-        "unit_model": "mist_lynx",
-        "tons": 25,
-        "internal": 43,
-        
-        "Prime":
-        {
-            "cost": 4812760,
-            "armor": 67,
-            "heat_sinks": 20,
-
-            "speed": 7,
-            "jump": 6,
-
-            "weapons":
-            [
-                ["Hand Actuator", "la"],
-                ["Hand Actuator", "ra"],
-                ["Foot Actuator", "ll"],
-                ["Foot Actuator", "rl"],
-                ["LRM-10 (C)", "la"],
-                ["Streak SRM-4 (C)", "ra"],
-                ["Machinegun (C)", "ra"],
-                ["Machinegun (C)", "ra"]
-            ],
-            "ammo":
-            [
-                ["LRM-10 (C)", "la"],
-                ["Streak SRM-4 (C)", "ra"],
-                ["Machinegun (C)", "ra"]
-            ],
-            "equip":
-            [
-                ["Active Probe (C)", "h"],
-                ["CASE", "la"],
-                ["CASE", "ra"]
-            ]
-        }
-    },
-
-    "Locust IIC":
-    {
-        "unit_sprite": "walker2_3",
-        "unit_model": "locust",
-        "tons": 25,
-        "internal": 43,
-        
-        " ":
-        {
-            "cost": 2044792,
-            "armor": 77,
-            "heat_sinks": 20,
-
-            "speed": 8,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Foot Actuator", "ll"],
-                ["Foot Actuator", "rl"],
-                ["ER Small Laser (C)", "la"],
-                ["ER Small Laser (C)", "la"],
-                ["ER Small Laser (C)", "la"],
-                ["ER Small Laser (C)", "la"],
-                ["ER Small Laser (C)", "ra"],
-                ["ER Small Laser (C)", "ra"],
-                ["ER Small Laser (C)", "ra"],
-                ["ER Small Laser (C)", "ra"],
-                ["Medium Pulse Laser (C)", "ct"]
-            ]
-        }
-    },
-
-    "Uller":
-    {
-        "clan_name": "Kit Fox",
-        
-        "unit_sprite": "light4_8",
-        "unit_model": "kitfox",
-        "tons": 30,
-        "internal": 51,
-        
-        "Prime":
-        {
-            "cost": 5368837,
-            "armor": 77,
-            "heat_sinks": 20,
-
-            "speed": 6,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Hand Actuator", "la"],
-                ["Foot Actuator", "ll"],
-                ["Foot Actuator", "rl"],
-                ["LB 5-X (C)", "ra"],
-                ["ER Large Laser (C)", "la"],
-                ["Small Pulse Laser (C)", "la"],
-                ["Streak SRM-4 (C)", "ra"]
-            ],
-            "ammo":
-            [
-                ["Streak SRM-4 (C)", "ra"],
-                ["LB 5-X (C)", "ra"]
-            ],
-            "equip":
-            [
-                ["CASE", "ra"]
-            ]
-        }
-    },
-    
-    "Jenner IIC":
-    {
-        "unit_sprite": "walker2_7",
-        "unit_model": "jenner_iic",
-        "tons": 35,
-        "internal": 58,
-        
-        " ":
-        {
-            "cost": 7490475,
-            "armor": 77,
-            "heat_sinks": 10,
-
-            "speed": 9,
-            "jump": 8,
-
-            "weapons":
-            [
-                ["Foot Actuator", "ll"],
-                ["Foot Actuator", "rl"],
-                ["Streak SRM-4 (C)", "ct"],
-                ["SRM-6 (C)", "ra"],
-                ["SRM-6 (C)", "la"]
-            ],
-            "ammo":
-            [
-                ["Streak SRM-4 (C)", "rt"],
-                ["SRM-6 (C)", "rt"],
-                ["SRM-6 (C)", "lt"]
-            ],
-            "equip":
-            [
-                ["CASE", "rt"]
-            ]
-        }       
-    },
-                
-    "Puma":
-    {
-        "clan_name": "Adder",
-        
-        "unit_sprite": "walker3_2",
-        "unit_model": "adder",
-        "tons": 35,
-        "internal": 58,
-        
-        "Prime":
-        {
-            "cost": 7021688,
-            "armor": 115,
-            "heat_sinks": 22,
-
-            "speed": 6,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Foot Actuator", "ll"],
-                ["Foot Actuator", "rl"],
-                ["ER PPC (C)", "la"],
-                ["ER PPC (C)", "ra"],
-                ["Flamer (C)", "ct"]                
-            ],
-            "equip":
-            [
-                ["Targeting Computer", "rt"]
-            ]
-        }
-    },
-
-    "Griffin IIC":
-    {
-        "unit_sprite": "med7_5",
-        "unit_model": "griffin",
-        "tons": 40,
-        "internal": 67,
-        
-        " ":
-        {
-            "cost": 4255510,
-            "armor": 134,
-            "heat_sinks": 20,
-
-            "speed": 6,
-            "jump": 6,
-
-            "weapons":
-            [
-                ["Battlefist", "la"],
-                ["Battlefist", "ra"],
-                ["Foot Actuator", "ll"],
-                ["Foot Actuator", "rl"],
-                ["ER Large Laser (C)", "ct"],
-                ["ER Small Laser (C)", "h"],
-                ["LRM-5 (C)", "lt"],
-                ["LRM-5 (C)", "lt"],
-                ["LRM-5 (C)", "rt"],
-                ["LRM-5 (C)", "rt"]
-            ],
-            "ammo":
-            [
-                ["LRM-5 (C)", "lt"],
-                ["LRM-5 (C)", "rt"]
-            ],
-            "equip":
-            [
-                ["CASE", "lt"],
-                ["CASE", "rt"]
-            ]
-        }
-    },
-
-    "Dragonfly":
-    {
-        "clan_name": "Viper",
-
-        "unit_sprite": "med2_8",
-        "unit_model": "viper",
-        "tons": 40,
-        "internal": 67,
-        
-        "Prime":
-        {
-            "cost": 11051658,
-            "armor": 134,
-            "heat_sinks": 20,
-
-            "speed": 8,
-            "jump": 8,
-
-            "weapons":
-            [
-                ["Hand Actuator", "la"],
-                ["Hand Actuator", "ra"],
-                ["Foot Actuator", "ll"],
-                ["Foot Actuator", "rl"],
-                ["SRM-4 (C)", "la"],
-                ["Medium Pulse Laser (C)", "ra"],
-                ["Medium Pulse Laser (C)", "ra"],
-                ["Machinegun (C)", "rt"],
-                ["Machinegun (C)", "rt"],
-                ["Anti-Missile (C)", "lt"]
-            ],
-            "ammo":
-            [
-                ["SRM-4 (C)", "la"],
-                ["Machinegun (C)", "rt"],
-                ["Anti-Missile (C)", "lt"]
-            ],
-            "equip":
-            [
-                ["CASE", "la"],
-                ["CASE", "lt"],
-                ["CASE", "rt"]
-            ]
-        }
-    },
-
-    "Shadow Hawk IIC":
-    {
-        "unit_sprite": "med4_8",
-        "unit_model": "shadowhawk",
-        "tons": 45,
-        "internal": 75,
-        
-        " ":
-        {
-            "cost": 4752303,
-            "armor": 144,
-            "heat_sinks": 20,
-
-            "speed": 6,
-            "jump": 6,
-
-            "weapons":
-            [
-                ["Battlefist", "la"],
-                ["Battlefist", "ra"],
-                ["Foot Actuator", "ll"],
-                ["Foot Actuator", "rl"],
-                ["ER Medium Laser (C)", "h"],
-                ["ER Small Laser (C)", "ct"],
-                ["Medium Pulse Laser (C)", "la"],
-                ["Medium Pulse Laser (C)", "ra"],
-                ["Streak SRM-2 (C)", "lt"],
-                ["Streak SRM-2 (C)", "lt"],
-                ["Streak SRM-2 (C)", "rt"],
-                ["Streak SRM-2 (C)", "rt"]
-            ],
-            "ammo":
-            [
-                ["Streak SRM-2 (C)", "lt"],
-                ["Streak SRM-2 (C)", "rt"]
-            ],
-            "equip":
-            [
-                ["CASE", "lt"],
-                ["CASE", "rt"]
-            ]
-        }
-    },
-
-    "Fenris":
-    {
-        "clan_name": "Ice Ferret",
-
-        "unit_sprite": "med4_4",
-        "unit_model": "ice_ferret",
-        "tons": 45,
-        "internal": 75,
-        
-        "Prime":
-        {
-            "cost": 12543588,
-            "armor": 144,
-            "heat_sinks": 24,
-
-            "speed": 8,
-            "jump": 0,
-
-            "weapons":
-            [
-                ["Hand Actuator", "ra"],
-                ["Foot Actuator", "ll"],
-                ["Foot Actuator", "rl"],
-                ["ER PPC (C)", "la"],
-                ["ER Small Laser (C)", "la"],
-                ["Streak SRM-2 (C)", "ra"]
-            ],
-            "ammo":
-            [
-                ["Streak SRM-2 (C)", "ra"]
-            ],
-            "equip":
-            [
-                ["Active Probe (C)", "ct"],
-                ["CASE", "ra"]
-            ]
-        }
-    },
-
+{       
     "Hunchback IIC":
     {
         "unit_sprite": "med5_8",
@@ -1191,7 +112,7 @@
     {
         "clan_name": "Mad Dog",
         
-        "unit_sprite": "heavy1_3",
+        "unit_sprite": "walker4_2",
         "unit_model": "mad_dog",
         "tons": 60,
         "internal": 99,
@@ -1553,7 +474,7 @@
 
     "Marauder IIC":
     {
-        "unit_sprite": "walker1_5",
+        "unit_sprite": "walker4_3",
         "unit_model": "marauder_iic",
         "tons": 85,
         "internal": 130,
@@ -1998,7 +919,7 @@
             "ammo":
             [
                 ["Ultra AC/5", "lt"],
-                ["Streak SRM-2", "rt"]
+                ["SRM-2", "rt"]
             ]
         }
     },
@@ -2168,7 +1089,7 @@
             ],
             "equip":
             [
-                ["Artemis IV FCS", "ct"]
+                ["Artemis IV FCS", "lt"]
             ]
         }  
     },
@@ -4694,7 +3615,7 @@
     "Scorpion":
     {
         "unit_sprite": "walker1_8",
-        "unit_model": "no_model",
+        "unit_model": "scorpion",
         "tons": 55,
         "internal": 91,
         
@@ -5072,7 +3993,8 @@
             ],
             "ammo":
             [
-                ["LRM-10", "lt"]
+                ["LRM-10", "lt"],
+                ["SRM-4", "rt"]
             ],
             "equip":
             [
@@ -6039,8 +4961,8 @@
 
     "Goliath":
     {
-        "unit_sprite": "walker1_8",
-        "unit_model": "no_model",
+        "unit_sprite": "walker4_5",
+        "unit_model": "goliath",
         "tons": 80,
         "internal": 122,
             
@@ -6366,7 +5288,7 @@
     "Shogun":
     {
         "unit_sprite": "assault2_2",
-        "unit_model": "no_model",
+        "unit_model": "shogun",
         "tons": 85,
         "internal": 130,
         
@@ -6672,7 +5594,7 @@
     "Annihilator":
     {
         "unit_sprite": "assault3_1",
-        "unit_model": "no_model",
+        "unit_model": "annihilator",
         "tons": 100,
         "internal": 152,
             
@@ -6794,7 +5716,7 @@
 
     "Marauder II":
     {
-        "unit_sprite": "walker1_5",
+        "unit_sprite": "walker4_3",
         "unit_model": "marauder",
         "tons": 100,
         "internal": 152,
@@ -6835,8 +5757,8 @@
 
     "Imp":
     {
-        "unit_sprite": "light3_1",
-        "unit_model": "no_model",
+        "unit_sprite": "assault3_3",
+        "unit_model": "imp",
         "tons": 100,
         "internal": 152,
             
@@ -6877,7 +5799,7 @@
 
     "King Crab":
     {
-        "unit_sprite": "walker1_3",
+        "unit_sprite": "walker4_4",
         "unit_model": "kingcrab",
         "tons": 100,
         "internal": 152,
@@ -6947,8 +5869,8 @@
             "armor": 304,
             "heat_sinks": 100,
 
-            "speed": 12,
-            "jump": 0,
+            "speed": 14,
+            "jump": 14,
 
             "weapons":
             [
@@ -7007,5 +5929,51 @@
                 ["Anti-Missile", "la"]
             ]
         }       
+    },
+
+    "Atlas Black Beard":
+    {
+        "unit_sprite": "assault3_1",
+        "unit_model": "atlas_bb",
+        "tons": 100,
+        "internal": 152,
+            
+        "AS7-BB":
+        {
+            "cost": 12865356,
+            "armor": 304,
+            "heat_sinks": 16,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Cutlass", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Cannon (P)", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"], 
+                ["Medium Laser", "ctr"], 
+                ["SRM-6", "lt"],
+                ["Polly", "lt"]
+            ],
+            "ammo":
+            [
+                ["Cannon (P)", "rt"],
+                ["Cannon (P)", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"],
+                ["SRM-6", "rt"]
+            ],
+            "equip":
+            [
+                ["Polly", "lt"]
+            ]
+        }
     }
 }

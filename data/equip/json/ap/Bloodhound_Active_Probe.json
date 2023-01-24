@@ -1,0 +1,12 @@
+{
+    "Bloodhound Active Probe":
+    {
+        "short": "Bloodhound",
+        "tons": 2,
+        "crit": 3,
+        "cost": 500000,
+        "mod_cost": 125000,
+
+        "radar_range": 20
+    }
+}

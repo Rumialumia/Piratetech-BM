@@ -1,0 +1,40 @@
+{
+    "Fenris":
+    {
+        "clan_name": "Ice Ferret",
+
+        "unit_sprite": "med4_4",
+        "unit_model": "ice_ferret",
+        "tons": 45,
+        "internal": 75,
+        
+        "Prime":
+        {
+            "cost": 12543588,
+            "armor": 144,
+            "heat_sinks": 24,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "la"],
+                ["ER Small Laser (C)", "la"],
+                ["Streak SRM-2 (C)", "ra"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-2 (C)", "ra"]
+            ],
+            "equip":
+            [
+                ["Active Probe (C)", "ct"],
+                ["CASE", "ra"]
+            ]
+        }
+    }
+}

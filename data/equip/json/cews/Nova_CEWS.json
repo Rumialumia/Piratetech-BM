@@ -1,0 +1,13 @@
+{
+    "Nova CEWS (C)":
+    {
+        "short": "Nova",
+        "tons": 1.5,
+        "crit": 2,
+        "cost": 2200000,
+        "mod_cost": 550000,
+
+        "radar_range": 15,
+        "ecm_range": 3
+    }
+}

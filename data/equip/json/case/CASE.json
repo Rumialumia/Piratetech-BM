@@ -1,0 +1,11 @@
+{
+    "CASE":
+    {
+        "tons": 0.5,
+        "crit": 1,
+        "cost": 50000,
+        "mod_cost": 12500,
+
+        "ammo_exp": false
+    }
+}

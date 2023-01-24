@@ -1,0 +1,34 @@
+{
+    "Puma":
+    {
+        "clan_name": "Adder",
+        
+        "unit_sprite": "walker3_2",
+        "unit_model": "adder",
+        "tons": 35,
+        "internal": 58,
+        
+        "Prime":
+        {
+            "cost": 7021688,
+            "armor": 115,
+            "heat_sinks": 22,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "la"],
+                ["ER PPC (C)", "ra"],
+                ["Flamer (C)", "ct"]                
+            ],
+            "equip":
+            [
+                ["Targeting Computer", "rt"]
+            ]
+        }
+    }
+}

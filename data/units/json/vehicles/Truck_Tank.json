@@ -1,0 +1,32 @@
+{
+    "Truck":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_5",
+        "unit_model": "no_model",
+        
+        "tons": 10,
+        "internal": 4,
+        
+        " ":
+        {
+            "cost": 15000, 
+            "armor": 10,
+            "heat_sinks": 0,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Machinegun", "ct"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        }
+    }
+}

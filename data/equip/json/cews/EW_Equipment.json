@@ -1,0 +1,13 @@
+{
+    "Electronic Warfare Equipment":
+    {
+        "short": "EW",
+        "tons": 7.5,
+        "crit": 4,
+        "cost": 500000,
+        "mod_cost": 125000,
+
+        "radar_range": 15,
+        "ecm_range": 3
+    }
+}

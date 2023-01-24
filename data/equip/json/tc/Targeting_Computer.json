@@ -1,0 +1,46 @@
+{
+    "Targeting Computer":
+    {
+        "short": "TComp",
+        "tons": 1,
+        "crit": 1,
+        "cost": 100000,
+        "mod_cost": -1,
+
+        "to_hit_mod": 0.1,
+        "affected_weaps": 
+        [
+            "PPC", 
+            "Large Laser",
+            "Medium Laser",
+            "Small Laser",
+            "Machinegun",
+            "Autocannon/2",
+            "Autocannon/5",
+            "Autocannon/10",
+            "Autocannon/20",
+            "ER PPC", 
+            "ER Large Laser",
+            "ER Medium Laser",
+            "ER Small Laser",
+            "Large Pulse Laser",
+            "Medium Pulse Laser",
+            "Small Pulse Laser",
+            "Ultra AC/2",
+            "Ultra AC/5",
+            "Ultra AC/10",
+            "Ultra AC/20",
+            "cER PPC", 
+            "cER Large Laser",
+            "cER Medium Laser",
+            "cER Small Laser",
+            "cLarge Pulse Laser",
+            "cMedium Pulse Laser",
+            "cSmall Pulse Laser",
+            "cUltra AC/2",
+            "cUltra AC/5",
+            "cUltra AC/10",
+            "cUltra AC/20"
+        ] 
+    }
+}

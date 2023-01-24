@@ -1,0 +1,30 @@
+{
+    "Galleon":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_1",
+        "unit_model": "no_model",
+        
+        "tons": 30,
+        "internal": 17,
+        
+        "GAL-100":
+        {
+            "cost": 323700, 
+            "armor": 56,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ct"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "ct"]
+            ]
+        }
+    }
+}

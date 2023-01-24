@@ -1,0 +1,12 @@
+{
+    "Light Active Probe (C)":
+    {
+        "short": "Light Probe (C)",
+        "tons": 0.5,
+        "crit": 1,
+        "cost": 100000,
+        "mod_cost": 25000,
+
+        "radar_range": 15
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Skulker":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_4",
+        "unit_model": "no_model",
+        
+        "tons": 20,
+        "internal": 11,
+        
+        " ":
+        {
+            "cost": 179300, 
+            "armor": 64,
+            "heat_sinks": 3,
+
+            "speed": 7,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ct"]
+            ]
+        }
+    }
+}
