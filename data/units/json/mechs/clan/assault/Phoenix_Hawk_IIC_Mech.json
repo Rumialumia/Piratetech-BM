@@ -1,0 +1,46 @@
+{
+    "Phoenix Hawk IIC":
+    {
+        "unit_sprite": "heavy3_6",
+        "unit_model": "phoenixhawk",
+        "tons": 80,
+        "internal": 122,
+            
+        " ":
+        {
+            "cost": 20593139,
+            "armor": 211,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/10 (C)", "lt"],
+                ["Ultra AC/10 (C)", "rt"],
+                ["Machinegun (C)", "h"],
+                ["Machinegun (C)", "ct"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/10 (C)", "lt"],
+                ["Ultra AC/10 (C)", "lt"],
+                ["Ultra AC/10 (C)", "lt"],
+                ["Ultra AC/10 (C)", "rt"],
+                ["Ultra AC/10 (C)", "rt"],
+                ["Ultra AC/10 (C)", "rt"],
+                ["Machinegun (C)", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }       
+    }
+}

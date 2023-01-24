@@ -1,0 +1,49 @@
+{
+    "Highlander IIC":
+    {
+        "unit_sprite": "assault2_3",
+        "unit_model": "highlander_iic",
+        "tons": 90,
+        "internal": 138,
+        
+        " ":
+        {
+            "cost": 10091280,
+            "armor": 278,
+            "heat_sinks": 24,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle (C)", "ra"],
+                ["LRM-20 (C)", "rt"],
+                ["Streak SRM-6 (C)", "la"],
+                ["Streak SRM-6 (C)", "la"],
+                ["Medium Pulse Laser (C)", "lt"],
+                ["Medium Pulse Laser (C)", "lt"],
+                ["Medium Pulse Laser (C)", "lt"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle (C)", "rt"],
+                ["Gauss Rifle (C)", "rt"],
+                ["Gauss Rifle (C)", "rt"],
+                ["Streak SRM-6 (C)", "lt"],
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"]
+            ]
+        }  
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Hussar":
+    {
+        "unit_sprite": "walker2_2",
+        "unit_model": "raven",
+        "tons": 30,
+        "internal": 51,
+        
+        "HSR 200-D":
+        {
+            "cost": 2790840,
+            "armor": 27,
+            "heat_sinks": 20,
+
+            "speed": 9,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ct"]
+            ]
+        }
+    }
+}

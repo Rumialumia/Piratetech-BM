@@ -1,0 +1,139 @@
+{
+
+    "Beagle Probe Prototype":
+    {
+        "short": "Beagle",
+        "tons": 2,
+        "crit": 3,
+        "cost": 600000,
+        "mod_cost": 150000,
+
+        "radar_range": 16
+    },
+
+    "Active Probe (C)":
+    {
+        "short": "Probe (C)",
+        "tons": 1,
+        "crit": 1,
+        "cost": 400000,
+        "mod_cost": 100000,
+
+        "radar_range": 17
+    },
+
+    "Light Active Probe (C)":
+    {
+        "short": "Light Probe (C)",
+        "tons": 0.5,
+        "crit": 1,
+        "cost": 100000,
+        "mod_cost": 25000,
+
+        "radar_range": 15
+    },
+
+    "Bloodhound Active Probe":
+    {
+        "short": "Bloodhound",
+        "tons": 2,
+        "crit": 3,
+        "cost": 500000,
+        "mod_cost": 125000,
+
+        "radar_range": 20
+    },
+
+    "Electronic Warfare Equipment":
+    {
+        "short": "EW",
+        "tons": 7.5,
+        "crit": 4,
+        "cost": 500000,
+        "mod_cost": 125000,
+
+        "radar_range": 15,
+        "ecm_range": 3
+    },
+
+    "Watchdog CEWS (C)":
+    {
+        "short": "Watchdog (C)",
+        "tons": 1.5,
+        "crit": 2,
+        "cost": 1000000,
+        "mod_cost": 250000,
+
+        "radar_range": 20,
+        "ecm_range": 6
+    },
+
+    "Nova CEWS (C)":
+    {
+        "short": "Nova",
+        "tons": 1.5,
+        "crit": 2,
+        "cost": 2200000,
+        "mod_cost": 550000,
+
+        "radar_range": 15,
+        "ecm_range": 3
+    },
+
+    "Guardian ECM Prototype":
+    {
+        "short": "Guardian",
+        "tons": 1.5,
+        "crit": 2,
+        "cost": 1000000,
+        "mod_cost": 250000,
+
+        "ecm_range": 6
+    },
+
+    "ECM Suite (C)":
+    {
+        "short": "ECM (C)",
+        "tons": 1,
+        "crit": 1,
+        "cost": 400000,
+        "mod_cost": 100000,
+
+        "ecm_range": 6
+    },
+
+    "Angel ECM":
+    {
+        "short": "Angel",
+        "tons": 2,
+        "crit": 2,
+        "cost": 750000,
+        "mod_cost": 187500,
+
+        "ecm_range": 8
+    },
+
+    "Supercharger":
+    {
+        "tons": 0.5,
+        "crit": 1,
+        "cost": 50000,
+        "mod_cost": -1,
+
+        "speed_boost": 2,
+        "boost_time": 4,
+        "boost_cooldown": 8
+    },
+
+    "Polly":
+    {
+        "short": "Polly",
+        "tons": 0,
+        "crit": 1,
+        "cost": 910000,
+        "mod_cost": -1,
+        "can_be_modded": false,
+
+        "radar_range": 18
+    }
+}

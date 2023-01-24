@@ -1,0 +1,43 @@
+{
+    "Warhammer IIC":
+    {
+        "unit_sprite": "heavy1_1",
+        "unit_model": "warhammer_iic",
+        "tons": 80,
+        "internal": 122,
+            
+        " ":
+        {
+            "cost": 9183000,
+            "armor": 230,
+            "heat_sinks": 40,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "ra"],
+                ["ER PPC (C)", "la"],
+                ["SRM-6 (C)", "rt"],
+                ["Medium Pulse Laser (C)", "h"],
+                ["Medium Pulse Laser (C)", "lt"],
+                ["Medium Pulse Laser (C)", "lt"],
+                ["Medium Pulse Laser (C)", "rt"],
+                ["Medium Pulse Laser (C)", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6 (C)", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }       
+    }
+}

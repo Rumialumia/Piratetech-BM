@@ -1,0 +1,36 @@
+{
+    "Marauder IIC":
+    {
+        "unit_sprite": "walker4_3",
+        "unit_model": "marauder_iic",
+        "tons": 85,
+        "internal": 130,
+            
+        " ":
+        {
+            "cost": 9913533,
+            "armor": 221,
+            "heat_sinks": 42,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "ra"],
+                ["ER PPC (C)", "la"],
+                ["ER PPC (C)", "lt"],
+                ["Medium Pulse Laser (C)", "ra"], 
+                ["Medium Pulse Laser (C)", "la"], 
+                ["ER Small Laser (C)", "lt"], 
+                ["ER Small Laser (C)", "rt"], 
+                ["ER Small Laser (C)", "ct"], 
+                ["ER Small Laser (C)", "ct"]
+            ]
+        }       
+    }
+}

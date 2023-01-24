@@ -1,0 +1,50 @@
+{
+    "Loki":
+    {
+        "clan_name": "Hellbringer",
+        
+        "unit_sprite": "heavy2_2",
+        "unit_model": "hellbringer",
+        "tons": 65,
+        "internal": 104,
+        
+        "Prime":
+        {
+            "cost": 19074687,
+            "armor": 128,
+            "heat_sinks": 30,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "ra"],
+                ["ER PPC (C)", "la"],
+                ["ER Medium Laser (C)", "lt"],
+                ["ER Medium Laser (C)", "lt"],
+                ["ER Medium Laser (C)", "lt"],
+                ["Streak SRM-6 (C)", "rt"],
+                ["Machinegun (C)", "rt"],
+                ["Machinegun (C)", "rt"],
+                ["Anti-Missile (C)", "h"]
+            ],
+            "ammo":
+            [
+                ["Anti-Missile (C)", "ct"],
+                ["Streak SRM-6 (C)", "rt"],
+                ["Machinegun (C)", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"],
+                ["ECM Suite (C)", "lt"],
+                ["Active Probe (C)", "lt"],
+                ["Targeting Computer", "lt"]
+            ]
+        }
+    }
+}

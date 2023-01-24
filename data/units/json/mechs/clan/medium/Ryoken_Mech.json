@@ -1,0 +1,34 @@
+{
+    "Ryoken":
+    {
+        "clan_name": "Stormcrow",
+        
+        "unit_sprite": "med2_7",
+        "unit_model": "stormcrow",
+        "tons": 55,
+        "internal": 91,
+        
+        "Prime":
+        {
+            "cost": 14771112,
+            "armor": 192,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Medium Laser (C)", "h"],
+                ["ER Large Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Large Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"]
+            ]
+        }
+    }
+}

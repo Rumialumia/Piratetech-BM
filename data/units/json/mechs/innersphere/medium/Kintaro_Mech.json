@@ -1,0 +1,39 @@
+{
+    "Kintaro":
+    {
+        "unit_sprite": "heavy3_4",
+        "unit_model": "kintaro",
+        "tons": 55,
+        "internal": 91,
+        
+        "KTO-20":
+        {
+            "cost": 4981907,
+            "armor": 179,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ct"],
+                ["LRM-5", "rt"],
+                ["SRM-6", "la"],
+                ["SRM-6", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "lt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "rt"]
+            ]
+        }  
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "Masakari":
+    {
+        "clan_name": "Warhawk",
+
+        "unit_sprite": "heavy1_3",
+        "unit_model": "warhawk",
+        "tons": 85,
+        "internal": 130,
+            
+        "Prime":
+        {
+            "cost": 26425323,
+            "armor": 259,
+            "heat_sinks": 40,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "la"],
+                ["ER PPC (C)", "la"],
+                ["ER PPC (C)", "ra"],
+                ["ER PPC (C)", "ra"],
+                ["LRM-10 (C)", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-10 (C)", "la"]
+            ],
+            "equip":
+            [
+                ["CASE", "la"],
+                ["Targeting Computer", "rt"]
+            ]
+        }       
+    }
+}
