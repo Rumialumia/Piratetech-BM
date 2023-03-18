@@ -27,3 +27,6 @@ Mackie/MSK-8B
 Mackie/MSK-9H
 Mackie/MSK-9HKR
 Bellerophon
+Emperor/EMP-1A
+Emperor/EMP-5A
+Emperor/EMP-6A

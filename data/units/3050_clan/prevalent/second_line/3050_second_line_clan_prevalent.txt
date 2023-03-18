@@ -9,3 +9,4 @@ Orion IIC
 Marauder IIC
 Warhammer IIC
 Highlander IIC
+Emperor/EMP-6A-EC
