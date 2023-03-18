@@ -1,0 +1,14 @@
+Locust/LCT-3M
+Stinger/STG-5M
+Wasp/WSP-3M
+Hermes II/HER-5S
+Shadow Hawk/SHD-5M
+Hunchback/HBK-5M
+Crusader/CRD-5M
+Thunderbolt/TDR-7M
+Warhammer/WHM-7M
+Wolverine/WVR-7D
+Trebuchet/TBT-7M
+Archer/ARC-4M
+Orion/ON1-M
+Awesome/AWS-9M

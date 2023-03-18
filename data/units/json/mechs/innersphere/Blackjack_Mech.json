@@ -1,0 +1,62 @@
+{
+    "Blackjack":
+    {
+        "unit_sprite": "med7_2",
+        "unit_model": "blackjack",
+        "tons": 45,
+        "internal": 75,
+        
+        "BJ-1":
+        {
+            "cost": 3147225,
+            "armor": 136,
+            "heat_sinks": 11,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/2", "ra"],
+                ["Autocannon/2", "la"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/2", "ct"]
+            ]
+        },
+
+        "BJ-2":
+        {
+            "cost": 3534375,
+            "armor": 136,
+            "heat_sinks": 22,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "rt"],
+                ["Streak SRM-2", "rt"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "rt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "Catapult":
+    {
+        "unit_sprite": "med7_8",
+        "unit_model": "catapult",
+        "tons": 65,
+        "internal": 104,
+        
+        "CPLT-C1":
+        {
+            "cost": 5790125,
+            "armor": 160,
+            "heat_sinks": 15,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"]
+            ]
+        },
+
+        "CPLT-C4C":
+        {
+            "cost": 12053525,
+            "armor": 160,
+            "heat_sinks": 26,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-20", "ra"],
+                ["LRM-20", "la"],
+                ["Large Laser", "rt"],
+                ["Small Pulse Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "h"]
+            ]
+        }
+    }
+}

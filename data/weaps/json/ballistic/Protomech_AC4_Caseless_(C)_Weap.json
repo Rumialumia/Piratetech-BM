@@ -1,0 +1,45 @@
+{
+    "Protomech Autocannon/4 Caseless (C)":
+    {
+        "cost": 266000,
+        "mod_cost": 66500,
+        "ammo_cost": 14400,
+
+        "short": "PAC/4 (C)",
+        "type": "cannon",
+        "store_type": "cannon",
+        "damage": 4,
+        "heat": 1,
+        "range": 10,
+        "tons": 4.5,
+        "crit": 3,
+        "ammo": 40,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    }
+}

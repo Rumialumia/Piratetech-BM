@@ -1,17 +1,18 @@
 {
     "Truck":
     {
-        
         "move_type": "tracks",
 
         "unit_sprite": "vehicle1_5",
         "unit_model": "no_model",
-        
+
         "tons": 10,
         "internal": 4,
         
         " ":
         {
+            "faces_target": false,
+        
             "cost": 15000, 
             "armor": 10,
             "heat_sinks": 0,

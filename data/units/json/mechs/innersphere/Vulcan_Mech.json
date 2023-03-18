@@ -1,0 +1,62 @@
+{
+    "Vulcan":
+    {
+        "unit_sprite": "med7_1",
+        "unit_model": "vulcan",
+        "tons": 40,
+        "internal": 67,
+        
+        "VL-2T":
+        {
+            "cost": 3462900,
+            "armor": 80,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/2", "rt"],
+                ["Medium Laser", "lt"],
+                ["Flamer", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/2", "rt"],
+                ["Machinegun", "lt"]
+            ]
+        },
+
+        "VL-5M":
+        {
+            "cost": 3789100,
+            "armor": 80,
+            "heat_sinks": 22,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "lt"],
+                ["Flamer", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "lt"]
+            ]
+        }
+    }
+}

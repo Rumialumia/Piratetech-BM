@@ -6,6 +6,28 @@
     "mouse_esc": false,
     "draw_priors": false,
     
+    "actns":
+	[
+		{
+			"actn": "var",
+			"args": "mech_max = 100"
+		},
+
+		{
+			"actn": "var",
+			"args": "mech_min = 0"
+		},
+
+        {
+            "actn": "mod_frame",
+            "args":
+            {
+                "id": "true_mech_list_frame", 
+                "actn": "refresh_options"
+            }
+        }
+	],
+    
     "frames":
     [
         {
@@ -23,6 +45,211 @@
         },
 
         {
+            "dim_text": false,
+
+            "pos": [16, 70],
+            "size": [600,100],
+
+            "border": 0,
+
+            "toggles_left_right_select": true,
+            "ui":
+            [
+                {
+                    "id": "all_button",
+
+                    "type": "toggle_button",
+                    "pos": [4, 0],
+                    "size": [104, 30],
+
+                    "border_color": [255,255,0],
+                    "click_select": true,
+                    "dim_text": false,
+
+                    "value": "ALL",
+                    "text_color": [255,255,0],
+                    "text_size": 28,
+
+                    "on_select":
+                    [
+                        {
+                            "actn": "var",
+                            "args": "mech_min = 0"
+                        },
+
+                        {
+                            "actn": "var",
+                            "args": "mech_max = 100"
+                        },
+
+                        {
+                            "actn": "mod_frame",
+                            "args":
+                            {
+                                "id": "true_mech_list_frame", 
+                                "actn": "refresh_options"
+                            }
+                        }
+                    ]
+                },
+
+                
+                {
+                    "id": "light_button",
+
+                    "type": "toggle_button",
+                    "pos": [114, 0],
+                    "size": [104, 30],
+
+                    "border_color": [255,255,0],
+                    "click_select": true,
+                    "dim_text": false,
+
+                    "value": "LIGHT",
+                    "text_color": [255,255,0],
+                    "text_size": 28,
+
+                    "on_select":
+                    [
+                        {
+                            "actn": "var",
+                            "args": "mech_min = 20"
+                        },
+
+                        {
+                            "actn": "var",
+                            "args": "mech_max = 35"
+                        },
+
+                        {
+                            "actn": "mod_frame",
+                            "args":
+                            {
+                                "id": "true_mech_list_frame", 
+                                "actn": "refresh_options"
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "id": "medium_button",
+
+                    "type": "toggle_button",
+                    "pos": [224, 0],
+                    "size": [104, 30],
+                    
+                    "border_color": [255,255,0],
+                    "click_select": true,
+                    "dim_text": false,
+
+                    "value": "MEDIUM",
+                    "text_color": [255,255,0],
+                    "text_size": 28,
+
+                    "on_select":
+                    [
+                        {
+                            "actn": "var",
+                            "args": "mech_min = 40"
+                        },
+
+                        {
+                            "actn": "var",
+                            "args": "mech_max = 55"
+                        },
+
+                        {
+                            "actn": "mod_frame",
+                            "args":
+                            {
+                                "id": "true_mech_list_frame", 
+                                "actn": "refresh_options"
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "id": "heavy_button",
+
+                    "type": "toggle_button",
+                    "pos": [334, 0],
+                    "size": [104, 30],
+
+                    "border_color": [255,255,0],
+                    "click_select": true,
+                    "dim_text": false,
+
+                    "value": "HEAVY",
+                    "text_color": [255,255,0],
+                    "text_size": 28,
+
+                    "on_select":
+                    [
+                        {
+                            "actn": "var",
+                            "args": "mech_min = 60"
+                        },
+
+                        {
+                            "actn": "var",
+                            "args": "mech_max = 75"
+                        },
+
+                        {
+                            "actn": "mod_frame",
+                            "args":
+                            {
+                                "id": "true_mech_list_frame", 
+                                "actn": "refresh_options"
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "id": "assault_button",
+
+                    "type": "toggle_button",
+                    "pos": [444, 0],
+                    "size": [104, 30],
+
+                    "border_color": [255,255,0],
+                    "click_select": true,
+                    "dim_text": false,
+
+                    "value": "ASSAULT",
+                    "text_color": [255,255,0],
+                    "text_size": 28,
+
+                    "on_select":
+                    [
+                        {
+                            "actn": "var",
+                            "args": "mech_min = 80"
+                        },
+
+                        {
+                            "actn": "var",
+                            "args": "mech_max = 100"
+                        },
+
+                        {
+                            "actn": "mod_frame",
+                            "args":
+                            {
+                                "id": "true_mech_list_frame", 
+                                "actn": "refresh_options"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": "true_mech_list_frame",
             "dim_text": false,
 
             "pos": [20, 124],
@@ -43,6 +270,12 @@
                 "args": "mod_bay_mod_unit",
                 
                 "source": "player_mechs",
+                "add_if": 
+                [
+                    "and",
+                    "item:unit_stats:tons >= mech_min",
+                    "item:unit_stats:tons <= mech_max"
+                ],
 
                 "list_size": 8
             }
@@ -782,14 +1015,52 @@
 
         {
             "pos": [620, 20],
-            "size": [230, 44],
+            "size": [230, 40],
 
             "border": 0,
 
             "bg_color": [0,0,0],
 
-            "text":"{mech_list_frame:selected:item:unit_stats:name}",
-            "text_dynamic": "true"
+            "Xtext":"{mech_list_frame:selected:item:unit_stats:name}",
+            "Xtext_dynamic": "true",
+
+            "ui":
+            [
+                {
+                    "id": "rename_merc_button",
+
+                    "type": "toggle_button",
+                    "pos": [0, -4],
+                    "size": [230, 40],
+
+                    "border_color": [0,0,0],
+                    "click_select": true,
+                    "dim_text": false,
+
+                    "value": "{mech_list_frame:selected:item:unit_stats:name}",
+                    "text_color": [255,255,255],
+                    "text_align": "left",
+
+                    "selected_fill": [0,0,0],
+                    "selected_text_color": [255,255,255],
+
+                    "ignore_keys": true,
+                    "text_dynamic": true,
+
+                    "on_select":
+                    [
+                        {
+                            "actn": "var",
+                            "args": "cur_unit = mech_list_frame:selected:item"
+                        },
+
+                        {
+                            "actn": "trigger",
+                            "args": "rename_cur_unit_prompt"
+                        }
+                    ]
+                }
+            ]
         },
 
         {

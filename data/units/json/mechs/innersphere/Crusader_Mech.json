@@ -1,0 +1,113 @@
+{
+    "Crusader":
+    {
+        "unit_sprite": "heavy2_1",
+        "unit_model": "crusader",
+        "tons": 65,
+        "internal": 104,
+        
+        "CRD-3R":
+        {
+            "cost": 5686010,
+            "armor": 192,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["SRM-6", "rl"],
+                ["SRM-6", "ll"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["SRM-6", "ct"],
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "CRD-3RP":
+        {
+            "cost": 5686010,
+            "armor": 192,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["Inferno SRM-6", "rl"],
+                ["Inferno SRM-6", "ll"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["Inferno SRM-6", "ct"],
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "CRD-5M":
+        {
+            "cost": 11901560,
+            "armor": 192,
+            "heat_sinks": 26,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["Streak SRM-2", "rl"],
+                ["Streak SRM-2", "ll"],
+                ["Flamer", "ra"],
+                ["Anti-Missile", "h"],
+                ["Machinegun", "ra"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "rt"],
+                ["Streak SRM-2", "lt"],
+                ["Anti-Missile", "rt"],
+                ["Machinegun", "ra"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

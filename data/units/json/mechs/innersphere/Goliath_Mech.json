@@ -1,0 +1,72 @@
+{
+    "Goliath":
+    {
+        "unit_sprite": "walker4_5",
+        "unit_model": "goliath",
+        "tons": 80,
+        "internal": 122,
+            
+        "GOL-1H":
+        {
+            "cost": 7651200,
+            "armor": 232,
+            "heat_sinks": 17,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "la"],
+                ["Foot Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"], 
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Machinegun", "rt"], 
+                ["Machinegun", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "ct"],
+                ["LRM-10", "ct"],
+                ["Machinegun", "lt"]               
+            ]
+        },
+
+        "GOL-3M":
+        {
+            "cost": 17184000,
+            "armor": 240,
+            "heat_sinks": 17,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "la"],
+                ["Foot Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "rt"], 
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Machinegun", "ct"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "ct"],
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"],
+                ["Machinegun", "lt"],
+                ["Machinegun", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

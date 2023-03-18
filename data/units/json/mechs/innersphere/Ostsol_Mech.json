@@ -1,0 +1,62 @@
+{
+    "Ostsol":
+    {
+        "unit_sprite": "heavy3_3",
+        "unit_model": "ostol",
+        "tons": 60,
+        "internal": 99,
+        
+        "OTL-4D":
+        {
+            "cost": 5017600,
+            "armor": 144,
+            "heat_sinks": 16,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "rt"],
+                ["Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ctr"],
+                ["Medium Laser", "ctr"]
+            ]
+        },
+
+        "OTL-5M":
+        {
+            "cost": 11458560,
+            "armor": 144,
+            "heat_sinks": 32,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Pulse Laser", "rt"],
+                ["Large Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "ctr"],
+                ["Medium Pulse Laser", "ctr"],
+                ["Anti-Missile", "rt"]
+            ],
+            "ammo":
+            [
+                ["Anti-Missile", "lt"]
+            ]
+        }
+    }
+}

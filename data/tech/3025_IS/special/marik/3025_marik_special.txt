@@ -1,0 +1,14 @@
+ER PPC
+Ultra AC/2
+Ultra AC/5
+Ultra AC/10
+Ultra AC/20
+Large Pulse Laser
+Medium Pulse Laser
+Small Pulse Laser
+Light Gauss Rifle
+Gauss Rifle
+Streak SRM-2
+Streak SRM-4
+Streak SRM-6
+Laser Anti-Missile

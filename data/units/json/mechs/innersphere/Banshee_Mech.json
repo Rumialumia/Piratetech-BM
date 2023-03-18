@@ -1,0 +1,67 @@
+{
+    "Banshee":
+    {
+        "unit_sprite": "assault2_6",
+        "unit_model": "banshee",
+        "tons": 95,
+        "internal": 145,
+            
+        "BNC-3E":
+        {
+            "cost": 9522078,
+            "armor": 240,
+            "heat_sinks": 16,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"],
+                ["Autocannon/5", "lt"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "lt"]
+            ]
+        },
+
+        "BNC-5S":
+        {
+            "cost": 25429495,
+            "armor": 240,
+            "heat_sinks": 28,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "rt"],
+                ["ER PPC", "rt"],
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ltr"],
+                ["Medium Laser", "rtr"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "ra"]
+            ]
+        }
+    }
+}

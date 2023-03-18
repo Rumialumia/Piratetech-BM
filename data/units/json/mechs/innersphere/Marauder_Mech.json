@@ -1,0 +1,68 @@
+{
+    "Marauder":
+    {
+        "unit_sprite": "walker1_5",
+        "unit_model": "marauder",
+        "tons": 75,
+        "internal": 114,
+            
+        "MAD-3R":
+        {
+            "cost": 6635125,
+            "armor": 184,
+            "heat_sinks": 16,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Autocannon/5", "rt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "lt"]
+            ]
+        },
+
+        "MAD-5D":
+        {
+            "cost": 15828750,
+            "armor": 184,
+            "heat_sinks": 32,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["ER PPC", "la"],
+                ["Medium Pulse Laser", "ra"], 
+                ["Medium Pulse Laser", "la"], 
+                ["Large Pulse Laser", "rt"],
+                ["Streak SRM-2", "lt"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-2", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

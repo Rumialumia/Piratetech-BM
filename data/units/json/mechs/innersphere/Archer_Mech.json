@@ -1,0 +1,78 @@
+{
+    "Archer":
+    {
+        "unit_sprite": "assault1_2",
+        "unit_model": "archer",
+        "tons": 70,
+        "internal": 107,
+        
+        "ARC-2R":
+        {
+            "cost": 6384974,
+            "armor": 208,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"],
+                ["Medium Laser", "ctr"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "rt"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
+            ]
+        },
+
+        "ARC-4M":
+        {
+            "cost": 7352273,
+            "armor": 216,
+            "heat_sinks": 20,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"],
+                ["Medium Laser", "ctr"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "rt"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"],
+                ["CASE", "rt"],
+                ["Artemis IV FCS", "lt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

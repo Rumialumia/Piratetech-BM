@@ -1,0 +1,65 @@
+{
+    "Hatchetman":
+    {
+        "unit_sprite": "med4_8",
+        "unit_model": "hatchetman",
+        "tons": 45,
+        "internal": 75,
+        
+        "HCT-3F":
+        {
+            "cost": 3129390,
+            "armor": 104,
+            "heat_sinks": 14,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "rt"],
+                ["Hatchet", "ra"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "ct"],
+                ["Autocannon/10", "ct"]
+            ]
+        },
+
+        "HCT-5S":
+        {
+            "cost": 6146840,
+            "armor": 152,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "rt"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "la"],
+                ["Medium Pulse Laser", "lt"],
+                ["Hatchet", "ra"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

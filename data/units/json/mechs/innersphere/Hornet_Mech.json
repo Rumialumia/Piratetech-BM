@@ -1,0 +1,38 @@
+{
+    "Hornet":
+    {
+        "unit_sprite": "walker2_1",
+        "unit_model": "flea",
+        "tons": 20,
+        "internal": 33,
+        
+        "HNT-171":
+        {
+            "cost": 1441600, 
+            "armor": 63,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-5", "rt"],
+                ["Medium Laser", "ra"],
+                ["Anti-Missile", "h"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "lt"],
+                ["LRM-5", "lt"],
+                ["Anti-Missile", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

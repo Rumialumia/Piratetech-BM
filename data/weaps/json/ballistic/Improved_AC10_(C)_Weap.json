@@ -1,0 +1,45 @@
+{
+    "Improved Autocannon/20 (C)":
+    {
+        "cost": 600000,
+        "mod_cost": 150000,
+        "ammo_cost": 2500,
+        
+        "short": "IAC/20 (C)",
+        "type": "cannon",
+        "store_type": "cannon",
+        "damage": 20,
+        "heat": 7,
+        "range": 6,
+        "tons": 13,
+        "crit": 9,
+        "ammo": 5,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.02,
+        "ignore_ams": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.75, 1],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/20",
+
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1.5, 1.5],
+            
+            "fire_sound": "resources/sounds/JFX_AC20_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        }
+    }
+}

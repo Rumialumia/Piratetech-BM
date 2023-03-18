@@ -1,0 +1,68 @@
+{
+    "Zeus":
+    {
+        "unit_sprite": "assault3_2",
+        "unit_model": "zeus",
+        "tons": 80,
+        "internal": 122,
+            
+        "ZEU-6S":
+        {
+            "cost": 7617900,
+            "armor": 184,
+            "heat_sinks": 17,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Barrel Fist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "lt"],
+                ["LRM-15", "ra"],
+                ["Medium Laser", "ltr"],
+                ["Medium Laser", "ct"],
+                ["Autocannon/5", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["Autocannon/5", "la"]
+            ]
+        },
+
+        "ZEU-9S":
+        {
+            "cost": 8614200,
+            "armor": 197,
+            "heat_sinks": 34,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Barrel Fist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "la"],
+                ["ER Large Laser", "lt"],
+                ["LRM-15", "ra"],
+                ["Medium Pulse Laser", "ltr"],
+                ["Medium Pulse Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        } 
+    }
+}

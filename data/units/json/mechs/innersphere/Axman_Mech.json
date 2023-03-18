@@ -1,0 +1,42 @@
+{
+    "Axman":
+    {
+        "unit_sprite": "heavy3_4",
+        "unit_model": "quickdraw",
+        "tons": 65,
+        "internal": 104,
+        
+        "AXM-1N":
+        {
+            "cost": 11840510,
+            "armor": 197,
+            "heat_sinks": 20,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Large Pulse Laser", "la"],
+                ["Hatchet", "ra"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "lt"],
+                ["Autocannon/20", "lt"]
+
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

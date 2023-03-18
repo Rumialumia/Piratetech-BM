@@ -1,0 +1,46 @@
+{
+    "Heavy Flamer":
+    {
+        "cost": 11250,
+        "mod_cost": 2813,
+        "ammo_cost": 2000,
+        "type": "flame",
+        "store_type": "flame",
+        "damage": 4,
+        "damage_type": "heat",
+        "heat": 5,
+        "range": 3,
+        "tons": 1.5,
+        "crit": 1,
+        "ammo": 10,
+        "p_fire": 0.75,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0,
+        "ignore_ams": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 800,
+
+            "num_shots": 4,
+            "shot_gap": 0.04,
+            
+            "shot_sprite": "Flame",
+            "shot_scale": [0.75,1.5],
+            "shot_frame_rand": true,
+            "shot_sprite_blend": false,
+            "shot_hit_range": 20,
+            "shot_steady": true,
+            "sound_every_hit": false,
+            "miss_lock": false,
+            "shot_that_damages": 1,
+            
+            "hit_sprite": "fireball_explosion",
+            "hit_scale": [1, 1],
+
+            "fire_sound": "resources/sounds/JFX_Flamer_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Flamer_hit.wav"
+        }      
+    }
+}

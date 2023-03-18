@@ -1,0 +1,44 @@
+{
+    "Shogun":
+    {
+        "unit_sprite": "assault2_2",
+        "unit_model": "shogun",
+        "tons": 85,
+        "internal": 130,
+        
+        "SHG-2F":
+        {
+            "cost": 8140000,
+            "armor": 248,
+            "heat_sinks": 17,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["LRM-15", "ra"],
+                ["LRM-15", "la"],
+                ["ER PPC", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

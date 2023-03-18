@@ -1,0 +1,45 @@
+{
+    "Medium Laser (P)": 
+    {
+        "cost": 60000,
+        "mod_cost": 15000,
+        "short": "MLaser",
+        "type": "beam",
+        "store_type": "beam",
+        "damage": 4,
+        "heat": 3,
+        "range": 6,
+        "tons": 1,
+        "crit": 2,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.3,
+        "p_dmg_pilot": 0.01,
+        
+        "fx":
+        {
+            "num_shots": 2,
+            "shot_gap": 0.01,
+            "lock_on": true,
+            
+            "beam_time": 0.02,
+            "beam_colors": [[255,40,40], [255,80,80],[255,140,140]],
+            "beam_sizes": [6,4,2],
+            "beam_alpha": 192,
+            
+            "beam_line": [255,160,160],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.1,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+
+            "num_particles": 1,
+            "particle_time": 0.02,
+            "particle_sprite": "yellow_particle",
+            "particle_scale": [0.7,0.7],
+        
+            "fire_sound": "resources/sounds/JFX_MLaser.wav"
+        }
+    }
+}

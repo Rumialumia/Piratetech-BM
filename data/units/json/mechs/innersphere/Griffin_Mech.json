@@ -1,0 +1,64 @@
+{
+    "Griffin":
+    {
+        "unit_sprite": "med7_5",
+        "unit_model": "griffin",
+        "tons": 55,
+        "internal": 91,
+        
+        "GRF-1N":
+        {
+            "cost": 4957107,
+            "armor": 152,
+            "heat_sinks": 12,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["LRM-10", "rt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "rt"]
+            ]
+        },
+
+        "GRF-3M":
+        {
+            "cost": 10250744,
+            "armor": 152,
+            "heat_sinks": 28,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["LRM-20", "rt"],
+                ["Small Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "Dragon":
+    {
+        "unit_sprite": "med2_7",
+        "unit_model": "dragon",
+        "tons": 60,
+        "internal": 99,
+        
+        "DRG-1N":
+        {
+            "cost": 5036800,
+            "armor": 160,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ct"],
+                ["Autocannon/5", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ltr"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "lt"],
+                ["Autocannon/5", "rt"],
+                ["Autocannon/5", "rt"]
+            ]
+        }
+    }
+}

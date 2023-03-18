@@ -1,0 +1,75 @@
+{
+    "Trebuchet":
+    {
+        "unit_sprite": "med4_3",
+        "unit_model": "trebuchet",
+        "tons": 50,
+        "internal": 83,
+        
+        "TBT-5N":
+        {
+            "cost": 4293500,
+            "armor": 120,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"]
+            ]
+        },
+
+        "TBT-7M":
+        {
+            "cost": 9006500,
+            "armor": 120,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "la"],
+                ["SRM-2", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["SRM-2", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"],
+                ["Artemis IV FCS", "lt"],
+                ["Artemis IV FCS", "lt"],
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

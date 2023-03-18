@@ -1,0 +1,40 @@
+{
+    "Claw":
+    {
+        "cost": 0,
+        "mod_cost": -1,
+        "type": "melee",
+        "store_type": "melee",
+        "damage_per_ton": 0.14,
+        "can_be_modded": false,
+
+        "heat": 0,
+        "range": 0,
+        "tons_per_ton": 0,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.02,
+        "to_hit_mod": -0.1,
+        "fx":
+        {
+            "type": "bullet",
+
+            "num_shots": 1,
+            "lock_on": true,
+
+            "shot_time": 0.15,            
+            
+            "muzzle_sprite": "swipe",
+            "muzzle_scale": [1, 1],
+            "muzzle_offset": 0,
+            "muzzle_anim": true,
+
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1.25, 1.25],
+
+            "fire_sound": "resources/sounds/JFX_Melee.wav"
+        }
+    }
+}

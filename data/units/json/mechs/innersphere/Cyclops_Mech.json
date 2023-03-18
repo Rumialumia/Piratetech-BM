@@ -1,0 +1,104 @@
+{
+    "Cyclops":
+    {
+        "unit_sprite": "assault2_8",
+        "unit_model": "cyclops",
+        "tons": 90,
+        "internal": 138,
+            
+        "CP-10-Z":
+        {
+            "cost": 9217660,
+            "armor": 160,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"], 
+                ["LRM-10", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["SRM-4", "ct"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"], 
+                ["Autocannon/20", "rt"], 
+                ["Autocannon/20", "lt"],
+                ["Autocannon/20", "lt"], 
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"]
+            ]
+        },
+
+        "CP-10-ZP":
+        {
+            "cost": 9217660,
+            "armor": 160,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"], 
+                ["LRM-10", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Inferno SRM-4", "ct"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"], 
+                ["Autocannon/20", "rt"], 
+                ["Autocannon/20", "lt"],
+                ["Autocannon/20", "lt"], 
+                ["LRM-10", "lt"],
+                ["Inferno SRM-4", "ct"]
+            ]
+        },
+
+        "CP-11A":
+        {
+            "cost": 9274660,
+            "armor": 160,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "rt"], 
+                ["LRM-10", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "ra"], 
+                ["SRM-4", "ct"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "rt"], 
+                ["Gauss Rifle", "rt"], 
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"]
+            ]
+        }
+    }
+}

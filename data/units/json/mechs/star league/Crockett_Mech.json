@@ -1,0 +1,42 @@
+{
+    "Crockett":
+    {
+        "unit_sprite": "heavy1_2",
+        "unit_model": "victor",
+        "tons": 85,
+        "internal": 130,
+        
+        "CRK 5003-1":
+        {
+            "cost": 8418425,
+            "armor": 264,
+            "heat_sinks": 30,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "la"],
+                ["LB 10-X", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "lt"]
+            ]
+        }  
+    }
+}

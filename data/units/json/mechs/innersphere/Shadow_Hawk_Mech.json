@@ -1,0 +1,98 @@
+{
+    "Shadow Hawk":
+    {
+        "unit_sprite": "med4_8",
+        "unit_model": "shadowhawk",
+        "tons": 55,
+        "internal": 91,
+        
+        "SHD-2H":
+        {
+            "cost": 4539382,
+            "armor": 152,
+            "heat_sinks": 12,
+
+            "speed": 5,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "lt"],
+                ["LRM-5", "rt"],
+                ["SRM-2", "h"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "lt"],
+                ["LRM-5", "rt"],
+                ["SRM-2", "ct"]
+            ]
+        },
+
+        "SHD-2HP":
+        {
+            "cost": 4539382,
+            "armor": 152,
+            "heat_sinks": 12,
+
+            "speed": 5,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "lt"],
+                ["LRM-5", "rt"],
+                ["Inferno SRM-2", "h"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "lt"],
+                ["LRM-5", "rt"],
+                ["Inferno SRM-2", "ct"]
+            ]
+        },
+
+        "SHD-5M":
+        {
+            "cost": 10296857,
+            "armor": 168,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "lt"],
+                ["LRM-20", "rt"],
+                ["Streak SRM-2", "h"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "lt"],
+                ["LRM-20", "rt"],
+                ["Streak SRM-2", "ct"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

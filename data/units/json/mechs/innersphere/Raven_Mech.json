@@ -1,0 +1,41 @@
+{
+    "Raven":
+    {
+        "unit_sprite": "walker2_6",
+        "unit_model": "raven",
+        "tons": 35,
+        "internal": 58,
+        
+        "RVN-3L":
+        {
+            "cost": 5701725,
+            "armor": 81,
+            "heat_sinks": 11,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "ct"],
+                ["Guardian ECM", "lt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

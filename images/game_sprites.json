@@ -1442,6 +1442,188 @@
             "frame": {"x": 0, "y": 352, "w": 32, "h": 32},
             "n_frames": 1,
             "alpha": [255,0,255]
+        },
+
+        "rpg_default_right":
+        {
+            "frame": {"x": 960, "y": 640, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpg_default_up_right":
+        {
+            "frame": {"x": 960, "y": 640, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpg_default_down_right":
+        {
+            "frame": {"x": 960, "y": 640, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpg_default_left":
+        {
+            "frame": {"x": 960, "y": 656, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpg_default_up_left":
+        {
+            "frame": {"x": 960, "y": 656, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpg_default_down_left":
+        {
+            "frame": {"x": 960, "y": 656, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpg_default_up":
+        {
+            "frame": {"x": 960, "y": 672, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpg_default_down":
+        {
+            "frame": {"x": 960, "y": 688, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpg_damaged":
+        {
+            "frame": {"x": 960, "y": 704, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpg_destroyed":
+        {
+            "frame": {"x": 960, "y": 720, "w": 16, "h": 16},
+            "n_frames": 1,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_launcher":
+        {
+            "frame": {"x": 960, "y": 800, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_shotgun":
+        {
+            "frame": {"x": 960, "y": 816, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_arifle":
+        {
+            "frame": {"x": 960, "y": 832, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_pistol":
+        {
+            "frame": {"x": 960, "y": 848, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_lrifle":
+        {
+            "frame": {"x": 960, "y": 864, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_lpistol":
+        {
+            "frame": {"x": 960, "y": 880, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_sniper":
+        {
+            "frame": {"x": 960, "y": 896, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_inferno":
+        {
+            "frame": {"x": 960, "y": 912, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_blazer":
+        {
+            "frame": {"x": 1024, "y": 800, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_smg":
+        {
+            "frame": {"x": 1024, "y": 816, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_sword":
+        {
+            "frame": {"x": 1024, "y": 832, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_vibro":
+        {
+            "frame": {"x": 1024, "y": 848, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_knife":
+        {
+            "frame": {"x": 1024, "y": 864, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_rifle":
+        {
+            "frame": {"x": 1024, "y": 880, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_flamer":
+        {
+            "frame": {"x": 1024, "y": 896, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "rpgw_minigun":
+        {
+            "frame": {"x": 1024, "y": 912, "w": 16, "h": 16},
+            "n_frames": 4,
+            "alpha": [255,0,255]
         }
     },
 
@@ -1449,15 +1631,22 @@
     {
         "LRM":
         {
-            "frame": {"x": 0, "y": 320, "w": 32, "h": 32},
-            "n_frames": 1,
+            "frame": {"x": 0, "y": 512, "w": 32, "h": 32},
+            "n_frames": 4,
             "alpha": [255,0,255]
         },
 
         "SRM":
         {
-            "frame": {"x": 32, "y": 320, "w": 32, "h": 32},
-            "n_frames": 1,
+            "frame": {"x": 0, "y": 544, "w": 32, "h": 32},
+            "n_frames": 4,
+            "alpha": [255,0,255]
+        },
+
+        "Inferno":
+        {
+            "frame": {"x": 0, "y": 576, "w": 32, "h": 32},
+            "n_frames": 4,
             "alpha": [255,0,255]
         },
 
@@ -1512,7 +1701,7 @@
 
         "Cannon":
         {
-            "frame": {"x": 224, "y": 884, "w": 32, "h": 32},
+            "frame": {"x": 224, "y": 900, "w": 32, "h": 32},
             "n_frames": 4,
             "alpha": [255,0,255]
         }
@@ -1547,7 +1736,7 @@
         {
             "frame": {"x": 224, "y": 820, "w": 64, "h": 64},
             "n_frames": 2,
-            "frame_time": 0.5,
+            "frame_time": 0.75,
             "alpha": [255,0,255]
         },
 

@@ -1,0 +1,100 @@
+{
+    "Quickdraw":
+    {
+        "unit_sprite": "heavy3_4",
+        "unit_model": "quickdraw",
+        "tons": 60,
+        "internal": 99,
+        
+        "QKD-4G":
+        {
+            "cost": 5514560,
+            "armor": 128,
+            "heat_sinks": 13,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rtr"],
+                ["Medium Laser", "rtr"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "lt"],
+                ["SRM-4", "rt"]
+            ]
+        },
+
+        "QKD-4GP":
+        {
+            "cost": 5514560,
+            "armor": 128,
+            "heat_sinks": 13,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "lt"],
+                ["Inferno SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rtr"],
+                ["Medium Laser", "rtr"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "lt"],
+                ["Inferno SRM-4", "rt"]
+            ]
+        },
+
+        "QKD-5M":
+        {
+            "cost": 5789760,
+            "armor": 143,
+            "heat_sinks": 26,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "lt"],
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rtr"],
+                ["Medium Laser", "rtr"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "lt"],
+                ["SRM-4", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

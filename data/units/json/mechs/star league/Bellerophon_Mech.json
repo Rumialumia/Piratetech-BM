@@ -1,0 +1,34 @@
+{
+    "Bellerophon":
+    {
+        "unit_sprite": "assault2_3",
+        "unit_model": "bellerophon",
+        "tons": 100,
+        "internal": 89,
+        
+        "BEL-1X":
+        {
+            "cost": 4778400,
+            "armor": 123,
+            "heat_sinks": 14,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "ra"],
+                ["SRM-4", "ra"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "lt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "ER Medium Laser (C)": 
+    {
+        "cost": 160000,
+        "mod_cost": 40000,
+
+        "short": "ER MLaser (C)",
+        "type": "beam",
+        "store_type": "beam",
+        "damage": 7,
+        "heat": 5,
+        "range": 10,
+        "tons": 1,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[255,40,40], [255,80,80],[255,140,140]],
+            "beam_sizes": [6,4,2],
+            "beam_alpha": 192,
+
+            "beam_line": [255,160,160],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.7,0.7],
+            
+            "fire_sound": "resources/sounds/JFX_MLaser.wav"
+        }
+    }
+}

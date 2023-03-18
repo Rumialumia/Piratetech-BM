@@ -1,0 +1,32 @@
+{
+    "Wolfhound":
+    {
+        "unit_sprite": "med1_3",
+        "unit_model": "wolfhound",
+        "tons": 35,
+        "internal": 58,
+        
+        "WLF-2":
+        {
+            "cost": 3141180,
+            "armor": 120,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ctr"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "Atlas":
+    {
+        "unit_sprite": "assault3_1",
+        "unit_model": "atlas",
+        "tons": 100,
+        "internal": 152,
+            
+        "AS7-D":
+        {
+            "cost": 9626000,
+            "armor": 304,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"], 
+                ["Medium Laser", "ctr"], 
+                ["SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"],
+                ["LRM-20", "lt"],
+                ["SRM-6", "rt"]
+            ]
+        },
+
+        "AS7-DP":
+        {
+            "cost": 9626000,
+            "armor": 304,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"], 
+                ["Medium Laser", "ctr"], 
+                ["Inferno SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"],
+                ["LRM-20", "lt"],
+                ["Inferno SRM-6", "rt"]
+            ]
+        },
+
+        "AS7-K":
+        {
+            "cost": 22576000,
+            "armor": 304,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "rt"],
+                ["LRM-20", "lt"],
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["Medium Pulse Laser", "ctr"], 
+                ["Medium Pulse Laser", "ctr"], 
+                ["Anti-Missile", "la"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "rt"],
+                ["Gauss Rifle", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"],
+                ["Anti-Missile", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

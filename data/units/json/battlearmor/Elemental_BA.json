@@ -1,0 +1,49 @@
+{
+    "Toads":
+    {
+        "clan_name": "Elementals",
+
+        "move_type": "infantry",
+        
+        "unit_sprite": "infantry1_1",
+        "unit_model": "no_model",
+        "tons": -1,
+        "internal": 40,
+
+        "max_dmg_per_hit": 5,
+        "flamer_hurts": true,
+        
+        "Prime":
+        {
+            "cost": 25000000,
+            "armor": 10,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 7,
+
+            "weapons":
+            [
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["cSRM-2", "ct"],
+                ["cSRM-2", "ct"],
+                ["cSRM-2", "ct"],
+                ["cSRM-2", "ct"],
+                ["cSRM-2", "ct"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        }
+    }
+}

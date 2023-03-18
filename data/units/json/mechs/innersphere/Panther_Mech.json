@@ -1,0 +1,86 @@
+{
+    "Panther":
+    {
+        "unit_sprite": "light1_1",
+        "unit_model": "panther",
+        "tons": 35,
+        "internal": 58,
+        
+        "PNT-9R":
+        {
+            "cost": 2485710,
+            "armor": 104,
+            "heat_sinks": 13,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "ct"],
+                ["PPC", "ra"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "lt"]
+            ]
+        },
+
+        "PNT-9RP":
+        {
+            "cost": 2485710,
+            "armor": 104,
+            "heat_sinks": 13,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Inferno SRM-4", "ct"],
+                ["PPC", "ra"]
+            ],
+            "ammo":
+            [
+                ["Inferno SRM-4", "lt"]
+            ]
+        },
+
+        "PNT-10K":
+        {
+            "cost": 2916360,
+            "armor": 104,
+            "heat_sinks": 13,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "ct"],
+                ["ER PPC", "ra"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "ct"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

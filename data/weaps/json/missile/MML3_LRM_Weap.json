@@ -1,0 +1,42 @@
+{
+    "MML-3 LRM":
+    {
+        "cost": 45000,
+        "mod_cost": 11250,
+        "ammo_cost": 30000,
+        
+        "type": "missile",
+        "store_type": "missile",
+        "damage": 1,
+        "n_missiles": 3,
+        "heat": 2,
+        "range": 14,
+        "min_range": 6,
+        "tons": 1.5,
+        "crit": 2,
+        "ammo": 40,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.01,
+        "p_dmg_pilot": 0,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 400,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "LRM",
+            "shot_copies": 3,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "explosion",
+            "hit_scale": [0.5, 0.5],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        }
+    }
+}

@@ -1,12 +1,12 @@
 {
-    "Medium AC Turret":
+    "Heavy AC Turret":
     {
         "is_turret": true,
         
-        "unit_sprite": "turret1_7",
+        "unit_sprite": "turret1_11",
         "unit_model": "no_model",
 
-        "spawn_stamp": "turret1_8",
+        "spawn_stamp": "turret1_12",
         "solid_death": true,
         
         "tons": 0,
@@ -15,25 +15,25 @@
         " ":
         {
             "cost": 0, 
-            "armor": 64,
-            "heat_sinks": 15,
+            "armor": 128,
+            "heat_sinks": 20,
 
             "speed": 0,
             "jump": 0,
 
             "weapons":
             [
-                ["Autocannon/10", "ct"],
+                ["Autocannon/20", "ct"],
                 ["Autocannon/5", "ct"],
                 ["Autocannon/5", "ct"]
             ],
 
             "ammo":
             [
-                ["Autocannon/10", "ct"],
-                ["Autocannon/10", "ct"],
-                ["Autocannon/10", "ct"],
-                ["Autocannon/10", "ct"],
+                ["Autocannon/20", "ct"],
+                ["Autocannon/20", "ct"],
+                ["Autocannon/20", "ct"],
+                ["Autocannon/20", "ct"],
                 ["Autocannon/5", "ct"],
                 ["Autocannon/5", "ct"],
                 ["Autocannon/5", "ct"],

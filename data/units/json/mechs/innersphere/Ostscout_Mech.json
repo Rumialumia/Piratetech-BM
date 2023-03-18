@@ -1,0 +1,28 @@
+{
+    "Ostscout":
+    {
+        "unit_sprite": "light2_6",
+        "unit_model": "ostscout",
+        "tons": 35,
+        "internal": 58,
+        
+        "OTT-7J":
+        {
+            "cost": 3416760,
+            "armor": 72,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 8,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ct"]
+            ]
+        }
+    }
+}

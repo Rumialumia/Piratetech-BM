@@ -1,0 +1,47 @@
+{
+    "Annihilator":
+    {
+        "unit_sprite": "assault3_1",
+        "unit_model": "annihilator",
+        "tons": 100,
+        "internal": 152,
+            
+        "ANH-2A":
+        {
+            "cost": 9732667,
+            "armor": 200,
+            "heat_sinks": 17,
+
+            "speed": 2,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["LB 10-X", "la"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "lt"],
+                ["Medium Pulse Laser", "la"], 
+                ["Medium Pulse Laser", "ra"], 
+                ["Medium Pulse Laser", "ct"], 
+                ["Medium Pulse Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

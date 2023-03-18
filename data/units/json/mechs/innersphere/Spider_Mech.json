@@ -1,0 +1,49 @@
+{
+    "Spider":
+    {
+        "unit_sprite": "light2_7",
+        "unit_model": "spider",
+        "tons": 30,
+        "internal": 51,
+        
+        "SDR-5V":
+        {
+            "cost": 2984540,
+            "armor": 56,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 8,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ct"]
+            ]
+        },
+
+        "SDR-7M":
+        {
+            "cost": 3115840,
+            "armor": 54,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 8,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Pulse Laser", "ct"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "Enhanced LRM-10":
+    {
+        "cost": 125000,
+        "mod_cost": 31250,
+        "ammo_cost": 31000,
+        "short": "NLRM-10",
+        
+        "type": "missile",
+        "store_type": "missile",
+        "damage": 1,
+        "n_missiles": 10,
+        "min_range": 3,
+        "heat": 4,
+        "range": 14,
+        "tons": 6,
+        "crit": 4,
+        "ammo": 12,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.01,
+        "p_dmg_pilot": 0,
+        "to_hit_mod": 0.1,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 400,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "LRM",
+            "shot_copies": 10,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "explosion",
+            "hit_scale": [0.5, 0.5],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "Hunchback":
+    {
+        "unit_sprite": "med7_4",
+        "unit_model": "hunchback",
+        "tons": 50,
+        "internal": 83,
+        
+        "HBK-4G":
+        {
+            "cost": 3467875,
+            "armor": 160,
+            "heat_sinks": 13,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "lt"],
+                ["Autocannon/20", "lt"]
+            ]
+        },
+
+        "HBK-5M":
+        {
+            "cost": 3643000,
+            "armor": 160,
+            "heat_sinks": 26,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Pulse Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

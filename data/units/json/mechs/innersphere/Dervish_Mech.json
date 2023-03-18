@@ -1,0 +1,107 @@
+{
+    "Dervish":
+    {
+        "unit_sprite": "med4_7",
+        "unit_model": "dervish",
+        "tons": 55,
+        "internal": 91,
+        
+        "DV-6M":
+        {
+            "cost": 4989967,
+            "armor": 120,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["SRM-2", "la"],
+                ["SRM-2", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["SRM-2", "ra"],
+                ["SRM-2", "la"]
+            ]
+        },
+
+        "DV-6MP":
+        {
+            "cost": 4989967,
+            "armor": 120,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Inferno SRM-2", "la"],
+                ["Inferno SRM-2", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Inferno SRM-2", "ra"],
+                ["Inferno SRM-2", "la"]
+            ]
+        },
+
+        "DV-7D":
+        {
+            "cost": 5571217,
+            "armor": 143,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Streak SRM-2", "la"],
+                ["Streak SRM-2", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Streak SRM-2", "ra"],
+                ["Streak SRM-2", "la"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "Firestarter":
+    {
+        "unit_sprite": "light5_5",
+        "unit_model": "firestarter",
+        "tons": 35,
+        "internal": 58,
+        
+        "FS9-H":
+        {
+            "cost": 3046950,
+            "armor": 88,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Flamer", "ra"],
+                ["Flamer", "ct"],
+                ["Flamer", "la"],
+                ["Flamer", "ctr"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Machinegun", "rt"],
+                ["Machinegun", "lt"]
+            ],
+            "ammo": 
+            [
+                ["Machinegun", "rt"]
+            ]
+        },
+
+        "FS9-S":
+        {
+            "cost": 3511688,
+            "armor": 88,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Flamer", "ra"],
+                ["Flamer", "ct"],
+                ["Flamer", "la"],
+                ["Flamer", "ctr"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "rt"],
+                ["Anti-Missile", "lt"]
+            ],
+            "ammo": 
+            [
+                ["Anti-Missile", "rt"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "lt"]
+            ]
+        }
+    }
+}

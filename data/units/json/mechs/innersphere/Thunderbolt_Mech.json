@@ -1,0 +1,113 @@
+{
+    "Thunderbolt":
+    {
+        "unit_sprite": "heavy2_4",
+        "unit_model": "thunderbolt",
+        "tons": 65,
+        "internal": 104,
+        
+        "TDR-5S":
+        {
+            "cost": 5413760,
+            "armor": 208,
+            "heat_sinks": 15,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["LRM-15", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["SRM-2", "rt"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "ct"],
+                ["LRM-15", "ct"],
+                ["SRM-2", "rt"],
+                ["Machinegun", "la"]
+            ]
+        },
+
+        "TDR-5SP":
+        {
+            "cost": 5413760,
+            "armor": 208,
+            "heat_sinks": 15,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["LRM-15", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Inferno SRM-2", "rt"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "ct"],
+                ["LRM-15", "ct"],
+                ["Inferno SRM-2", "rt"],
+                ["Machinegun", "la"]
+            ]
+        },
+
+        "TDR-7M":
+        {
+            "cost": 6093560,
+            "armor": 206,
+            "heat_sinks": 30,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["LRM-15", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Streak SRM-2", "rt"],
+                ["Machinegun", "la"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "lt"],
+                ["LRM-15", "lt"],
+                ["Streak SRM-2", "rt"],
+                ["Machinegun", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "Scorpion":
+    {
+        "unit_sprite": "walker1_8",
+        "unit_model": "scorpion",
+        "tons": 55,
+        "internal": 91,
+        
+        "SCP-1N":
+        {
+            "cost": 5201800,
+            "armor": 112,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "la"],
+                ["Foot Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"],
+                ["SRM-6", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "lt"]
+            ]
+        },
+
+        "SCP-1NP":
+        {
+            "cost": 5201800,
+            "armor": 112,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "la"],
+                ["Foot Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"],
+                ["Inferno SRM-6", "rt"]
+            ],
+            "ammo":
+            [
+                ["Inferno SRM-6", "lt"]
+            ]
+        },
+
+        "SCP-10":
+        {
+            "cost": 5449800,
+            "armor": 112,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "la"],
+                ["Foot Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "rt"],
+                ["SRM-6", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "lt"]
+            ]
+        }
+    }
+}

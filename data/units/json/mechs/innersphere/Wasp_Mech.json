@@ -1,0 +1,85 @@
+{
+    "Wasp":
+    {
+        "unit_sprite": "light2_2",
+        "unit_model": "wasp",
+        "tons": 20,
+        "internal": 33,
+        
+        "WSP-1A":
+        {
+            "cost": 1646640,
+            "armor": 48,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["SRM-2", "ll"]
+            ],
+            "ammo":
+            [
+                ["SRM-2", "lt"]
+            ]
+        },
+
+        "WSP-1AP":
+        {
+            "cost": 1646640,
+            "armor": 48,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Inferno SRM-2", "ll"]
+            ],
+            "ammo":
+            [
+                ["Inferno SRM-2", "lt"]
+            ]
+        },
+
+        "WSP-3M":
+        {
+            "cost": 1783440,
+            "armor": 45,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Pulse Laser", "ra"],
+                ["SRM-2", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-2", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}
