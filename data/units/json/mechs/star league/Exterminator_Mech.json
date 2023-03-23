@@ -1,0 +1,39 @@
+{
+    "Exterminator":
+    {
+        "unit_sprite": "heavy3_2",
+        "unit_model": "thug",
+        "tons": 60,
+        "internal": 99,
+        
+        "EXT-4D":
+        {
+            "cost": 15852622,
+            "armor": 168,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "h"],
+                ["Anti-Missile", "rt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "ct"],
+                ["Anti-Missile", "rt"]
+            ]
+        }  
+    }
+}

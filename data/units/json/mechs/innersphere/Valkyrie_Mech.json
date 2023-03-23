@@ -1,0 +1,62 @@
+{
+    "Valkyrie":
+    {
+        "unit_sprite": "light1_5",
+        "unit_model": "valkyrie",
+        "tons": 30,
+        "internal": 51,
+        
+        "VLK-QA":
+        {
+            "cost": 2205320,
+            "armor": 96,
+            "heat_sinks": 11,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo": 
+            [
+                ["LRM-10", "rt"]
+            ]
+        },
+
+        "VLK-QD":
+        {
+            "cost": 2587520,
+            "armor": 96,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "lt"],
+                ["Medium Pulse Laser", "ra"]
+            ],
+            "ammo": 
+            [
+                ["LRM-10", "rt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "ct"],
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "Gauss Rifle (C)":
+    {
+        "cost": 600000,
+        "mod_cost": 150000,
+        "ammo_cost": 40000,
+
+        "short": "Gauss (C)",
+        "type": "cannon",
+        "store_type": "cannon",
+        "damage": 15,
+        "heat": 1,
+        "range": 15,
+        "min_range": 2,
+        "tons": 12,
+        "crit": 6,
+        "ammo": 8,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.02,
+        "ignore_ams": true,
+        "explodes_on_dmg": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1800,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [1,2.25],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Gauss",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1.5, 1.5],
+            
+            "fire_sound": "resources/sounds/JFX_Gauss_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    }
+}

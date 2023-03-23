@@ -1,0 +1,34 @@
+Mercury
+Thorn
+Mongoose
+Hermes
+Hussar
+Ostscout
+Sentinel
+Wyvern
+Crab
+Kintaro
+Champion
+Lancelot
+Exterminator
+Bombardier
+Guillotine
+Flashman
+Black Knight
+Thug
+Crockett
+Highlander
+King Crab
+Mackie/MSK-5S
+Mackie/MSK-6S
+Mackie/MSK-7A
+Mackie/MSK-8B
+Mackie/MSK-9H
+Mackie/MSK-9HKR
+Bellerophon
+Emperor/EMP-1A
+Emperor/EMP-5A
+Emperor/EMP-6A
+Banshee/BNC-1E
+Banshee/BNC-3E
+Banshee/BNC-3M

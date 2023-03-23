@@ -1,0 +1,62 @@
+{
+    "Locust":
+    {
+        "unit_sprite": "walker2_1",
+        "unit_model": "locust",
+        "tons": 20,
+        "internal": 33,
+        
+        "LCT-1V":
+        {
+            "cost": 1512400, 
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ct"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "LCT-3M":
+        {
+            "cost": 1788400,
+            "armor": 53,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "la"],
+                ["Small Laser", "la"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Anti-Missile", "la"]
+            ],
+            "ammo":
+            [
+                ["Anti-Missile", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "Vulture":
+    {
+        "clan_name": "Mad Dog",
+        
+        "unit_sprite": "walker4_2",
+        "unit_model": "mad_dog",
+        "tons": 60,
+        "internal": 99,
+        
+        "Prime":
+        {
+            "cost": 15292000,
+            "armor": 163,
+            "heat_sinks": 24,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Pulse Laser (C)", "la"],
+                ["Large Pulse Laser (C)", "ra"],
+                ["Medium Pulse Laser (C)", "la"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "rt"]
+            ],
+            "ammo":
+            [
+                ["LRM-20 (C)", "lt"],
+                ["LRM-20 (C)", "rt"]                
+            ]
+        }
+    }
+}

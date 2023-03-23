@@ -1,0 +1,46 @@
+{
+    "Protomech Autocannon/8 (C)":
+    {
+        "cost": 175000,
+        "mod_cost": 43750,
+        "ammo_cost": 12600,
+
+        "short": "PAC/8 (C)",
+        "type": "cannon",
+        "store_type": "cannon",
+        "damage": 8,
+        "heat": 2,
+        "range": 7,
+        "tons": 5.5,
+        "crit": 4,
+        "ammo": 10,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "ignore_ams": true,
+        "recharge": 0.75,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+            
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/2",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC2_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    }
+}

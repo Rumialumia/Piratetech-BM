@@ -1,0 +1,38 @@
+{
+    "Jenner IIC":
+    {
+        "unit_sprite": "walker2_7",
+        "unit_model": "jenner_iic",
+        "tons": 35,
+        "internal": 58,
+        
+        " ":
+        {
+            "cost": 7490475,
+            "armor": 77,
+            "heat_sinks": 10,
+
+            "speed": 9,
+            "jump": 8,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Streak SRM-4 (C)", "ct"],
+                ["SRM-6 (C)", "ra"],
+                ["SRM-6 (C)", "la"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-4 (C)", "rt"],
+                ["SRM-6 (C)", "rt"],
+                ["SRM-6 (C)", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }       
+    }
+}

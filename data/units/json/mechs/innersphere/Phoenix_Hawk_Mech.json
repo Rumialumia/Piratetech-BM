@@ -1,0 +1,66 @@
+{
+    "Phoenix Hawk":
+    {
+        "unit_sprite": "med6_5",
+        "unit_model": "phoenixhawk",
+        "tons": 45,
+        "internal": 75,
+        
+        "PXH-1":
+        {
+            "cost": 4067540,
+            "armor": 128,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "PXH-3M":
+        {
+            "cost": 8458140,
+            "armor": 128,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "la"],
+                ["Machinegun", "la"],
+                ["Anti-Missile", "ra"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "lt"],
+                ["Anti-Missile", "rt"],
+                ["Anti-Missile", "rt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "Mauler":
+    {
+        "unit_sprite": "assault3_4",
+        "unit_model": "mauler",
+        "tons": 90,
+        "internal": 138,
+            
+        "MAL-1R":
+        {
+            "cost": 18399600,
+            "armor": 206,
+            "heat_sinks": 22,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ra"],
+                ["ER Large Laser", "la"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["Autocannon/2", "rt"],
+                ["Autocannon/2", "rt"],
+                ["Autocannon/2", "lt"],
+                ["Autocannon/2", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "rt"],
+                ["LRM-15", "rt"],
+                ["LRM-15", "lt"],
+                ["LRM-15", "lt"],
+                ["Autocannon/2", "rt"],
+                ["Autocannon/2", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

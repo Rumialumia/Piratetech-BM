@@ -1,0 +1,41 @@
+{
+    "Imp":
+    {
+        "unit_sprite": "assault3_3",
+        "unit_model": "imp",
+        "tons": 100,
+        "internal": 152,
+            
+        "IMP-3E":
+        {
+            "cost": 22330000,
+            "armor": 288,
+            "heat_sinks": 30,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "ra"],
+                ["ER PPC", "rt"],
+                ["ER PPC", "lt"],
+                ["LRM-15", "ra"],
+                ["Large Pulse Laser", "la"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-15", "lt"],
+                ["LRM-15", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,562 @@
+{
+    "Banshee":
+    {
+        "unit_sprite": "assault2_6",
+        "unit_model": "banshee",
+        "tons": 95,
+        "internal": 145,
+           
+        "BNC-1E":
+        {
+            "cost": 8605253,
+            "armor": 241,
+            "heat_sinks": 16,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"],
+                ["Autocannon/5", "lt"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "lt"],
+                ["Autocannon/5", "lt"]
+            ]
+        },
+
+        "BNC-3E":
+        {
+            "cost": 9522078,
+            "armor": 240,
+            "heat_sinks": 16,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"],
+                ["Autocannon/5", "lt"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "lt"]
+            ]
+        },
+
+        "BNC-3M":
+        {
+            "cost": 9824327,
+            "armor": 240,
+            "heat_sinks": 16,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"],
+                ["PPC", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Small Laser", "h"]
+            ]
+        },
+
+        "BNC-3Q":
+        {
+            "cost": 9574727,
+            "armor": 240,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "rt"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "lt"]
+            ]
+        },
+
+        "BNC-3S":
+        {
+            "cost": 8870745,
+            "armor": 240,
+            "heat_sinks": 21,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "la"],
+                ["PPC", "ra"],
+                ["Autocannon/10", "lt"],
+                ["SRM-6", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "rt"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "lt"],
+                ["Autocannon/10", "lt"],
+                ["SRM-6", "rt"]
+            ]
+        },
+
+        "BNC-RB":
+        {
+            "cost": 8413665,
+            "armor": 240,
+            "heat_sinks": 21,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hatchet", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "la"],
+                ["Autocannon/10", "lt"],
+                ["LRM-10", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "rt"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "lt"],
+                ["Autocannon/10", "lt"],
+                ["LRM-10", "rt"]
+            ]
+        },
+
+        "BNC-3MC":
+        {
+            "cost": 9672227,
+            "armor": 240,
+            "heat_sinks": 11,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"],
+                ["Autocannon/10", "lt"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "lt"],
+                ["Autocannon/10", "lt"]
+            ]
+        },
+
+        "BNC-5S":
+        {
+            "cost": 25429495,
+            "armor": 240,
+            "heat_sinks": 28,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "rt"],
+                ["ER PPC", "rt"],
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ltr"],
+                ["Medium Laser", "rtr"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "ra"]
+            ]
+        },
+
+        "BNC-SY":
+        {
+            "cost": 25440415,
+            "armor": 240,
+            "heat_sinks": 26,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "rt"],
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ltr"],
+                ["Medium Laser", "rtr"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "ra"]
+            ]
+        },
+
+        "BNC-VG":
+        {
+            "cost": 25977640,
+            "armor": 240,
+            "heat_sinks": 28,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "la"],
+                ["ER PPC", "rt"],
+                ["LB 10-X", "lt"],
+                ["SRM-4", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "lt"],
+                ["SRM-4", "ra"]
+            ]
+        },
+
+        "BNC-6S":
+        {
+            "cost": 20787878,
+            "armor": 232,
+            "heat_sinks": 20,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Heavy Gauss Rifle", "lt"],
+                ["LB 10-X", "rt"],
+                ["Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Heavy Gauss Rifle", "ll"],
+                ["Heavy Gauss Rifle", "ll"],
+                ["Heavy Gauss Rifle", "rl"],
+                ["Heavy Gauss Rifle", "rl"],
+                ["Heavy Gauss Rifle", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        },
+
+        "BNC-7S":
+        {
+            "cost": 20788170,
+            "armor": 248,
+            "heat_sinks": 28,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "la"],
+                ["ER Medium Laser", "ra"],
+                ["ER Medium Laser", "ra"],
+                ["ER Medium Laser", "lt"],
+                ["ER Medium Laser", "rt"],
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "rt"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "ct"],
+                ["Gauss Rifle", "ct"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        },
+
+        "BNC-8S":
+        {
+            "cost": 29668015,
+            "armor": 288,
+            "heat_sinks": 26,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hatchet", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SN PPC", "ra"],
+                ["ER Medium Laser", "ra"],
+                ["ER Large Laser", "rt"],
+                ["ER Medium Laser", "rt"],
+                ["ER Small Laser", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "rt"],
+                ["Small Laser", "h"],
+                ["LB 10-X", "lt"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["Guardian ECM", "rt"]
+            ]
+        },
+
+        "BNC-9S":
+        {
+            "cost": 17221620,
+            "armor": 288,
+            "heat_sinks": 28,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Heavy PPC", "la"],
+                ["Light PPC", "la"],
+                ["ER Medium Laser", "ra"],
+                ["ER Medium Laser", "ra"],
+                ["Medium Laser", "lt"],
+                ["ER Medium Laser", "hd"],
+                ["Gauss Rifle", "lt"],
+                ["SRM-6", "rt"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "ll"],
+                ["Gauss Rifle", "ll"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["Targeting Computer", "rt"]
+            ]
+        },
+
+        "BNC-3Mr":
+        {
+            "cost": 10534127,
+            "armor": 240,
+            "heat_sinks": 32,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "lt"],
+                ["ER PPC", "rt"],
+                ["ER Medium Laser", "lt"],
+                ["ER Medium Laser", "rt"],
+                ["Small Laser", "h"]
+            ]
+        },
+
+        "BNC-11X":
+        {
+            "cost": 27727278,
+            "armor": 358,
+            "heat_sinks": 28,
+
+            "speed": 2,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Silver Bullet Gauss Rifle", "lt"],
+                ["Bombast Laser", "rt"],
+                ["Bombast Laser", "rt"],
+                ["ER Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Silver Bullet Gauss Rifle", "lt"]
+            ]
+        },
+
+        "BNC-9S2":
+        {
+            "cost": 17929470,
+            "armor": 288,
+            "heat_sinks": 28,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "lt"],
+                ["Heavy PPC", "la"],
+                ["Light PPC", "la"],
+                ["Light PPC", "ra"],
+                ["ER Small Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "lt"],
+                ["Gauss Rifle", "lt"],
+                ["Gauss Rifle", "ll"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["Targeting Computer", "rt"]
+            ]
+        },
+
+        "BNC-12S":
+        {
+            "cost": 26158795,
+            "armor": 288,
+            "heat_sinks": 28,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "lt"],
+                ["ER PPC", "la"],
+                ["ER PPC", "rt"],
+                ["SRM-6", "rt"],
+                ["ER Medium Laser (C)", "rt"],
+                ["ER Medium Laser (C)", "rt"],
+                ["ER Medium Laser (C)", "rt"],
+                ["ER Medium Laser (C)", "rt"],
+                ["ER Small Laser (C)", "ct"],
+                ["ER Small Laser (C)", "h"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "lt"],
+                ["Gauss Rifle", "ll"],
+                ["Gauss Rifle", "ll"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

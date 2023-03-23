@@ -1,0 +1,37 @@
+{
+    "Advanced Point Defense System (RISC)":
+    {
+        "cost": 500000,
+        "mod_cost": 125000,
+        "ammo_cost": 5000,
+        "is_ams": true,
+
+        "short": "APDS RISC",
+        "type": "mg",
+        "store_type": "mg",
+        "damage": 2,
+        "heat": 1,
+        "range": 2,
+        "tons": 3,
+        "crit": 2,
+        "ammo": 12,
+        "recharge": 0.5,
+
+        "fx":
+        {
+            "type": "bullet",
+
+            "num_shots": 6,
+            "shot_gap": 0.0125,
+            "lock_on": true,
+            
+            "shot_time": 0.05,
+            
+            "muzzle_sprite": "muzzle2",
+            "muzzle_scale": [0.7, 0.7],
+            "muzzle_offset": 20,
+
+            "fire_sound": "resources/sounds/JFX_MG.wav"
+        }
+    }
+}

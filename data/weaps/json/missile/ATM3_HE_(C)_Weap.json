@@ -1,0 +1,43 @@
+{
+    "ATM/3 HE (C)":
+    {
+        "cost": 100000,
+        "mod_cost": 25000,
+        "ammo_cost": 150000,
+
+        "short": "ATM/3 HE (C)",
+        "type": "missile",
+        "store_type": "missile",
+        "damage": 3,
+        "n_missiles": 3,
+        "heat": 2,
+        "range": 6,
+        "tons": 1.5,
+        "crit": 2,
+        "ammo": 20,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.05,
+        "p_dmg_pilot": 0.05,
+        "to_hit_mod": 0.05,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 600,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "SRM",
+            "shot_copies": 3,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "srm_explosion",
+            "hit_scale": [1, 1],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "Thug":
+    {
+        "unit_sprite": "heavy3_7",
+        "unit_model": "thug",
+        "tons": 80,
+        "internal": 122,
+        
+        "THG-11E":
+        {
+            "cost": 8414040,
+            "armor": 248,
+            "heat_sinks": 36,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }  
+    }
+}

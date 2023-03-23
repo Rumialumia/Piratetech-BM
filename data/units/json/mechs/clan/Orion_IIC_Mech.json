@@ -1,0 +1,41 @@
+{
+    "Orion IIC":
+    {
+        "unit_sprite": "heavy3_8",
+        "unit_model": "orion_iic",
+        "tons": 75,
+        "internal": 114,
+            
+        " ":
+        {
+            "cost": 8267000,
+            "armor": 230,
+            "heat_sinks": 24,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle (C)", "rt"],
+                ["LRM-20 (C)", "la"], 
+                ["SRM-4 (C)", "lt"],
+                ["ER Large Laser (C)", "la"],
+                ["ER Large Laser (C)", "ra"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle (C)", "rt"],
+                ["Gauss Rifle (C)", "rt"],
+                ["LRM-20 (C)", "lt"], 
+                ["LRM-20 (C)", "lt"], 
+                ["LRM-20 (C)", "lt"], 
+                ["SRM-4 (C)", "lt"]
+            ]
+        }
+    }
+}

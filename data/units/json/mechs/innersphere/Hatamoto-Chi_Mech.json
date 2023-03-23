@@ -1,0 +1,41 @@
+{
+    "Hatamoto-Chi":
+    {
+        "unit_sprite": "assault2_4",
+        "unit_model": "hatamoto",
+        "tons": 80,
+        "internal": 122,
+
+        "HTM-27T":
+        {
+            "cost": 8236920,
+            "armor": 248,
+            "heat_sinks": 18,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "ra"],
+                ["Lower Arm Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

@@ -6,6 +6,33 @@
     "mouse_esc": false,
     "draw_priors": false,
     
+    "actns":
+    [
+        {
+            "actn": "var",
+            "args": "weap_match1 = 'beam"
+        },
+
+        {
+            "actn": "var",
+            "args": "weap_match2 = 'flame"
+        },
+
+        {
+            "actn": "mod_frame",
+            "args":
+            {
+                "id": "tech_list_frame", 
+                "actn": "refresh_options"
+            }
+        },
+
+        {
+            "actn": "var",
+            "args": "cur_tech_list = mech_mod_frame:frame:options"
+        }
+    ],
+
     "frames":
     [
         {
@@ -32,11 +59,143 @@
             
             "border": 0,
             
+            "toggles_left_right_select": true,
+            "ui":
+            [
+                {
+                    "id": "beam_button",
+
+                    "type": "toggle_button",
+                    "pos": [35, -60],
+                    "size": [150, 40],
+
+                    "border_color": [255,255,0],
+                    "click_select": true,
+                    "dim_text": false,
+
+                    "value": "ENERGY",
+                    "text_color": [255,255,0],
+
+                    "on_select":
+                    [
+                        {
+                            "actn": "var",
+                            "args": "weap_match1 = 'beam"
+                        },
+
+                        {
+                            "actn": "var",
+                            "args": "weap_match2 = 'flame"
+                        },
+
+                        {
+                            "actn": "mod_frame",
+                            "args":
+                            {
+                                "id": "tech_list_frame", 
+                                "actn": "refresh_options"
+                            }
+                        },
+
+                        {
+                            "actn": "var",
+                            "args": "cur_tech_list = mech_mod_frame:frame:options"
+                        }
+                    ]
+                },
+
+                {
+                    "id": "cannon_button",
+
+                    "type": "toggle_button",
+                    "pos": [205, -60],
+                    "size": [150, 40],
+
+                    "border_color": [255,255,0],
+                    "click_select": true,
+                    "dim_text": false,
+
+                    "value": "CANNONS",
+                    "text_color": [255,255,0],
+
+                    "on_select":
+                    [
+                        {
+                            "actn": "var",
+                            "args": "weap_match1 = 'cannon"
+                        },
+
+                        {
+                            "actn": "var",
+                            "args": "weap_match2 = 'mg"
+                        },
+
+                        {
+                            "actn": "mod_frame",
+                            "args":
+                            {
+                                "id": "tech_list_frame", 
+                                "actn": "refresh_options"
+                            }
+                        },
+
+                        {
+                            "actn": "var",
+                            "args": "cur_tech_list = mech_mod_frame:frame:options"
+                        }
+                    ]
+                },
+
+                {
+                    "id": "missile_button",
+
+                    "type": "toggle_button",
+                    "pos": [375, -60],
+                    "size": [150, 40],
+
+                    "border_color": [255,255,0],
+                    "click_select": true,
+                    "dim_text": false,
+
+                    "value": "MISSILES",
+                    "text_color": [255,255,0],
+
+                    "on_select":
+                    [
+                        {
+                            "actn": "var",
+                            "args": "weap_match1 = 'missile"
+                        },
+
+                        {
+                            "actn": "var",
+                            "args": "weap_match2 = 'missile"
+                        },
+
+                        {
+                            "actn": "mod_frame",
+                            "args":
+                            {
+                                "id": "tech_list_frame", 
+                                "actn": "refresh_options"
+                            }
+                        },
+
+                        {
+                            "actn": "var",
+                            "args": "cur_tech_list = mech_mod_frame:frame:options"
+                        }
+                    ]
+                }
+            ],
+            
+            "ignore_enter": true,
             "list": 
             {
                 "type": "item_list",
 
-                "sorted": "text",
+                "Xsorted": "text",
+                "sorted": "weap_ammo",
                 "grouped": true,
 
                 "text": "{item:get_name}",
@@ -70,6 +229,12 @@
                 },
                 
                 "source": "player_tech",
+                "add_if": 
+                [
+                    "or",
+                    "item:data:store_type == weap_match1",
+                    "item:data:store_type == weap_match2"
+                ],
 
                 "list_size": 8
             }
@@ -83,6 +248,37 @@
             "bg_color": null,
 
             "file": "scripts/frames/tech_item_details.json"
+        },
+        
+        {
+            "draw_if":
+            [
+                "or",
+                "mech_mod_frame:selected:item:name == none",
+                "size_of:cur_tech_list == 0"
+            ],
+             
+            "pos": [20, 430],
+
+            "size": [560,160],
+            "bg_color": [0,0,0],
+            "border": 0,
+
+            "frames":
+            [
+                {
+                    "pos": [5, 10],
+                    "size": [140,140],
+                    "border": 0,
+
+                    "grid":
+                    {
+                        "bg_color": [0,0,48],
+                        "line_color":[20,20,120],
+                        "line_width": 20
+                    }
+                }
+            ]
         },
         
         {
@@ -1215,14 +1411,52 @@
 
         {
             "pos": [620, 20],
-            "size": [230, 44],
+            "size": [230, 40],
 
             "border": 0,
 
             "bg_color": [0,0,0],
 
-            "text":"{mech_list_frame:selected:item:unit_stats:name}",
-            "text_dynamic": "true"
+            "Xtext":"{mech_list_frame:selected:item:unit_stats:name}",
+            "Xtext_dynamic": "true",
+
+            "ui":
+            [
+                {
+                    "id": "rename_merc_button",
+
+                    "type": "toggle_button",
+                    "pos": [0, -4],
+                    "size": [230, 40],
+
+                    "border_color": [0,0,0],
+                    "click_select": true,
+                    "dim_text": false,
+
+                    "value": "{mech_list_frame:selected:item:unit_stats:name}",
+                    "text_color": [255,255,255],
+                    "text_align": "left",
+
+                    "selected_fill": [0,0,0],
+                    "selected_text_color": [255,255,255],
+
+                    "ignore_keys": true,
+                    "text_dynamic": true,
+
+                    "on_select":
+                    [
+                        {
+                            "actn": "var",
+                            "args": "cur_unit = mech_list_frame:selected:item"
+                        },
+
+                        {
+                            "actn": "trigger",
+                            "args": "rename_cur_unit_prompt"
+                        }
+                    ]
+                }
+            ]
         },
 
         {

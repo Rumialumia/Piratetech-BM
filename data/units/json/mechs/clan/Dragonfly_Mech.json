@@ -1,0 +1,47 @@
+{
+    "Dragonfly":
+    {
+        "clan_name": "Viper",
+
+        "unit_sprite": "med2_8",
+        "unit_model": "viper",
+        "tons": 40,
+        "internal": 67,
+        
+        "Prime":
+        {
+            "cost": 11051658,
+            "armor": 134,
+            "heat_sinks": 20,
+
+            "speed": 8,
+            "jump": 8,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4 (C)", "la"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["Machinegun (C)", "rt"],
+                ["Machinegun (C)", "rt"],
+                ["Anti-Missile (C)", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-4 (C)", "la"],
+                ["Machinegun (C)", "rt"],
+                ["Anti-Missile (C)", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "la"],
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

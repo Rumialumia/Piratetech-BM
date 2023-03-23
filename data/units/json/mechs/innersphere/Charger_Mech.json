@@ -1,0 +1,65 @@
+{
+    "Charger":
+    {
+        "unit_sprite": "assault2_3",
+        "unit_model": "charger",
+        "tons": 80,
+        "internal": 122,
+            
+        "CGR-1A1":
+        {
+            "cost": 7520370,
+            "armor": 160,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Barrel Fist", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Small Laser", "h"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "lt"],
+                ["Small Laser", "la"]
+            ]
+        },
+
+        "CGR-3K":
+        {
+            "cost": 21336720,
+            "armor": 179,
+            "heat_sinks": 24,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Barrel Fist", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-20", "rt"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

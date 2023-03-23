@@ -1,0 +1,16 @@
+Locust/LCT-3M
+Stinger/STG-5M
+Wasp/WSP-3M
+Commando/COM-5S 
+Firestarter/FS9-S
+Wolfhound 
+Phoenix Hawk/PXH-3M
+Griffin/GRF-3M
+Axman
+Crusader/CRD-5M 
+Warhammer/WHM-7M
+Archer/ARC-4M 
+Zeus/ZEU-9S
+Banshee/BNC-5S 
+Stalker/STK-5M
+Atlas/AS7-K

@@ -1,0 +1,50 @@
+{
+    "LB 2-X (C)":
+    {
+        "cost": 300000,
+        "mod_cost": 75000,
+        "ammo_cost": 4000,
+        
+        "short": "LB 2-X (C)",
+        "type": "missile",
+        "store_type": "cannon",
+        "damage": 1,
+        "n_missiles": 2,
+        "heat": 1,
+        "range": 20,
+        "min_range": 4,
+        "tons": 5,
+        "crit": 3,
+        "ammo": 45,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.02,
+        "p_dmg_pilot": 0.0015,
+        "ignore_ams": true,
+        "to_hit_mod": 0.1,
+        "recharge": 0.75,
+
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.4, 0.9],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            
+            "shot_sprite": "Autocannon/2",
+            "shot_copies": 2,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [0.75, 0.75],
+            
+            "fire_sound": "resources/sounds/JFX_AC10_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    }
+}

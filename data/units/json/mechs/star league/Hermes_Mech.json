@@ -1,0 +1,55 @@
+{
+    "Hermes":
+    {
+        "unit_sprite": "med1_3",
+        "unit_model": "wolfhound",
+        "tons": 30,
+        "internal": 51,
+        
+        "HER-1S":
+        {
+            "cost": 2701270,
+            "armor": 90,
+            "heat_sinks": 10,
+
+            "speed": 9,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Flamer", "la"]
+            ]
+        },
+
+        "HER-3S":
+        {
+            "cost": 2701270,
+            "armor": 45,
+            "heat_sinks": 10,
+
+            "speed": 9,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "rt"],
+                ["MASC", "lt"]
+            ]
+        }
+    }
+}

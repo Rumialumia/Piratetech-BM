@@ -1,0 +1,11 @@
+MRM-10
+MRM-20
+MRM-30
+MRM-40
+Heavy PPC
+ER Large Laser
+ER Medium Laser
+ER Small Laser
+Large Pulse Laser
+Medium Pulse Laser
+Small Pulse Laser

@@ -1,0 +1,40 @@
+{
+    "Chameleon":
+    {
+        "unit_sprite": "med1_6",
+        "unit_model": "chameleon",
+        "tons": 50,
+        "internal": 83,
+        
+        "CHM-3":
+        {
+            "cost": 4623375,
+            "armor": 112,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "lt"],
+                ["Small Laser", "lt"],
+                ["Machinegun", "ct"],
+                ["Machinegun", "ct"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "rt"]
+            ]
+        }  
+    }
+}

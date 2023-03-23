@@ -12,31 +12,6 @@
             "actns":
             [
                 {
-                    "actn": "file_var",
-                    "args": "data/paint_palette.json"
-                },
-                
-                {
-                    "actn": "battle_unit_selection_file",
-                    "args": "scripts/frames/battle_unit_selection.json"
-                },
-                
-                {
-                    "actn": "battle_enemy_selection_file",
-                    "args": "scripts/frames/battle_enemy_selection.json"
-                },
-                
-                {
-                    "actn": "battle_status_bar_file",
-                    "args": "scripts/frames/battle_status_bar.json"
-                },
-                
-                {
-                    "actn": "rpg_status_bar_file",
-                    "args": "scripts/frames/rpg_status_bar.json"
-                },
-                
-                {
                     "actn": "set_star_map_file",
                     "args": "data/star_map_3025.json"
                 },
@@ -44,15 +19,6 @@
                 {
                     "actn": "var",
                     "args": "show_era_blurbs = true"
-                },
-
-                {
-                    "actn": "set_goods",
-                    "args":
-                    {
-                        "file": "data/goods.json",
-                        "update_time": 30
-                    }
                 },
 
                 {
@@ -94,17 +60,12 @@
                 },
 
                 {
-                    "actn": "var",
-                    "args": "money = 0"
-                },
-
-                {
                     "actn": "update_game_date",
                     "args":
                     {
                         "set":
                         {
-                            "day": 21,
+                            "day": 1,
                             "month": "May",
                             "year": 3025
                         }
@@ -114,33 +75,6 @@
                 {
                     "actn": "on_date_change",
                     "args": "update_star_map"
-                },
-
-                {
-                    "actn": "new_list",
-                    "args": 
-                    {
-                        "name": "player_crew",
-                        "persistent": "true"
-                    }
-                },
-
-                {
-                    "actn": "new_list",
-                    "args": 
-                    {
-                        "name": "player_mechs",
-                        "persistent": "true"
-                    }
-                },
-
-                {
-                    "actn": "new_list",
-                    "args": 
-                    {
-                        "name": "player_tech",
-                        "persistent": "true"
-                    }
                 },
 
                 {
@@ -170,6 +104,11 @@
                             "unit_setup.json"
                         ]
                     }
+                },
+
+                {
+                    "actn": "pause_music",
+                    "Xactn": "stop_music"
                 }
             ]           
         }

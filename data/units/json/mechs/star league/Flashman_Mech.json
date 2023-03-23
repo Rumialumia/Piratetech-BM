@@ -1,0 +1,41 @@
+{
+    "Flashman":
+    {
+        "unit_sprite": "heavy1_3",
+        "unit_model": "warhammer",
+        "tons": 75,
+        "internal": 114,
+        
+        "FLS-8K":
+        {
+            "cost": 17831624,
+            "armor": 216,
+            "heat_sinks": 30,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Large Laser", "ct"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ctr"],
+                ["Flamer", "h"],
+                ["Anti-Missile", "rt"]                
+            ],
+            "ammo":
+            [
+                ["Anti-Missile", "rt"]
+            ]
+        }  
+    }
+}

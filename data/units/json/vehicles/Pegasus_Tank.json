@@ -1,0 +1,34 @@
+{
+    "Pegasus":
+    {
+        
+        "move_type": "hover",
+
+        "unit_sprite": "vehicle1_7",
+        "unit_model": "no_model",
+        
+        "tons": 35,
+        "internal": 19,
+        
+        " ":
+        {
+            "cost": 835125, 
+            "armor": 104,
+            "heat_sinks": 3,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["SRM-6", "ct"],
+                ["SRM-6", "ct"],
+                ["Medium Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "ct"]
+            ]
+        }
+    }
+}

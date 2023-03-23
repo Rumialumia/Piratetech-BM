@@ -1,0 +1,42 @@
+{
+    "Thunderbolt-10":
+    {
+        "cost": 175000,
+        "mod_cost": 43750,
+        "ammo_cost": 50000,
+        
+        "type": "missile",
+        "store_type": "missile",
+        "damage": 10,
+        "n_missiles": 1,
+        "heat": 5,
+        "range": 12,
+        "min_range": 5,
+        "tons": 7,
+        "crit": 2,
+        "ammo": 6,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.01,
+        "p_dmg_pilot": 0,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 400,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "LRM",
+            "shot_copies": 1,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "explosion",
+            "hit_scale": [0.5, 0.5],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        } 
+    }
+}

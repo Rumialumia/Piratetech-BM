@@ -1,0 +1,16 @@
+Locust/LCT-3M
+Wasp/WSP-3M
+Jenner/JR7-K
+Panther/PNT-10K
+Wolf Trap
+Crab/CRB-27
+Kintaro
+Hunchback/HBK-5M
+Archer/ARC-4M
+Grand Dragon
+Katana
+Shogun
+Hatamoto-Chi
+Grasshopper/GHR-5J
+Charger/CGR-3K
+Mauler

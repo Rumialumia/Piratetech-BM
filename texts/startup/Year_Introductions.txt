@@ -1,0 +1,9 @@
+3025 "The New Crew": The Third Succession War has officially ended, but even as the dust settles and the militaries of the Inner Sphere recover, smaller conflicts continue to rage across the known galaxy. It falls to a new generation of MechWarriors to carve out the next chapter of history for the Successor States.
+
+3030 "The Baying Of Wolves": The Fourth Succession War was swift but devastating, and now the exhausted Inner Sphere sees itself slipping once more into a state of cold war. The lesser powers and disenchanted peoples of the Sphere will use this window to their advantage and that means, for better or worse, the mercenary finds themselves in high demand.
+
+3039 "Brushfire": The slowly cooling crucible of war threatens to heat up again with a Lyran/Federated invasion of the Draconis Combine. Will it bring about a Fifth Succession War, or be rebuffed by the Combine's well-prepared defenses? Even if this powder-keg should prove to be a dud, the average merc will count the chance for pay a blessing in unusually peaceful times for the Inner Sphere.
+
+3049 "Distant Clouds": Peaceful times make for difficult times in the world of the mercenary MechWarrior, as a lack of conflict increases their life expectancy but decreases their chances of a good paycheck. Still, the Successor States have their small conflicts as always, and lately a rumor has been circulating of something big and dangerous on the edge of known space.
+
+3050 "Revival": The relative calm of the last decade and a half is shattered as a mysterious foe invades the Inner Sphere. Wielding great skill and advanced weaponry, these "Clans" pose a clear threat to all. Will the Great Houses finally settle their differences, at least temporarily, in time to come together alongside every merc they can muster and repel this mutual threat to their ways of life?

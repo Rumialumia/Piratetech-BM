@@ -1,0 +1,59 @@
+{
+    "Hermes II":
+    {
+        "unit_sprite": "med1_5",
+        "unit_model": "hermes2",
+        "tons": 40,
+        "internal": 67,
+        
+        "HER-2S":
+        {
+            "cost": 3165680,
+            "armor": 120,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "ra"],
+                ["Lower Arm Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "rt"],
+                ["Medium Laser", "ra"],
+                ["Flamer", "la"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "rt"]
+            ]
+        },
+
+        "HER-5S":
+        {
+            "cost": 3456180,
+            "armor": 120,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "ra"],
+                ["Lower Arm Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "rt"],
+                ["Medium Pulse Laser", "ra"],
+                ["Flamer", "la"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "lt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "Falcon":
+    {
+        "unit_sprite": "light2_7",
+        "unit_model": "flea",
+        "tons": 30,
+        "internal": 51,
+        
+        "FLC-4P":
+        {
+            "cost": 2307890,
+            "armor": 96,
+            "heat_sinks": 12,
+
+            "speed": 6,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Pulse Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "la"],
+                ["Anti-Missile", "lt"]
+            ],
+            "ammo":
+            [
+                ["Anti-Missile", "rt"]
+            ]
+        }
+    }
+}

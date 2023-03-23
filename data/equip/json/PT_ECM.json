@@ -1,0 +1,45 @@
+{
+    "Angel ECM":
+    {
+        "short": "Angel",
+        "tons": 2,
+        "crit": 2,
+        "cost": 750000,
+        "mod_cost": 187500,
+
+        "ecm_range": 8
+    },
+
+    "Guardian ECM Prototype":
+    {
+        "short": "Guardian",
+        "tons": 1.5,
+        "crit": 2,
+        "cost": 1000000,
+        "mod_cost": 250000,
+
+        "ecm_range": 6
+    },
+
+    "Guardian ECM":
+    {
+        "short": "Guardian",
+        "tons": 1.5,
+        "crit": 2,
+        "cost": 200000,
+        "mod_cost": 50000,
+
+        "ecm_range": 6
+    },
+
+    "ECM Suite (C)":
+    {
+        "short": "ECM (C)",
+        "tons": 1,
+        "crit": 1,
+        "cost": 400000,
+        "mod_cost": 100000,
+
+        "ecm_range": 6
+    }
+}

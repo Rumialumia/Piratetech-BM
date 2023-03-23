@@ -1,0 +1,915 @@
+{
+    "models":
+    {
+        "flea":
+        {
+            "frame": {"x": 13, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "locust":
+        {
+            "frame": {"x": 84, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "stinger":
+        {
+            "frame": {"x": 155, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "wasp":
+        {
+            "frame": {"x": 226, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "commando":
+        {
+            "frame": {"x": 297, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "javelin":
+        {
+            "frame": {"x": 368, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "spider":
+        {
+            "frame": {"x": 439, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "ostscout":
+        {
+            "frame": {"x": 510, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "urbanmech":
+        {
+            "frame": {"x": 581, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "valkyrie":
+        {
+            "frame": {"x": 652, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "firestarter":
+        {
+            "frame": {"x": 723, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "jenner":
+        {
+            "frame": {"x":794, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "panther":
+        {
+            "frame": {"x": 865, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "raven":
+        {
+            "frame": {"x": 936, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "wolfhound":
+        {
+            "frame": {"x": 1007, "y": 2, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "assassin":
+        {
+            "frame": {"x": 13, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "cicada":
+        {
+            "frame": {"x": 84, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "vulcan":
+        {
+            "frame": {"x": 155, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "blackjack":
+        {
+            "frame": {"x": 226, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "hsn???":
+        {
+            "frame": {"x": 297, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "phoenixhawk":
+        {
+            "frame": {"x": 368, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "vindicator":
+        {
+            "frame": {"x": 439, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "centurion":
+        {
+            "frame": {"x": 510, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "crab":
+        {
+            "frame": {"x": 581, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "enforcer":
+        {
+            "frame": {"x": 652, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "hunchback":
+        {
+            "frame": {"x": 723, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "trebuchet":
+        {
+            "frame": {"x": 794, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "uzl???":
+        {
+            "frame": {"x": 865, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "bushwacker":
+        {
+            "frame": {"x": 936, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "dervish":
+        {
+            "frame": {"x": 1007, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "griffin":
+        {
+            "frame": {"x": 1078, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "kintaro":
+        {
+            "frame": {"x": 1149, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "shadowhawk":
+        {
+            "frame": {"x": 1220, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "wolverine":
+        {
+            "frame": {"x": 1291, "y": 93, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "champion":
+        {
+            "frame": {"x": 13, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "dragon":
+        {
+            "frame": {"x": 84, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "quickdraw":
+        {
+            "frame": {"x": 155, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "rifleman":
+        {
+            "frame": {"x": 226, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "catapult":
+        {
+            "frame": {"x": 297, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "crusader":
+        {
+            "frame": {"x": 368, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "jagermech":
+        {
+            "frame": {"x": 439, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "thug":
+        {
+            "frame": {"x": 510, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "thunderbolt":
+        {
+            "frame": {"x": 581, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "archer":
+        {
+            "frame": {"x": 652, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "cataphract":
+        {
+            "frame": {"x": 723, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "grasshopper":
+        {
+            "frame": {"x": 794, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "warhammer":
+        {
+            "frame": {"x": 865, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "blackknight":
+        {
+            "frame": {"x": 936, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "marauder":
+        {
+            "frame": {"x": 1007, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "orion":
+        {
+            "frame": {"x": 1078, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "tns???":
+        {
+            "frame": {"x": 1149, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "awesome":
+        {
+            "frame": {"x": 13, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "charger":
+        {
+            "frame": {"x": 84, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "hatamoto":
+        {
+            "frame": {"x": 155, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "victor":
+        {
+            "frame": {"x": 226, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "zeus":
+        {
+            "frame": {"x": 297, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "battlemaster":
+        {
+            "frame": {"x": 368, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "stalker":
+        {
+            "frame": {"x": 439, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "tlr???":
+        {
+            "frame": {"x": 510, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "cyclops":
+        {
+            "frame": {"x": 581, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "highlander":
+        {
+            "frame": {"x": 652, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "mauler":
+        {
+            "frame": {"x": 723, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "banshee":
+        {
+            "frame": {"x": 794, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "cor???":
+        {
+            "frame": {"x": 865, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "nsr???":
+        {
+            "frame": {"x": 936, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "annihilator":
+        {
+            "frame": {"x": 1007, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "atlas":
+        {
+            "frame": {"x": 1078, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "fnr???":
+        {
+            "frame": {"x": 1149, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "kingcrab":
+        {
+            "frame": {"x": 1220, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "marauder2":
+        {
+            "frame": {"x": 1291, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "no_model":
+        {
+            "frame": {"x": 13, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "chameleon":
+        {
+            "frame": {"x": 84, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "clint":
+        {
+            "frame": {"x": 155, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "hermes2":
+        {
+            "frame": {"x": 226, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "ostroc":
+        {
+            "frame": {"x": 297, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "ostol":
+        {
+            "frame": {"x": 368, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "hatchetman":
+        {
+            "frame": {"x": 439, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "mongoose":
+        {
+            "frame": {"x": 510, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "whitworth":
+        {
+            "frame": {"x": 581, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "goliath":
+        {
+            "frame": {"x": 652, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "scorpion":
+        {
+            "frame": {"x": 723, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "shogun":
+        {
+            "frame": {"x": 794, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "imp":
+        {
+            "frame": {"x": 865, "y": 366, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "fire_moth":
+        {
+            "frame": {"x": 13, "y": 457, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "pir???":
+        {
+            "frame": {"x": 84, "y": 457, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "mist_lynx":
+        {
+            "frame": {"x": 155, "y": 457, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "ach???":
+        {
+            "frame": {"x": 226, "y": 457, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "inc???":
+        {
+            "frame": {"x": 297, "y": 457, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "kitfox":
+        {
+            "frame": {"x": 368, "y": 457, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "adder":
+        {
+            "frame": {"x": 439, "y": 457, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "cougar":
+        {
+            "frame": {"x": 510, "y": 457, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "jenner_iic":
+        {
+            "frame": {"x": 581, "y": 457, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "acw???":
+        {
+            "frame": {"x": 13, "y": 548, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "viper":
+        {
+            "frame": {"x": 84, "y": 548, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "ice_ferret":
+        {
+            "frame": {"x": 155, "y": 548, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "shc???":
+        {
+            "frame": {"x": 226, "y": 548, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "hunchback_iic":
+        {
+            "frame": {"x": 297, "y": 548, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "hmn???":
+        {
+            "frame": {"x": 368, "y": 548, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "nova":
+        {
+            "frame": {"x": 439, "y": 548, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "bkl???":
+        {
+            "frame": {"x": 510, "y": 548, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "stormcrow":
+        {
+            "frame": {"x": 581, "y": 548, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "vgl???":
+        {
+            "frame": {"x": 652, "y": 548, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "hlf???":
+        {
+            "frame": {"x": 13, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "mad_dog":
+        {
+            "frame": {"x": 84, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "ebj???":
+        {
+            "frame": {"x": 155, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "hellbringer":
+        {
+            "frame": {"x": 226, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "lbk???":
+        {
+            "frame": {"x": 297, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "rifleman_iic":
+        {
+            "frame": {"x": 368, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "nct???":
+        {
+            "frame": {"x": 439, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "summoner":
+        {
+            "frame": {"x": 510, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "sns???":
+        {
+            "frame": {"x": 581, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "ntg???":
+        {
+            "frame": {"x": 652, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "orion_iic":
+        {
+            "frame": {"x": 723, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "timber_wolf":
+        {
+            "frame": {"x": 794, "y": 639, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "gargoyle":
+        {
+            "frame": {"x": 13, "y": 730, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "warhammer_iic":
+        {
+            "frame": {"x": 84, "y": 730, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "marauder_iic":
+        {
+            "frame": {"x": 155, "y": 730, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "warhawk":
+        {
+            "frame": {"x": 226, "y": 730, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "bas???":
+        {
+            "frame": {"x": 297, "y": 730, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "highlander_iic":
+        {
+            "frame": {"x": 368, "y": 730, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "snv???":
+        {
+            "frame": {"x": 439, "y": 730, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "mcii???":
+        {
+            "frame": {"x": 510, "y": 730, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "executioner":
+        {
+            "frame": {"x": 581, "y": 730, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "direwolf":
+        {
+            "frame": {"x": 652, "y": 730, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "kodiak":
+        {
+            "frame": {"x": 723, "y": 730, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+        
+        "atlas_bb":
+        {
+            "frame": {"x": 1362, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "atlas_ii_bb":
+        {
+            "frame": {"x": 1433, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "mackie":
+        {
+            "frame": {"x": 1504, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "bellerophon":
+        {
+            "frame": {"x": 1220, "y": 184, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        },
+
+        "emperor":
+        {
+            "frame": {"x": 1575, "y": 275, "w": 70, "h": 80},
+            "n_frames": 1,
+            "alpha": [25,25,25]
+        }
+        
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "King Crab":
+    {
+        "unit_sprite": "walker4_4",
+        "unit_model": "kingcrab",
+        "tons": 100,
+        "internal": 152,
+            
+        "KGC-000":
+        {
+            "cost": 10122000,
+            "armor": 272,
+            "heat_sinks": 15,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "ra"],
+                ["Autocannon/20", "la"],
+                ["Large Laser", "rt"],
+                ["LRM-15", "lt"]                
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "lt"],
+                ["LRM-15", "lt"]
+            ]
+        }       
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "Drillson":
+    {
+        
+        "move_type": "hover",
+
+        "unit_sprite": "vehicle1_3",
+        "unit_model": "no_model",
+        
+        "tons": 50,
+        "internal": 27,
+        
+        " ":
+        {
+            "cost": 2819333, 
+            "armor": 112,
+            "heat_sinks": 10,
+
+            "speed": 9,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Large Laser", "ct"],
+                ["SRM-2", "ct"],
+                ["SRM-2", "ct"],
+                ["LRM-10", "ct"],
+                ["Machinegun", "ct"],
+                ["Machinegun", "ct"]
+            ],
+            "ammo":
+            [
+                ["SRM-2", "ct"],
+                ["LRM-10", "ct"],
+                ["Machinegun", "ct"]
+            ]
+        }
+    }
+}

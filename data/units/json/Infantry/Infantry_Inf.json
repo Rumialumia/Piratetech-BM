@@ -1,0 +1,34 @@
+{
+    "Infantry":
+    {
+        "unit_sprite": "infantry1_2",
+        "unit_model": "no_model",
+        "tons": -1,
+        "internal": 5,
+
+        "move_type": "infantry",
+        
+        "max_dmg_per_hit": 2,
+        "flamer_hurts": true,
+                
+        " ":
+        {
+            "cost": 5000000,
+            "armor": 5,
+            "heat_sinks": 10,
+
+            "speed": 2,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Machinegun", "la"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        }
+    }
+}

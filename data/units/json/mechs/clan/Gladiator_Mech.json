@@ -1,0 +1,39 @@
+{
+    "Gladiator":
+    {
+        "clan_name": "Executioner",
+
+        "unit_sprite": "assault2_5",
+        "unit_model": "executioner",
+        "tons": 95,
+        "internal": 145,
+            
+        "Prime":
+        {
+            "cost": 35713073,
+            "armor": 259,
+            "heat_sinks": 32,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle (C)", "la"],
+                ["ER Large Laser (C)", "ra"],
+                ["ER Large Laser (C)", "ra"],
+                ["Machinegun (C)", "rt"],
+                ["Machinegun (C)", "rt"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle (C)", "lt"],
+                ["Gauss Rifle (C)", "lt"],
+                ["Machinegun (C)", "rt"]
+            ]
+        }
+    }
+}

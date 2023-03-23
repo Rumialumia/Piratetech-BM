@@ -1,0 +1,45 @@
+{
+    "Improved Heavy Small Laser (C)": 
+    {
+        "cost": 60000,
+        "mod_cost": 15000,
+        "short": "IHSLaser (C)",
+        "type": "beam",
+        "store_type": "beam",
+        "damage": 6,
+        "heat": 3,
+        "range": 2,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "explodes_on_dmg": true,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,20,160], [40,40,200], [128,128,255]],
+            "beam_sizes": [6,3,2],
+            "beam_alpha": 64,
+
+            "beam_line": [160,160,255],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.4,0.4],
+            
+            "fire_sound": "resources/sounds/JFX_SLaser.wav"
+        }
+    }
+}

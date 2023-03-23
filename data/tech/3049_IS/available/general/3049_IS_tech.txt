@@ -1,0 +1,80 @@
+PPC
+Large Laser
+Medium Laser
+Small Laser
+Autocannon/2
+Autocannon/5
+Autocannon/10
+Autocannon/20
+Machinegun
+LRM-5
+LRM-10
+LRM-15
+LRM-20
+SRM-2
+SRM-4
+SRM-6
+Inferno SRM-2
+Inferno SRM-4
+Inferno SRM-6
+Flamer
+Autocannon/2 Caseless
+Autocannon/2 Flak
+Autocannon/2 Incendiary
+Autocannon/2 Precision
+Autocannon/5 Caseless
+Autocannon/5 Flak
+Autocannon/5 Incendiary
+Autocannon/5 Precision
+Autocannon/10 Caseless
+Autocannon/10 Flak
+Autocannon/10 Incendiary
+Autocannon/10 Precision
+Autocannon/20 Caseless
+Autocannon/20 Flak
+Autocannon/20 Incendiary
+Autocannon/20 Precision
+Machinegun Array
+Heavy Rifle
+Medium Rifle
+Light Rifle
+Thumper Artillery
+Sniper Artillery
+Long Tom Artillery
+Thumper Cannon
+Sniper Cannon
+Long Tom Cannon
+Binary Laser
+Fluid Gun Corrosive
+Fluid Gun Inferno
+Large Chemical Laser
+Medium Chemical Laser
+Small Chemical Laser
+Vehicle Flamer
+LRM-5 Dead-Fire
+LRM-10 Dead-Fire
+LRM-15 Dead-Fire
+LRM-20 Dead-Fire
+SRM-2 Dead-Fire
+SRM-4 Dead-Fire
+SRM-6 Dead-Fire
+ER PPC
+ER Large Laser
+ER Medium Laser
+ER Small Laser
+Large Pulse Laser
+Medium Pulse Laser
+Small Pulse Laser
+Gauss Rifle
+Ultra AC/5
+LB 10-X
+Streak SRM-2
+Anti-Missile
+Cannon (P)
+Medium Laser (P)
+Arrow IV
+Mech Mortar 1
+Mech Mortar 2
+Mech Mortar 4
+Mech Mortar 8
+Prototype Arrow IV

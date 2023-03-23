@@ -1,0 +1,60 @@
+{
+    "Awesome":
+    {
+        "unit_sprite": "assault3_6",
+        "unit_model": "awesome",
+        "tons": 80,
+        "internal": 122,
+            
+        "AWS-8Q":
+        {
+            "cost": 6598170,
+            "armor": 224,
+            "heat_sinks": 28,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["PPC", "rt"], 
+                ["PPC", "lt"],
+                ["Small Laser", "h"]
+            ]
+        },
+
+        "AWS-9M":
+        {
+            "cost": 18090120,
+            "armor": 256,
+            "heat_sinks": 40,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["ER PPC", "rt"], 
+                ["ER PPC", "lt"],
+                ["Small Laser", "h"],
+                ["Medium Pulse Laser", "ct"],
+                ["Streak SRM-2", "ct"],
+                ["Streak SRM-2", "la"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-2", "ll"]
+            ]
+        }
+    }
+}

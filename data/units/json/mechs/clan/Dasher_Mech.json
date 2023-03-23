@@ -1,0 +1,44 @@
+{
+    "Dasher":
+    {
+        "clan_name": "Fire Moth",
+        
+        "unit_sprite": "light4_8",
+        "unit_model": "fire_moth",
+        "tons": 20,
+        "internal": 33,
+        
+        "Prime":
+        {
+            "cost": 4208800,
+            "armor": 38,
+            "heat_sinks": 20,
+
+            "speed": 10,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["SRM-6 (C)", "ra"],
+                ["SRM-4 (C)", "rt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6 (C)", "ra"],
+                ["SRM-4 (C)", "rt"]
+            ],
+            "equip":
+            [
+                ["MASC", "ct"],
+                ["CASE", "ra"],
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

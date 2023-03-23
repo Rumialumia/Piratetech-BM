@@ -1,0 +1,40 @@
+{
+    "Wolf Trap":
+    {
+        "unit_sprite": "med7_7",
+        "unit_model": "vindicator",
+        "tons": 45,
+        "internal": 75,
+        
+        "WFT-1":
+        {
+            "cost": 7910258,
+            "armor": 128,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["LRM-10", "ct"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LRM-10", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

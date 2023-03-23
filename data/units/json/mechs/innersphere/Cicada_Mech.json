@@ -1,0 +1,56 @@
+{
+    "Cicada":
+    {
+        "unit_sprite": "walker2_8",
+        "unit_model": "cicada",
+        "tons": 40,
+        "internal": 67,
+        
+        "CDA-2A":
+        {
+            "cost": 3705217,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Small Laser", "ct"]
+            ]
+        },
+
+        "CDA-3M":
+        {
+            "cost": 7658467,
+            "armor": 64,
+            "heat_sinks": 20,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Ultra AC/5", "lt"],
+                ["Small Pulse Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

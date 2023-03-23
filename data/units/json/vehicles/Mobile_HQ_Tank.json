@@ -1,0 +1,30 @@
+{
+    "Mobile HQ":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_6",
+        "unit_model": "no_model",
+
+        "tons": 25,
+        "internal": 14,
+        
+        " ":
+        {
+            "faces_target": false,
+        
+            "cost": 392812, 
+            "armor": 40,
+            "heat_sinks": 0,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Medium Laser", "ct"]
+            ]
+        }
+    }
+}

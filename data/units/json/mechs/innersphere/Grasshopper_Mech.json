@@ -1,0 +1,66 @@
+{
+    "Grasshopper":
+    {
+        "unit_sprite": "assault1_6",
+        "unit_model": "grasshopper",
+        "tons": 70,
+        "internal": 107,
+        
+        "GHR-5H":
+        {
+            "cost": 6024574,
+            "armor": 208,
+            "heat_sinks": 22,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["LRM-5", "h"]                
+            ],
+            "ammo":
+            [
+                ["LRM-5", "rt"]
+            ]
+        },
+
+        "GHR-5J":
+        {
+            "cost": 6339073,
+            "armor": 208,
+            "heat_sinks": 22,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Streak SRM-2", "h"],
+                ["Anti-Missile", "rt"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-2", "rt"],
+                ["Streak SRM-2", "rt"],
+                ["Anti-Missile", "lt"]
+            ]
+        }
+    }
+}

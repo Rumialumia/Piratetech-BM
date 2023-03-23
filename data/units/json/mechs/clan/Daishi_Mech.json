@@ -1,0 +1,50 @@
+{
+    "Daishi":
+    {
+        "clan_name": "Dire Wolf",
+
+        "unit_sprite": "heavy1_3",
+        "unit_model": "direwolf",
+        "tons": 100,
+        "internal": 152,
+            
+        "Prime":
+        {
+            "cost": 29350000,
+            "armor": 304,
+            "heat_sinks": 30,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser (C)", "la"],
+                ["ER Large Laser (C)", "la"],
+                ["Medium Pulse Laser (C)", "la"],
+                ["Medium Pulse Laser (C)", "la"],
+                ["Ultra AC/5 (C)", "la"],
+                ["ER Large Laser (C)", "ra"],
+                ["ER Large Laser (C)", "ra"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["Ultra AC/5 (C)", "ra"],
+                ["LRM-10 (C)", "lt"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5 (C)", "la"],
+                ["Ultra AC/5 (C)", "ra"],
+                ["LRM-10 (C)", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "la"],
+                ["CASE", "ra"],
+                ["CASE", "lt"]
+            ]
+        }       
+    }
+}

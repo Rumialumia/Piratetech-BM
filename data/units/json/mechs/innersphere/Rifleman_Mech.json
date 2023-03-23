@@ -1,0 +1,65 @@
+{
+    "Rifleman":
+    {
+        "unit_sprite": "heavy1_7",
+        "unit_model": "rifleman",
+        "tons": 60,
+        "internal": 99,
+        
+        "RFL-3N":
+        {
+            "cost": 4860000,
+            "armor": 120,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Autocannon/5", "ra"],
+                ["Autocannon/5", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "ct"]
+            ]
+        },
+
+        "RFL-5M":
+        {
+            "cost": 9926400,
+            "armor": 120,
+            "heat_sinks": 24,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Ultra AC/5", "ra"],
+                ["Ultra AC/5", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

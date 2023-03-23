@@ -1,0 +1,93 @@
+{
+    "Wolverine":
+    {
+        "unit_sprite": "heavy2_6",
+        "unit_model": "wolverine",
+        "tons": 55,
+        "internal": 91,
+        
+        "WVR-6R":
+        {
+            "cost": 4827682,
+            "armor": 152,
+            "heat_sinks": 12,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "ra"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "ra"],
+                ["SRM-6", "lt"]
+            ]
+        },
+
+        "WVR-6RP":
+        {
+            "cost": 4827682,
+            "armor": 152,
+            "heat_sinks": 12,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "ra"],
+                ["Inferno SRM-6", "lt"],
+                ["Medium Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "ra"],
+                ["Inferno SRM-6", "lt"]
+            ]
+        },
+
+        "WVR-7D":
+        {
+            "cost": 11270257,
+            "armor": 179,
+            "heat_sinks": 13,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "ra"],
+                ["SRM-6", "lt"],
+                ["Medium Pulse Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"],
+                ["MASC", "rt"]
+            ]
+        }
+    }
+}

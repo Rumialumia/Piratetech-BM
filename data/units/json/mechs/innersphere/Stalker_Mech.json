@@ -1,0 +1,112 @@
+{
+    "Stalker":
+    {
+        "unit_sprite": "assault1_8",
+        "unit_model": "stalker",
+        "tons": 85,
+        "internal": 130,
+            
+        "STK-3F":
+        {
+            "cost": 7463825,
+            "armor": 216,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["Large Laser", "rt"], 
+                ["Large Laser", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Medium Laser", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]                
+            ]
+        },
+
+        "STK-3FP":
+        {
+            "cost": 7463825,
+            "armor": 216,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["Large Laser", "rt"], 
+                ["Large Laser", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Medium Laser", "la"], 
+                ["Inferno SRM-6", "rt"],
+                ["Inferno SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["Inferno SRM-6", "rt"],
+                ["Inferno SRM-6", "lt"]                
+            ]
+        },
+
+        "STK-5M":
+        {
+            "cost": 8274125,
+            "armor": 232,
+            "heat_sinks": 34,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["ER Large Laser", "rt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Medium Laser", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "ra"], 
+                ["LRM-10", "ra"], 
+                ["LRM-10", "la"], 
+                ["LRM-10", "la"], 
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]                
+            ]
+        }
+    }
+}

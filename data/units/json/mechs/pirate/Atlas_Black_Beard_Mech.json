@@ -1,0 +1,47 @@
+{
+    "Atlas Black Beard":
+    {
+        "unit_sprite": "assault3_1",
+        "unit_model": "atlas_bb",
+        "tons": 100,
+        "internal": 152,
+            
+        "AS7-BB":
+        {
+            "cost": 12865356,
+            "armor": 304,
+            "heat_sinks": 16,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Cutlass", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Cannon (P)", "rt"],
+                ["LRM-20", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ctr"], 
+                ["Medium Laser", "ctr"], 
+                ["SRM-6", "lt"],
+                ["Polly", "lt"]
+            ],
+            "ammo":
+            [
+                ["Cannon (P)", "rt"],
+                ["Cannon (P)", "rt"],
+                ["LRM-20", "lt"],
+                ["LRM-20", "lt"],
+                ["SRM-6", "rt"]
+            ],
+            "equip":
+            [
+                ["Polly", "lt"]
+            ]
+        }
+    }
+}

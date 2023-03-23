@@ -1,0 +1,48 @@
+{
+    "HAG 30 (C)":
+    {
+        "cost": 1000000,
+        "mod_cost": 250000,
+        "ammo_cost": 60000,
+
+        "type": "cannon",
+        "store_type": "cannon",
+        "damage": 1,
+        "heat": 6,
+        "range": 16,
+        "min_range": 2,
+        "tons": 13,
+        "crit": 8,
+        "ammo": 120,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.02,
+        "ignore_ams": true,
+        "explodes_on_dmg": true,
+        "use_ammo_per_shot": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1800,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.25, 0.7],
+            "muzzle_offset": 20,
+            
+            "num_shots": 30,
+            "shot_scale": [1,2.25],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            "shots_roll_hit": true,
+
+            "shot_sprite": "Gauss",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1.5, 1.5],
+            
+            "fire_sound": "resources/sounds/JFX_Gauss_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        } 
+    }
+}

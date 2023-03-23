@@ -1,0 +1,34 @@
+{
+    "Mercury":
+    {
+        "unit_sprite": "light1_5",
+        "unit_model": "commando",
+        "tons": 20,
+        "internal": 33,
+        
+        "MCY-97":
+        {
+            "cost": 1808440,
+            "armor": 54,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Small Laser", "ct"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "lt"],
+                ["MASC", "ct"]
+            ]
+        }
+    }
+}

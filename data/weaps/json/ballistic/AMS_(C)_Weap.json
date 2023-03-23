@@ -1,0 +1,37 @@
+{
+    "Anti-Missile (C)":
+    {
+        "cost": 200000,
+        "mod_cost": 50000,
+        "ammo_cost": 2000,
+        "is_ams": true,
+        
+        "short": "AMS (C)",
+        "type": "mg",
+        "store_type": "mg",
+        "damage": 2,
+        "heat": 1,
+        "range": 2,
+        "tons": 0.5,
+        "crit": 1,
+        "ammo": 24,
+        "recharge": 0.5,
+
+        "fx":
+        {
+            "type": "bullet",
+
+            "num_shots": 3,
+            "shot_gap": 0.025,
+            "lock_on": true,
+            
+            "shot_time": 0.05,
+            
+            "muzzle_sprite": "muzzle2",
+            "muzzle_scale": [0.7, 0.7],
+            "muzzle_offset": 20,
+
+            "fire_sound": "resources/sounds/JFX_MG.wav"
+        }
+    }
+}

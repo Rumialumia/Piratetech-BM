@@ -1,0 +1,42 @@
+{
+    "Black Hawk":
+    {
+        "clan_name": "Nova",
+        
+        "unit_sprite": "med7_1",
+        "unit_model": "nova",
+        "tons": 50,
+        "internal": 83,
+        
+        "Prime":
+        {
+            "cost": 11586250,
+            "armor": 160,
+            "heat_sinks": 28,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                ["ER Medium Laser (C)", "la"],
+                
+                ["ER Medium Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"],
+                ["ER Medium Laser (C)", "ra"]
+            ]
+        }
+    }
+}

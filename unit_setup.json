@@ -1,8 +1,38 @@
 {
     "first_trigger": "welcome_prompt",
-
+	
     "triggers":
-    {
+    {	
+		"quit_career_setup":
+		{
+			"type": "sub_prompt",
+			"size": 400,
+
+			"text": "Return to Main Menu?",
+			"text_align": "center",
+
+			"options":
+			[
+				{
+					"text": "Yes",
+					"actn": "restart_game"
+				},
+
+				{
+					"text": "Nevermind"
+				}
+			]
+		},
+
+		"career_startup_music":
+		{
+			"actn": "play_music",
+			"args":
+			{
+				"file": "music/BT4.mp3"
+			}
+		},
+
 		"welcome_prompt":
 		{
 			"type": "prompt",
@@ -11,10 +41,20 @@
 			"actns":
 			[
 				{
+					"actn": "delayed_trigger",
+					"args": 
+					{
+						"trigger": "career_startup_music",
+						"delay": 0.01
+					}
+					
+				},
+				
+				{
 					"actn": "remove_trigger",
 					"args": "welcome_prompt"
 				},
-				
+
 				{
 					"actn": "trigger",
 					"args": "choose_name"
@@ -52,7 +92,11 @@
 
 		"get_merc_name_prompt":
 		{
-			"esc_enabled": false,
+			"on_esc":
+			{
+				"actn": "trigger",
+				"args": "quit_career_setup"
+			},
 
 			"type": "sub_prompt",
 			"size": 500,
@@ -132,10 +176,14 @@
 
 		"get_merc_gender":
 		{
-			"esc_enabled": false,
+			"on_esc":
+			{
+				"actn": "trigger",
+				"args": "quit_career_setup"
+			},
 
 			"type": "sub_prompt",
-			"size": 500,
+			"size": 400,
 
 			"title": "What's Your Gender?",
 
@@ -226,8 +274,12 @@
 
 		"get_merc_portrait":
 		{
-			"esc_enabled": false,
-		
+			"on_esc":
+			{
+				"actn": "trigger",
+				"args": "quit_career_setup"
+			},
+
 			"type": "sub_prompt",
 			"size": [400, 364],
 		
@@ -285,383 +337,274 @@
 
 		"choose_era":
 		{
-			"esc_enabled": false,
+			"on_esc":
+			{
+				"actn": "trigger",
+				"args": "quit_career_setup"
+			},
+
+			"actn": "var",
+			"args": "cur_era = 3025",
 
 			"type": "sub_prompt",
-			"size": 500,
+			"size": [300,300],
+			"pos": [100,200],
 
-			"title": "Starting Era",
-
-			"options":
+			"frames":
 			[
 				{
-					"text": "2398",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
-								{
-									"day": 1,
-									"month": "January",
-									"year": 2398
-								}
-							}
-						},
-
-						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "2412",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
-								{
-									"day": 1,
-									"month": "January",
-									"year": 2412
-								}
-							}
-						},
-
-						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "2570",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
-								{
-									"day": 1,
-									"month": "January",
-									"year": 2570
-								}
-							}
-						},
-
-						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "2780",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
-								{
-									"day": 1,
-									"month": "January",
-									"year": 2780
-								}
-							}
-						},
-
-						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "2900",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
-								{
-									"day": 1,
-									"month": "January",
-									"year": 2900
-								}
-							}
-						},
-
-						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "3025",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
-								{
-									"day": 1,
-									"month": "January",
-									"year": 3025
-								}
-							}
-						},
-
-						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "3030",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
-								{
-									"day": 1,
-									"month": "January",
-									"year": 3030
-								}
-							}
-						},
-
-						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
+					"pos": [400,-100],
+					"size": [700,380],
+					"bg_color": [0,0,0]
 				},
 
 				{
-					"text": "3039",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
-								{
-									"day": 1,
-									"month": "January",
-									"year": 3039
-								}
-							}
-						},
-
-						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
+					"pos": [500,-80],
+					"size": [500,340],
+					"padding": 0,
+					"border": 0,
+					"image": "{era_image}",
+					"image_dynamic": true
 				},
 
 				{
-					"text": "3049",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
-								{
-									"day": 1,
-									"month": "January",
-									"year": 3049
-								}
-							}
-						},
+					"pos": [400,280],
+					"size": [700,200],
+					"bg_color": 0,
 
-						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
+					"text": "{era_desc}",
+					"text_dynamic": true,
+					"text_size": 24
 				},
-
+			
 				{
-					"text": "3050",
-					"actns":
+					"title": "Starting Era",
+
+					"options":
 					[
 						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
+							"text": "3025",
+							"actns":
+							[
 								{
-									"day": 1,
-									"month": "January",
-									"year": 3050
+									"actn": "update_game_date",
+									"args":
+									{
+										"set":
+										{
+											"day": 1,
+											"month": "May",
+											"year": 3025
+										}
+									}
+								},
+
+								{
+									"actn": "trigger",
+									"args": "choose_house"
 								}
+							],
+
+							"on_select":
+							{
+								"actns":
+								[
+									{
+										"actn": "var",
+										"args": "cur_era = 3025"
+									},
+
+									{
+										"actn": "var",
+										"args": "era_image = 'images/IS3025.png"
+									},
+
+									{
+										"actn": "var",
+										"args": "era_desc = file:texts/startup/3025.txt"
+									}
+								]
 							}
 						},
 
 						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "3052",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
+							"text": "3030",
+							"actns":
+							[
 								{
-									"day": 1,
-									"month": "January",
-									"year": 3052
+									"actn": "update_game_date",
+									"args":
+									{
+										"set":
+										{
+											"day": 1,
+											"month": "May",
+											"year": 3030
+										}
+									}
+								},
+
+								{
+									"actn": "trigger",
+									"args": "choose_house"
 								}
+							],
+
+							"on_select":
+							{
+								"actns":
+								[
+									{
+										"actn": "var",
+										"args": "cur_era = 3030"
+									},
+
+									{
+										"actn": "var",
+										"args": "era_image = 'images/IS3030.png"
+									},
+
+									{
+										"actn": "var",
+										"args": "era_desc = file:texts/startup/3030.txt"
+									}
+								]
 							}
 						},
 
 						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "3062",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
+							"text": "3039",
+							"actns":
+							[
 								{
-									"day": 1,
-									"month": "January",
-									"year": 3062
+									"actn": "update_game_date",
+									"args":
+									{
+										"set":
+										{
+											"day": 1,
+											"month": "May",
+											"year": 3039
+										}
+									}
+								},
+
+								{
+									"actn": "trigger",
+									"args": "choose_house"
 								}
+							],
+
+							"on_select":
+							{
+								"actns":
+								[
+									{
+										"actn": "var",
+										"args": "cur_era = 3039"
+									},
+
+									{
+										"actn": "var",
+										"args": "era_image = 'images/IS3039.png"
+									},
+
+									{
+										"actn": "var",
+										"args": "era_desc = file:texts/startup/3039.txt"
+									}
+								]
 							}
 						},
 
 						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "3068",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
+							"text": "3049",
+							"actns":
+							[
 								{
-									"day": 1,
-									"month": "January",
-									"year": 3068
+									"actn": "update_game_date",
+									"args":
+									{
+										"set":
+										{
+											"day": 1,
+											"month": "May",
+											"year": 3049
+										}
+									}
+								},
+
+								{
+									"actn": "trigger",
+									"args": "choose_house"
 								}
+							],
+
+							"on_select":
+							{
+								"actns":
+								[
+									{
+										"actn": "var",
+										"args": "cur_era = 3049"
+									},
+
+									{
+										"actn": "var",
+										"args": "era_image = 'images/IS3039.png"
+									},
+
+									{
+										"actn": "var",
+										"args": "era_desc = file:texts/startup/3049.txt"
+									}
+								]
 							}
 						},
 
 						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "3081",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
+							"text": "3050",
+							"actns":
+							[
 								{
-									"day": 1,
-									"month": "January",
-									"year": 3081
-								}
-							}
-						},
+									"actn": "update_game_date",
+									"args":
+									{
+										"set":
+										{
+											"day": 1,
+											"month": "May",
+											"year": 3050
+										}
+									}
+								},
 
-						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "3131",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
-							{
-								"set":
 								{
-									"day": 1,
-									"month": "January",
-									"year": 3131
+									"actn": "trigger",
+									"args": "choose_house"
 								}
-							}
-						},
+							],
 
-						{
-							"actn": "trigger",
-							"args": "choose_house"
-						}
-					]
-				},
-				{
-					"text": "3150",
-					"actns":
-					[
-						{
-							"actn": "update_game_date",
-							"args":
+							"on_select":
 							{
-								"set":
-								{
-									"day": 1,
-									"month": "January",
-									"year": 3150
-								}
-							}
-						},
+								"actns":
+								[
+									{
+										"actn": "var",
+										"args": "cur_era = 3050"
+									},
 
-						{
-							"actn": "trigger",
-							"args": "choose_house"
+									{
+										"actn": "var",
+										"args": "era_image = 'images/IS3050.png"
+									},
+
+									{
+										"actn": "var",
+										"args": "era_desc = file:texts/startup/3050.txt"
+									}
+								]
+							}
 						}
 					]
 				}
@@ -670,228 +613,878 @@
 
 		"choose_mechs":
 		{
-			"esc_enabled": false,
+			"on_esc":
+			{
+				"actn": "trigger",
+				"args": "quit_career_setup"
+			},
 
 			"type": "sub_prompt",
-			"size": 500,
+			"size": [400,264],
+			"pos": [440,200],
 
-			"title": "Starting Merc Unit",
-
-			"options":
+			"frames":
 			[
 				{
-					"text": "Established (Easy)",
-					"actns":
+					"pos": [-175,300],
+					"size": [700,80],
+					"bg_color": [0,0,0],
+
+					"text": "{merc_unit_desc}",
+					"text_dynamic": true,
+					"text_align": "center"
+				},
+
+				{
+
+					"title": "Starting Merc Unit",
+
+					"options":
 					[
 						{
-							"actn": "rand_var",
-							"args":
+							"text": "Accomplished (Very Easy)",
+							"actns":
+							[
+								{
+									"actn": "rand_var",
+									"args":
+									{
+										"var": "money",
+										"val": [8000000,10000000]
+									}
+								},
+
+								{
+									"actn": "add_player_unit",
+									"args": 
+									{
+										"min_ton": 30,
+										"max_ton": 45,
+										"num_units": 1,
+										"faction": "{starting_faction}"
+									}
+								},
+
+								{
+									"actn": "add_player_unit",
+									"args": 
+									{
+										"min_ton": 50,
+										"max_ton": 70,
+										"num_units": 3,
+										"faction": "{starting_faction}"
+									}
+								},
+
+								{
+									"actn": "add_player_unit",
+									"args": 
+									{
+										"min_ton": 30,
+										"max_ton": 45,
+										"num_units": 1,
+										"faction": "{starting_faction}"
+									}
+								},
+
+								{
+									"actn": "add_player_unit",
+									"args": 
+									{
+										"min_ton": 40,
+										"max_ton": 55,
+										"num_units": 3,
+										"faction": "{starting_faction}"
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["regular"]
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["regular"]
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["regular", "green"]
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["regular"]
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["regular", "green"]
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["regular"]
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["regular", "green"]
+									}
+								},						
+
+								{
+									"actn": "trigger",
+									"Xargs": "choose_wages",
+									"args": "choose_wages_encounters_combat"
+								}
+							],
+
+							"on_select":
 							{
-								"var": "money",
-								"val": [6000000,7000000]
+								"actn": "var",
+								"args": "merc_unit_desc = 'Start with a reinforced squad of mechs and pilots."
 							}
 						},
 
 						{
-							"actn": "add_player_unit",
-							"args": 
+							"text": "Established (Easy)",
+							"actns":
+							[
+								{
+									"actn": "rand_var",
+									"args":
+									{
+										"var": "money",
+										"val": [6000000,7000000]
+									}
+								},
+
+								{
+									"actn": "add_player_unit",
+									"args": 
+									{
+										"min_ton": 30,
+										"max_ton": 45,
+										"num_units": 1,
+										"faction": "{starting_faction}"
+									}
+								},
+
+								{
+									"actn": "add_player_unit",
+									"args": 
+									{
+										"min_ton": 50,
+										"max_ton": 70,
+										"num_units": 3,
+										"faction": "{starting_faction}"
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["regular"]
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["regular"]
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["regular", "green"]
+									}
+								},
+
+								{
+									"actn": "trigger",
+									"Xargs": "choose_wages",
+									"args": "choose_wages_encounters_combat"
+								}
+							],
+
+							"on_select":
 							{
-								"min_ton": 30,
-								"max_ton": 45,
-								"num_units": 1,
-								"faction": "{starting_faction}"
+								"actn": "var",
+								"args": "merc_unit_desc = 'Start with a heavy squad of mechs and pilots."
 							}
 						},
 
 						{
-							"actn": "add_player_unit",
-							"args": 
+							"text": "Regular (Normal)",
+							"actns":
+							[
+								{
+									"actn": "rand_var",
+									"args":
+									{
+										"var": "money",
+										"val": [3000000,5000000]
+									}
+								},
+								
+								{
+									"actn": "add_player_unit",
+									"args": 
+									{
+										"min_ton": 20,
+										"max_ton": 35,
+										"num_units": 1,
+										"faction": "{starting_faction}"
+									}
+								},
+
+								{
+									"actn": "add_player_unit",
+									"args": 
+									{
+										"min_ton": 40,
+										"max_ton": 50,
+										"num_units": 2,
+										"faction": "{starting_faction}"
+									}
+								},
+
+								{
+									"actn": "add_player_unit",
+									"args": 
+									{
+										"min_ton": 55,
+										"max_ton": 65,
+										"num_units": 1,
+										"faction": "{starting_faction}"
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["regular"]
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["green", "regular"]
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["green"]
+									}
+								},
+
+								{
+									"Xargs": "choose_wages",
+									"args": "choose_wages_encounters_combat"
+								}
+							],
+							
+							"on_select":
 							{
-								"min_ton": 50,
-								"max_ton": 70,
-								"num_units": 3,
-								"faction": "{starting_faction}"
+								"actn": "var",
+								"args": "merc_unit_desc = 'Start with a medium squad of mechs and pilots."
 							}
 						},
 
 						{
-							"actn": "add_to_list",
-							"args": 
+							"text": "Small (Hard)",
+							"actns":
+							[
+								{
+									"actn": "rand_var",
+									"args":
+									{
+										"var": "money",
+										"val": [2000000,3000000]
+									}
+								},						
+
+								{
+									"actn": "add_player_unit",
+									"args": 
+									{
+										"min_ton": 20,
+										"max_ton": 35,
+										"num_units": 2,
+										"faction": "{starting_faction}"
+									}
+								},
+
+								{
+									"actn": "add_player_unit",
+									"args": 
+									{
+										"min_ton": 40,
+										"max_ton": 45,
+										"num_units": 1,
+										"faction": "{starting_faction}"
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["green"]
+									}
+								},
+
+								{
+									"actn": "add_to_list",
+									"args": 
+									{
+										"list": "player_crew",
+										"type": "crew",
+										"skill_level": ["green", "regular"]
+									}
+								},
+
+								{
+									"actn": "trigger",
+									"Xargs": "choose_wages",
+									"args": "choose_wages_encounters_combat"
+								}
+							],
+							
+							"on_select":
 							{
-								"list": "player_crew",
-								"type": "crew",
-								"skill_level": ["regular"]
+								"actn": "var",
+								"args": "merc_unit_desc = 'Start with a light squad of mechs and pilots."
+							}
+						}
+					]
+				}
+			]
+		},
+
+		"refresh_wage_desc":
+		{
+			"if": "do_wages == true",
+			"true":
+			{
+				"actn": "var",
+				"args": "option_desc = 'Wages must be paid monthly\nCrew may quit if morale\nor pay is too low."
+			},
+			"false":
+			{
+				"actn": "var",
+				"args": "option_desc = '\nWages and morale are disabled."
+			}
+		},
+
+		"refresh_random_desc":
+		{
+			"if": "rand_events == true",
+			"true":
+			{
+				"actn": "var",
+				"args": "option_desc = 'Random events may occur during inter-planetary travel."
+			},
+			"false":
+			{
+				"actn": "var",
+				"args": "option_desc = '\nRandom events are disabled."
+			}
+		},
+
+		"refresh_rpg_combat_desc":
+		{
+			"if": "rpg_combat == true",
+			"true":
+			{
+				"actn": "var",
+				"args": "option_desc = 'Non-Mech battles and gun fights enabled\n(Pilots can die in these gun fights)"
+			},
+			"false":
+			{
+				"actn": "var",
+				"args": "option_desc = '\nRPG Combat is Disabled"
+			}
+		},
+
+		"choose_wages_encounters_combat":
+		{
+			"actns":
+			[
+				{
+					"Xactn": "close_prompt",
+					"Xargs": "all_sub_prompts"
+				},
+
+				{
+					"actn": "trigger",
+					"args": "choose_wec_prompt"
+				}
+			]
+		},
+
+		"choose_wec_prompt":
+		{
+			"on_esc":
+			{
+				"actn": "trigger",
+				"args": "quit_career_setup"
+			},
+
+			"type": "sub_prompt",
+			"size": [500,264],
+			"pos": [390,200],
+
+			"actns":
+			[
+				{
+					"actn": "vars",
+					"args":
+					[
+						"do_wages = true",
+						"rand_events = true",
+						"rpg_combat = true"
+					]
+				}
+			],
+
+			"frames":
+			[
+				{
+					"pos": [-50,300],
+					"size": [600,150],
+					"bg_color": [0,0,0],
+
+					"text": "{option_desc}",
+					"text_dynamic": true,
+					"text_align": "center"
+				},
+
+				{
+					"title": "Game Options",
+
+					"options":
+					[
+						{
+							"text": "Wages and Morale",
+							"text_right": "{lookup:enabled:do_wages}",
+							"text_dynamic": true,
+							"select_closes": false,
+							"actns":
+							[
+								{
+									"if": "do_wages == true",
+									"true":
+									{
+										"actn": "var",
+										"args": "do_wages = false"
+									},
+									"false":
+									{
+										"actn": "var",
+										"args": "do_wages = true"
+									}
+								},
+
+								{
+									"actn": "trigger",
+									"args": "refresh_wage_desc"
+								}
+							],
+
+							"on_select":
+							{
+								"actn": "trigger",
+								"args": "refresh_wage_desc"
 							}
 						},
 
 						{
-							"actn": "add_to_list",
-							"args": 
+							"text": "Random Events",
+							"text_right": "{lookup:enabled:rand_events}",
+							"text_dynamic": true,
+							"select_closes": false,
+							"actns":
+							[
+								{
+									"if": "rand_events == true",
+									"true":
+									{
+										"actn": "var",
+										"args": "rand_events = false"
+									},
+									"false":
+									{
+										"actn": "var",
+										"args": "rand_events = true"
+									}
+								},
+
+								{
+									"actn": "trigger",
+									"args": "refresh_random_desc"
+								}
+							],
+
+							"on_select":
 							{
-								"list": "player_crew",
-								"type": "crew",
-								"skill_level": ["regular"]
+								"actn": "trigger",
+								"args": "refresh_random_desc"
 							}
 						},
 
 						{
-							"actn": "add_to_list",
-							"args": 
+							"text": "RPG Combat",
+							"text_right": "{lookup:enabled:rpg_combat}",
+							"text_dynamic": true,
+							"select_closes": false,
+							"actns":
+							[
+								{
+									"if": "rpg_combat == true",
+									"true":
+									{
+										"actn": "var",
+										"args": "rpg_combat = false"
+									},
+									"false":
+									{
+										"actn": "var",
+										"args": "rpg_combat = true"
+									}
+								},
+
+								{
+									"actn": "trigger",
+									"args": "refresh_rpg_combat_desc"
+								}
+							],
+
+							"on_select":
 							{
-								"list": "player_crew",
-								"type": "crew",
-								"skill_level": ["regular", "green"]
+								"actn": "trigger",
+								"args": "refresh_rpg_combat_desc"
 							}
 						},
 
 						{
+							"text": "Accept",
 							"actn": "trigger",
 							"args": "choose_unit_name"
 						}
 					]
-				},
+				}
+			],
 
+			"lookups":
+			{
+				"enabled":
 				{
-					"text": "Regular (Normal)",
-					"actns":
+					"table":
 					[
 						{
-							"actn": "rand_var",
-							"args":
-							{
-								"var": "money",
-								"val": [3000000,5000000]
-							}
-						},
-						
-						{
-							"actn": "add_player_unit",
-							"args": 
-							{
-								"min_ton": 20,
-								"max_ton": 35,
-								"num_units": 1,
-								"faction": "{starting_faction}"
-							}
+							"equals": true,
+							"lookup_return": "'Enabled"
 						},
 
 						{
-							"actn": "add_player_unit",
-							"args": 
-							{
-								"min_ton": 40,
-								"max_ton": 50,
-								"num_units": 2,
-								"faction": "{starting_faction}"
-							}
-						},
-
-						{
-							"actn": "add_player_unit",
-							"args": 
-							{
-								"min_ton": 55,
-								"max_ton": 65,
-								"num_units": 1,
-								"faction": "{starting_faction}"
-							}
-						},
-
-						{
-							"actn": "add_to_list",
-							"args": 
-							{
-								"list": "player_crew",
-								"type": "crew",
-								"skill_level": ["regular"]
-							}
-						},
-
-						{
-							"actn": "add_to_list",
-							"args": 
-							{
-								"list": "player_crew",
-								"type": "crew",
-								"skill_level": ["green", "regular"]
-							}
-						},
-
-						{
-							"actn": "add_to_list",
-							"args": 
-							{
-								"list": "player_crew",
-								"type": "crew",
-								"skill_level": ["green"]
-							}
-						},
-
-						{
-							"actn": "trigger",
-							"args": "choose_unit_name"
+							"equals": false,
+							"lookup_return": "'Disabled"
 						}
 					]
+				}
+			}
+		},
+
+		"choose_wages":
+		{
+			"on_esc":
+			{
+				"actn": "trigger",
+				"args": "quit_career_setup"
+			},
+
+			"type": "sub_prompt",
+			"size": [400,190],
+			"pos": [440,240],
+
+			"frames":
+			[
+				{
+					"pos": [-100,260],
+					"size": [600,110],
+					"bg_color": [0,0,0],
+
+					"text": "{morale_desc}",
+					"text_dynamic": true,
+					"text_align": "center"
 				},
 
 				{
-					"text": "Small (Hard)",
-					"actns":
+					"title": "Wages and Morale",
+
+					"options":
 					[
 						{
-							"actn": "rand_var",
-							"args":
-							{
-								"var": "money",
-								"val": [2000000,3000000]
-							}
-						},						
+							"text": "Enabled",
+							"actns":
+							[
+								{
+									"actn": "var",
+									"args": "do_wages = True"
+								},
+								
+								{
+									"actn": "trigger",
+									"args": "choose_random"
+								}
+							],
 
-						{
-							"actn": "add_player_unit",
-							"args": 
+							"on_select":
 							{
-								"min_ton": 20,
-								"max_ton": 35,
-								"num_units": 2,
-								"faction": "{starting_faction}"
-							}
-						},
-
-						{
-							"actn": "add_player_unit",
-							"args": 
-							{
-								"min_ton": 40,
-								"max_ton": 45,
-								"num_units": 1,
-								"faction": "{starting_faction}"
+								"actn": "var",
+								"args": "morale_desc = 'Wages must be paid monthly and crew may quit if morale or pay is too low."
 							}
 						},
 
 						{
-							"actn": "add_to_list",
-							"args": 
+							"text": "Disabled",
+
+							"actns":
+							[
+								{
+									"actn": "var",
+									"args": "do_wages = False"
+								},
+								
+								{
+									"actn": "trigger",
+									"args": "choose_random"
+								}
+							],
+							
+							"on_select":
 							{
-								"list": "player_crew",
-								"type": "crew",
-								"skill_level": ["green"]
+								"actn": "var",
+								"args": "morale_desc = 'Wages and morale are disabled."
+							}
+						}
+					]
+				}
+			]
+		},
+
+		"choose_random":
+		{
+			"on_esc":
+			{
+				"actn": "trigger",
+				"args": "quit_career_setup"
+			},
+
+			"type": "sub_prompt",
+			"size": [380,190],
+			"pos": [450,240],
+
+			"frames":
+			[
+				{
+					"pos": [-100,260],
+					"size": [600,150],
+					"bg_color": [0,0,0],
+
+					"text": "{random_desc}",
+					"text_dynamic": true,
+					"text_align": "center"
+				},
+
+				{
+					"title": "Random Events",
+
+					"options":
+					[
+						{
+							"text": "Enabled",
+							"actns":
+							[
+								{
+									"actn": "var",
+									"args": "rand_events = True"
+								},
+								
+								{
+									"actn": "trigger",
+									"args": "choose_rpg_combat"
+								}
+							],
+
+							"on_select":
+							{
+								"actn": "var",
+								"args": "random_desc = 'Random events may occur during inter-planetary travel.\n(Unfinished, just a demo feature right now)."
 							}
 						},
 
 						{
-							"actn": "add_to_list",
-							"args": 
+							"text": "Disabled",
+
+							"actns":
+							[
+								{
+									"actn": "var",
+									"args": "rand_events = False"
+								},
+								
+								{
+									"actn": "trigger",
+									"args": "choose_rpg_combat"
+								}
+							],
+							
+							"on_select":
 							{
-								"list": "player_crew",
-								"type": "crew",
-								"skill_level": ["green", "regular"]
+								"actn": "var",
+								"args": "random_desc = '\nRandom events are disabled."
+							}
+						}
+					]
+				}
+			]
+		},
+
+		"choose_rpg_combat":
+		{
+			"on_esc":
+			{
+				"actn": "trigger",
+				"args": "quit_career_setup"
+			},
+
+			"type": "sub_prompt",
+			"size": [400,190],
+			"pos": [440,240],
+
+			"frames":
+			[
+				{
+					"pos": [-100,260],
+					"size": [600,110],
+					"bg_color": [0,0,0],
+
+					"text": "{rpg_combat_desc}",
+					"text_dynamic": true,
+					"text_align": "center"
+				},
+
+				{
+					"title": "RPG Combat",
+
+					"options":
+					[
+						{
+							"text": "Enabled",
+							"actns":
+							[
+								{
+									"actn": "var",
+									"args": "rpg_combat = True"
+								},
+								
+								{
+									"actn": "trigger",
+									"args": "choose_unit_name"
+								}
+							],
+
+							"on_select":
+							{
+								"actn": "var",
+								"args": "rpg_combat_desc = 'Non-Mech battles and gun fights enabled\n(Pilots can die in these gun fights)"
 							}
 						},
 
 						{
-							"actn": "trigger",
-							"args": "choose_unit_name"
+							"text": "Disabled",
+
+							"actns":
+							[
+								{
+									"actn": "var",
+									"args": "rpg_combat = False"
+								},
+								
+								{
+									"actn": "trigger",
+									"args": "choose_unit_name"
+								}
+							],
+							
+							"on_select":
+							{
+								"actn": "var",
+								"args": "rpg_combat_desc = 'RPG Combat is Disabled"
+							}
 						}
 					]
 				}
@@ -916,7 +1509,11 @@
 
 		"get_merc_unit_name_prompt":
 		{
-			"esc_enabled": false,
+			"on_esc":
+			{
+				"actn": "trigger",
+				"args": "quit_career_setup"
+			},
 
 			"type": "sub_prompt",
 			"size": 500,
@@ -978,288 +1575,495 @@
 
 		"choose_house":
 		{
-			"esc_enabled": false,
-
+			"on_esc":
+			{
+				"actn": "trigger",
+				"args": "quit_career_setup"
+			},
+			
 			"type": "sub_prompt",
-			"size": 500,
+			"size": [300,340],
+			"pos": [100,200],
 
-			"title": "Choose Your Starting House",
-
-			"options":
+			"actns":
 			[
 				{
-					"text": "Steiner",
-					"actns":
+					"actn": "date_to_num",
+					"args":
+					{
+						"var": "date_num",
+						"month": 12,
+						"day": 31,
+						"year": "year-2"
+					}
+				},
+
+				{
+					"actn": "loop",
+					"args":
+					{
+						"each": "news_list",
+						"var": "news_item",
+						"actns":
+						[
+							{
+								"if": "news_item:date_num < date_num",
+								"actn": "var",
+								"args": "news_item:read = true"
+							}
+						]
+					}
+				}
+			],
+			
+
+			"frames":
+			[
+				{
+					"pos": [400,-100],
+					"size": [700,380],
+					"bg_color": [0,0,0]
+				},
+
+				{
+					"pos": [550,-80],
+					"size": [400,340],
+					"padding": 0,
+					"border": 0,
+					"image": "{house_image}",
+					"image_dynamic": true
+				},
+
+				{
+					"pos": [400,280],
+					"size": [700,200],
+					"bg_color": 0,
+
+					"text": "{house_desc}",
+					"text_dynamic": true,
+					"text_size": 24
+				},
+			
+				{
+
+					"title": "Starting Allegiance",
+
+					"options":
 					[
 						{
-							"if": "year < 3050",
-							"true":
-							{
-								"actn": "rand_var",
-								"args":
+							"text": "Steiner",
+							"actns":
+							[
 								{
-									"var": "start_planet",
-									"val": 
-									[
-										"Timbuktu",
-										"Valloire",
-										"Niangol",
-										"Anembo",
-										"Anywhere",
-										"Winfield"
-									]
-								}
-							},
-							"false":
-							{
-								"actn": "rand_var",
-								"args":
+									"if": "year < 3050",
+									"true":
+									{
+										"actn": "rand_var",
+										"args":
+										{
+											"var": "start_planet",
+											"val": 
+											[
+												"Timbuktu",
+												"Valloire",
+												"Niangol",
+												"Anembo",
+												"Anywhere",
+												"Winfield"
+											]
+										}
+									},
+									"false":
+									{
+										"actn": "rand_var",
+										"args":
+										{
+											"var": "start_planet",
+											"val": 
+											[
+												"Timbuktu",
+												"Valloire",
+												"Niangol",
+												"Anembo"
+											]
+										}
+									}
+								},
+
 								{
-									"var": "start_planet",
-									"val": 
-									[
-										"Timbuktu",
-										"Valloire",
-										"Niangol",
-										"Anembo"
-									]
+									"actn": "set_planet",
+									"args": "{start_planet}"
+								},
+
+								{
+									"actn": "var",
+									"args": "reputation:steiner = 70"
+								},
+
+								{
+									"actn": "var",
+									"args": "reputation:kurita = 30"
+								},
+
+								{
+									"actn": "var",
+									"args": "reputation:marik = 40"
+								},
+
+								{
+									"actn": "var",
+									"args": "starting_faction = 'steiner"
+								},
+
+								{
+									"actn": "trigger",
+									"args": "choose_mechs"
 								}
+							],
+
+							"on_select":
+							{
+								"actns":
+								[
+									{
+										"actn": "var",
+										"args": "house_image = 'images/houses/logo_steiner.png"
+									},
+
+									{
+										"actn": "var",
+										"args": "house_desc = file:texts/startup/Lyran_Commonwealth.txt"
+									}
+								]								
 							}
 						},
 
 						{
-							"actn": "set_planet",
-							"args": "{start_planet}"
-						},
+							"text": "Davion",
+							"actns":
+							[
+								{
+									"actn": "rand_var",
+									"args":
+									{
+										"var": "start_planet",
+										"val": 
+										[
+											"Baxley",
+											"Delacambre",
+											"Cogdell",
+											"Baxley",
+											"Great Gorge",
+											"Hyalite",
+											"Noatak"
+										]
+									}
+								},
 
-						{
-							"actn": "var",
-							"args": "reputation:steiner = 70"
-						},
+								{
+									"actn": "set_planet",
+									"args": "{start_planet}"
+								},
 
-						{
-							"actn": "var",
-							"args": "starting_faction = 'steiner"
-						},
+								{
+									"actn": "var",
+									"args": "reputation:davion = 70"
+								},
 
-						{
-							"actn": "trigger",
-							"args": "choose_mechs"
-						}
-					]
-				},
+								{
+									"actn": "var",
+									"args": "reputation:kurita = 30"
+								},
 
-				{
-					"text": "Davion",
-					"actns":
-					[
-						{
-							"actn": "rand_var",
-							"args":
+								{
+									"actn": "var",
+									"args": "reputation:liao = 25"
+								},
+
+								{
+									"actn": "var",
+									"args": "starting_faction = 'davion"
+								},
+
+								{
+									"actn": "trigger",
+									"args": "choose_mechs"
+								}
+							],
+
+							"on_select":
 							{
-								"var": "start_planet",
-								"val": 
+								"actns":
 								[
-									"Baxley",
-									"Delacambre",
-									"Cogdell",
-									"Baxley",
-									"Great Gorge",
-									"Hyalite",
-									"Noatak"
+									{
+										"actn": "var",
+										"args": "house_image = 'images/houses/logo_davion.png"
+									},
+
+									{
+										"actn": "var",
+										"args": "house_desc = file:texts/startup/Federated_Suns.txt"
+									}
 								]
 							}
 						},
 
 						{
-							"actn": "set_planet",
-							"args": "{start_planet}"
-						},
-
-						{
-							"actn": "var",
-							"args": "reputation:davion = 70"
-						},
-
-						{
-							"actn": "var",
-							"args": "starting_faction = 'davion"
-						},
-
-						{
-							"actn": "trigger",
-							"args": "choose_mechs"
-						}
-					]
-				},
-
-				{
-					"text": "Kurita",
-					"actns":
-					[
-						{
-							"if": "year < 3039",
-							"true":
-							{
-								"actn": "rand_var",
-								"args":
+							"text": "Kurita",
+							"actns":
+							[
 								{
-									"var": "start_planet",
-									"val": 
-									[
-										"Galedon V",
-										"New Samarkand",
-										"Tabayama",
-										"Land's End",
-										"Qandahar",
-										"Rasalhague"
-									]
-								}
-							},
-							"false":
-							{
-								"actn": "rand_var",
-								"args":
+									"if": "year < 3039",
+									"true":
+									{
+										"actn": "rand_var",
+										"args":
+										{
+											"var": "start_planet",
+											"val": 
+											[
+												"Galedon V",
+												"New Samarkand",
+												"Tabayama",
+												"Land's End",
+												"Qandahar",
+												"Rasalhague"
+											]
+										}
+									},
+									"false":
+									{
+										"actn": "rand_var",
+										"args":
+										{
+											"var": "start_planet",
+											"val": 
+											[
+												"Galedon V",
+												"New Samarkand",
+												"Tabayama",
+												"Land's End",
+												"Qandahar"
+											]
+										}
+									}
+									
+								},
+
 								{
-									"var": "start_planet",
-									"val": 
-									[
-										"Galedon V",
-										"New Samarkand",
-										"Tabayama",
-										"Land's End",
-										"Qandahar"
-									]
+									"actn": "set_planet",
+									"args": "{start_planet}"
+								},
+
+								{
+									"actn": "var",
+									"args": "reputation:kurita = 70"
+								},
+
+								{
+									"actn": "var",
+									"args": "reputation:davion = 30"
+								},
+
+								{
+									"actn": "var",
+									"args": "reputation:steiner = 30"
+								},
+
+								{
+									"actn": "var",
+									"args": "starting_faction = 'kurita"
+								},						
+
+								{
+									"actn": "trigger",
+									"args": "choose_mechs"
 								}
-							}
-							
-						},
+							],
 
-						{
-							"actn": "set_planet",
-							"args": "{start_planet}"
-						},
-
-						{
-							"actn": "var",
-							"args": "reputation:kurita = 70"
-						},
-
-						{
-							"actn": "var",
-							"args": "starting_faction = 'kurita"
-						},						
-
-						{
-							"actn": "trigger",
-							"args": "choose_mechs"
-						}
-					]
-				},
-
-				{
-					"text": "Liao",
-					"actns":
-					[
-						{
-							"actn": "rand_var",
-							"args":
+							"on_select":
 							{
-								"var": "start_planet",
-								"val": 
+								"actns":
 								[
-									"Zanzibar",
-									"Turin",
-									"Menke",
-									"Buenos Aires"
+									{
+										"actn": "var",
+										"args": "house_image = 'images/houses/logo_kurita.png"
+									},
+
+									{
+										"actn": "var",
+										"args": "house_desc = file:texts/startup/Draconis_Combine.txt"
+									}
+								]
+							}
+
+						},
+
+						{
+							"text": "Liao",
+							"actns":
+							[
+								{
+									"actn": "rand_var",
+									"args":
+									{
+										"var": "start_planet",
+										"val": 
+										[
+											"Zanzibar",
+											"Turin",
+											"Menke",
+											"Buenos Aires"
+										]
+									}
+								},
+
+								{
+									"actn": "set_planet",
+									"args": "{start_planet}"
+								},
+								
+								{
+									"actn": "var",
+									"args": "reputation:liao = 70"
+								},
+
+								{
+									"actn": "var",
+									"args": "reputation:davion = 20"
+								},
+
+								{
+									"actn": "var",
+									"args": "starting_faction = 'liao"
+								},						
+
+								{
+									"actn": "trigger",
+									"args": "choose_mechs"
+								}
+							],
+
+							"on_select":
+							{
+								"actns":
+								[
+									{
+										"actn": "var",
+										"args": "house_image = 'images/houses/logo_liao.png"
+									},
+
+									{
+										"actn": "var",
+										"args": "house_desc = file:texts/startup/Capellan_Confederation.txt"
+									}
 								]
 							}
 						},
 
 						{
-							"actn": "set_planet",
-							"args": "{start_planet}"
-						},{
-							"actn": "var",
-							"args": "reputation:liao = 70"
-						},
+							"text": "Marik",
+							"actns":
+							[
+								{
+									"actn": "rand_var",
+									"args":
+									{
+										"var": "start_planet",
+										"val": 
+										[
+											"Claybrooke",
+											"Cirebon",
+											"Lesnovo",
+											"Silver",
+											"Chalouba"
+										]
+									}
+								},
 
-						{
-							"actn": "var",
-							"args": "starting_faction = 'liao"
-						},						
+								{
+									"actn": "set_planet",
+									"args": "{start_planet}"
+								},
 
-						{
-							"actn": "trigger",
-							"args": "choose_mechs"
-						}
-					]
-				},
+								{
+									"actn": "var",
+									"args": "reputation:marik = 70"
+								},
 
-				{
-					"text": "Marik",
-					"actns":
-					[
-						{
-							"actn": "rand_var",
-							"args":
+								{
+									"actn": "var",
+									"args": "reputation:steiner = 40"
+								},
+
+								{
+									"actn": "var",
+									"args": "starting_faction = 'marik"
+								},
+
+								{
+									"actn": "trigger",
+									"args": "choose_mechs"
+								}
+							],
+
+							"on_select":
 							{
-								"var": "start_planet",
-								"val": 
+								"actns":
 								[
-									"Claybrooke",
-									"Cirebon",
-									"Lesnovo",
-									"Silver",
-									"Chalouba"
+									{
+										"actn": "var",
+										"args": "house_image = 'images/houses/logo_marik.png"
+									},
+
+									{
+										"actn": "var",
+										"args": "house_desc = file:texts/startup/Free_Worlds_League.txt"
+									}
 								]
 							}
 						},
 
 						{
-							"actn": "set_planet",
-							"args": "{start_planet}"
-						},
+							"text": "No Affiliation",
+							"actns":
+							[
+								{
+									"actn": "var",
+									"args": "start_planet = 'Outreach"
+								},
 
-						{
-							"actn": "var",
-							"args": "reputation:marik = 70"
-						},
+								{
+									"actn": "set_planet",
+									"args": "{start_planet}"
+								},						
 
-						{
-							"actn": "var",
-							"args": "starting_faction = 'marik"
-						},
+								{
+									"actn": "var",
+									"args": "starting_faction = 'any"
+								},					
 
-						{
-							"actn": "trigger",
-							"args": "choose_mechs"
-						}
-					]
-				},
+								{
+									"actn": "trigger",
+									"args": "choose_mechs"
+								}
+							],
 
-				{
-					"text": "No Affiliation",
-					"actns":
-					[
-						{
-							"actn": "var",
-							"args": "start_planet = 'Outreach"
-						},
+							"on_select":
+							{
+								"actns":
+								[
+									{
+										"actn": "var",
+										"args": "house_image = 'images/houses/logo_comstar.png"
+									},
 
-						{
-							"actn": "set_planet",
-							"args": "{start_planet}"
-						},						
-
-						{
-							"actn": "var",
-							"args": "starting_faction = 'any"
-						},					
-
-						{
-							"actn": "trigger",
-							"args": "choose_mechs"
+									{
+										"actn": "var",
+										"args": "house_desc = file:texts/startup/Unaffiliated.txt"
+									}
+								]
+							}
 						}
 					]
 				}

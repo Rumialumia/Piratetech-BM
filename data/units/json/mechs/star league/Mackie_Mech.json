@@ -1,0 +1,184 @@
+{
+    "Mackie":
+    {
+        "unit_sprite": "assault1_3",
+        "unit_model": "mackie",
+        "tons": 100,
+        "internal": 152,
+        
+        "MSK-5S":
+        {
+            "cost": 9247000,
+            "armor": 214,
+            "heat_sinks": 17,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "la"],
+                ["Autocannon/5", "ra"],
+                ["Large Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "rt"]
+            ]
+        },
+
+        "MSK-6S":
+        {
+            "cost": 9290000,
+            "armor": 214,
+            "heat_sinks": 15,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "la"],
+                ["Autocannon/10", "ra"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "rt"],
+                ["Autocannon/10", "rt"]
+            ]
+        },
+
+        "MSK-7A":
+        {
+            "cost": 9364000,
+            "armor": 304,
+            "heat_sinks": 21,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "la"],
+                ["Autocannon/20", "ra"],
+                ["Large Laser", "lt"],
+                ["Large Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"]
+            ]
+        },
+
+        "MSK-8B":
+        {
+            "cost": 9544000,
+            "armor": 307,
+            "heat_sinks": 21,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "la"],
+                ["PPC", "la"],
+                ["Autocannon/20", "ra"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"]
+            ]
+        },
+
+        "MSK-9H":
+        {
+            "cost": 9930000,
+            "armor": 304,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "la"],
+                ["PPC", "la"],
+                ["Autocannon/20", "ra"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "lt"],
+                ["CASE", "rt"]
+            ]
+        },
+
+        "MSK-9HKR":
+        {
+            "cost": 10794000,
+            "armor": 304,
+            "heat_sinks": 26,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "la"],
+                ["PPC", "la"],
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "lt"],
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

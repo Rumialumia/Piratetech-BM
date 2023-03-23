@@ -1,0 +1,71 @@
+{
+    "Centurion":
+    {
+        "unit_sprite": "med6_5",
+        "unit_model": "centurion",
+        "tons": 50,
+        "internal": 83,
+        
+        "CN9-A":
+        {
+            "cost": 3491500,
+            "armor": 136,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "ra"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ctr"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "ra"],
+                ["Autocannon/10", "ra"],
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"]
+            ]
+        },
+
+        "CN9-D":
+        {
+            "cost": 9676500,
+            "armor": 136,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "ctr"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "ra"],
+                ["LB 10-X", "ra"],
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "lt"]
+            ]
+        }
+    }
+}

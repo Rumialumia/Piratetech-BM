@@ -1,0 +1,39 @@
+{
+    "Black Knight":
+    {
+        "unit_sprite": "heavy3_8",
+        "unit_model": "grasshopper",
+        "tons": 75,
+        "internal": 114,
+        
+        "BL6-KNT":
+        {
+            "cost": 7136938,
+            "armor": 208,
+            "heat_sinks": 20,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["Large Laser", "rt"],
+                ["Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Small Laser", "h"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "ct"]
+            ]
+        }  
+    }
+}

@@ -1,0 +1,422 @@
+{
+    "Emperor":
+    {
+        "unit_sprite": "assault2_8",
+        "unit_model": "emperor",
+        "tons": 90,
+        "internal": 138,
+        
+        "EMP-1A":
+        {
+            "cost": 7792850,
+            "armor": 273,
+            "heat_sinks": 10,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "la"],
+                ["Autocannon/5", "ra"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "lt"],
+                ["Autocannon/5", "lt"],
+                ["Autocannon/5", "rt"],
+                ["Autocannon/5", "rt"]
+            ]
+        },
+
+        "EMP-5A":
+        {
+            "cost": 7949600,
+            "armor": 279,
+            "heat_sinks": 16,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "la"],
+                ["Large Laser", "ra"],
+                ["Autocannon/5", "la"],
+                ["Autocannon/5", "ra"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "lt"],
+                ["Autocannon/5", "rt"]
+            ]
+        },
+
+        "EMP-6A":
+        {
+            "cost": 18713100,
+            "armor": 279,
+            "heat_sinks": 24,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "la"],
+                ["Large Laser", "ra"],
+                ["LB 10-X", "la"],
+                ["LB 10-X", "ra"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        },
+
+        "EMP-6A-EC":
+        {
+            "cost": 19017100,
+            "armor": 279,
+            "heat_sinks": 28,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser (C)", "la"],
+                ["ER Large Laser (C)", "rt"],
+                ["LB 10-X (C)", "la"],
+                ["LB 5-X (C)", "ra"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "rt"],
+                ["Prototype Streak SRM-4 (C)", "ra"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X (C)", "lt"],
+                ["LB 10-X (C)", "lt"],
+                ["LB 10-X (C)", "lt"],
+                ["LB 10-X (C)", "lt"],
+                ["LB 5-X (C)", "rt"],
+                ["LB 5-X (C)", "rt"],
+                ["Prototype Streak SRM-4 (C)", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        },
+
+        "EMP-6AN":
+        {
+            "cost": 18713100,
+            "armor": 279,
+            "heat_sinks": 28,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "la"],
+                ["ER PPC", "rt"],
+                ["LB 10-X", "la"],
+                ["Gauss Rifle (C)", "ra"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "lt"],
+                ["Gauss Rifle (C)", "rt"],
+                ["Gauss Rifle (C)", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        },
+
+        "EMP-6D":
+        {
+            "cost": 18808100,
+            "armor": 279,
+            "heat_sinks": 28,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Rotary AC/5", "la"],
+                ["Rotary AC/5", "ra"],
+                ["ER Large Laser", "lt"],
+                ["ER Medium Laser", "lt"],
+                ["ER Large Laser", "rt"],
+                ["ER Medium Laser", "rt"],
+                ["ER Medium Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Rotary AC/5", "lt"],
+                ["Rotary AC/5", "lt"],
+                ["Rotary AC/5", "rt"],
+                ["Rotary AC/5", "rt"],
+                ["Rotary AC/5", "ll"],
+                ["Rotary AC/5", "rl"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        },
+
+        "EMP-6L":
+        {
+            "cost": 12872500,
+            "armor": 279,
+            "heat_sinks": 24,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "la"],
+                ["Gauss Rifle", "ra"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "rt"],
+                ["Gauss Rifle", "rt"],
+                ["Gauss Rifle", "rt"]
+            ],
+            "equip":
+            [
+                ["Guardian ECM", "rt"],
+                ["CASE", "rt"]
+            ]
+        },
+
+        "EMP-6M":
+        {
+            "cost": 19486400,
+            "armor": 279,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Light Gauss Rifle", "la"],
+                ["ER Large Laser", "la"],
+                ["Light Gauss Rifle", "ra"],
+                ["ER Large Laser", "ra"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "ct"],
+                ["ER Medium Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["Light Gauss Rifle", "la"],
+                ["Light Gauss Rifle", "ra"]
+            ]
+        },
+
+        "EMP-6S":
+        {
+            "cost": 19376200,
+            "armor": 279,
+            "heat_sinks": 24,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 20-X", "la"],
+                ["LB 20-X", "ra"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Laser", "hd"]
+            ],
+            "ammo":
+            [
+                ["LB 20-X", "lt"],
+                ["LB 20-X", "lt"],
+                ["LB 20-X", "lt"],
+                ["LB 20-X", "rt"],
+                ["LB 20-X", "rt"],
+                ["LB 20-X", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        },
+
+        "EMP-7L":
+        {
+            "cost": 12274000,
+            "armor": 279,
+            "heat_sinks": 24,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "la"],
+                ["Autocannon/10", "ra"],
+                ["ER Large Laser", "lt"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "rt"],
+                ["Autocannon/10", "rt"],
+                ["Autocannon/10", "rt"],
+                ["Autocannon/10", "rt"],
+                ["Autocannon/10", "rt"],
+                ["Autocannon/10", "rt"]
+            ],
+            "equip":
+            [
+                ["Guardian ECM", "rt"],
+                ["CASE", "rt"]
+            ]
+        },
+
+        "EMP-6ME":
+        {
+            "cost": 16349500,
+            "armor": 264,
+            "heat_sinks": 22,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Silver Bullet Gauss Rifle", "la"],
+                ["SN PPC", "la"],
+                ["Silver Bullet Gauss Rifle", "ra"],
+                ["SN PPC", "ra"],
+                ["Medium Pulse Laser", "lt"],
+                ["Medium Pulse Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["Silver Bullet Gauss Rifle", "lt"],
+                ["Silver Bullet Gauss Rifle", "lt"],
+                ["Silver Bullet Gauss Rifle", "rt"],
+                ["Silver Bullet Gauss Rifle", "rt"]
+            ]
+        },
+
+        "EMP-8L":
+        {
+            "cost": 13467200,
+            "armor": 279,
+            "heat_sinks": 24,
+
+            "speed": 3,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "la"],
+                ["LB 10-X", "ra"],
+                ["Plasma Rifle", "lt"],
+                ["Re-Engineered Medium Pulse Laser", "lt"],
+                ["Re-Engineered Medium Pulse Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["Plasma Rifle", "rt"],
+                ["Plasma Rifle", "rt"]
+            ],
+            "equip":
+            [
+                ["Guardian ECM", "rt"],
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}
