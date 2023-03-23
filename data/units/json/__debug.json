@@ -1,0 +1,99 @@
+{
+    "Drone":
+    {
+        "unit_sprite": "light3_4",
+        "unit_model": "wasp",
+        "tons": -1,
+        "internal": 33,
+        
+        "DRN-1T":
+        {
+            "armor": 48,
+            "heat_sinks": 10,
+
+            "speed": 2,
+            "jump": 2,
+
+            "weapons":
+            [
+                ["Small Laser", "ra"]
+            ]
+        }
+    },
+
+    "Debug":
+    {
+        "unit_sprite": "assault3_1",
+        "unit_model": "atlas",
+        "tons": -1,
+        "internal": 152,
+            
+        "AS7-D":
+        {
+            "cost": 0,
+            
+            "armor": 304,
+            "heat_sinks": 100,
+
+            "speed": 14,
+            "jump": 14,
+
+            "weapons":
+            [
+                ["Gauss Rifle", "la"],
+                ["Gauss Rifle", "la"],
+                ["Gauss Rifle", "la"],
+                ["Gauss Rifle", "la"],
+                ["Gauss Rifle (C)", "la"],
+                ["Gauss Rifle (C)", "la"],
+                ["Gauss Rifle (C)", "la"],
+                ["Gauss Rifle (C)", "la"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "la"],
+                ["Gauss Rifle (C)", "la"]
+            ],
+
+            "Xweapons":
+            [
+                ["PPC", "la"],
+                ["PPC", "la"],
+                ["PPC", "la"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"]
+            ],
+            "Xammo":
+            [
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"],
+                ["Ultra AC/20", "rt"]
+            ],
+            "XXweapons":
+            [
+                ["Anti-Missile", "la"]
+            ],
+            "XXammo":
+            [
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"],
+                ["Anti-Missile", "la"]
+            ]
+        }       
+    }
+}

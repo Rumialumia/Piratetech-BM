@@ -1,0 +1,68 @@
+{
+    "Whitworth":
+    {
+        "unit_sprite": "med4_8",
+        "unit_model": "whitworth",
+        "tons": 40,
+        "internal": 67,
+        
+        "WTH-1":
+        {
+            "cost": 2912933,
+            "armor": 128,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "h"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"]
+            ]
+        },
+
+        "WTH-2":
+        {
+            "cost": 3164933,
+            "armor": 128,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"],
+                ["Medium Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "rt"],
+                ["LRM-10", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"],
+                ["Artemis IV FCS", "lt"]
+            ]
+        }
+    }
+}

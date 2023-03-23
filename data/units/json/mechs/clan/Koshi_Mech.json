@@ -1,0 +1,45 @@
+{
+    "Koshi":
+    {
+        "clan_name": "Mist Lynx",
+
+        "unit_sprite": "light5_6",
+        "unit_model": "mist_lynx",
+        "tons": 25,
+        "internal": 43,
+        
+        "Prime":
+        {
+            "cost": 4812760,
+            "armor": 67,
+            "heat_sinks": 20,
+
+            "speed": 7,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10 (C)", "la"],
+                ["Streak SRM-4 (C)", "ra"],
+                ["Machinegun (C)", "ra"],
+                ["Machinegun (C)", "ra"]
+            ],
+            "ammo":
+            [
+                ["LRM-10 (C)", "la"],
+                ["Streak SRM-4 (C)", "ra"],
+                ["Machinegun (C)", "ra"]
+            ],
+            "equip":
+            [
+                ["Active Probe (C)", "h"],
+                ["CASE", "la"],
+                ["CASE", "ra"]
+            ]
+        }
+    }
+}

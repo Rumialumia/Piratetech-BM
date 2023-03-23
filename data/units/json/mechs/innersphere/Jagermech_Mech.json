@@ -1,0 +1,70 @@
+{
+    "Jagermech":
+    {
+        "unit_sprite": "heavy2_8",
+        "unit_model": "jagermech",
+        "tons": 65,
+        "internal": 104,
+        
+        "JM6-S":
+        {
+            "cost": 5232425,
+            "armor": 96,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "ra"],
+                ["Autocannon/5", "la"],
+                ["Autocannon/2", "ra"],
+                ["Autocannon/2", "la"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "rt"],
+                ["Autocannon/5", "lt"],
+                ["Autocannon/2", "ct"]                
+            ]
+        },
+
+        "JM6-DD":
+        {
+            "cost": 11419925,
+            "armor": 116,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "ra"],
+                ["Ultra AC/5", "la"],
+                ["Autocannon/2", "ra"],
+                ["Autocannon/2", "la"],
+                ["Medium Pulse Laser", "rt"],
+                ["Medium Pulse Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "rt"],
+                ["Ultra AC/5", "lt"],
+                ["Autocannon/2", "ct"]                
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

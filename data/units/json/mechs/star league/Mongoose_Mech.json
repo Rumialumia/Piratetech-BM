@@ -1,0 +1,35 @@
+{
+    "Mongoose":
+    {
+        "unit_sprite": "light1_3",
+        "unit_model": "mongoose",
+        "tons": 25,
+        "internal": 43,
+        
+        "MON-66":
+        {
+            "cost": 2229479,
+            "armor": 90,
+            "heat_sinks": 10,
+
+            "speed": 8,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "h"]
+            ],
+            "equip":
+            [
+                ["Beagle Probe", "lt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "Orion":
+    {
+        "unit_sprite": "heavy4_3",
+        "unit_model": "orion",
+        "tons": 75,
+        "internal": 114,
+            
+        "ON1-K":
+        {
+            "cost": 6674500,
+            "armor": 224,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "rt"],
+                ["LRM-15", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["SRM-4", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "rt"],
+                ["Autocannon/10", "rt"],
+                ["LRM-15", "lt"], 
+                ["LRM-15", "lt"], 
+                ["SRM-4", "lt"],
+                ["SRM-4", "lt"]
+            ]
+        },
+
+        "ON1-KP":
+        {
+            "cost": 6674500,
+            "armor": 224,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "rt"],
+                ["LRM-15", "lt"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["Inferno SRM-4", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "rt"],
+                ["Autocannon/10", "rt"],
+                ["LRM-15", "lt"], 
+                ["LRM-15", "lt"], 
+                ["Inferno SRM-4", "lt"],
+                ["Inferno SRM-4", "lt"]
+            ]
+        },
+
+        "ON1-M":
+        {
+            "cost": 15790250,
+            "armor": 224,
+            "heat_sinks": 22,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "rt"],
+                ["LRM-20", "la"], 
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["SRM-4", "lt"],
+                ["SRM-6", "ct"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LRM-20", "lt"], 
+                ["LRM-20", "lt"], 
+                ["SRM-4", "rt"],
+                ["SRM-6", "lt"]
+            ]
+        }
+    }
+}

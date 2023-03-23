@@ -1,0 +1,49 @@
+{
+    "Ultra AC/10 (C)":
+    {
+        "cost": 640000,
+        "mod_cost": 160000,
+        "ammo_cost": 24000,
+        
+        "short": "UAC/10 (C)",
+        "type": "cannon",
+        "store_type": "cannon",
+        "damage": 10,
+        "heat": 8,
+        "range": 12,
+        "tons": 10,
+        "crit": 4,
+        "ammo": 10,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.015,
+        "ignore_ams": true,
+        "use_ammo_per_shot": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.4, 0.9],
+            "muzzle_offset": 20,
+            
+            "num_shots": 2,
+            "shot_gap": 0.025,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            "shots_roll_hit": true,
+            
+            "shot_sprite": "Autocannon/10",
+            "sound_every_shot": true,
+                        
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1.25, 1.25],
+            
+            "fire_sound": "resources/sounds/JFX_AC10_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        }
+    }
+}

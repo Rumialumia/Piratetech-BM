@@ -20,103 +20,22 @@
 
     "available_units": 
     [
-        "Locust",
-        "Wasp",
-        "Stinger",
-        "Commando",
-        "Javelin",
-        "Spider",
-        "Urbanmech",
-        "Valkyrie",
-        "Firestarter",
-        "Jenner",
-        "Ostscout",
-        "Panther",
-        "Assassin",
-        "Cicada",
-        "Clint",
-        "Hermes II",
-        "Vulcan",
-        "Whitworth",
-        "Blackjack",
-        "Hatchetman",
-        "Phoenix Hawk",
-        "Vindicator",
-        "Centurion",
-        "Enforcer",
-        "Hunchback",
-        "Trebuchet",
-        "Dervish",
-        "Griffin",
-        "Shadow Hawk",
-        "Scorpion",
-        "Wolverine",
-        "Dragon",
-        "Ostroc",
-        "Ostsol",
-        "Quickdraw",
-        "Rifleman",
-        "Catapult",
-        "Crusader",
-        "Jagermech",
-        "Thunderbolt",
-        "Archer",
-        "Grasshopper",
-        "Warhammer",
-        "Marauder",
-        "Orion",
-        "Awesome",
-        "Charger",
-        "Goliath",
-        "Victor",
-        "Zeus",
-        "Battlemaster",
-        "Stalker",
-        "Cyclops",
-        "Banshee",
-        "Atlas"
+        "dir:data/units/3025_IS/available/general"
     ],
 
     "available_tech":
     [
-        "PPC",
-        "Large Laser",
-        "Medium Laser",
-        "Small Laser",
-        "Autocannon/2",
-        "Autocannon/5",
-        "Autocannon/10",
-        "Autocannon/20",
-        "Machinegun",
-        "LRM-5",
-        "LRM-10",
-        "LRM-15",
-        "LRM-20",
-        "SRM-2",
-        "SRM-4",
-        "SRM-6",
-        "Flamer",
+        "dir:data/tech/3025_IS/available/general"
+    ],
 
-        "Autocannon/2 Flak",
-        "Autocannon/5 Flak",
-        "Autocannon/10 Flak",
-        "Autocannon/20 Flak",
-        "Binary Laser Cannon",
-        "Vehicle Flamer",
-        "Fluid Gun Inferno",
-        "Fluid Gun Corrosive",
-        "Long Tom Artillery",
-        "Heavy Rifle",
-        "Medium Rifle",
-        "Light Rifle",
-        "Large Chemical Laser",
-        "Medium Chemical Laser",
-        "Small Chemical Laser",
-        "Sniper Artillery",
-        "Thumper Artillery",
-        "SRM-2 Inferno",
-        "SRM-4 Inferno",
-        "SRM-6 Inferno"
+    "available_rpg_weaps":
+    [
+        "dir:data/rpg_tech/3025_IS/available/weaps"
+    ],
+
+    "available_rpg_armor":
+    [
+        "dir:data/rpg_tech/3025_IS/available/armor"
     ],
 
     "contract_templates":
@@ -255,6 +174,10 @@
                 "scripts/contracts/diversion_medium_1group.json",
                 "scripts/contracts/diversion_heavy_1group.json",
                 
+                "scripts/contracts/frontline_light_3group.json",
+                "scripts/contracts/frontline_medium_3group.json",
+                "scripts/contracts/frontline_medium_3group.json",
+                
                 "scripts/contracts/longterm_medium_general.json",
                 "scripts/contracts/longterm_medium_offensive.json",
                 "scripts/contracts/longterm_medium_defensive.json",
@@ -315,6 +238,11 @@
                 "scripts/contracts/diversion_heavy_1group.json",
                 "scripts/contracts/diversion_assault_1group.json",
                 
+                "scripts/contracts/frontline_heavy_3group.json",
+                "scripts/contracts/frontline_heavy_3group.json",
+                "scripts/contracts/frontline_assault_3group.json",
+                "scripts/contracts/frontline_assault_3group.json",
+                
                 "scripts/contracts/longterm_heavy_general.json",
                 "scripts/contracts/longterm_heavy_offensive.json",
                 "scripts/contracts/longterm_heavy_defensive.json",
@@ -371,6 +299,10 @@
                 "scripts/contracts/diversion_medium_1group.json",
                 "scripts/contracts/diversion_medium_1group.json",
                     
+                "scripts/contracts/frontline_light_3group.json",
+                "scripts/contracts/frontline_medium_3group.json",
+                "scripts/contracts/frontline_medium_3group.json",
+                
                 "scripts/contracts/longterm_medium_general.json",
                 "scripts/contracts/longterm_medium_offensive.json",
                 "scripts/contracts/longterm_medium_defensive.json"
@@ -421,6 +353,9 @@
                 "scripts/contracts/diversion_medium_1group.json",
                 "scripts/contracts/diversion_medium_1group.json",
                     
+                "scripts/contracts/frontline_light_3group.json",
+                "scripts/contracts/frontline_medium_3group.json",
+                
                 "scripts/contracts/longterm_medium_general.json",
                 "scripts/contracts/longterm_medium_offensive.json",
                 "scripts/contracts/longterm_medium_defensive.json"
@@ -477,6 +412,10 @@
                 "scripts/contracts/diversion_medium_1group.json",
                 "scripts/contracts/diversion_medium_1group.json",
                 "scripts/contracts/diversion_heavy_1group.json",
+                
+                "scripts/contracts/frontline_light_3group.json",
+                "scripts/contracts/frontline_medium_3group.json",
+                "scripts/contracts/frontline_medium_3group.json",
                 
                 "scripts/contracts/longterm_medium_general.json",
                 "scripts/contracts/longterm_medium_offensive.json",
@@ -536,6 +475,11 @@
                 "scripts/contracts/diversion_heavy_1group.json",
                 "scripts/contracts/diversion_heavy_1group.json",
                 "scripts/contracts/diversion_assault_1group.json",
+                
+                "scripts/contracts/frontline_heavy_3group.json",
+                "scripts/contracts/frontline_heavy_3group.json",
+                "scripts/contracts/frontline_assault_3group.json",
+                "scripts/contracts/frontline_assault_3group.json",
                 
                 "scripts/contracts/longterm_heavy_general.json",
                 "scripts/contracts/longterm_heavy_offensive.json",
@@ -616,6 +560,14 @@
                 "scripts/contracts/diversion_heavy_1group.json",
                 "scripts/contracts/diversion_assault_1group.json",
                 
+                "scripts/contracts/frontline_medium_3group.json",
+                "scripts/contracts/frontline_heavy_3group.json",
+                "scripts/contracts/frontline_assault_3group.json",
+                
+                "scripts/contracts/longterm_medium_general.json",
+                "scripts/contracts/longterm_medium_offensive.json",
+                "scripts/contracts/longterm_medium_defensive.json",
+
                 "scripts/contracts/longterm_heavy_general.json",
                 "scripts/contracts/longterm_heavy_offensive.json",
                 "scripts/contracts/longterm_heavy_defensive.json",
@@ -696,32 +648,11 @@
             "logo": "images/houses/logo_comstar.png",
 
             "friends": [],
-            "enemies": [],
+            "enemies": ["steiner", "davion", "kurita", "liao", "marik"],
 
             "available_units":
             [
-                "Mercury",
-                "Thorn",
-                "Mongoose",
-                "Hermes",
-                "Hussar",
-                "Ostscout",
-                "Sentinel",
-                "Wyvern",
-                "Crab",
-                "Kintaro",
-                "Champion",
-                "Lancelot",
-                "Exterminator",
-                "Bombardier",
-                "Guillotine",
-                "Flashman",
-                "Black Knight",
-                "Thug",
-                "Crockett",
-                "Highlander",
-                "Banshee",
-                "King Crab"
+                "dir:data/units/2750_SL/available/general"
             ],
 
             "start_rep": 50,
@@ -747,24 +678,11 @@
             "logo": "images/houses/logo_steiner.png",
 
             "friends": ["davion"],
-            "enemies": ["kurita", "liao", "marik"],
+            "enemies": ["kurita", "marik", "comstar"],
 
             "prevalent_units": 
             [
-                "Locust",
-                "Stinger",
-                "Wasp",
-                "Commando", 
-                "Firestarter", 
-                "Phoenix Hawk",
-                "Griffin",
-                "Crusader", 
-                "Warhammer",
-                "Archer", 
-                "Zeus",
-                "Banshee", 
-                "Stalker",
-                "Atlas"
+                "dir:data/units/3025_IS/prevalent/steiner"
             ],
 
             "start_rep": 50,
@@ -799,18 +717,11 @@
             "logo": "images/houses/logo_davion.png",
 
             "friends": ["steiner"],
-            "enemies": ["kurita", "liao", "marik"],
+            "enemies": ["kurita", "liao", "marik", "comstar"],
 
             "prevalent_units":
             [
-                "Wasp",
-                "Valkyrie",
-                "Enforcer",
-                "Centurion",
-                "Blackjack",
-                "Jagermech",
-                "Rifleman",
-                "Victor"
+                "dir:data/units/3025_IS/prevalent/davion"
             ],
 
             "start_rep": 50,
@@ -915,25 +826,17 @@
             "logo": "images/houses/logo_kurita.png",
 
             "friends": [],
-            "enemies": ["steiner", "davion"],
+            "enemies": ["steiner", "davion", "comstar"],
 
             "prevalent_units": 
             [
-                "Locust",
-                "Wasp",
-                "Jenner",
-                "Panther",
-                "Hunchback",
-                "Archer",
-                "Dragon",
-                "Grasshopper",
-                "Charger"
+                "dir:data/units/3025_IS/prevalent/kurita"
             ],
 
             "start_rep": 40,
 
             "adv_pay": 0,
-            "tot_pay": 1.5,
+            "tot_pay": 1.75,
 
             "salv_picks": 1.0,
             "salv_total": 1.0,
@@ -963,17 +866,11 @@
             "logo": "images/houses/logo_liao.png",
 
             "friends": [],
-            "enemies": ["steiner", "davion", "marik"],
+            "enemies": ["steiner", "davion", "marik", "comstar"],
 
             "prevalent_units":
             [
-                "Wasp",
-                "Phoenix Hawk",
-                "Vindicator",
-                "Jagermech",
-                "Crusader",
-                "Catapult",
-                "Cyclops"
+                "dir:data/units/3025_IS/prevalent/liao"
             ],
 
             "start_rep": 33,
@@ -1009,24 +906,11 @@
             "logo": "images/houses/logo_marik.png",
 
             "friends": [],
-            "enemies": ["steiner", "davion", "liao"],
+            "enemies": ["steiner", "davion", "liao", "comstar"],
 
             "prevalent_units":
             [
-                "Locust",
-                "Stinger",
-                "Wasp",
-                "Hermes II",
-                "Shadow Hawk",
-                "Hunchback",
-                "Crusader",
-                "Thunderbolt",
-                "Warhammer",
-                "Wolverine",
-                "Trebuchet",
-                "Archer",
-                "Orion",
-                "Awesome"
+                "dir:data/units/3025_IS/prevalent/marik"
             ],
 
             "start_rep": 50,
@@ -1058,9 +942,26 @@
         {
             "start_rep": 10,
             "house": "Pirates",
-            "nation": "Force of Pirates",
-            "logo": "images/houses/Logo_Pirates.png",
+            "nation": "Brotherhood of Pirates",
             "damage": [0,0.25],
+
+            "logo": "images/houses/logo_comstar.png",
+            "enemies": ["kurita", "liao", "marik", "davion", "steiner", "comstar"],
+
+            "adv_pay": 1.0,
+            "tot_pay": 1.0,
+
+            "salv_picks": 1.0,
+            "salv_total": 1.0,
+
+            "max_units": 1.0,
+            "max_tons": 1.0,
+
+            "available_units":
+            [
+                "dir:data/units/3025_IS/available/general",
+                "dir:data/units/3025_IS/available/pirates"
+            ],
 
             "base_colors":
             [
@@ -1094,10 +995,20 @@
         {
             "start_rep": 0,
             "house": "Bandits",
-            "nation": "Force of Bandits",
-            "logo": "images/houses/Logo_Pirates.png",
+            "nation": "Periphery Bandits",
             "damage": [0,0.25],
             
+            "available_units":
+            [
+                "dir:data/units/3025_IS/available/general",
+                "dir:data/units/3025_IS/available/pirates"
+            ],
+
+            "prevalent_units":
+            [
+                "dir:data/units/3025_IS/prevalent/pirates"
+            ],
+
             "base_colors":
             [
                 [85,85,85],
@@ -1129,18 +1040,9 @@
         {
             "start_rep": 30,
             "house": "Rebels",
-            "nation": "Force of Rebels",
-            "logo": "images/houses/Logo_NoFaction.png",
+            "nation": "Rebel Force",
             "damage": [0,0.25],
 
-            "adv_pay": 1.0,
-            "tot_pay": 1.0,
-
-            "salv_picks": 1.0,
-            "salv_total": 1.0,
-
-            "max_units": 1.0,
-            "max_tons": 1.0,
             "base_colors":
             [
                 [85,85,85],
@@ -1169,9 +1071,6 @@
             
         },
 
-
-
-
         "arano":
         {
             "house": "Arano",
@@ -1183,20 +1082,7 @@
 
             "prevalent_units":
             [
-                "Locust",
-                "Stinger",
-                "Wasp",
-                "Hermes II",
-                "Shadow Hawk",
-                "Hunchback",
-                "Crusader",
-                "Thunderbolt",
-                "Warhammer",
-                "Wolverine",
-                "Trebuchet",
-                "Archer",
-                "Orion",
-                "Awesome"
+                "dir:data/units/3025_IS/prevalent/arano"
             ],
 
             "start_rep": 50,
@@ -1235,20 +1121,7 @@
 
             "prevalent_units":
             [
-                "Locust",
-                "Stinger",
-                "Wasp",
-                "Hermes II",
-                "Shadow Hawk",
-                "Hunchback",
-                "Crusader",
-                "Thunderbolt",
-                "Warhammer",
-                "Wolverine",
-                "Trebuchet",
-                "Archer",
-                "Orion",
-                "Awesome"
+                "dir:data/units/3025_IS/available/general"
             ],
 
             "start_rep": 50,
@@ -1342,7 +1215,7 @@
             "args": 
             {
 				"map": "maps/planets/small_temperate.tmx",
-                "script": "maps/planets/med_planet_rpg.json"
+                "script": "maps/planets/factory_planet_rpg.json"
 			}
         },
     
@@ -1482,7 +1355,7 @@
             "args":
             {
                 "map": "maps/planets/small_desert.tmx",
-                "script": "maps/planets/border_planet_rpg.json"
+                "script": "maps/planets/factory_planet_rpg.json"
             }
         },
     
@@ -2343,7 +2216,7 @@
             "args": 
             {
 				"map": "maps/planets/small_desert.tmx",
-                "script": "maps/planets/border_planet_rpg.json"
+                "script": "maps/planets/factory_planet_rpg.json"
 			}
         },
     
@@ -2462,7 +2335,7 @@
             "actn": "new_rpg",
             "args":
             {
-                "map": "maps/planets/small_arctic.tmx",
+                "map": "maps/planets/small_arctic_m.tmx",
                 "script": "maps/planets/poor_planet_rpg.json"
             }
         },
@@ -2870,7 +2743,7 @@
             "actn": "new_rpg",
             "args":
             {
-                "map": "maps/planets/small_temperate.tmx",
+                "map": "maps/planets/small_temperate_m.tmx",
                 "script": "maps/planets/poor_planet_rpg.json"
             }
         },
@@ -2893,7 +2766,7 @@
             "args":
             {
                 "map": "maps/planets/small_temperate.tmx",
-                "script": "maps/planets/border_planet_rpg.json"
+                "script": "maps/planets/factory_planet_rpg.json"
             }
         },
     
@@ -2944,7 +2817,7 @@
             
             "coords": [0.03,0.13],
             "faction": "trr",
-            "desc": "Home of the Wolf's Dragoons -- currently testing Clan units",
+            "desc": "Home of the Wolf's Dragoons",
             "planet_icon": "images/planets/planet_terran.png",
 
             "employers": ["kurita", "liao", "marik", "steiner", "davion"],
@@ -3080,7 +2953,7 @@
             "args": 
             {
 				"map": "maps/planets/small_temperate.tmx",
-                "script": "maps/planets/border_planet_rpg.json"
+                "script": "maps/planets/factory_planet_rpg.json"
 			}
         },
     

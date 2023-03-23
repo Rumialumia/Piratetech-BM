@@ -1,0 +1,23 @@
+Wasp/WSP-1AP
+Commando/COM-2DP
+Javelin/JVN-10NP
+Jenner/JR7-DP
+Panther/PNT-9RP
+Assassin/ASN-21P
+Dervish/DV-6MP
+Shadow Hawk/SHD-2HP
+Scorpion/SCP-1NP
+Wolverine/WVR-6RP
+Ostroc/OSR-2RP
+Quickdraw/QKD-4GP
+Crusader/CRD-3RP
+Thunderbolt/TDR-5SP
+Warhammer/WHM-6RP
+Orion/ON1-KP
+Victor/VTR-9BP
+Battlemaster/BLR-1GP
+Stalker/STK-3FP
+Cyclops/CP-10-ZP
+Atlas/AS7-DP
+Merlin
+Merlin/MLN-1B

@@ -1,0 +1,85 @@
+{
+    "Javelin":
+    {
+        "unit_sprite": "light2_5",
+        "unit_model": "javelin",
+        "tons": 30,
+        "internal": 51,
+        
+        "JVN-10N":
+        {
+            "cost": 2330640,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "ammo": 
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"]
+            ]
+        },
+
+        "JVN-10NP":
+        {
+            "cost": 2330640,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "rt"],
+                ["Inferno SRM-6", "lt"]
+            ],
+            "ammo": 
+            [
+                ["SRM-6", "rt"],
+                ["Inferno SRM-6", "lt"]
+            ]
+        },
+
+        "JVN-10P":
+        {
+            "cost": 2370940,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "rt"],
+                ["Streak SRM-2", "lt"],
+                ["Streak SRM-2", "lt"]
+            ],
+            "ammo": 
+            [
+                ["SRM-6", "rt"],
+                ["Streak SRM-2", "lt"]
+            ]
+        }
+    }
+}

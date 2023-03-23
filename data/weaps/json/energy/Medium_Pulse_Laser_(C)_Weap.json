@@ -1,0 +1,46 @@
+{
+    "Medium Pulse Laser (C)":
+    {
+        "cost": 120000,
+        "mod_cost": 30000,
+        "short": "MPulse (C)",
+        "type": "beam",
+        "store_type": "beam",
+        "damage": 7,
+        "heat": 4,
+        "range": 8,
+        "tons": 2,
+        "crit": 1,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "to_hit_mod": 0.1,
+
+        "fx":
+        {
+            "num_shots": 3,
+            "shot_gap": 0.01,
+            "lock_on": true,
+            
+            "beam_time": 0.02,
+            "beam_colors": [[255,40,40], [255,80,80],[255,140,140]],
+            "beam_sizes": [6,4,2],
+            "beam_alpha": 192,
+            
+            "beam_line": [255,160,160],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.1,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+
+            "num_particles": 1,
+            "particle_time": 0.02,
+            "particle_sprite": "yellow_particle",
+            "particle_scale": [0.7,0.7],
+        
+            "fire_sound": "resources/sounds/JFX_MPulse.wav"
+        }
+    }
+}

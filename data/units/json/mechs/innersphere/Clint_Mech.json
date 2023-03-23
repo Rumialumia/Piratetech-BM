@@ -1,0 +1,55 @@
+{
+    "Clint":
+    {
+        "unit_sprite": "med1_7",
+        "unit_model": "clint",
+        "tons": 40,
+        "internal": 67,
+        
+        "CLNT-2-3T":
+        {
+            "cost": 3572380,
+            "armor": 72,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/5", "ra"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/5", "rt"]
+            ]
+        },
+        
+        "CLNT-2-3U":
+        {
+            "cost": 3951080,
+            "armor": 72,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["Medium Pulse Laser", "ct"],
+                ["Medium Pulse Laser", "lt"]
+            ]
+        }
+    }
+}

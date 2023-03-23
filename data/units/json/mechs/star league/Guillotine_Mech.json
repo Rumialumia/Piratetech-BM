@@ -1,0 +1,71 @@
+{
+    "Guillotine":
+    {
+        "unit_sprite": "heavy4_3",
+        "unit_model": "warhammer",
+        "tons": 70,
+        "internal": 107,
+        
+        "GLT-3N":
+        {
+            "cost": 6300484,
+            "armor": 192,
+            "heat_sinks": 25,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "la"],
+                ["SRM-6", "ct"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        },
+
+        "GLT-5M":
+        {
+            "cost": 6300484,
+            "armor": 192,
+            "heat_sinks": 25,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Large Laser", "la"],
+                ["SRM-6", "ct"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

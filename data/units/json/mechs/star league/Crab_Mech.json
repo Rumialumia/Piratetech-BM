@@ -1,0 +1,53 @@
+{
+    "Crab":
+    {
+        "unit_sprite": "walker4_1",
+        "unit_model": "crab",
+        "tons": 50,
+        "internal": 83,
+        
+        "CRB-20":
+        {
+            "cost": 4050875,
+            "armor": 144,
+            "heat_sinks": 16,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "la"],
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "h"]
+            ]
+        },
+
+        "CRB-27":
+        {
+            "cost": 4050875,
+            "armor": 161,
+            "heat_sinks": 16,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "la"],
+                ["Large Laser", "ra"],
+                ["Medium Laser", "ct"],
+                ["Small Laser", "h"]
+            ]
+        }
+    }
+}

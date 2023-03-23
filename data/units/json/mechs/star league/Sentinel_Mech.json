@@ -1,0 +1,59 @@
+{
+    "Sentinel":
+    {
+        "unit_sprite": "light3_1",
+        "unit_model": "cicada",
+        "tons": 40,
+        "internal": 67,
+        
+        "STN-3L":
+        {
+            "cost": 3292030,
+            "armor": 88,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "la"],
+                ["Streak SRM-2", "rt"],
+                ["Small Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "lt"],
+                ["Streak SRM-2", "rt"]
+            ]
+        },
+
+        "STN-3M":
+        {
+            "cost": 3292030,
+            "armor": 88,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/5", "la"],
+                ["SRM-2", "rt"],
+                ["Medium Laser", "rt"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/5", "lt"],
+                ["SRM-2", "rt"]
+            ]
+        }
+    }
+}

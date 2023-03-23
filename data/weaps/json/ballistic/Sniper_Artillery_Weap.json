@@ -1,0 +1,44 @@
+{
+    "Sniper Artillery":
+    {
+        "cost": 300000,
+        "mod_cost": 75000,
+        "ammo_cost": 6000,
+
+        "type": "cannon",
+        "store_type": "cannon",
+        "damage": 20,
+        "heat": 10,
+        "range": 32,
+        "tons": 20,
+        "crit": 20,
+        "ammo": 10,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.02,
+        "ignore_ams": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.75, 1],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [1,1.75],
+            "shot_hit_range": 20,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/20",
+
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1.5, 1.5],
+            
+            "fire_sound": "resources/sounds/JFX_AC20_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        }
+    }
+}

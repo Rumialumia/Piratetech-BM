@@ -1,0 +1,98 @@
+{
+    "Victor":
+    {
+        "unit_sprite": "assault2_5",
+        "unit_model": "victor",
+        "tons": 80,
+        "internal": 122,
+            
+        "VTR-9B":
+        {
+            "cost": 8044320,
+            "armor": 184,
+            "heat_sinks": 15,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "ra"], 
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["SRM-4", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["SRM-4", "lt"]
+            ]
+        },
+
+        "VTR-9BP":
+        {
+            "cost": 8044320,
+            "armor": 184,
+            "heat_sinks": 15,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/20", "ra"], 
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"],
+                ["Inferno SRM-4", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["Autocannon/20", "rt"],
+                ["Inferno SRM-4", "lt"]
+            ]
+        },
+
+        "VTR-9K":
+        {
+            "cost": 8512320,
+            "armor": 184,
+            "heat_sinks": 15,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "ra"], 
+                ["Medium Pulse Laser", "la"],
+                ["Medium Pulse Laser", "la"],
+                ["SRM-4", "lt"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "rt"],
+                ["Gauss Rifle", "rt"],
+                ["SRM-4", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "ra"],
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

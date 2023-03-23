@@ -1,0 +1,48 @@
+{
+    "Prototype Ultra AC/20 (C)":
+    {
+        "cost": 960000,
+        "mod_cost": 240000,
+        "ammo_cost": 40000,
+        
+        "short": "UAC/20 (C)",
+        "type": "cannon",
+        "store_type": "cannon",
+        "damage": 20,
+        "heat": 16,
+        "range": 7,
+        "tons": 15,
+        "crit": 11,
+        "ammo": 5,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.02,
+        "ignore_ams": true,
+        "use_ammo_per_shot": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.75, 1],
+            "muzzle_offset": 20,
+            
+            "num_shots": 2,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            "shots_roll_hit": true,
+            
+            "shot_sprite": "Autocannon/20",
+            "sound_every_shot": true,
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1.5, 1.5],
+            
+            "fire_sound": "resources/sounds/JFX_AC20_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        }
+    }
+}

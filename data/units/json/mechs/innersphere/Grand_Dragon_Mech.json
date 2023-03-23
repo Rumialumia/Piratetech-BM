@@ -1,0 +1,41 @@
+{
+    "Grand Dragon":
+    {
+        "unit_sprite": "med2_7",
+        "unit_model": "dragon",
+        "tons": 60,
+        "internal": 99,
+        
+        "DRG-5K":
+        {
+            "cost": 13354880,
+            "armor": 160,
+            "heat_sinks": 26,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ct"],
+                ["ER PPC", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "ltr"],
+                ["Medium Laser", "rtr"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "lt"],
+                ["LRM-10", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

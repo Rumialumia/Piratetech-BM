@@ -1,0 +1,37 @@
+{
+    "Thorn":
+    {
+        "unit_sprite": "light1_3",
+        "unit_model": "wasp",
+        "tons": 20,
+        "internal": 33,
+        
+        "THE-N":
+        {
+            "cost": 1653120,
+            "armor": 72,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "h"],
+                ["Medium Laser", "la"],
+                ["LRM-5", "ra"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

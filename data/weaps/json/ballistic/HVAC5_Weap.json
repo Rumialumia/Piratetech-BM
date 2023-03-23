@@ -1,0 +1,47 @@
+{
+    "HVAC/5":
+    {
+        "cost": 160000,
+        "mod_cost": 40000,
+        "ammo_cost": 10000,
+        
+        "short": "HVAC/5",
+        "type": "cannon",
+        "store_type": "cannon",
+        "damage": 5,
+        "heat": 3,
+        "range": 16,
+        "tons": 8,
+        "crit": 4,
+        "ammo": 15,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.01,
+        "ignore_ams": true,
+        "explodes_on_dmg": true,
+        "recharge": 0.75,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.3, 0.8],
+            "muzzle_offset": 20,
+            
+            "num_shots": 1,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            
+            "shot_sprite": "Autocannon/5",
+            
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1, 1],
+            
+            "fire_sound": "resources/sounds/JFX_AC5_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        }
+    }
+}

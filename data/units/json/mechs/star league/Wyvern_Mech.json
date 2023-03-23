@@ -1,0 +1,42 @@
+{
+    "Wyvern":
+    {
+        "unit_sprite": "med1_3",
+        "unit_model": "wolfhound",
+        "tons": 45,
+        "internal": 75,
+        
+        "WVE-5N":
+        {
+            "cost": 3470865,
+            "armor": 152,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-10", "ct"],
+                ["Large Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "ra"],
+                ["SRM-6", "rt"]
+            ],
+            "ammo":
+            [
+                ["LRM-10", "lt"],
+                ["SRM-6", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

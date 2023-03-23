@@ -1,0 +1,33 @@
+{
+    "Hoplite":
+    {
+        "unit_sprite": "walker2_3",
+        "unit_model": "cicada",
+        "tons": 55,
+        "internal": 41,
+        
+        "HOP-4D":
+        {
+            "cost": 4444108,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["LRM-5", "la"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LRM-5", "ct"]
+            ]
+        }
+    }
+}

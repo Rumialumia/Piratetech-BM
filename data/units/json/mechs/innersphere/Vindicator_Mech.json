@@ -1,0 +1,64 @@
+{
+    "Vindicator":
+    {
+        "unit_sprite": "med7_7",
+        "unit_model": "vindicator",
+        "tons": 45,
+        "internal": 75,
+        
+        "VND-1R":
+        {
+            "cost": 3181083,
+            "armor": 144,
+            "heat_sinks": 16,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-5", "lt"],
+                ["PPC", "ra"],
+                ["Medium Laser", "h"],
+                ["Small Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "ct"]
+            ]
+        },
+
+        "VND-3L":
+        {
+            "cost": 3524370,
+            "armor": 144,
+            "heat_sinks": 30,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-5", "lt"],
+                ["ER PPC", "ra"],
+                ["Medium Pulse Laser", "h"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

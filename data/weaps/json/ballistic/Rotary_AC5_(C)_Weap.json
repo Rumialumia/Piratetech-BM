@@ -1,0 +1,48 @@
+{
+    "Rotary AC/5 (C)":
+    {
+        "cost": 275000,
+        "mod_cost": 68750,
+        "ammo_cost": 26000,
+        
+        "short": "RAC/5 (C)",
+        "type": "cannon",
+        "store_type": "cannon",
+        "damage": 5,
+        "heat": 1,
+        "range": 14,
+        "tons": 10,
+        "crit": 8,
+        "ammo": 120,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.01,
+        "ignore_ams": true,
+        "use_ammo_per_shot": true,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 1200,
+
+            "muzzle_sprite": "muzzle",
+            "muzzle_scale": [0.3, 0.8],
+            "muzzle_offset": 20,
+            
+            "num_shots": 6,
+            "shot_scale": [0.75,1.5],
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            "shots_roll_hit": true,
+            
+            "shot_sprite": "Autocannon/5",
+            "sound_every_shot": true,
+                        
+            "hit_sprite": "ac_explosion",
+            "hit_scale": [1, 1],
+            
+            "fire_sound": "resources/sounds/JFX_AC5_fire.wav",
+            "hit_sound": "resources/sounds/JFX_AC_hit.wav"
+        }
+    }
+}

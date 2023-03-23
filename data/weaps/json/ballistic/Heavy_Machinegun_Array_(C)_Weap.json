@@ -1,0 +1,50 @@
+{
+    "Heavy Machinegun Array (C)":
+    {
+        "cost": 62500,
+        "mod_cost": 15625,
+        "ammo_cost": 2000,
+        
+        "short": "cHMG Array",
+        "type": "mg",
+        "store_type": "mg",
+        "damage": 3,
+        "heat": 0,
+        "range": 2,
+        "tons": 2.5,
+        "crit": 5,
+        "ammo": 200,
+        "p_fire": 0,
+        "p_dmg_weaps": 0.4,
+        "p_dmg_pilot": 0,
+        "recharge": 0.5,
+        "use_ammo_per_shot": true,
+        
+        "fx":
+        {
+            "type": "bullet",
+
+            "num_shots": 8,
+            "shot_gap": 0.025,
+            "lock_on": true,
+            
+            "shot_time": 0.05,
+
+            "shot_hit_range": 10,
+            "miss_lock": false,
+            "shots_roll_hit": true,
+            
+            "muzzle_sprite": "muzzle2",
+            "muzzle_scale": [0.7, 0.7],
+            "muzzle_offset": 20,
+
+            "hit_sprite": "bullet_hit2",
+            "hit_scale": [1, 1],
+            "hit_offset": -12,
+            
+            "jitter": [[-8,8],[-8,8]],
+            
+            "fire_sound": "resources/sounds/JFX_MG.wav"
+        }
+    }
+}

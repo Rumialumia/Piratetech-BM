@@ -1,0 +1,10 @@
+LB 2-X
+LB 5-X
+LB 10-X
+LB 20-X
+Heavy Gauss Rifle
+Enhanced LRM-5
+Enhanced LRM-10
+Enhanced LRM-15
+Enhanced LRM-20
+Binary Laser

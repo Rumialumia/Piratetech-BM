@@ -1,0 +1,29 @@
+{
+    "Lancelot":
+    {
+        "unit_sprite": "heavy2_8",
+        "unit_model": "rifleman",
+        "tons": 60,
+        "internal": 99,
+        
+        "LNC 25-01":
+        {
+            "cost": 13025600,
+            "armor": 152,
+            "heat_sinks": 26,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "rt"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["Medium Laser", "ct"]
+            ]
+        }  
+    }
+}

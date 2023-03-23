@@ -1,0 +1,39 @@
+{
+    "Light LRM Turret":
+    {
+        "is_turret": true,
+        
+        "unit_sprite": "turret1_2",
+        "unit_model": "no_model",
+
+        "spawn_stamp": "turret1_4",
+        "solid_death": true,
+        
+        "tons": 0,
+        "internal": 33,
+        
+        " ":
+        {
+            "cost": 0, 
+            "armor": 32,
+            "heat_sinks": 10,
+
+            "speed": 0,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["LRM-5", "ct"],
+                ["LRM-5", "ct"]
+            ],
+
+            "ammo":
+            [
+                ["LRM-5", "ct"],
+                ["LRM-5", "ct"],
+                ["LRM-5", "ct"],
+                ["LRM-5", "ct"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "Firefly":
+    {
+        "unit_sprite": "walker2_8",
+        "unit_model": "flea",
+        "tons": 30,
+        "internal": 51,
+        
+        "FFL-4B":
+        {
+            "cost": 2342600,
+            "armor": 104,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ct"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["LRM-5", "rt"],
+                ["Anti-Missile", "la"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "lt"],
+                ["Anti-Missile", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

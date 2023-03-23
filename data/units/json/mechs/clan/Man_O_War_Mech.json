@@ -1,0 +1,44 @@
+{
+    "Man O' War":
+    {
+        "clan_name": "Gargoyle",
+
+        "unit_sprite": "assault3_2",
+        "unit_model": "gargoyle",
+        "tons": 80,
+        "internal": 122,
+            
+        "Prime":
+        {
+            "cost": 26038312,
+            "armor": 211,
+            "heat_sinks": 32,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Small Laser (C)", "h"],
+                ["LB 5-X (C)", "la"],
+                ["SRM-6 (C)", "la"],
+                ["LB 5-X (C)", "ra"],
+                ["SRM-6 (C)", "ra"]
+            ],
+            "ammo":
+            [
+                ["LB 5-X (C)", "lt"],
+                ["SRM-6 (C)", "lt"],
+                ["LB 5-X (C)", "rt"],
+                ["SRM-6 (C)", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "rt"]
+            ]
+        }       
+    }
+}

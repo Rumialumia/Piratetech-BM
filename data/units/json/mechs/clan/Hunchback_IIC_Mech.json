@@ -1,0 +1,36 @@
+{
+    "Hunchback IIC":
+    {
+        "unit_sprite": "med5_8",
+        "unit_model": "hunchback_iic",
+        "tons": 50,
+        "internal": 83,
+        
+        " ":
+        {
+            "cost": 8110000,
+            "armor": 96,
+            "heat_sinks": 24,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Ultra AC/20 (C)", "lt"],
+                ["Ultra AC/20 (C)", "rt"],
+                ["ER Medium Laser (C)", "ct"],
+                ["ER Medium Laser (C)", "ct"]
+            ],
+            "ammo":
+            [
+                ["Ultra AC/20 (C)", "lt"],
+                ["Ultra AC/20 (C)", "rt"]
+            ]
+        }  
+    }
+}

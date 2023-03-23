@@ -1,0 +1,40 @@
+{
+    "Champion":
+    {
+        "unit_sprite": "walker1_7",
+        "unit_model": "dragon",
+        "tons": 60,
+        "internal": 99,
+        
+        "CHP-1N":
+        {
+            "cost": 5754400,
+            "armor": 143,
+            "heat_sinks": 10,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "rt"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "lt"],
+                ["Medium Laser", "lt"],
+                ["Small Laser", "ct"],
+                ["Small Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "lt"]
+            ]
+        }  
+    }
+}

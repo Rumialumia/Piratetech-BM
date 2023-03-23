@@ -1,0 +1,44 @@
+{
+    "Hyper Laser (RISC)": 
+    {
+        "cost": 1875000,
+        "mod_cost": 468750,
+        "type": "beam",
+        "store_type": "beam",
+        "damage": 20,
+        "heat": 24,
+        "range": 15,
+        "tons": 8,
+        "crit": 6,
+        "ammo": -1,
+        "p_fire": 0.05,
+        "p_dmg_weaps": 0.2,
+        "p_dmg_pilot": 0.005,
+        "explodes_on_dmg": true,
+        
+        "fx":
+        {
+            "num_shots": 1,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,160,20], [40,200,40],[60,225,60],[80,255,80], [200,255,200]],
+            "beam_sizes": [12,10,8,6,4],
+            "beam_alpha": 192,
+
+            "beam_line": [160,255,160],
+            "beam_line_size": 4,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-20,-20,-20],[-20,-20,-20],[-20,-20,-20], [-30,-30,-30],[-30,-30,-30]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [1,1],
+
+            "fire_sound": "resources/sounds/JFX_LLaser.wav"
+        }
+    }
+}

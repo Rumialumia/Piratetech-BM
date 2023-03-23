@@ -1,0 +1,65 @@
+{
+    "Merlin":
+    {
+        "unit_sprite": "heavy3_4",
+        "unit_model": "quickdraw",
+        "tons": 60,
+        "internal": 99,
+        
+        "MLN-1A":
+        {
+            "cost": 4960000,
+            "armor": 168,
+            "heat_sinks": 18,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["PPC", "rt"],
+                ["LRM-5", "rt"],
+                ["Flamer", "lt"],
+                ["Machinegun", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "ct"],
+                ["Machinegun", "ct"]
+            ]
+        },
+        
+        "MLN-1B":
+        {
+            "cost": 4960000,
+            "armor": 168,
+            "heat_sinks": 19,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["PPC", "rt"],
+                ["LRM-5", "rt"],
+                ["Flamer", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "ct"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Rommel Tank":
+    {
+        
+        "move_type": "tracks",
+
+        "unit_sprite": "vehicle1_8",
+        "unit_model": "no_model",
+        
+        "tons": 65,
+        "internal": 33,
+        
+        " ":
+        {
+            "cost": 2908813, 
+            "armor": 184,
+            "heat_sinks": 10,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Autocannon/20", "ct"],
+                ["LRM-5", "ct"],
+                ["Small Laser", "ct"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/20", "ct"],
+                ["Autocannon/20", "ct"],
+                ["Autocannon/20", "ct"],
+                ["Autocannon/20", "ct"],
+                ["LRM-5", "ct"]
+            ]
+        }
+    }
+}

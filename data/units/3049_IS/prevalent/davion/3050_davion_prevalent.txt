@@ -1,0 +1,10 @@
+Wasp/WSP-3M
+Valkyrie/VLK-QD
+Enforcer/ENF-5D
+Centurion/CN9-D
+Blackjack/BJ-2
+Jagermech/JM6-DD
+Rifleman/RFL-5M
+Axman
+Cataphract
+Victor/VTR-9K

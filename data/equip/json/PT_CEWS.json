@@ -1,0 +1,37 @@
+{
+    "Electronic Warfare Equipment":
+    {
+        "short": "EW",
+        "tons": 7.5,
+        "crit": 4,
+        "cost": 500000,
+        "mod_cost": 125000,
+
+        "radar_range": 15,
+        "ecm_range": 3
+    },
+
+    "Nova CEWS (C)":
+    {
+        "short": "Nova",
+        "tons": 1.5,
+        "crit": 2,
+        "cost": 2200000,
+        "mod_cost": 550000,
+
+        "radar_range": 15,
+        "ecm_range": 3
+    },
+
+    "Watchdog CEWS (C)":
+    {
+        "short": "Watchdog (C)",
+        "tons": 1.5,
+        "crit": 2,
+        "cost": 1000000,
+        "mod_cost": 250000,
+
+        "radar_range": 20,
+        "ecm_range": 6
+    }
+}

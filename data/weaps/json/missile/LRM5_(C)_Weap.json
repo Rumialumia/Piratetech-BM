@@ -1,0 +1,42 @@
+{
+    "LRM-5 (C)":
+    {
+        "cost": 60000,
+        "mod_cost": 15000,
+        "ammo_cost": 60000,
+        
+        "short": "LRM-5 (C)",
+        "type": "missile",
+        "store_type": "missile",
+        "damage": 1,
+        "n_missiles": 5,
+        "heat": 2,
+        "range": 14,
+        "tons": 1,
+        "crit": 1,
+        "ammo": 24,
+        "p_fire": 0.001,
+        "p_dmg_weaps": 0.01,
+        "p_dmg_pilot": 0,
+        
+        "fx":
+        {
+            "type": "shooter",
+            "shot_speed": 400,
+
+            "num_shots": 1,
+            
+            "shot_sprite": "LRM",
+            "shot_copies": 5,
+            "shots_roll_hit": true,
+            "miss_lock": false,
+            "shot_scale": [1.25,1.25],
+
+            "hit_sprite": "explosion",
+            "hit_scale": [0.5, 0.5],
+            
+            "fire_sound": "resources/sounds/JFX_Missile_fire.wav",
+            "hit_sound": "resources/sounds/JFX_Missile_hit.wav"
+        } 
+    }
+}

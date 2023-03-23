@@ -1,0 +1,45 @@
+{
+    "Shadow Hawk IIC":
+    {
+        "unit_sprite": "med4_8",
+        "unit_model": "shadowhawk",
+        "tons": 45,
+        "internal": 75,
+        
+        " ":
+        {
+            "cost": 4752303,
+            "armor": 144,
+            "heat_sinks": 20,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Battlefist", "la"],
+                ["Battlefist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER Medium Laser (C)", "h"],
+                ["ER Small Laser (C)", "ct"],
+                ["Medium Pulse Laser (C)", "la"],
+                ["Medium Pulse Laser (C)", "ra"],
+                ["Streak SRM-2 (C)", "lt"],
+                ["Streak SRM-2 (C)", "lt"],
+                ["Streak SRM-2 (C)", "rt"],
+                ["Streak SRM-2 (C)", "rt"]
+            ],
+            "ammo":
+            [
+                ["Streak SRM-2 (C)", "lt"],
+                ["Streak SRM-2 (C)", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"],
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

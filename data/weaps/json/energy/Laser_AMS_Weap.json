@@ -1,0 +1,43 @@
+{
+    "Laser Anti-Missile":
+    {
+        "cost": 225000,
+        "mod_cost": 56250,
+        "is_ams": true,
+
+        "short": "LAMS",
+        "type": "beam",
+        "store_type": "beam",
+        "damage": 3,
+        "heat": 7,
+        "range": 2,
+        "tons": 1.5,
+        "crit": 2,
+        "ammo": -1,
+
+        "fx":
+        {
+            "num_shots": 3,
+            
+            "beam_time": 0.2,
+            "beam_colors": [[20,20,160], [40,40,200], [128,128,255]],
+            "beam_sizes": [6,3,2],
+            "beam_alpha": 64,
+
+            "beam_line": [160,160,255],
+            "beam_line_size": 2,
+            
+            "fade_time": 0.15,
+            "fade_colors": [[-10,-10,-10], [-10,-10,-10],[-10,-10,-10]],
+            "fade_amount": 1,
+            
+            "num_particles": 1,
+            "particle_time": 0.50,
+            "particle_vel": [[-10,10],[-10,10]],
+            "particle_sprite": "yellow_glow",
+            "particle_scale": [0.4,0.4],
+            
+            "fire_sound": "resources/sounds/JFX_SLaser.wav"
+        }
+    }
+}

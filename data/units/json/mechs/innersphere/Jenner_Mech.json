@@ -1,0 +1,88 @@
+{
+    "Jenner":
+    {
+        "unit_sprite": "walker2_5",
+        "unit_model": "jenner",
+        "tons": 35,
+        "internal": 58,
+        
+        "JR7-D":
+        {
+            "cost": 3198375,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 7,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "rt"]
+            ]
+        },
+
+        "JR7-DP":
+        {
+            "cost": 3198375,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 7,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Inferno SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["Inferno SRM-4", "rt"]
+            ]
+        },
+
+        "JR7-K":
+        {
+            "cost": 3306375,
+            "armor": 63,
+            "heat_sinks": 10,
+
+            "speed": 7,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "ct"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

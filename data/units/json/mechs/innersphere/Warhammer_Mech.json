@@ -1,0 +1,104 @@
+{
+    "Warhammer":
+    {
+        "unit_sprite": "heavy1_1",
+        "unit_model": "warhammer",
+        "tons": 70,
+        "internal": 107,
+            
+        "WHM-6R":
+        {
+            "cost": 6070984,
+            "armor": 160,
+            "heat_sinks": 18,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["SRM-6", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "lt"],
+                ["Machinegun", "rt"],
+                ["Machinegun", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "WHM-6RP":
+        {
+            "cost": 6070984,
+            "armor": 160,
+            "heat_sinks": 18,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"],
+                ["PPC", "la"],
+                ["Inferno SRM-6", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Small Laser", "rt"],
+                ["Small Laser", "lt"],
+                ["Machinegun", "rt"],
+                ["Machinegun", "lt"]
+            ],
+            "ammo":
+            [
+                ["Inferno SRM-6", "rt"],
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "WHM-7M":
+        {
+            "cost": 6694033,
+            "armor": 160,
+            "heat_sinks": 36,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["ER PPC", "la"],
+                ["SRM-6", "rt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"],
+                ["Machinegun", "rt"],
+                ["Anti-Missile", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["Machinegun", "ct"],
+                ["Anti-Missile", "rt"]
+            ]
+        } 
+    }
+}

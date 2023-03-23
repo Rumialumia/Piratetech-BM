@@ -1,0 +1,92 @@
+{
+    "Commando":
+    {
+        "unit_sprite": "light5_3",
+        "unit_model": "commando",
+        "tons": 25,
+        "internal": 43,
+        
+        "COM-2D":
+        {
+            "cost": 1823750,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "ct"],
+                ["SRM-4", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "lt"],
+                ["SRM-4", "rt"]
+            ]
+        },
+
+        "COM-2DP":
+        {
+            "cost": 1823750,
+            "armor": 64,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "ct"],
+                ["Inferno SRM-4", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "lt"],
+                ["Inferno SRM-4", "rt"]
+            ]
+        },
+
+        "COM-5S":
+        {
+            "cost": 2220000,
+            "armor": 54,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-6", "ct"],
+                ["Streak SRM-2", "ra"],
+                ["Medium Laser", "la"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["Streak SRM-2", "rt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "h"],
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

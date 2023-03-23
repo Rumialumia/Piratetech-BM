@@ -1,0 +1,36 @@
+{
+    "Thor":
+    {
+        "clan_name": "Summoner",
+        
+        "unit_sprite": "heavy2_6",
+        "unit_model": "summoner",
+        "tons": 70,
+        "internal": 107,
+        
+        "Prime":
+        {
+            "cost": 21320834,
+            "armor": 182,
+            "heat_sinks": 28,
+
+            "speed": 5,
+            "jump": 5,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC (C)", "ra"],
+                ["LB 10-X (C)", "la"],
+                ["LRM-15 (C)", "lt"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X (C)", "la"],
+                ["LRM-15 (C)", "lt"],
+                ["LRM-15 (C)", "lt"]
+            ]
+        }
+    }
+}

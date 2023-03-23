@@ -1,0 +1,89 @@
+{
+    "Assassin":
+    {
+        "unit_sprite": "med1_1",
+        "unit_model": "assassin",
+        "tons": 40,
+        "internal": 67,
+        
+        "ASN-21":
+        {
+            "cost": 3765813,
+            "armor": 72,
+            "heat_sinks": 10,
+
+            "speed": 7,
+            "jump": 7,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["LRM-5", "rt"],
+                ["SRM-2", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "rt"],
+                ["SRM-2", "lt"]
+            ]
+        },
+
+        "ASN-21P":
+        {
+            "cost": 3765813,
+            "armor": 72,
+            "heat_sinks": 10,
+
+            "speed": 7,
+            "jump": 7,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["LRM-5", "rt"],
+                ["Inferno SRM-2", "lt"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "rt"],
+                ["Inferno SRM-2", "lt"]
+            ]
+        },
+
+        "ASN-23":
+        {
+            "cost": 3924013,
+            "armor": 72,
+            "heat_sinks": 10,
+
+            "speed": 7,
+            "jump": 7,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Pulse Laser", "ra"],
+                ["LRM-5", "rt"]
+            ],
+            "ammo":
+            [
+                ["LRM-5", "rt"]
+            ],
+            "equip":
+            [
+                ["Artemis IV FCS", "rt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "Cataphract":
+    {
+        "unit_sprite": "heavy3_7",
+        "unit_model": "cataphract",
+        "tons": 70,
+        "internal": 107,
+        
+        "CTF-3D":
+        {
+            "cost": 13612354,
+            "armor": 176,
+            "heat_sinks": 16,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "rt"],
+                ["Ultra AC/5", "ra"],
+                ["Medium Laser", "ra"],
+                ["Medium Laser", "la"],
+                ["Medium Laser", "rtr"],
+                ["Medium Laser", "ltr"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "lt"],
+                ["LB 10-X", "lt"],
+                ["Ultra AC/5", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"],
+                ["CASE", "lt"]
+            ]
+        }  
+    }
+}

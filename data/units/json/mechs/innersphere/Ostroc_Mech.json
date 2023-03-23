@@ -1,0 +1,90 @@
+{
+    "Ostroc":
+    {
+        "unit_sprite": "heavy3_8",
+        "unit_model": "ostroc",
+        "tons": 60,
+        "internal": 99,
+        
+        "OSR-2R":
+        {
+            "cost": 5025600,
+            "armor": 144,
+            "heat_sinks": 15,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "rt"],
+                ["Large Laser", "rt"],
+                ["Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "ct"]
+            ]
+        },
+
+        "OSR-2RP":
+        {
+            "cost": 5025600,
+            "armor": 144,
+            "heat_sinks": 15,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Inferno SRM-4", "rt"],
+                ["Large Laser", "rt"],
+                ["Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Inferno SRM-4", "ct"]
+            ]
+        },
+
+        "OSR-2D":
+        {
+            "cost": 5488960,
+            "armor": 144,
+            "heat_sinks": 30,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["SRM-4", "rt"],
+                ["ER Large Laser", "rt"],
+                ["ER Large Laser", "lt"],
+                ["Medium Laser", "rt"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-4", "ct"]
+            ]
+        }
+    }
+}

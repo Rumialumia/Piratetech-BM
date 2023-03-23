@@ -1,0 +1,29 @@
+{
+    "Rifleman IIC":
+    {
+        "unit_sprite": "heavy2_8",
+        "unit_model": "rifleman_iic",
+        "tons": 65,
+        "internal": 104,
+        
+        " ":
+        {
+            "cost": 5741587,
+            "armor": 211,
+            "heat_sinks": 40,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Pulse Laser (C)", "ra"],
+                ["Large Pulse Laser (C)", "ra"],
+                ["Large Pulse Laser (C)", "la"],
+                ["Large Pulse Laser (C)", "la"]
+            ]
+        }
+    }
+}

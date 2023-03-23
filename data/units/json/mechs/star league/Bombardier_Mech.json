@@ -1,0 +1,42 @@
+{
+    "Bombardier":
+    {
+        "unit_sprite": "heavy2_7",
+        "unit_model": "archer",
+        "tons": 65,
+        "internal": 104,
+        
+        "BMB-12D":
+        {
+            "cost": 13907410,
+            "armor": 200,
+            "heat_sinks": 20,
+
+            "speed": 5,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LRM-20", "rt"],
+                ["LRM-20", "lt"],
+                ["SRM-4", "ra"],
+                ["Anti-Missile", "ct"]
+            ],
+            "ammo":
+            [
+                ["LRM-20", "rt"],
+                ["LRM-20", "rt"],
+                ["SRM-4", "ra"],
+                ["Anti-Missile", "ct"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }  
+    }
+}

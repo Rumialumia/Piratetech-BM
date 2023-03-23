@@ -1,0 +1,54 @@
+{
+    "Urbanmech":
+    {
+        "unit_sprite": "light3_8",
+        "unit_model": "urbanmech",
+        "tons": 30,
+        "internal": 51,
+        
+        "UM-R60":
+        {
+            "cost": 1471925,
+            "armor": 96,
+            "heat_sinks": 11,
+
+            "speed": 2,
+            "jump": 2,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "ra"],
+                ["Small Laser", "la"]
+            ],
+            "ammo": 
+            [
+                ["Autocannon/10", "rt"]
+            ]
+        },
+
+        "UM-R63":
+        {
+            "cost": 1760525,
+            "armor": 96,
+            "heat_sinks": 11,
+
+            "speed": 2,
+            "jump": 2,
+
+            "weapons":
+            [
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["Small Pulse Laser", "lt"],
+                ["Small Laser", "la"]
+            ],
+            "ammo": 
+            [
+                ["LB 10-X", "rt"]
+            ]
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "Battlemaster":
+    {
+        "unit_sprite": "assault2_2",
+        "unit_model": "battlemaster",
+        "tons": 85,
+        "internal": 130,
+            
+        "BLR-1G":
+        {
+            "cost": 8501243,
+            "armor": 232,
+            "heat_sinks": 18,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rtr"], 
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "ltr"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "lt"],
+                ["SRM-6", "lt"]
+            ]
+        },
+
+        "BLR-1GP":
+        {
+            "cost": 8501243,
+            "armor": 232,
+            "heat_sinks": 18,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["PPC", "ra"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rtr"], 
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["Inferno SRM-6", "lt"],
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "ltr"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "lt"],
+                ["Inferno SRM-6", "lt"]
+            ]
+        },
+
+        "BLR-3M":
+        {
+            "cost": 8939693,
+            "armor": 232,
+            "heat_sinks": 36,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rt"], 
+                ["Medium Laser", "rtr"], 
+                ["Machinegun", "la"],
+                ["Machinegun", "la"],
+                ["SRM-6", "lt"],
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "lt"], 
+                ["Medium Laser", "ltr"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "lt"],
+                ["SRM-6", "lt"],
+                ["SRM-6", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "lt"]
+            ]
+        }
+    }
+}

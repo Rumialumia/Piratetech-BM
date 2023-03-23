@@ -1,0 +1,42 @@
+{
+    "Marauder II":
+    {
+        "unit_sprite": "walker4_3",
+        "unit_model": "marauder",
+        "tons": 100,
+        "internal": 152,
+            
+        "MAD-5A":
+        {
+            "cost": 22544000,
+            "armor": 304,
+            "heat_sinks": 29,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["ER PPC", "ra"],
+                ["ER PPC", "la"],
+                ["Medium Laser", "ra"], 
+                ["Medium Laser", "la"], 
+                ["LB 10-X", "rt"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }
+    }
+}

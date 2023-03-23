@@ -1,0 +1,9 @@
+Locust
+Wasp
+Jenner
+Panther
+Hunchback
+Archer
+Dragon
+Grasshopper
+Charger

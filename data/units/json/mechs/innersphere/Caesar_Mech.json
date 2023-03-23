@@ -1,0 +1,42 @@
+{
+    "Caesar":
+    {
+        "unit_sprite": "heavy3_7",
+        "unit_model": "cataphract",
+        "tons": 70,
+        "internal": 107,
+        
+        "CES-3R":
+        {
+            "cost": 13424674,
+            "armor": 168,
+            "heat_sinks": 32,
+
+            "speed": 4,
+            "jump": 0,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Gauss Rifle", "rt"],
+                ["ER PPC", "ra"],
+                ["Medium Pulse Laser", "ra"],
+                ["Medium Pulse Laser", "la"],
+                ["Medium Pulse Laser", "rtr"],
+                ["Medium Pulse Laser", "ltr"]
+            ],
+            "ammo":
+            [
+                ["Gauss Rifle", "lt"],
+                ["Gauss Rifle", "lt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        }  
+    }
+}

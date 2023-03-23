@@ -1,0 +1,64 @@
+{
+    "Enforcer":
+    {
+        "unit_sprite": "med7_3",
+        "unit_model": "enforcer",
+        "tons": 50,
+        "internal": 83,
+        
+        "ENF-4R":
+        {
+            "cost": 3536875,
+            "armor": 144,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Barrel Fist", "la"],
+                ["Barrel Fist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Autocannon/10", "ra"],
+                ["Large Laser", "la"],
+                ["Medium Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["Autocannon/10", "rt"]
+            ]
+        },
+
+        "ENF-5D":
+        {
+            "cost": 8820875,
+            "armor": 161,
+            "heat_sinks": 12,
+
+            "speed": 4,
+            "jump": 4,
+
+            "weapons":
+            [
+                ["Barrel Fist", "la"],
+                ["Barrel Fist", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["LB 10-X", "ra"],
+                ["ER Large Laser", "la"],
+                ["Small Laser", "lt"]
+            ],
+            "ammo":
+            [
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
+            ],
+            "equip":
+            [
+                ["CASE", "rt"]
+            ]
+        } 
+    }
+}

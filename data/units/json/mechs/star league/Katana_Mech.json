@@ -1,0 +1,41 @@
+{
+    "Katana":
+    {
+        "unit_sprite": "heavy1_2",
+        "unit_model": "victor",
+        "tons": 85,
+        "internal": 130,
+        
+        "CRK 5003-2":
+        {
+            "cost": 7807925,
+            "armor": 200,
+            "heat_sinks": 20,
+
+            "speed": 3,
+            "jump": 3,
+
+            "weapons":
+            [
+                ["Lower Arm Actuator", "la"],
+                ["Lower Arm Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Large Laser", "ra"],
+                ["Large Laser", "la"],
+                ["SRM-6", "rt"],
+                ["SRM-6", "lt"],
+                ["Small Laser", "ra"],
+                ["Small Laser", "la"],
+                ["LB 10-X", "lt"]
+            ],
+            "ammo":
+            [
+                ["SRM-6", "rt"],
+                ["SRM-6", "rt"],
+                ["LB 10-X", "rt"],
+                ["LB 10-X", "rt"]
+            ]
+        }  
+    }
+}

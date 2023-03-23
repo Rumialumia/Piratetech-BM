@@ -1,0 +1,59 @@
+{
+    "Stinger":
+    {
+        "unit_sprite": "light4_7",
+        "unit_model": "stinger",
+        "tons": 20,
+        "internal": 33,
+        
+        "STG-3R":
+        {
+            "cost": 1615440,
+            "armor": 48,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Machinegun", "ra"],
+                ["Machinegun", "la"]
+            ],
+            "ammo":
+            [
+                ["Machinegun", "ct"]
+            ]
+        },
+
+        "STG-5M":
+        {
+            "cost": 1768440,
+            "armor": 56,
+            "heat_sinks": 10,
+
+            "speed": 6,
+            "jump": 6,
+
+            "weapons":
+            [
+                ["Hand Actuator", "la"],
+                ["Hand Actuator", "ra"],
+                ["Foot Actuator", "ll"],
+                ["Foot Actuator", "rl"],
+                ["Medium Laser", "ra"],
+                ["Flamer", "la"],
+                ["Anti-Missile", "ra"]
+            ],
+            "ammo":
+            [
+                ["Anti-Missile", "rt"]
+            ]
+        }
+    }
+}
