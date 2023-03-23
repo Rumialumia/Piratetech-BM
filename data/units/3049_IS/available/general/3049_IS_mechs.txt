@@ -125,8 +125,12 @@ Stalker
 Cyclops/CP-11A
 Cyclops
 Mauler
-Banshee/BNC-5S
-Banshee
+Banshee/BNC-3E
+Banshee/BNC-1E
+Banshee/BNC-3M
+Banshee/BNC-3Q
+Banshee/BNC-3S
+Banshee/BNC-3MC
 Annihilator
 Atlas/AS7-K
 Atlas

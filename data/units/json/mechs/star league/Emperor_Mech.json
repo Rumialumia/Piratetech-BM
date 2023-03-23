@@ -1,7 +1,7 @@
 {
     "Emperor":
     {
-        "unit_sprite": "assault2_3",
+        "unit_sprite": "assault2_8",
         "unit_model": "emperor",
         "tons": 90,
         "internal": 138,
@@ -25,7 +25,7 @@
                 ["Autocannon/5", "ra"],
                 ["Medium Laser", "lt"],
                 ["Medium Laser", "rt"],
-                ["Medium Laser", "hd"]
+                ["Medium Laser", "h"]
             ],
             "ammo":
             [
@@ -57,7 +57,7 @@
                 ["Autocannon/5", "ra"],
                 ["Medium Laser", "lt"],
                 ["Medium Laser", "rt"],
-                ["Medium Laser", "hd"]
+                ["Medium Laser", "h"]
             ],
             "ammo":
             [
@@ -87,7 +87,7 @@
                 ["LB 10-X", "ra"],
                 ["Medium Pulse Laser", "lt"],
                 ["Medium Pulse Laser", "rt"],
-                ["Medium Laser", "hd"]
+                ["Medium Laser", "h"]
             ],
             "ammo":
             [
@@ -198,7 +198,7 @@
                 ["ER Medium Laser", "lt"],
                 ["ER Large Laser", "rt"],
                 ["ER Medium Laser", "rt"],
-                ["ER Medium Laser", "hd"]
+                ["ER Medium Laser", "h"]
             ],
             "ammo":
             [
@@ -273,7 +273,7 @@
                 ["Medium Pulse Laser", "lt"],
                 ["Medium Pulse Laser", "rt"],
                 ["Medium Pulse Laser", "ct"],
-                ["ER Medium Laser", "hd"]
+                ["ER Medium Laser", "h"]
             ],
             "ammo":
             [

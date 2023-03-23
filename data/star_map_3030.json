@@ -174,6 +174,10 @@
                 "scripts/contracts/diversion_medium_1group.json",
                 "scripts/contracts/diversion_heavy_1group.json",
                 
+                "scripts/contracts/frontline_light_3group.json",
+                "scripts/contracts/frontline_medium_3group.json",
+                "scripts/contracts/frontline_medium_3group.json",
+                
                 "scripts/contracts/longterm_medium_general.json",
                 "scripts/contracts/longterm_medium_offensive.json",
                 "scripts/contracts/longterm_medium_defensive.json",
@@ -233,6 +237,11 @@
                 "scripts/contracts/diversion_heavy_1group.json",
                 "scripts/contracts/diversion_heavy_1group.json",
                 "scripts/contracts/diversion_assault_1group.json",
+                
+                "scripts/contracts/frontline_heavy_3group.json",
+                "scripts/contracts/frontline_heavy_3group.json",
+                "scripts/contracts/frontline_assault_3group.json",
+                "scripts/contracts/frontline_assault_3group.json",
                 
                 "scripts/contracts/longterm_heavy_general.json",
                 "scripts/contracts/longterm_heavy_offensive.json",

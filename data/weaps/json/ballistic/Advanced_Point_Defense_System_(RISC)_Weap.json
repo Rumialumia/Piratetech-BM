@@ -15,6 +15,7 @@
         "tons": 3,
         "crit": 2,
         "ammo": 12,
+        "recharge": 0.5,
 
         "fx":
         {

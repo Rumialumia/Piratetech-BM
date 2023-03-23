@@ -9,6 +9,9 @@ Crusader
 Warhammer
 Archer 
 Zeus
-Banshee 
+Banshee/BNC-3E
+Banshee/BNC-1E
+Banshee/BNC-3M
+Banshee/BNC-3Q
 Stalker
 Atlas

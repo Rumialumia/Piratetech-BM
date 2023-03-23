@@ -20,6 +20,7 @@
         "p_dmg_pilot": 0.01,
         "ignore_ams": true,
         "to_hit_mod": 0.1,
+        "recharge": 0.75,
         
         "fx":
         {

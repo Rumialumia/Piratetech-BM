@@ -18,6 +18,7 @@
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0.015,
         "ignore_ams": true,
+        "recharge": 0.75,
         
         "fx":
         {

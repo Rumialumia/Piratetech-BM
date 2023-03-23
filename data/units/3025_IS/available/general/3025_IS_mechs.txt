@@ -51,5 +51,8 @@ Zeus
 Battlemaster
 Stalker
 Cyclops
-Banshee
+Banshee/BNC-3E
+Banshee/BNC-1E
+Banshee/BNC-3M
+Banshee/BNC-3Q
 Atlas

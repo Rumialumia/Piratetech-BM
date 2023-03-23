@@ -19,6 +19,7 @@
         "p_dmg_weaps": 0.2,
         "p_dmg_pilot": 0,
         "to_hit_mod": 0.1,
+        "recharge": 0.75,
 
         "fx":
         {

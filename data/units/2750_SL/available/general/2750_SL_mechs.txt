@@ -18,7 +18,6 @@ Black Knight
 Thug
 Crockett
 Highlander
-Banshee
 King Crab
 Mackie/MSK-5S
 Mackie/MSK-6S
@@ -30,3 +29,6 @@ Bellerophon
 Emperor/EMP-1A
 Emperor/EMP-5A
 Emperor/EMP-6A
+Banshee/BNC-1E
+Banshee/BNC-3E
+Banshee/BNC-3M

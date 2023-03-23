@@ -19,6 +19,7 @@
         "p_dmg_pilot": 0.01,
         "ignore_ams": true,
         "explodes_on_dmg": true,
+        "recharge": 0.75,
         
         "fx":
         {
