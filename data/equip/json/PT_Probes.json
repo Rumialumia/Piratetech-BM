@@ -1,2 +1,68 @@
 {
+    "Beagle Probe":
+    {
+        "short": "Beagle",
+        "tons": 1.5,
+        "crit": 2,
+        "cost": 200000,
+        "mod_cost": 50000,
+
+        "radar_range": 16
+    },
+
+    "Beagle Probe Prototype":
+    {
+        "short": "Beagle",
+        "tons": 2,
+        "crit": 3,
+        "cost": 600000,
+        "mod_cost": 150000,
+
+        "radar_range": 16
+    },
+
+    "Active Probe (C)":
+    {
+        "short": "Probe (C)",
+        "tons": 1,
+        "crit": 1,
+        "cost": 400000,
+        "mod_cost": 100000,
+
+        "radar_range": 17
+    },
+
+    "Light Active Probe (C)":
+    {
+        "short": "Light Probe (C)",
+        "tons": 0.5,
+        "crit": 1,
+        "cost": 100000,
+        "mod_cost": 25000,
+
+        "radar_range": 15
+    },
+
+    "Bloodhound Active Probe":
+    {
+        "short": "Bloodhound",
+        "tons": 2,
+        "crit": 3,
+        "cost": 500000,
+        "mod_cost": 125000,
+
+        "radar_range": 20
+    },
+
+    "Polly":
+    {
+        "short": "Polly",
+        "tons": 0,
+        "crit": 1,
+        "cost": 910000,
+        "mod_cost": -1,
+        "can_be_modded": false,
+
+        "radar_range": 18
+    }
 }
